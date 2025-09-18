@@ -1,0 +1,3492 @@
+[
+  {
+    "Name": "Accenti",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/accenti.jpg",
+    "Gender": "women",
+    "Price": "3.99",
+    "Longevity": "75.2%",
+    "Sillage": "68.75%",
+    "General Notes": [
+      "fruity floral tangerine floral rose",
+      "lily of the valley",
+      "jasmine",
+      "sandalwood",
+      "vanilla Tonka bean",
+      "peach raspberry"
+    ],
+    "Main Accords": [
+      "fruity",
+      "sweet",
+      "vanilla",
+      "white floral",
+      "woody",
+      "citrus",
+      "warm spicy",
+      "powdery",
+      "rose",
+      "aromatic"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "sweet": "87%",
+      "vanilla": "77%",
+      "white floral": "71%",
+      "woody": "70%",
+      "citrus": "63%",
+      "warm spicy": "61%",
+      "powdery": "60%",
+      "rose": "59%",
+      "aromatic": "52%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 1.793
+      },
+      {
+        "name": "fall",
+        "score": 1.118
+      },
+      {
+        "name": "spring",
+        "score": 0.931
+      },
+      {
+        "name": "summer",
+        "score": 0.63
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.874
+      },
+      {
+        "name": "casual",
+        "score": 1.089
+      },
+      {
+        "name": "night out",
+        "score": 1.027
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Tangerine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tangerine.png"
+        },
+        {
+          "name": "Artemisia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Artemisia.png"
+        },
+        {
+          "name": "Black Currant",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Currant.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Clove",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Clove.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tonka%20Bean.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Raspberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Raspberry.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/151427.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/accenti/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#151427"
+  },
+  {
+    "Name": "Gucci Bamboo",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bamboo.jpg",
+    "Gender": "women",
+    "Price": "117.99",
+    "Longevity": "60.2%",
+    "Sillage": "53.75%",
+    "General Notes": [
+      "Bergamot",
+      "Orange Blossom",
+      "Casablanca Lily",
+      "Ylang-Ylang",
+      "Tahitian Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "white floral",
+      "citrus",
+      "woody",
+      "yellow floral",
+      "sweet",
+      "soft spicy",
+      "powdery",
+      "animalic",
+      "fresh spicy"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "citrus": "75%",
+      "woody": "61%",
+      "yellow floral": "56%",
+      "sweet": "53%",
+      "soft spicy": "48%",
+      "powdery": "48%",
+      "animalic": "46%",
+      "fresh spicy": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 0.75
+      },
+      {
+        "name": "spring",
+        "score": 0.675
+      },
+      {
+        "name": "fall",
+        "score": 0.549
+      },
+      {
+        "name": "winter",
+        "score": 0.427
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.315
+      },
+      {
+        "name": "casual",
+        "score": 0.993
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Casablanca Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Casablanca%20Lily.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Tahitian Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tahitian%20Vanilla.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/269825.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bamboo/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#269825"
+  },
+  {
+    "Name": "Gucci Bloom",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom.jpg",
+    "Gender": "women",
+    "Price": "142.99",
+    "Longevity": "63.6%",
+    "Sillage": "57.75%",
+    "General Notes": [
+      "tuberose",
+      "rangoon creeper",
+      "jasmine",
+      "tuberose"
+    ],
+    "Main Accords": [
+      "white floral",
+      "tuberose"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "tuberose": "70%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 0
+      },
+      {
+        "name": "night out",
+        "score": 0
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Rangoon Creeper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rangoon%20Creeper.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/300257.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bloom/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#300257"
+  },
+  {
+    "Name": "Gucci Bloom Acqua Di Fiori",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-acqua-di-fiori.jpg",
+    "Gender": "women",
+    "Price": "236.99",
+    "Longevity": "56.2%",
+    "Sillage": "52.0%",
+    "General Notes": [
+      "Bergamot",
+      "Cassis",
+      "Tuberose",
+      "Jasmine",
+      "Honeysuckle"
+    ],
+    "Main Accords": [
+      "white floral",
+      "green",
+      "aromatic",
+      "fruity",
+      "woody",
+      "musky",
+      "fresh",
+      "tuberose",
+      "soft spicy",
+      "floral"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "green": "88%",
+      "aromatic": "70%",
+      "fruity": "59%",
+      "woody": "52%",
+      "musky": "52%",
+      "fresh": "50%",
+      "tuberose": "48%",
+      "soft spicy": "46%",
+      "floral": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.154
+      },
+      {
+        "name": "summer",
+        "score": 1.028
+      },
+      {
+        "name": "fall",
+        "score": 0.936
+      },
+      {
+        "name": "winter",
+        "score": 0.364
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.856
+      },
+      {
+        "name": "casual",
+        "score": 0.822
+      },
+      {
+        "name": "night out",
+        "score": 0.468
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Galbanum Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Galbanum%20Leaf.png"
+        },
+        {
+          "name": "Cassis",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cassis.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Honeysuckle",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honeysuckle.png"
+        },
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Iso E Super",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Iso%20E%20Super.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/309176.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bloom-acqua-di-fiori/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#309176"
+  },
+  {
+    "Name": "Gucci Bloom Ambrosia Di Fiori",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-ambrosia-di-fiori.jpg",
+    "Gender": "women",
+    "Price": "146.99",
+    "Longevity": "65.2%",
+    "Sillage": "62.25%",
+    "General Notes": [
+      "Tuberose",
+      "Rangoon Creeper",
+      "Jasmine Bud",
+      "Damask Rose",
+      "Tuscan Orris"
+    ],
+    "Main Accords": [
+      "white floral",
+      "tuberose",
+      "rose"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "tuberose": "65%",
+      "rose": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 0
+      },
+      {
+        "name": "night out",
+        "score": 0
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Honeysuckle",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honeysuckle.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Damask Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Damask%20Rose.png"
+        },
+        {
+          "name": "Orris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orris.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/353501.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bloom-ambrosia-di-fiori/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#353501"
+  },
+  {
+    "Name": "Gucci Bloom Intense",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-intense.jpg",
+    "Gender": "women",
+    "Price": "164.99",
+    "Longevity": "61.4%",
+    "Sillage": "52.0%",
+    "General Notes": [
+      "ginger",
+      "mandarin orange",
+      "tuberose",
+      "patchouli",
+      "coconut"
+    ],
+    "Main Accords": [
+      "white floral",
+      "tuberose",
+      "fruity",
+      "sweet",
+      "warm spicy",
+      "earthy",
+      "patchouli",
+      "citrus",
+      "mossy"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "tuberose": "56%",
+      "fruity": "53%",
+      "sweet": "52%",
+      "warm spicy": "47%",
+      "earthy": "46%",
+      "citrus": "45%",
+      "patchouli": "45%",
+      "mossy": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.059
+      },
+      {
+        "name": "winter",
+        "score": 0.83
+      },
+      {
+        "name": "summer",
+        "score": 0.45
+      },
+      {
+        "name": "spring",
+        "score": 0.405
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 0.717
+      },
+      {
+        "name": "night out",
+        "score": 0.376
+      },
+      {
+        "name": "professional",
+        "score": 0.36
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        },
+        {
+          "name": "Night Blooming Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Night%20Blooming%20Jasmine.png"
+        },
+        {
+          "name": "Jasmine Sambac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine%20Sambac.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Moss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Moss.png"
+        },
+        {
+          "name": "Coconut",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coconut.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/463803.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bloom-intense/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#461797"
+  },
+  {
+    "Name": "Gucci Bloom Intense Edp",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-intense-edp.jpg",
+    "Gender": "Men",
+    "Price": "39.00",
+    "Longevity": "61.4%",
+    "Sillage": "52.0%",
+    "General Notes": [
+      "Pear",
+      "Ginger",
+      "Mandarin Orange",
+      "Tuberose",
+      "Night Blooming Jasmine",
+      "Jasmine Sambac",
+      "Orange Blossom",
+      "Patchouli",
+      "Moss",
+      "Coconut"
+    ],
+    "Main Accords": [
+      "white floral",
+      "tuberose",
+      "fruity",
+      "sweet",
+      "warm spicy",
+      "earthy",
+      "patchouli",
+      "citrus",
+      "mossy"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "tuberose": "55%",
+      "fruity": "54%",
+      "sweet": "52%",
+      "warm spicy": "46%",
+      "earthy": "46%",
+      "patchouli": "45%",
+      "citrus": "45%",
+      "mossy": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.051
+      },
+      {
+        "name": "winter",
+        "score": 0.82
+      },
+      {
+        "name": "summer",
+        "score": 0.45
+      },
+      {
+        "name": "spring",
+        "score": 0.405
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 0.717
+      },
+      {
+        "name": "night out",
+        "score": 0.368
+      },
+      {
+        "name": "professional",
+        "score": 0.36
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        },
+        {
+          "name": "Night Blooming Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Night%20Blooming%20Jasmine.png"
+        },
+        {
+          "name": "Jasmine Sambac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine%20Sambac.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Moss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Moss.png"
+        },
+        {
+          "name": "Coconut",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coconut.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://www.olfactoryfactoryllc.com/cdn/shop/files/5b5733bc-f9b4-46a2-8191-059a36981207.jpg"
+    ],
+    "Purchase URL": "https://www.olfactoryfactoryllc.com/products/gucci-bloom-intense-edp?bg_ref=vCnDBaZWFf&utm_source=vCnDBaZWFf&utm_medium=affiliate&utm_campaign=Affiliate+Program"
+  },
+  {
+    "Name": "Gucci Bloom Nettare Di Fiori",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-nettare-di-fiori.jpg",
+    "Gender": "women",
+    "Price": "71.39",
+    "Longevity": "62.8%",
+    "Sillage": "59.25%",
+    "General Notes": [
+      "Rose",
+      "Ginger",
+      "Jasmine",
+      "Honeysuckle",
+      "Musk"
+    ],
+    "Main Accords": [
+      "white floral",
+      "tuberose",
+      "fruity",
+      "floral",
+      "warm spicy",
+      "musky",
+      "animalic"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "tuberose": "59%",
+      "fruity": "55%",
+      "floral": "55%",
+      "warm spicy": "46%",
+      "musky": "46%",
+      "animalic": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 0.782
+      },
+      {
+        "name": "spring",
+        "score": 0.55
+      },
+      {
+        "name": "winter",
+        "score": 0.46
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 0.782
+      },
+      {
+        "name": "casual",
+        "score": 0.385
+      },
+      {
+        "name": "professional",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Honeysuckle",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honeysuckle.png"
+        },
+        {
+          "name": "Rangoon Creeper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rangoon%20Creeper.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Osmanthus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Osmanthus.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/319974.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bloom-nettare-di-fiori/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#319974"
+  },
+  {
+    "Name": "Gucci Bloom Profumo Di Fiori",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-profumo-di-fiori.jpg",
+    "Gender": "women",
+    "Price": "139.99",
+    "Longevity": "60.0%",
+    "Sillage": "56.25%",
+    "General Notes": [
+      "Jasmine Sambac",
+      "Ylang-ylang",
+      "Musk",
+      "Sandalwood",
+      "Rangoon creeper"
+    ],
+    "Main Accords": [
+      "white floral",
+      "tuberose",
+      "woody",
+      "yellow floral",
+      "floral",
+      "powdery",
+      "sweet",
+      "musky",
+      "animalic",
+      "fruity"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "tuberose": "73%",
+      "woody": "67%",
+      "yellow floral": "65%",
+      "floral": "59%",
+      "powdery": "50%",
+      "sweet": "49%",
+      "musky": "48%",
+      "animalic": "47%",
+      "fruity": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.035
+      },
+      {
+        "name": "spring",
+        "score": 0.59
+      },
+      {
+        "name": "winter",
+        "score": 0.469
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 0.769
+      },
+      {
+        "name": "casual",
+        "score": 0.707
+      },
+      {
+        "name": "night out",
+        "score": 0.432
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Jasmine Sambac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine%20Sambac.png"
+        },
+        {
+          "name": "Rangoon Creeper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rangoon%20Creeper.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Solar Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Solar%20Notes.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Benzoin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Benzoin.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woodsy%20Notes.png"
+        },
+        {
+          "name": "Orris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orris.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/383283.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-bloom-profumo-di-fiori/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#383283"
+  },
+  {
+    "Name": "Gucci By Gucci",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-by-gucci.jpg",
+    "Gender": "men",
+    "Price": "51.59",
+    "Longevity": "68.2%",
+    "Sillage": "62.0%",
+    "General Notes": [
+      "Violet",
+      "Cypress",
+      "Bergamot",
+      "Jasmine",
+      "Tobacco",
+      "Leather",
+      "Elemi Resin",
+      "Amber",
+      "Olibanum",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "fruity",
+      "patchouli",
+      "honey",
+      "sweet",
+      "musky",
+      "woody",
+      "white floral",
+      "warm spicy",
+      "earthy",
+      "tropical"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "patchouli": "100%",
+      "honey": "99%",
+      "sweet": "96%",
+      "musky": "72%",
+      "woody": "72%",
+      "white floral": "71%",
+      "warm spicy": "65%",
+      "earthy": "58%",
+      "tropical": "58%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.98
+      },
+      {
+        "name": "winter",
+        "score": 1.954
+      },
+      {
+        "name": "summer",
+        "score": 0.464
+      },
+      {
+        "name": "spring",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.168
+      },
+      {
+        "name": "casual",
+        "score": 0.576
+      },
+      {
+        "name": "professional",
+        "score": 0.504
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Guava",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guava.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tiare Flower",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tiare%20Flower.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Honey",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honey.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/200800.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/gucci/gucci-by-gucci/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#273020"
+  },
+  {
+    "Name": "Gucci Flora",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora.jpg",
+    "Gender": "women",
+    "Price": "133.99",
+    "Longevity": "71.6%",
+    "Sillage": "64.0%",
+    "General Notes": [
+      "pink pepper",
+      "patchouli",
+      "sandalwood",
+      "rose",
+      "osmanthus"
+    ],
+    "Main Accords": [
+      "floral",
+      "citrus",
+      "fresh",
+      "rose",
+      "fruity",
+      "woody",
+      "patchouli",
+      "warm spicy"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "citrus": "80%",
+      "fresh": "76%",
+      "rose": "65%",
+      "fruity": "62%",
+      "woody": "56%",
+      "patchouli": "45%",
+      "warm spicy": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.48
+      },
+      {
+        "name": "summer",
+        "score": 1.56
+      },
+      {
+        "name": "winter",
+        "score": 1.192
+      },
+      {
+        "name": "fall",
+        "score": 1.171
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.18
+      },
+      {
+        "name": "professional",
+        "score": 1.032
+      },
+      {
+        "name": "night out",
+        "score": 0.352
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peony.png"
+        },
+        {
+          "name": "Citruses",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Citruses.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Osmanthus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Osmanthus.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/174791.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-flora/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#174791"
+  },
+  {
+    "Name": "Gucci Flora Gorgeous Gardenia",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora-gorgeous-gardenia.jpg",
+    "Gender": "women",
+    "Price": "119.99",
+    "Longevity": "52.4%",
+    "Sillage": "44.0%",
+    "General Notes": [
+      "jasmine",
+      "gardenia",
+      "patchouli",
+      "brown sugar",
+      "frangipani"
+    ],
+    "Main Accords": [
+      "white floral",
+      "floral",
+      "sweet",
+      "fruity",
+      "patchouli",
+      "lactonic",
+      "fresh",
+      "citrus"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "floral": "80%",
+      "sweet": "78%",
+      "fruity": "66%",
+      "patchouli": "53%",
+      "lactonic": "52%",
+      "fresh": "49%",
+      "citrus": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.731
+      },
+      {
+        "name": "summer",
+        "score": 0.98
+      },
+      {
+        "name": "winter",
+        "score": 0.424
+      },
+      {
+        "name": "fall",
+        "score": 0.371
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.959
+      },
+      {
+        "name": "professional",
+        "score": 0.392
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pear Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear%20Blossom.png"
+        },
+        {
+          "name": "Red Berries",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Red%20Berries.png"
+        },
+        {
+          "name": "Italian Mandarin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Italian%20Mandarin.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Gardenia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Gardenia.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Frangipani",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Frangipani.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Brown sugar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Brown%20Sugar.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/434171.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-flora-gorgeous-gardenia/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#434171"
+  },
+  {
+    "Name": "Gucci Flora Gorgeous Jasmine",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora-gorgeous-jasmine.jpg",
+    "Gender": "women",
+    "Price": "169.99",
+    "Longevity": "57.4%",
+    "Sillage": "48.75%",
+    "General Notes": [
+      "jasmine sambac",
+      "magnolia",
+      "patchouli",
+      "sandalwood",
+      "black pepper"
+    ],
+    "Main Accords": [
+      "citrus",
+      "white floral",
+      "floral",
+      "woody",
+      "fresh spicy",
+      "warm spicy",
+      "amber"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "white floral": "91%",
+      "floral": "83%",
+      "woody": "54%",
+      "fresh spicy": "53%",
+      "warm spicy": "52%",
+      "amber": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.73
+      },
+      {
+        "name": "fall",
+        "score": 1.352
+      },
+      {
+        "name": "winter",
+        "score": 1.258
+      },
+      {
+        "name": "summer",
+        "score": 1
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.481
+      },
+      {
+        "name": "professional",
+        "score": 1.178
+      },
+      {
+        "name": "night out",
+        "score": 0.866
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Italian Mandarin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Italian%20Mandarin.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Black Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Pepper.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Jasmine Sambac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine%20Sambac.png"
+        },
+        {
+          "name": "Magnolia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Magnolia.png"
+        },
+        {
+          "name": "Damask Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Damask%20Rose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Australian Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Australian%20Sandalwood.png"
+        },
+        {
+          "name": "Benzoin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Benzoin.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/444993.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-flora-gorgeous-jasmine/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#444993"
+  },
+  {
+    "Name": "Gucci Flora Gorgeous Magnolia",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora-gorgeous-magnolia.jpg",
+    "Gender": "women",
+    "Price": "179.99",
+    "Longevity": "57.0%",
+    "Sillage": "46.25%",
+    "General Notes": [
+      "cocnut",
+      "dewberry",
+      "blonde woods",
+      "musk",
+      "patchouli"
+    ],
+    "Main Accords": [
+      "floral",
+      "coconut",
+      "fruity",
+      "musky",
+      "sweet",
+      "white floral",
+      "lactonic",
+      "citrus",
+      "patchouli",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "coconut": "90%",
+      "fruity": "81%",
+      "musky": "72%",
+      "sweet": "65%",
+      "white floral": "64%",
+      "lactonic": "56%",
+      "citrus": "55%",
+      "patchouli": "55%",
+      "powdery": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.495
+      },
+      {
+        "name": "fall",
+        "score": 1.033
+      },
+      {
+        "name": "summer",
+        "score": 0.55
+      },
+      {
+        "name": "winter",
+        "score": 0.44
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.585
+      },
+      {
+        "name": "professional",
+        "score": 0.746
+      },
+      {
+        "name": "night out",
+        "score": 0.648
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Dewberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Dewberry.png"
+        },
+        {
+          "name": "Coconut",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coconut.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Magnolia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Magnolia.png"
+        },
+        {
+          "name": "Jasmine Sambac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine%20Sambac.png"
+        },
+        {
+          "name": "Clary Sage",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Clary%20Sage.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Blonde Woods",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Blonde%20Woods.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/466180.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-flora-gorgeous-magnolia/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#466180"
+  },
+  {
+    "Name": "Gucci Guilty",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty.jpg",
+    "Gender": "women",
+    "Price": "177.99",
+    "Longevity": "61.4%",
+    "Sillage": "56.0%",
+    "General Notes": [
+      "Bergamot",
+      "Pink Pepper",
+      "Mandarin Orange",
+      "Jasmine",
+      "Black Currant",
+      "Lilac",
+      "Peach",
+      "Geranium",
+      "White Musk",
+      "Vanilla",
+      "Amber",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "floral",
+      "soft spicy",
+      "fruity",
+      "sweet",
+      "patchouli",
+      "fresh",
+      "citrus",
+      "amber",
+      "fresh spicy",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "soft spicy": "87%",
+      "fruity": "74%",
+      "sweet": "70%",
+      "patchouli": "65%",
+      "fresh": "64%",
+      "citrus": "62%",
+      "amber": "61%",
+      "fresh spicy": "61%",
+      "musky": "58%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.198
+      },
+      {
+        "name": "fall",
+        "score": 1.587
+      },
+      {
+        "name": "summer",
+        "score": 1.26
+      },
+      {
+        "name": "winter",
+        "score": 1.008
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.318
+      },
+      {
+        "name": "night out",
+        "score": 1.132
+      },
+      {
+        "name": "professional",
+        "score": 0.496
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pink Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Pepper.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lilac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lilac.png"
+        },
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Geranium",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Geranium.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Black Currant",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Currant.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "White Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Musk.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/295165.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#295165"
+  },
+  {
+    "Name": "Gucci Guilty Absolute",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-absolute.jpg",
+    "Gender": "men",
+    "Price": "124.99",
+    "Longevity": "73.6%",
+    "Sillage": "63.25%",
+    "General Notes": [
+      "Leather",
+      "Patchouli",
+      "Cypress",
+      "Vetiver",
+      "woody notes"
+    ],
+    "Main Accords": [
+      "woody",
+      "leather",
+      "aromatic",
+      "animalic",
+      "earthy",
+      "patchouli",
+      "smoky"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "leather": "78%",
+      "aromatic": "59%",
+      "animalic": "54%",
+      "earthy": "49%",
+      "patchouli": "47%",
+      "smoky": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.621
+      },
+      {
+        "name": "winter",
+        "score": 1.076
+      },
+      {
+        "name": "spring",
+        "score": 0.413
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.29
+      },
+      {
+        "name": "night out",
+        "score": 0.688
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cypress",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cypress.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Woody Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woody%20Notes.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/292995.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/gucci/gucci-guilty-absolute/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#292995"
+  },
+  {
+    "Name": "Gucci Guilty Absolute Pour Femme",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-absolute-pour-femme.jpg",
+    "Gender": "women",
+    "Price": "144.99",
+    "Longevity": "66.2%",
+    "Sillage": "59.5%",
+    "General Notes": [
+      "Patchouli",
+      "Cypress",
+      "Vetiver",
+      "Woody Notes",
+      "Leather"
+    ],
+    "Main Accords": [
+      "woody",
+      "fruity",
+      "rose",
+      "aromatic",
+      "patchouli",
+      "sweet",
+      "fresh spicy",
+      "earthy"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "fruity": "69%",
+      "rose": "64%",
+      "aromatic": "61%",
+      "patchouli": "52%",
+      "sweet": "50%",
+      "fresh spicy": "47%",
+      "earthy": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.624
+      },
+      {
+        "name": "winter",
+        "score": 1.116
+      },
+      {
+        "name": "spring",
+        "score": 0.427
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.31
+      },
+      {
+        "name": "casual",
+        "score": 0.3
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Blackberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Blackberry.png"
+        },
+        {
+          "name": "Pink Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Pepper.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cypress",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cypress.png"
+        },
+        {
+          "name": "Bulgarian Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bulgarian%20Rose.png"
+        },
+        {
+          "name": "Woody Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woody%20Notes.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Indian Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Indian%20Patchouli.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/306314.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty-absolute-pour-femme/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#306314"
+  },
+  {
+    "Name": "Gucci Guilty Black",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-black.jpg",
+    "Gender": "women",
+    "Price": "183.99",
+    "Longevity": "",
+    "Sillage": "",
+    "General Notes": [
+      "Red Berries",
+      "Pink Pepper",
+      "Lilac",
+      "Violet",
+      "Peach",
+      "Raspberry",
+      "Caramel",
+      "Amber",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "green",
+      "aromatic",
+      "white floral",
+      "lavender",
+      "woody",
+      "citrus",
+      "patchouli",
+      "fresh spicy",
+      "herbal",
+      "soft spicy"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "aromatic": "88%",
+      "white floral": "83%",
+      "lavender": "81%",
+      "woody": "80%",
+      "citrus": "65%",
+      "patchouli": "57%",
+      "fresh spicy": "52%",
+      "herbal": "51%",
+      "soft spicy": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.001
+      },
+      {
+        "name": "summer",
+        "score": 1.25
+      },
+      {
+        "name": "fall",
+        "score": 1.119
+      },
+      {
+        "name": "winter",
+        "score": 1.016
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.86
+      },
+      {
+        "name": "casual",
+        "score": 0.585
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Green Coriander",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Coriander.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Neroli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Neroli.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/233605.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty-black/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#233607"
+  },
+  {
+    "Name": "Gucci Guilty Black Pour Homme",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-black-pour-homme.jpg",
+    "Gender": "men",
+    "Price": "139.99",
+    "Longevity": "56.8%",
+    "Sillage": "50.0%",
+    "General Notes": [
+      "Lavender",
+      "Coriander",
+      "Green Notes",
+      "Neroli",
+      "Orange Blossom",
+      "Cedar",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "green",
+      "aromatic",
+      "white floral",
+      "lavender",
+      "woody",
+      "citrus",
+      "patchouli",
+      "fresh spicy",
+      "herbal",
+      "soft spicy"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "aromatic": "88%",
+      "white floral": "83%",
+      "lavender": "81%",
+      "woody": "80%",
+      "citrus": "65%",
+      "patchouli": "57%",
+      "fresh spicy": "52%",
+      "herbal": "51%",
+      "soft spicy": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.001
+      },
+      {
+        "name": "summer",
+        "score": 1.25
+      },
+      {
+        "name": "fall",
+        "score": 1.119
+      },
+      {
+        "name": "winter",
+        "score": 1.016
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.86
+      },
+      {
+        "name": "casual",
+        "score": 0.585
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Green Coriander",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Coriander.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Neroli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Neroli.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/347797.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/gucci/gucci-guilty-black-pour-homme/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#440613"
+  },
+  {
+    "Name": "Gucci Guilty Cologne",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-cologne.jpg",
+    "Gender": "men",
+    "Price": "14.39",
+    "Longevity": "63.0%",
+    "Sillage": "59.5%",
+    "General Notes": [
+      "Juniper Berries",
+      "Rosemary",
+      "Calabrian Bergamot",
+      "Violet",
+      "White Musk"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "woody",
+      "fresh spicy",
+      "powdery",
+      "violet",
+      "citrus",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "woody": "100%",
+      "fresh spicy": "82%",
+      "powdery": "70%",
+      "violet": "50%",
+      "citrus": "46%",
+      "musky": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.305
+      },
+      {
+        "name": "spring",
+        "score": 1.114
+      },
+      {
+        "name": "winter",
+        "score": 0.7
+      },
+      {
+        "name": "summer",
+        "score": 0.46
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.488
+      },
+      {
+        "name": "casual",
+        "score": 0.414
+      },
+      {
+        "name": "night out",
+        "score": 0.405
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Juniper Berries",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Juniper%20Berries.png"
+        },
+        {
+          "name": "Rosemary",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rosemary.png"
+        },
+        {
+          "name": "Calabrian bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Calabrian%20Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cypress",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cypress.png"
+        },
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Heliotrope",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Heliotrope.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "White Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Musk.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Patchouli Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli%20Leaf.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/347527.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/gucci/gucci-guilty-cologne/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#336168"
+  },
+  {
+    "Name": "Gucci Guilty Eau",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-eau.jpg",
+    "Gender": "women",
+    "Price": "118.99",
+    "Longevity": "55.8%",
+    "Sillage": "59.5%",
+    "General Notes": [
+      "Watery notes",
+      "Litchi",
+      "Lily",
+      "Wild strawberry",
+      "Musk"
+    ],
+    "Main Accords": [
+      "fruity",
+      "musky",
+      "white floral",
+      "aquatic",
+      "sweet",
+      "fresh",
+      "powdery",
+      "tropical",
+      "animalic",
+      "soft spicy"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "musky": "91%",
+      "white floral": "81%",
+      "aquatic": "71%",
+      "sweet": "64%",
+      "fresh": "63%",
+      "powdery": "61%",
+      "tropical": "55%",
+      "animalic": "49%",
+      "soft spicy": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 1.709
+      },
+      {
+        "name": "fall",
+        "score": 0.819
+      },
+      {
+        "name": "spring",
+        "score": 0.63
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.582
+      },
+      {
+        "name": "night out",
+        "score": 0.819
+      },
+      {
+        "name": "professional",
+        "score": 0.366
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Litchi",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Litchi.png"
+        },
+        {
+          "name": "Watery Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Watery%20Notes.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Wild Strawberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Wild%20Strawberry.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/285169.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty-eau/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#285169"
+  },
+  {
+    "Name": "Gucci Guilty Elixir De Parfum",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-elixir-de-parfum.jpg",
+    "Gender": "men",
+    "Price": "161.99",
+    "Longevity": "82.6%",
+    "Sillage": "71.25%",
+    "General Notes": [
+      "Orange Blossom",
+      "Nutmeg",
+      "Pimento Seeds",
+      "Orange Blossom",
+      "Orris",
+      "Osmanthus",
+      "Vanilla",
+      "Ambrofix™",
+      "Benzoin",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "vanilla",
+      "white floral",
+      "warm spicy",
+      "powdery",
+      "amber",
+      "iris",
+      "citrus",
+      "fresh spicy",
+      "sweet",
+      "floral"
+    ],
+    "Main Accords Percentage": {
+      "vanilla": "100%",
+      "white floral": "90%",
+      "warm spicy": "83%",
+      "powdery": "70%",
+      "amber": "69%",
+      "iris": "64%",
+      "citrus": "60%",
+      "fresh spicy": "59%",
+      "sweet": "59%",
+      "floral": "59%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 2.282
+      },
+      {
+        "name": "fall",
+        "score": 1.354
+      },
+      {
+        "name": "spring",
+        "score": 1.13
+      },
+      {
+        "name": "summer",
+        "score": 0.6
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 2.054
+      },
+      {
+        "name": "casual",
+        "score": 1.307
+      },
+      {
+        "name": "professional",
+        "score": 0.9
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Nutmeg",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Nutmeg.png"
+        },
+        {
+          "name": "Pimento Seeds",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pimento%20Seeds.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Orris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orris.png"
+        },
+        {
+          "name": "Osmanthus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Osmanthus.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Ambrofix™",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambrofix%E2%84%A2.png"
+        },
+        {
+          "name": "Benzoin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Benzoin.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/250x250/492310.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/gucci/gucci-guilty-elixir-de-parfum/parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#492310"
+  },
+  {
+    "Name": "Gucci Guilty Love Edition",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-love-edition.jpg",
+    "Gender": "women",
+    "Price": "215.99",
+    "Longevity": "57.0%",
+    "Sillage": "61.25%",
+    "General Notes": [
+      "Violet",
+      "Flower Petals",
+      "Narcissus",
+      "Jasmine",
+      "Musk"
+    ],
+    "Main Accords": [
+      "powdery",
+      "floral",
+      "violet",
+      "musky",
+      "fruity",
+      "sweet",
+      "citrus",
+      "fresh",
+      "woody",
+      "aquatic"
+    ],
+    "Main Accords Percentage": {
+      "powdery": "100%",
+      "floral": "97%",
+      "violet": "92%",
+      "musky": "75%",
+      "fruity": "71%",
+      "sweet": "64%",
+      "citrus": "62%",
+      "fresh": "54%",
+      "woody": "52%",
+      "aquatic": "50%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.068
+      },
+      {
+        "name": "summer",
+        "score": 1.61
+      },
+      {
+        "name": "fall",
+        "score": 1.143
+      },
+      {
+        "name": "winter",
+        "score": 0.364
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.561
+      },
+      {
+        "name": "professional",
+        "score": 1.46
+      },
+      {
+        "name": "night out",
+        "score": 0.675
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Raspberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Raspberry.png"
+        },
+        {
+          "name": "Narcissus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Narcissus.png"
+        },
+        {
+          "name": "Watery Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Watery%20Notes.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Grapefruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Grapefruit.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Flower Petals",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Flower%20Petals.png"
+        },
+        {
+          "name": "Jasmine Sambac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine%20Sambac.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/421872.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty-love-edition/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#470989"
+  },
+  {
+    "Name": "Gucci Guilty Pour Femme",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-pour-femme.jpg",
+    "Gender": "women",
+    "Price": "134.99",
+    "Longevity": "64.6%",
+    "Sillage": "57.25%",
+    "General Notes": [
+      "Bergamot",
+      "Lilac",
+      "Rose",
+      "Amber",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "floral",
+      "violet",
+      "citrus",
+      "powdery",
+      "fresh",
+      "fresh spicy",
+      "rose",
+      "soft spicy",
+      "aromatic",
+      "patchouli"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "violet": "72%",
+      "citrus": "67%",
+      "powdery": "64%",
+      "fresh": "64%",
+      "fresh spicy": "62%",
+      "rose": "60%",
+      "soft spicy": "60%",
+      "aromatic": "54%",
+      "patchouli": "54%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.621
+      },
+      {
+        "name": "summer",
+        "score": 1.31
+      },
+      {
+        "name": "winter",
+        "score": 0.432
+      },
+      {
+        "name": "fall",
+        "score": 0.378
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.943
+      },
+      {
+        "name": "professional",
+        "score": 1.46
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pink Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Pepper.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lilac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lilac.png"
+        },
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Geranium",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Geranium.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/384413.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty-pour-femme/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#384413"
+  },
+  {
+    "Name": "Gucci Guilty Pour Femme Intense",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-pour-femme-intense.jpg",
+    "Gender": "women",
+    "Price": "165.99",
+    "Longevity": "75.2%",
+    "Sillage": "64.25%",
+    "General Notes": [
+      "tuberose",
+      "ylang-ylang",
+      "vetiver",
+      "patchouli",
+      "vanilla"
+    ],
+    "Main Accords": [
+      "woody",
+      "fruity",
+      "sweet",
+      "violet",
+      "patchouli",
+      "powdery",
+      "tuberose",
+      "earthy",
+      "yellow floral",
+      "vanilla"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "fruity": "96%",
+      "sweet": "90%",
+      "violet": "84%",
+      "patchouli": "83%",
+      "powdery": "77%",
+      "tuberose": "69%",
+      "earthy": "66%",
+      "yellow floral": "62%",
+      "vanilla": "62%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.009
+      },
+      {
+        "name": "winter",
+        "score": 1.922
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.162
+      },
+      {
+        "name": "casual",
+        "score": 0.54
+      },
+      {
+        "name": "night out",
+        "score": 0.434
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Mandora",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandora.png"
+        },
+        {
+          "name": "Litchi",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Litchi.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Plum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Plum.png"
+        },
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/438196.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-guilty-pour-femme-intense/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#438196"
+  },
+  {
+    "Name": "Gucci Guilty Pour Homme",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-pour-homme.jpg",
+    "Gender": "men",
+    "Price": "112.99",
+    "Longevity": "57.8%",
+    "Sillage": "49.25%",
+    "General Notes": [
+      "lemon",
+      "lavender",
+      "orange blossom",
+      "nutmeg",
+      "dry wood"
+    ],
+    "Main Accords": [
+      "citrus",
+      "lavender",
+      "woody",
+      "white floral",
+      "aromatic",
+      "patchouli",
+      "sweet",
+      "vanilla",
+      "fresh spicy"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "lavender": "82%",
+      "woody": "76%",
+      "white floral": "70%",
+      "aromatic": "69%",
+      "patchouli": "57%",
+      "sweet": "48%",
+      "vanilla": "47%",
+      "fresh spicy": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 1.411
+      },
+      {
+        "name": "spring",
+        "score": 1.383
+      },
+      {
+        "name": "fall",
+        "score": 1.083
+      },
+      {
+        "name": "summer",
+        "score": 1
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.022
+      },
+      {
+        "name": "casual",
+        "score": 1.188
+      },
+      {
+        "name": "night out",
+        "score": 0.329
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Amalfi Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amalfi%20Lemon.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "African Orange Flower",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/African%20Orange%20Flower.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Virginia Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Virginia%20Cedar.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/342938.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/gucci/gucci-guilty-pour-homme/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#342938"
+  },
+  {
+    "Name": "Gucci Intense Oud",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-intense-oud.jpg",
+    "Gender": "unisex",
+    "Price": "199.99",
+    "Longevity": "79.0%",
+    "Sillage": "69.5%",
+    "General Notes": [
+      "Agarwood",
+      "Leather",
+      "Olibanum",
+      "Amber",
+      "Incense"
+    ],
+    "Main Accords": [
+      "oud",
+      "amber",
+      "leather",
+      "fresh spicy",
+      "animalic",
+      "warm spicy",
+      "smoky"
+    ],
+    "Main Accords Percentage": {
+      "oud": "100%",
+      "amber": "86%",
+      "leather": "75%",
+      "fresh spicy": "70%",
+      "animalic": "55%",
+      "warm spicy": "52%",
+      "smoky": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.276
+      },
+      {
+        "name": "winter",
+        "score": 1.208
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.966
+      },
+      {
+        "name": "professional",
+        "score": 0
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Frankincense",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Frankincense.png"
+        },
+        {
+          "name": "Raspberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Raspberry.png"
+        },
+        {
+          "name": "Saffron",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Saffron.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Damask Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Damask%20Rose.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Agarwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Agarwood.png"
+        },
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        },
+        {
+          "name": "Ambergris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambergris.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/365591.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/gucci/gucci-intense-oud/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#295860"
+  },
+  {
+    "Name": "Gucci Memoire d'Une Odeur",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-memoire-dune-odeur.jpg",
+    "Gender": "unisex",
+    "Price": "91.99",
+    "Longevity": "54.8%",
+    "Sillage": "45.0%",
+    "General Notes": [
+      "Chamomile",
+      "Bitter Almond",
+      "Musk",
+      "Indian Jasmine",
+      "Jasmine",
+      "Sandalwood",
+      "Cedar",
+      "Vanilla"
+    ],
+    "Main Accords": [
+      "herbal",
+      "woody",
+      "floral",
+      "musky",
+      "powdery",
+      "almond",
+      "aromatic",
+      "white floral",
+      "nutty",
+      "sweet"
+    ],
+    "Main Accords Percentage": {
+      "herbal": "100%",
+      "woody": "83%",
+      "floral": "78%",
+      "musky": "77%",
+      "powdery": "77%",
+      "almond": "64%",
+      "aromatic": "62%",
+      "white floral": "60%",
+      "nutty": "50%",
+      "sweet": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.44
+      },
+      {
+        "name": "spring",
+        "score": 1.214
+      },
+      {
+        "name": "winter",
+        "score": 0.581
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.663
+      },
+      {
+        "name": "casual",
+        "score": 0.84
+      },
+      {
+        "name": "night out",
+        "score": 0.693
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Chamomile",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Chamomile.png"
+        },
+        {
+          "name": "Bitter Almond",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bitter%20Almond.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Indian Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Indian%20Jasmine.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/346303.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/gucci/gucci-memoire-dune-odeur/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#346303"
+  },
+  {
+    "Name": "Gucci Rush",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-rush.jpg",
+    "Gender": "women",
+    "Price": "104.99",
+    "Longevity": "78.6%",
+    "Sillage": "72.5%",
+    "General Notes": [
+      "Californian Gardenia",
+      "Peach",
+      "African Freesia Petals",
+      "Jasmine",
+      "Damask Rose",
+      "Coriander",
+      "Vetiver",
+      "Patchouli",
+      "Natural Vanilla"
+    ],
+    "Main Accords": [
+      "white floral",
+      "patchouli",
+      "aromatic",
+      "woody",
+      "fruity",
+      "floral",
+      "earthy",
+      "vanilla",
+      "soft spicy",
+      "sweet"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "patchouli": "93%",
+      "aromatic": "90%",
+      "woody": "86%",
+      "fruity": "81%",
+      "floral": "80%",
+      "earthy": "71%",
+      "vanilla": "71%",
+      "soft spicy": "64%",
+      "sweet": "63%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.993
+      },
+      {
+        "name": "winter",
+        "score": 1.985
+      },
+      {
+        "name": "spring",
+        "score": 1.43
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.502
+      },
+      {
+        "name": "casual",
+        "score": 0.938
+      },
+      {
+        "name": "night out",
+        "score": 0.497
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Californian Gardenia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Californian%20Gardenia.png"
+        },
+        {
+          "name": "African Freesia Petals",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/African%20Freesia%20Petals.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Coriander",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coriander.png"
+        },
+        {
+          "name": "Damask Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Damask%20Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Natural Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Natural%20Vanilla.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/125007.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-rush/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#125007"
+  },
+  {
+    "Name": "Gucci Variety",
+    "Brand": "Gucci",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-variety.jpg",
+    "Gender": "women",
+    "Price": "83.99",
+    "Longevity": "",
+    "Sillage": "",
+    "General Notes": [
+      "Guava",
+      "Pear",
+      "Tiare Flower",
+      "Patchouli",
+      "Honey",
+      "Musk"
+    ],
+    "Main Accords": [
+      "floral",
+      "soft spicy",
+      "fruity",
+      "sweet",
+      "patchouli",
+      "fresh",
+      "citrus",
+      "amber",
+      "fresh spicy",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "patchouli": "100%",
+      "honey": "99%",
+      "sweet": "96%",
+      "musky": "72%",
+      "woody": "72%",
+      "white floral": "71%",
+      "warm spicy": "65%",
+      "earthy": "58%",
+      "tropical": "58%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.98
+      },
+      {
+        "name": "winter",
+        "score": 1.954
+      },
+      {
+        "name": "summer",
+        "score": 0.464
+      },
+      {
+        "name": "spring",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.168
+      },
+      {
+        "name": "casual",
+        "score": 0.576
+      },
+      {
+        "name": "professional",
+        "score": 0.504
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Guava",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guava.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tiare Flower",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tiare%20Flower.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Honey",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honey.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/448849.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/gucci/gucci-variety/4-piece-mini-variety-with-gucci-bloom-x-2-and-gucci-flora-gorgeous-gardenia-x-2-and-all-are-eau-de-parfum-0.16-oz-mini?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#448849"
+  }
+]

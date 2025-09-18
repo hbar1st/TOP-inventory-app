@@ -1,0 +1,3088 @@
+[
+  {
+    "Name": "Cartier Baiser Vole",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-baiser-vole.jpg",
+    "Gender": "women",
+    "Price": "144.99",
+    "Longevity": "64.4%",
+    "Sillage": "55.75%",
+    "General Notes": [
+      "Citruses",
+      "Lily",
+      "Lily",
+      "Lily",
+      "Green Notes"
+    ],
+    "Main Accords": [
+      "white floral",
+      "green",
+      "soft spicy",
+      "citrus"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "green": "78%",
+      "soft spicy": "55%",
+      "citrus": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.056
+      },
+      {
+        "name": "summer",
+        "score": 0.948
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.086
+      },
+      {
+        "name": "casual",
+        "score": 0.432
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Citruses",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Citruses.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Green Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Lily.png"
+        },
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/214588.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-baiser-vole/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#214588"
+  },
+  {
+    "Name": "Cartier Carat",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-carat.jpg",
+    "Gender": "women",
+    "Price": "3.99",
+    "Longevity": "62.4%",
+    "Sillage": "58.25%",
+    "General Notes": [
+      "honeysuckle",
+      "musk",
+      "mimosa",
+      "ylang-ylang",
+      "hyacinth",
+      "bergamot"
+    ],
+    "Main Accords": [
+      "green",
+      "floral",
+      "yellow floral",
+      "white floral",
+      "powdery",
+      "fruity",
+      "fresh spicy",
+      "sweet",
+      "soft spicy"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "floral": "87%",
+      "yellow floral": "80%",
+      "white floral": "68%",
+      "powdery": "58%",
+      "fruity": "52%",
+      "fresh spicy": "51%",
+      "sweet": "51%",
+      "soft spicy": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.67
+      },
+      {
+        "name": "summer",
+        "score": 0.6
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.248
+      },
+      {
+        "name": "casual",
+        "score": 0.915
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Hyacinth",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Hyacinth.png"
+        },
+        {
+          "name": "Tulip",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tulip.png"
+        },
+        {
+          "name": "Narcissus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Narcissus.png"
+        },
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Honeysuckle",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honeysuckle.png"
+        },
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Mimosa",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mimosa.png"
+        },
+        {
+          "name": "White Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Musk.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/385843.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-carat/eau-de-parfum-sachet-sample?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#385843"
+  },
+  {
+    "Name": "Cartier De Lune",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-de-lune.jpg",
+    "Gender": "women",
+    "Price": "161.99",
+    "Longevity": "59.8%",
+    "Sillage": "53.0%",
+    "General Notes": [
+      "Pink Pepper",
+      "Juniper Berries",
+      "Honeysuckle",
+      "Rose",
+      "Lily Of The Valley"
+    ],
+    "Main Accords": [
+      "white floral",
+      "musky",
+      "woody",
+      "floral",
+      "rose",
+      "fresh",
+      "aromatic",
+      "fresh spicy",
+      "fruity",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "musky": "77%",
+      "woody": "73%",
+      "floral": "73%",
+      "rose": "72%",
+      "fresh": "70%",
+      "aromatic": "66%",
+      "fresh spicy": "55%",
+      "fruity": "54%",
+      "powdery": "52%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.892
+      },
+      {
+        "name": "fall",
+        "score": 1.35
+      },
+      {
+        "name": "summer",
+        "score": 0.7
+      },
+      {
+        "name": "winter",
+        "score": 0.511
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.483
+      },
+      {
+        "name": "casual",
+        "score": 1.211
+      },
+      {
+        "name": "night out",
+        "score": 0.693
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Juniper Berries",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Juniper%20Berries.png"
+        },
+        {
+          "name": "Pink Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Pepper.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Cyclamen",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cyclamen.png"
+        },
+        {
+          "name": "Honeysuckle",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honeysuckle.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woodsy%20Notes.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/228931.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-de-lune/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#228931"
+  },
+  {
+    "Name": "Cartier L'Envol",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lenvol.jpg",
+    "Gender": "men",
+    "Price": "14.99",
+    "Longevity": "70.2%",
+    "Sillage": "57.25%",
+    "General Notes": [
+      "Lavender",
+      "Artemisia",
+      "Sage",
+      "Guaiac wood",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "woody",
+      "honey",
+      "powdery",
+      "iris",
+      "musky",
+      "sweet",
+      "earthy",
+      "aromatic",
+      "ozonic",
+      "floral"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "honey": "77%",
+      "powdery": "71%",
+      "iris": "66%",
+      "musky": "57%",
+      "sweet": "57%",
+      "earthy": "57%",
+      "aromatic": "56%",
+      "ozonic": "52%",
+      "floral": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.869
+      },
+      {
+        "name": "spring",
+        "score": 0.882
+      },
+      {
+        "name": "winter",
+        "score": 0.7
+      },
+      {
+        "name": "summer",
+        "score": 0.416
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.686
+      },
+      {
+        "name": "casual",
+        "score": 0.685
+      },
+      {
+        "name": "night out",
+        "score": 0.513
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Artemisia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Artemisia.png"
+        },
+        {
+          "name": "Sage",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sage.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Violet Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet%20Leaf.png"
+        },
+        {
+          "name": "Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pepper.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Honey",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honey.png"
+        },
+        {
+          "name": "Iris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Iris.png"
+        },
+        {
+          "name": "Guaiac Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guaiac%20Wood.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Amberwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amberwood.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/466646.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/cartier-lenvol/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#287629"
+  },
+  {
+    "Name": "Cartier L'Heure Convoitee Ii",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheure-convoitee-ii.jpg",
+    "Gender": "women",
+    "Price": "543.99",
+    "Longevity": "64.2%",
+    "Sillage": "63.0%",
+    "General Notes": [
+      "iris",
+      "carnation",
+      "red rose",
+      "strawberry",
+      "cloves"
+    ],
+    "Main Accords": [
+      "powdery",
+      "fruity",
+      "floral",
+      "warm spicy",
+      "iris",
+      "sweet",
+      "violet",
+      "aromatic",
+      "earthy"
+    ],
+    "Main Accords Percentage": {
+      "powdery": "100%",
+      "fruity": "85%",
+      "floral": "84%",
+      "warm spicy": "73%",
+      "iris": "72%",
+      "sweet": "68%",
+      "violet": "51%",
+      "aromatic": "49%",
+      "earthy": "47%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.183
+      },
+      {
+        "name": "fall",
+        "score": 0.96
+      },
+      {
+        "name": "winter",
+        "score": 0.73
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.09
+      },
+      {
+        "name": "casual",
+        "score": 0.996
+      },
+      {
+        "name": "night out",
+        "score": 0.584
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/427804.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-lheure-convoitee-ii/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#427804"
+  },
+  {
+    "Name": "Cartier L'Heure Folle X",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheure-folle-x.jpg",
+    "Gender": "unisex",
+    "Price": "163.99",
+    "Longevity": "63.4%",
+    "Sillage": "64.5%",
+    "General Notes": [
+      "Blackcurrant",
+      "Blueberry",
+      "Box wood",
+      "Grenadine",
+      "Red Currant"
+    ],
+    "Main Accords": [
+      "fruity",
+      "fresh",
+      "woody",
+      "sweet",
+      "green",
+      "soft spicy"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "fresh": "73%",
+      "woody": "58%",
+      "sweet": "57%",
+      "green": "55%",
+      "soft spicy": "52%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.17
+      },
+      {
+        "name": "summer",
+        "score": 1.06
+      },
+      {
+        "name": "fall",
+        "score": 0.522
+      },
+      {
+        "name": "winter",
+        "score": 0.406
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.072
+      },
+      {
+        "name": "professional",
+        "score": 0.901
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/293088.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/cartier/cartier-lheure-folle-x/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#293088"
+  },
+  {
+    "Name": "Cartier L'Heures Voyageuses Oud & Mint",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-mint.jpg",
+    "Gender": "women",
+    "Price": "408.99",
+    "Longevity": "70.0%",
+    "Sillage": "51.75%",
+    "General Notes": [
+      "oud",
+      "amber",
+      "mint"
+    ],
+    "Main Accords": [
+      "green",
+      "oud",
+      "aromatic",
+      "fresh spicy",
+      "amber"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "oud": "87%",
+      "aromatic": "79%",
+      "fresh spicy": "76%",
+      "amber": "72%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.353
+      },
+      {
+        "name": "fall",
+        "score": 0.72
+      },
+      {
+        "name": "summer",
+        "score": 0.6
+      },
+      {
+        "name": "winter",
+        "score": 0.576
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.69
+      },
+      {
+        "name": "night out",
+        "score": 0.72
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/367382.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-lheures-voyageuses-oud-and-mint/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#367382"
+  },
+  {
+    "Name": "Cartier L'Heures Voyageuses Oud & Musc",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg",
+    "Gender": "women",
+    "Price": "392.99",
+    "Longevity": "69.8%",
+    "Sillage": "65.75%",
+    "General Notes": [
+      "oud",
+      "musk"
+    ],
+    "Main Accords": [
+      "musky",
+      "oud",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "musky": "100%",
+      "oud": "96%",
+      "powdery": "65%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 0.9
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 0.9
+      },
+      {
+        "name": "professional",
+        "score": 0.39
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/378845.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-lheures-voyageuses-oud-and-musc/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#378845"
+  },
+  {
+    "Name": "Cartier La Panthere",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere.jpg",
+    "Gender": "women",
+    "Price": "160.99",
+    "Longevity": "74.8%",
+    "Sillage": "66.5%",
+    "General Notes": [
+      "Gardenia",
+      "Pear",
+      "Orange Blossom",
+      "Rose",
+      "Leather"
+    ],
+    "Main Accords": [
+      "fruity",
+      "white floral",
+      "sweet",
+      "mossy",
+      "earthy",
+      "woody",
+      "musky",
+      "animalic",
+      "green",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "white floral": "85%",
+      "sweet": "84%",
+      "mossy": "78%",
+      "earthy": "72%",
+      "woody": "71%",
+      "musky": "71%",
+      "animalic": "57%",
+      "green": "54%",
+      "powdery": "53%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.854
+      },
+      {
+        "name": "winter",
+        "score": 0.497
+      },
+      {
+        "name": "spring",
+        "score": 0.432
+      },
+      {
+        "name": "summer",
+        "score": 0.324
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.301
+      },
+      {
+        "name": "night out",
+        "score": 0.639
+      },
+      {
+        "name": "casual",
+        "score": 0.504
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Dried Fruits",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Dried%20Fruits.png"
+        },
+        {
+          "name": "Rhubarb",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rhubarb.png"
+        },
+        {
+          "name": "Big Strawberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Big%20Strawberry.png"
+        },
+        {
+          "name": "Anise",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Anise.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Gardenia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Gardenia.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/337913.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-la-panthere/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#337913"
+  },
+  {
+    "Name": "Cartier La Panthere Edition Soir",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-edition-soir.jpg",
+    "Gender": "women",
+    "Price": "N/A",
+    "Longevity": "68.4%",
+    "Sillage": "63.5%",
+    "General Notes": [
+      "Oakmoss",
+      "Animal notes",
+      "Gardenia",
+      "Floral notes",
+      "Musk"
+    ],
+    "Main Accords": [
+      "musky",
+      "animalic",
+      "white floral",
+      "mossy",
+      "floral",
+      "earthy",
+      "powdery",
+      "lactonic"
+    ],
+    "Main Accords Percentage": {
+      "musky": "100%",
+      "animalic": "98%",
+      "white floral": "81%",
+      "mossy": "73%",
+      "floral": "69%",
+      "earthy": "60%",
+      "powdery": "52%",
+      "lactonic": "50%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.38
+      },
+      {
+        "name": "spring",
+        "score": 0.69
+      },
+      {
+        "name": "summer",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 0.9
+      },
+      {
+        "name": "casual",
+        "score": 0.483
+      },
+      {
+        "name": "professional",
+        "score": 0.312
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/300416.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-la-panthere-edition-soir/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#294426"
+  },
+  {
+    "Name": "Cartier La Panthere Elixir",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-elixir.jpg",
+    "Gender": "women",
+    "Price": "189.99",
+    "Longevity": "",
+    "Sillage": "",
+    "General Notes": [],
+    "Main Accords": [],
+    "Main Accords Percentage": {},
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 0
+      },
+      {
+        "name": "night out",
+        "score": 0
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/250x250/497223.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-la-panthere-elixir/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#497223"
+  },
+  {
+    "Name": "Cartier La Panthere Etincelante",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-etincelante.jpg",
+    "Gender": "women",
+    "Price": "158.99",
+    "Longevity": "79.4%",
+    "Sillage": "75.5%",
+    "General Notes": [
+      "Dried Fruits",
+      "Strawberry",
+      "Rhubarb",
+      "Bergamot",
+      "Anise",
+      "Gardenia",
+      "Rose",
+      "Pear",
+      "Orange Blossom",
+      "Ylang-Ylang",
+      "Musk",
+      "Patchouli",
+      "Oakmoss",
+      "Leather"
+    ],
+    "Main Accords": [
+      "fruity",
+      "sweet",
+      "white floral",
+      "woody",
+      "musky",
+      "earthy",
+      "rose",
+      "patchouli",
+      "mossy",
+      "animalic"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "sweet": "84%",
+      "white floral": "75%",
+      "woody": "73%",
+      "musky": "68%",
+      "earthy": "64%",
+      "rose": "62%",
+      "patchouli": "62%",
+      "mossy": "60%",
+      "animalic": "57%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.215
+      },
+      {
+        "name": "winter",
+        "score": 1.007
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 0.612
+      },
+      {
+        "name": "professional",
+        "score": 0.511
+      },
+      {
+        "name": "casual",
+        "score": 0.504
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Dried Fruits",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Dried%20Fruits.png"
+        },
+        {
+          "name": "Strawberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Strawberry.png"
+        },
+        {
+          "name": "Rhubarb",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rhubarb.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Anise",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Anise.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Gardenia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Gardenia.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/497215.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-la-panthere-etincelante/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#497215"
+  },
+  {
+    "Name": "Cartier La Panthere Noir Absolu",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-noir-absolu.jpg",
+    "Gender": "women",
+    "Price": "222.99",
+    "Longevity": "",
+    "Sillage": "",
+    "General Notes": [],
+    "Main Accords": [],
+    "Main Accords Percentage": {},
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 0
+      },
+      {
+        "name": "night out",
+        "score": 0
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/299228.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-la-panthere-noir-absolu/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#299228"
+  },
+  {
+    "Name": "Cartier Parfum d'Interieur Boutique",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-parfum-dinterieur-boutique.jpg",
+    "Gender": "women",
+    "Price": "178.99",
+    "Longevity": "",
+    "Sillage": "",
+    "General Notes": [
+      "Cherry",
+      "Pink Pepper",
+      "Bergamot",
+      "Violet",
+      "Jasmine",
+      "Freesia",
+      "Tonka Bean",
+      "Amber",
+      "Sandalwood",
+      "Musk"
+    ],
+    "Main Accords": [
+      "citrus",
+      "vanilla",
+      "amber",
+      "ozonic",
+      "green",
+      "powdery",
+      "balsamic",
+      "aquatic",
+      "musky",
+      "aromatic"
+    ],
+    "Main Accords Percentage": {
+      "cherry": "100%",
+      "sweet": "94%",
+      "amber": "80%",
+      "powdery": "72%",
+      "soft spicy": "62%",
+      "vanilla": "60%",
+      "musky": "58%",
+      "floral": "58%",
+      "violet": "56%",
+      "woody": "54%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.808
+      },
+      {
+        "name": "winter",
+        "score": 1.558
+      },
+      {
+        "name": "spring",
+        "score": 0.58
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.742
+      },
+      {
+        "name": "casual",
+        "score": 0.97
+      },
+      {
+        "name": "professional",
+        "score": 0.81
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Cherry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cherry.png"
+        },
+        {
+          "name": "Pink Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Pepper.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Tonka Bean",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tonka%20Bean.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/421174.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/cartier-parfum-dinterieur-boutique/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#421174"
+  },
+  {
+    "Name": "Cartier Rivieres Allegresse",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-rivieres-allegresse.jpg",
+    "Gender": "unisex",
+    "Price": "104.99",
+    "Longevity": "52.0%",
+    "Sillage": "42.5%",
+    "General Notes": [
+      "hyacinth",
+      "cassis",
+      "petitgrain",
+      "tuberose",
+      "bergamot"
+    ],
+    "Main Accords": [
+      "green",
+      "citrus",
+      "aromatic",
+      "fresh spicy",
+      "floral",
+      "white floral",
+      "woody",
+      "fruity",
+      "soft spicy",
+      "tuberose"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "citrus": "93%",
+      "aromatic": "83%",
+      "fresh spicy": "81%",
+      "floral": "66%",
+      "white floral": "53%",
+      "woody": "50%",
+      "fruity": "49%",
+      "soft spicy": "48%",
+      "tuberose": "47%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.878
+      },
+      {
+        "name": "summer",
+        "score": 1.53
+      },
+      {
+        "name": "fall",
+        "score": 0.45
+      },
+      {
+        "name": "winter",
+        "score": 0.35
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.824
+      },
+      {
+        "name": "casual",
+        "score": 1.299
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/410510.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/cartier/cartier-rivieres-allegresse/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#410510"
+  },
+  {
+    "Name": "Cartier Rivieres Insouciance",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-rivieres-insouciance.jpg",
+    "Gender": "unisex",
+    "Price": "109.99",
+    "Longevity": "48.2%",
+    "Sillage": "40.5%",
+    "General Notes": [
+      "violet",
+      "woody notes",
+      "iris",
+      "fruity notes"
+    ],
+    "Main Accords": [
+      "violet",
+      "powdery",
+      "fruity",
+      "iris",
+      "woody",
+      "sweet",
+      "floral",
+      "earthy"
+    ],
+    "Main Accords Percentage": {
+      "violet": "100%",
+      "powdery": "89%",
+      "fruity": "80%",
+      "iris": "71%",
+      "woody": "64%",
+      "sweet": "55%",
+      "floral": "49%",
+      "earthy": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 0.944
+      },
+      {
+        "name": "spring",
+        "score": 0.49
+      },
+      {
+        "name": "winter",
+        "score": 0.448
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 0.982
+      },
+      {
+        "name": "casual",
+        "score": 0.673
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/410512.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/cartier/cartier-rivieres-insouciance/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#410512"
+  },
+  {
+    "Name": "Cartier Rivieres Luxuriance",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-rivieres-luxuriance.jpg",
+    "Gender": "unisex",
+    "Price": "93.99",
+    "Longevity": "47.6%",
+    "Sillage": "38.75%",
+    "General Notes": [
+      "mastic",
+      "fern",
+      "geranium",
+      "oak",
+      "rosemary"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "fresh spicy",
+      "green",
+      "woody"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "fresh spicy": "84%",
+      "green": "69%",
+      "woody": "58%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.252
+      },
+      {
+        "name": "fall",
+        "score": 0.522
+      },
+      {
+        "name": "summer",
+        "score": 0.414
+      },
+      {
+        "name": "winter",
+        "score": 0.406
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.027
+      },
+      {
+        "name": "night out",
+        "score": 0
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/410515.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/cartier/cartier-rivieres-luxuriance/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#410515"
+  },
+  {
+    "Name": "Cartier Variety",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-variety.jpg",
+    "Gender": "men",
+    "Price": "68.99",
+    "Longevity": "54.2%",
+    "Sillage": "59.0%",
+    "General Notes": [
+      "Lemon",
+      "Grapefruit",
+      "Bergamot",
+      "Violet Leaf",
+      "Galbanum",
+      "Neroli",
+      "Jasmine",
+      "Hedione",
+      "Vanilla",
+      "Musk",
+      "Amber",
+      "Peru Balsam",
+      "Patchouli"
+    ],
+    "Main Accords": [
+      "citrus",
+      "vanilla",
+      "amber",
+      "ozonic",
+      "green",
+      "powdery",
+      "balsamic",
+      "aquatic",
+      "musky",
+      "aromatic"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "vanilla": "78%",
+      "amber": "66%",
+      "ozonic": "65%",
+      "green": "63%",
+      "powdery": "62%",
+      "balsamic": "57%",
+      "aquatic": "57%",
+      "musky": "56%",
+      "aromatic": "54%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 2.411
+      },
+      {
+        "name": "spring",
+        "score": 1.782
+      },
+      {
+        "name": "winter",
+        "score": 1.629
+      },
+      {
+        "name": "fall",
+        "score": 1.164
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.279
+      },
+      {
+        "name": "night out",
+        "score": 1.71
+      },
+      {
+        "name": "casual",
+        "score": 1.356
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        },
+        {
+          "name": "Grapefruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Grapefruit.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Violet Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet%20Leaf.png"
+        },
+        {
+          "name": "Galbanum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Galbanum.png"
+        },
+        {
+          "name": "Neroli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Neroli.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Hedione",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Hedione.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Peru Balsam",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peru%20Balsam.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/250x250/495085.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/cartier-variety/4-piece-mini-variety-set-with-declaration-eau-de-parfum-and-declaration-haute-fraicheur-edt-and-declaration-edt-2-4-x-0.13-oz-minis?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#495085"
+  },
+  {
+    "Name": "Declaration",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration.jpg",
+    "Gender": "men",
+    "Price": "114.99",
+    "Longevity": "68.0%",
+    "Sillage": "58.0%",
+    "General Notes": [
+      "Mandarin Orange",
+      "Artemisia",
+      "Neroli",
+      "Leather",
+      "Oakmoss"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "fresh spicy",
+      "citrus",
+      "warm spicy",
+      "woody",
+      "leather",
+      "earthy",
+      "fresh",
+      "iris",
+      "smoky"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "fresh spicy": "87%",
+      "citrus": "87%",
+      "warm spicy": "82%",
+      "woody": "74%",
+      "leather": "55%",
+      "earthy": "51%",
+      "fresh": "49%",
+      "iris": "46%",
+      "smoky": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.973
+      },
+      {
+        "name": "fall",
+        "score": 1.73
+      },
+      {
+        "name": "summer",
+        "score": 1.36
+      },
+      {
+        "name": "winter",
+        "score": 1.338
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.214
+      },
+      {
+        "name": "casual",
+        "score": 1.273
+      },
+      {
+        "name": "night out",
+        "score": 1.216
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bitter Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bitter%20Orange.png"
+        },
+        {
+          "name": "Caraway",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Caraway.png"
+        },
+        {
+          "name": "Birch",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Birch.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Coriander",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coriander.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Neroli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Neroli.png"
+        },
+        {
+          "name": "Artemisia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Artemisia.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Guatemalan Cardamom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guatemalan%20Cardamom.png"
+        },
+        {
+          "name": "Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pepper.png"
+        },
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        },
+        {
+          "name": "Iris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Iris.png"
+        },
+        {
+          "name": "Juniper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Juniper.png"
+        },
+        {
+          "name": "Cinnamon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cinnamon.png"
+        },
+        {
+          "name": "Orris Root",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orris%20Root.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Tahitian Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tahitian%20Vetiver.png"
+        },
+        {
+          "name": "Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tea.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        },
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/117937.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/declaration/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#117937"
+  },
+  {
+    "Name": "Declaration Essence",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-essence.jpg",
+    "Gender": "men",
+    "Price": "23.99",
+    "Longevity": "69.6%",
+    "Sillage": "61.0%",
+    "General Notes": [
+      "Orange",
+      "Bergamot",
+      "Cedar",
+      "Oakmoss",
+      "Cardamom"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "woody",
+      "fresh spicy",
+      "citrus",
+      "green",
+      "earthy",
+      "white floral",
+      "lavender",
+      "powdery",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "woody": "81%",
+      "fresh spicy": "68%",
+      "citrus": "65%",
+      "green": "64%",
+      "earthy": "56%",
+      "white floral": "56%",
+      "lavender": "52%",
+      "powdery": "51%",
+      "musky": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.797
+      },
+      {
+        "name": "fall",
+        "score": 1.618
+      },
+      {
+        "name": "summer",
+        "score": 1.034
+      },
+      {
+        "name": "winter",
+        "score": 0.567
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.969
+      },
+      {
+        "name": "casual",
+        "score": 0.585
+      },
+      {
+        "name": "night out",
+        "score": 0.441
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tea.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Geranium",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Geranium.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        },
+        {
+          "name": "Sicilian Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sicilian%20Lemon.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/466636.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/declaration-essence/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#466636"
+  },
+  {
+    "Name": "Declaration Haute Fraicheur",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-haute-fraicheur.jpg",
+    "Gender": "men",
+    "Price": "107.99",
+    "Longevity": "50.8%",
+    "Sillage": "40.75%",
+    "General Notes": [
+      "cardamom",
+      "cedar",
+      "citrus leaf"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "warm spicy",
+      "woody",
+      "citrus",
+      "green",
+      "fresh spicy",
+      "herbal",
+      "white floral"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "warm spicy": "81%",
+      "woody": "81%",
+      "citrus": "81%",
+      "green": "71%",
+      "fresh spicy": "50%",
+      "herbal": "50%",
+      "white floral": "50%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.997
+      },
+      {
+        "name": "fall",
+        "score": 1.377
+      },
+      {
+        "name": "winter",
+        "score": 1.377
+      },
+      {
+        "name": "summer",
+        "score": 1.236
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.854
+      },
+      {
+        "name": "casual",
+        "score": 0.729
+      },
+      {
+        "name": "night out",
+        "score": 0.648
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Citrus Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Citrus%20Leaf.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cardamom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cardamom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/435958.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/declaration-haute-fraicheur/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#435958"
+  },
+  {
+    "Name": "Declaration L'Eau",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-leau.jpg",
+    "Gender": "men",
+    "Price": "117.99",
+    "Longevity": "59.0%",
+    "Sillage": "55.0%",
+    "General Notes": [
+      "Pink grapefruit",
+      "Pink pepper",
+      "Cedar"
+    ],
+    "Main Accords": [
+      "citrus",
+      "woody",
+      "soft spicy",
+      "fresh spicy",
+      "aromatic"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "woody": "72%",
+      "soft spicy": "58%",
+      "fresh spicy": "51%",
+      "aromatic": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.236
+      },
+      {
+        "name": "summer",
+        "score": 1
+      },
+      {
+        "name": "fall",
+        "score": 0.648
+      },
+      {
+        "name": "winter",
+        "score": 0.504
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.784
+      },
+      {
+        "name": "casual",
+        "score": 0.9
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/302702.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/declaration-leau/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#302702"
+  },
+  {
+    "Name": "Declaration d'Un Soir",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-dun-soir.jpg",
+    "Gender": "men",
+    "Price": "171.99",
+    "Longevity": "73.2%",
+    "Sillage": "60.25%",
+    "General Notes": [
+      "Caraway",
+      "Cardamom",
+      "Black Pepper",
+      "Nutmeg",
+      "Rose",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "fresh spicy",
+      "rose",
+      "warm spicy",
+      "woody",
+      "aromatic",
+      "floral",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "fresh spicy": "100%",
+      "rose": "91%",
+      "warm spicy": "83%",
+      "woody": "62%",
+      "aromatic": "59%",
+      "floral": "52%",
+      "powdery": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 1.264
+      },
+      {
+        "name": "fall",
+        "score": 1.222
+      },
+      {
+        "name": "spring",
+        "score": 0.933
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.312
+      },
+      {
+        "name": "night out",
+        "score": 0.664
+      },
+      {
+        "name": "casual",
+        "score": 0.364
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Black Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Pepper.png"
+        },
+        {
+          "name": "Cardamom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cardamom.png"
+        },
+        {
+          "name": "Caraway",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Caraway.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Nutmeg",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Nutmeg.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/231458.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/declaration-dun-soir/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#231458"
+  },
+  {
+    "Name": "Eau De Cartier Essence De Bois",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eau-de-cartier-essence-de-bois.jpg",
+    "Gender": "unisex",
+    "Price": "39.99",
+    "Longevity": "50.6%",
+    "Sillage": "51.75%",
+    "General Notes": [
+      "Bergamot",
+      "Yuzu",
+      "Violet leaf",
+      "Lavender",
+      "Violet"
+    ],
+    "Main Accords": [
+      "citrus",
+      "oud",
+      "fresh spicy",
+      "powdery",
+      "ozonic",
+      "violet",
+      "green",
+      "lavender",
+      "aquatic",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "oud": "81%",
+      "fresh spicy": "77%",
+      "powdery": "74%",
+      "ozonic": "70%",
+      "violet": "69%",
+      "green": "62%",
+      "lavender": "62%",
+      "aquatic": "59%",
+      "musky": "59%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 2.463
+      },
+      {
+        "name": "spring",
+        "score": 1.396
+      },
+      {
+        "name": "fall",
+        "score": 0.531
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.802
+      },
+      {
+        "name": "casual",
+        "score": 1.372
+      },
+      {
+        "name": "night out",
+        "score": 0.531
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Violet Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet%20Leaf.png"
+        },
+        {
+          "name": "Yuzu",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Yuzu.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Agarwood (Oud)",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Agarwood%20(oud).png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Ambergris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambergris.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/436059.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/cartier/eau-de-cartier-essence-de-bois/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#436059"
+  },
+  {
+    "Name": "Le Baiser Du Dragon",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/le-baiser-du-dragon.jpg",
+    "Gender": "women",
+    "Price": "397.99",
+    "Longevity": "76.2%",
+    "Sillage": "65.75%",
+    "General Notes": [
+      "exotic and woodsy."
+    ],
+    "Main Accords": [
+      "almond",
+      "woody",
+      "amber",
+      "fruity",
+      "warm spicy",
+      "sweet",
+      "earthy",
+      "caramel",
+      "white floral",
+      "chocolate"
+    ],
+    "Main Accords Percentage": {
+      "almond": "100%",
+      "woody": "88%",
+      "amber": "82%",
+      "fruity": "79%",
+      "warm spicy": "70%",
+      "sweet": "66%",
+      "earthy": "61%",
+      "caramel": "56%",
+      "white floral": "55%",
+      "chocolate": "55%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.66
+      },
+      {
+        "name": "winter",
+        "score": 1.972
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.38
+      },
+      {
+        "name": "professional",
+        "score": 0.616
+      },
+      {
+        "name": "casual",
+        "score": 0.396
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Amaretto",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amaretto.png"
+        },
+        {
+          "name": "Almond",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Almond.png"
+        },
+        {
+          "name": "Gardenia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Gardenia.png"
+        },
+        {
+          "name": "Neroli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Neroli.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Iris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Iris.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Dark Chocolate",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Dark%20Chocolate.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Caramel",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Caramel.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        },
+        {
+          "name": "Benzoin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Benzoin.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/132949.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/le-baiser-du-dragon/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#132949"
+  },
+  {
+    "Name": "Must De Cartier",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/must-de-cartier.jpg",
+    "Gender": "women",
+    "Price": "97.79",
+    "Longevity": "75.4%",
+    "Sillage": "67.0%",
+    "General Notes": [
+      "Peach",
+      "Galbanum",
+      "Lemon",
+      "Green Mandarin",
+      "Brazilian Rosewood",
+      "Bergamot",
+      "Pineapple",
+      "Aldehydes",
+      "Orchid",
+      "Ylang-Ylang",
+      "Neroli",
+      "Musk",
+      "Yellow Narcissus",
+      "Vetiver",
+      "Rose",
+      "Jasmine",
+      "Leather",
+      "Carnation",
+      "Orris Root",
+      "Vetiver",
+      "Vanilla",
+      "Tonka Bean",
+      "Civet",
+      "Sandalwood",
+      "Amber"
+    ],
+    "Main Accords": [
+      "woody",
+      "powdery",
+      "amber",
+      "aromatic",
+      "vanilla",
+      "green",
+      "sweet",
+      "balsamic",
+      "citrus",
+      "animalic"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "powdery": "83%",
+      "amber": "82%",
+      "aromatic": "81%",
+      "vanilla": "78%",
+      "green": "76%",
+      "sweet": "73%",
+      "balsamic": "69%",
+      "citrus": "64%",
+      "animalic": "64%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 2.541
+      },
+      {
+        "name": "spring",
+        "score": 1.751
+      },
+      {
+        "name": "fall",
+        "score": 1.72
+      },
+      {
+        "name": "summer",
+        "score": 1.096
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 3.204
+      },
+      {
+        "name": "night out",
+        "score": 1.366
+      },
+      {
+        "name": "casual",
+        "score": 1.014
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Galbanum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Galbanum.png"
+        },
+        {
+          "name": "Brazilian Rosewood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Brazilian%20Rosewood.png"
+        },
+        {
+          "name": "Aldehydes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Aldehydes.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        },
+        {
+          "name": "Green Mandarin",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Mandarin.png"
+        },
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Pineapple",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pineapple.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        },
+        {
+          "name": "Carnation",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Carnation.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        },
+        {
+          "name": "Orris Root",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orris%20Root.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Yellow Narcissus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Yellow%20Narcissus.png"
+        },
+        {
+          "name": "Neroli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Neroli.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Orchid",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orchid.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tonka%20Bean.png"
+        },
+        {
+          "name": "Civet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Civet.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/293035.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/cartier/must-de-cartier/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#407273"
+  },
+  {
+    "Name": "Pasha De Cartier",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier.jpg",
+    "Gender": "men",
+    "Price": "160.99",
+    "Longevity": "75.4%",
+    "Sillage": "62.75%",
+    "General Notes": [
+      "Balsam Fir",
+      "Indonesian Patchouli",
+      "Labdanum",
+      "Sandalwood",
+      "Liquor"
+    ],
+    "Main Accords": [
+      "woody",
+      "amber",
+      "warm spicy",
+      "balsamic",
+      "aromatic",
+      "vanilla",
+      "alcohol",
+      "fresh spicy",
+      "patchouli"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "amber": "92%",
+      "warm spicy": "63%",
+      "balsamic": "53%",
+      "aromatic": "51%",
+      "vanilla": "50%",
+      "alcohol": "49%",
+      "fresh spicy": "45%",
+      "patchouli": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 3.247
+      },
+      {
+        "name": "fall",
+        "score": 2.639
+      },
+      {
+        "name": "spring",
+        "score": 0.357
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.774
+      },
+      {
+        "name": "professional",
+        "score": 1.21
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/357652.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/pasha-de-cartier/parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#357652"
+  },
+  {
+    "Name": "Pasha De Cartier Edition Noire",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier-edition-noire.jpg",
+    "Gender": "men",
+    "Price": "119.99",
+    "Longevity": "64.6%",
+    "Sillage": "55.5%",
+    "General Notes": [
+      "Citruses",
+      "Cedar",
+      "Amber"
+    ],
+    "Main Accords": [
+      "powdery",
+      "woody",
+      "fresh spicy",
+      "citrus",
+      "fresh",
+      "violet",
+      "amber",
+      "green",
+      "aromatic",
+      "aquatic"
+    ],
+    "Main Accords Percentage": {
+      "powdery": "100%",
+      "woody": "93%",
+      "fresh spicy": "90%",
+      "citrus": "84%",
+      "fresh": "80%",
+      "violet": "73%",
+      "amber": "73%",
+      "green": "70%",
+      "aromatic": "69%",
+      "aquatic": "65%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 2.645
+      },
+      {
+        "name": "spring",
+        "score": 2.599
+      },
+      {
+        "name": "fall",
+        "score": 1.567
+      },
+      {
+        "name": "winter",
+        "score": 1.235
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 3.243
+      },
+      {
+        "name": "casual",
+        "score": 2.076
+      },
+      {
+        "name": "night out",
+        "score": 0.73
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/250249.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/pasha-de-cartier-edition-noire/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#250249"
+  },
+  {
+    "Name": "Pasha De Cartier Edition Noire Sport",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier-edition-noire-sport.jpg",
+    "Gender": "men",
+    "Price": "73.19",
+    "Longevity": "60.0%",
+    "Sillage": "53.5%",
+    "General Notes": [
+      "Citruses",
+      "Watery notes",
+      "Sandalwood",
+      "Amber",
+      "Cedar"
+    ],
+    "Main Accords": [
+      "woody",
+      "aquatic",
+      "citrus",
+      "fresh",
+      "marine",
+      "aromatic",
+      "powdery",
+      "amber",
+      "salty"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "aquatic": "89%",
+      "citrus": "87%",
+      "fresh": "81%",
+      "marine": "78%",
+      "aromatic": "69%",
+      "powdery": "57%",
+      "amber": "52%",
+      "salty": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 2.481
+      },
+      {
+        "name": "spring",
+        "score": 2.076
+      },
+      {
+        "name": "fall",
+        "score": 1.42
+      },
+      {
+        "name": "winter",
+        "score": 1.116
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.428
+      },
+      {
+        "name": "casual",
+        "score": 2.305
+      },
+      {
+        "name": "night out",
+        "score": 0.52
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Citruses",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Citruses.png"
+        },
+        {
+          "name": "Watery Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Watery%20Notes.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Sea Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sea%20Notes.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/292614.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/pasha-de-cartier-edition-noire-sport/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#292614"
+  },
+  {
+    "Name": "Pasha De Cartier Noir Absolu",
+    "Brand": "Cartier",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier-noir-absolu.jpg",
+    "Gender": "men",
+    "Price": "144.99",
+    "Longevity": "67.4%",
+    "Sillage": "53.25%",
+    "General Notes": [],
+    "Main Accords": [
+      "caramel",
+      "smoky",
+      "sweet",
+      "woody",
+      "warm spicy",
+      "violet",
+      "vanilla"
+    ],
+    "Main Accords Percentage": {
+      "caramel": "100%",
+      "smoky": "100%",
+      "sweet": "91%",
+      "woody": "85%",
+      "warm spicy": "49%",
+      "violet": "46%",
+      "vanilla": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 1.481
+      },
+      {
+        "name": "fall",
+        "score": 1.157
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.2
+      },
+      {
+        "name": "professional",
+        "score": 0.595
+      },
+      {
+        "name": "casual",
+        "score": 0.546
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/473643.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/cartier/pasha-de-cartier-noir-absolu/parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#473643"
+  }
+]

@@ -1,0 +1,878 @@
+[
+  {
+    "Name": "Vera Wang",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang.jpg",
+    "Gender": "women",
+    "Price": "39.99",
+    "Longevity": "59.6%",
+    "Sillage": "57.25%",
+    "General Notes": [
+      "Iris",
+      "Sandalwood",
+      "Lily",
+      "Gardenia",
+      "Mandarin orange"
+    ],
+    "Main Accords": [
+      "white floral",
+      "floral",
+      "citrus",
+      "rose"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "floral": "53%",
+      "citrus": "51%",
+      "rose": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 0.989
+      },
+      {
+        "name": "summer",
+        "score": 0.51
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 0.83
+      },
+      {
+        "name": "professional",
+        "score": 0.408
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/115674.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#115674"
+  },
+  {
+    "Name": "Vera Wang Embrace",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-embrace.jpg",
+    "Gender": "women",
+    "Price": "12.99",
+    "Longevity": "43.4%",
+    "Sillage": "43.0%",
+    "General Notes": [
+      "green tea",
+      "bergamot",
+      "orange blossom",
+      "sandalwood",
+      "musk"
+    ],
+    "Main Accords": [
+      "floral",
+      "fresh",
+      "citrus",
+      "green",
+      "woody",
+      "fresh spicy",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "fresh": "63%",
+      "citrus": "59%",
+      "green": "53%",
+      "woody": "49%",
+      "fresh spicy": "45%",
+      "powdery": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.585
+      },
+      {
+        "name": "summer",
+        "score": 1.538
+      },
+      {
+        "name": "fall",
+        "score": 0.441
+      },
+      {
+        "name": "winter",
+        "score": 0.343
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.861
+      },
+      {
+        "name": "professional",
+        "score": 1.562
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pear Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear%20Blossom.png"
+        },
+        {
+          "name": "Green Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Tea.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        },
+        {
+          "name": "Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peony.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/331166.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-embrace/periwinkle-and-iris-fine-fragrance-mist-8-oz?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#331166"
+  },
+  {
+    "Name": "Vera Wang Glam Princess",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-glam-princess.jpg",
+    "Gender": "women",
+    "Price": "32.99",
+    "Longevity": "53.2%",
+    "Sillage": "53.25%",
+    "General Notes": [
+      "Red currant",
+      "Guava",
+      "Pear",
+      "African orange flower",
+      "Vanilla orchid"
+    ],
+    "Main Accords": [
+      "sweet",
+      "fruity",
+      "woody",
+      "musky",
+      "floral",
+      "fresh",
+      "powdery",
+      "tropical",
+      "honey",
+      "white floral"
+    ],
+    "Main Accords Percentage": {
+      "sweet": "100%",
+      "fruity": "99%",
+      "woody": "73%",
+      "musky": "69%",
+      "floral": "65%",
+      "fresh": "60%",
+      "powdery": "56%",
+      "tropical": "53%",
+      "honey": "47%",
+      "white floral": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.278
+      },
+      {
+        "name": "spring",
+        "score": 1.25
+      },
+      {
+        "name": "summer",
+        "score": 1.024
+      },
+      {
+        "name": "winter",
+        "score": 0.511
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.655
+      },
+      {
+        "name": "professional",
+        "score": 0.847
+      },
+      {
+        "name": "night out",
+        "score": 0.621
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Guava",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guava.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Red Currant",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Red%20Currant.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Vanilla Orchid",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla%20Orchid.png"
+        },
+        {
+          "name": "Honey",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Honey.png"
+        },
+        {
+          "name": "African Orange Flower",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/African%20Orange%20Flower.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cashmere Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cashmere%20Wood.png"
+        },
+        {
+          "name": "Marshmallow",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Marshmallow.png"
+        },
+        {
+          "name": "Ambrette (Musk Mallow)",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambrette%20(musk%20Mallow).png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/187971.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-glam-princess/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#187971"
+  },
+  {
+    "Name": "Vera Wang Lovestruck",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-lovestruck.jpg",
+    "Gender": "women",
+    "Price": "42.99",
+    "Longevity": "49.2%",
+    "Sillage": "45.5%",
+    "General Notes": [
+      "Angelica",
+      "Mandarin orange",
+      "Guava",
+      "Lotus",
+      "Tuberose"
+    ],
+    "Main Accords": [
+      "musky",
+      "fruity",
+      "tropical",
+      "powdery",
+      "floral",
+      "citrus",
+      "tuberose",
+      "aquatic",
+      "woody",
+      "amber"
+    ],
+    "Main Accords Percentage": {
+      "musky": "100%",
+      "fruity": "83%",
+      "tropical": "70%",
+      "powdery": "68%",
+      "floral": "67%",
+      "citrus": "59%",
+      "tuberose": "53%",
+      "aquatic": "53%",
+      "woody": "52%",
+      "amber": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.878
+      },
+      {
+        "name": "summer",
+        "score": 1.627
+      },
+      {
+        "name": "spring",
+        "score": 1.201
+      },
+      {
+        "name": "winter",
+        "score": 0.772
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.424
+      },
+      {
+        "name": "night out",
+        "score": 1.41
+      },
+      {
+        "name": "professional",
+        "score": 1.244
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Guava",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guava.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Angelica",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Angelica.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lotus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lotus.png"
+        },
+        {
+          "name": "Angelica",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Angelica.png"
+        },
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woodsy%20Notes.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/216685.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-lovestruck/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#216685"
+  },
+  {
+    "Name": "Vera Wang Princess",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-princess.jpg",
+    "Gender": "women",
+    "Price": "36.99",
+    "Longevity": "56.6%",
+    "Sillage": "49.25%",
+    "General Notes": [
+      "Apricot",
+      "Mandarin orange",
+      "Apple",
+      "Water lily",
+      "Tuberose"
+    ],
+    "Main Accords": [
+      "fruity",
+      "vanilla",
+      "chocolate",
+      "sweet",
+      "white floral",
+      "fresh",
+      "warm spicy",
+      "powdery",
+      "floral",
+      "tropical"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "vanilla": "97%",
+      "chocolate": "83%",
+      "sweet": "82%",
+      "white floral": "76%",
+      "fresh": "69%",
+      "warm spicy": "63%",
+      "powdery": "60%",
+      "floral": "59%",
+      "tropical": "56%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 1.503
+      },
+      {
+        "name": "spring",
+        "score": 1.28
+      },
+      {
+        "name": "summer",
+        "score": 1.138
+      },
+      {
+        "name": "fall",
+        "score": 0.504
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.595
+      },
+      {
+        "name": "night out",
+        "score": 1.183
+      },
+      {
+        "name": "professional",
+        "score": 0.36
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Water Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Water%20Lily.png"
+        },
+        {
+          "name": "Apricot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Apricot.png"
+        },
+        {
+          "name": "Apple",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Apple.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Dark Chocolate",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Dark%20Chocolate.png"
+        },
+        {
+          "name": "Guava",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guava.png"
+        },
+        {
+          "name": "Tiare Flower",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tiare%20Flower.png"
+        },
+        {
+          "name": "Tuberose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tuberose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woodsy%20Notes.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/146628.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-princess/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#146628"
+  },
+  {
+    "Name": "Vera Wang Princess Flower Princess",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-princess-flower-princess.jpg",
+    "Gender": "women",
+    "Price": "34.99",
+    "Longevity": "54.0%",
+    "Sillage": "56.0%",
+    "General Notes": [
+      "Ivy",
+      "Water lily",
+      "Tangerine",
+      "Orange blossom",
+      "Moroccan rose"
+    ],
+    "Main Accords": [
+      "white floral",
+      "floral",
+      "citrus",
+      "fresh",
+      "sweet",
+      "aquatic",
+      "powdery",
+      "green",
+      "rose",
+      "yellow floral"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "floral": "88%",
+      "citrus": "76%",
+      "fresh": "68%",
+      "sweet": "59%",
+      "aquatic": "57%",
+      "powdery": "55%",
+      "green": "55%",
+      "rose": "49%",
+      "yellow floral": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.684
+      },
+      {
+        "name": "summer",
+        "score": 2.283
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.79
+      },
+      {
+        "name": "professional",
+        "score": 1.433
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Water Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Water%20Lily.png"
+        },
+        {
+          "name": "Tangerine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tangerine.png"
+        },
+        {
+          "name": "Ivy",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ivy.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Mimosa",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mimosa.png"
+        },
+        {
+          "name": "Moroccan Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Moroccan%20Rose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Apricot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Apricot.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Precious Woods",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Precious%20Woods.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/164882.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-princess-flower-princess/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#164882"
+  },
+  {
+    "Name": "Vera Wang Rock Princess",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-rock-princess.jpg",
+    "Gender": "women",
+    "Price": "14.99",
+    "Longevity": "54.2%",
+    "Sillage": "59.25%",
+    "General Notes": [
+      "lush",
+      "bittersweet red raspberry",
+      "white peach",
+      "heliotrope",
+      "creamy coconut",
+      "jasmine",
+      "rose",
+      "musk",
+      "iris",
+      "vibrant bergamot; lily",
+      "cashmere woods"
+    ],
+    "Main Accords": [
+      "fruity",
+      "powdery",
+      "sweet",
+      "musky",
+      "woody",
+      "white floral",
+      "coconut",
+      "rose",
+      "vanilla",
+      "iris"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "powdery": "94%",
+      "sweet": "93%",
+      "musky": "93%",
+      "woody": "76%",
+      "white floral": "70%",
+      "coconut": "68%",
+      "rose": "62%",
+      "vanilla": "61%",
+      "iris": "56%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.521
+      },
+      {
+        "name": "winter",
+        "score": 1.081
+      },
+      {
+        "name": "spring",
+        "score": 0
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.264
+      },
+      {
+        "name": "professional",
+        "score": 1.096
+      },
+      {
+        "name": "casual",
+        "score": 0.558
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Raspberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Raspberry.png"
+        },
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Heliotrope",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Heliotrope.png"
+        },
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cashmere Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cashmere%20Wood.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Coconut",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coconut.png"
+        },
+        {
+          "name": "Iris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Iris.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/469718.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-rock-princess/fine-fragrance-mist?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#469718"
+  },
+  {
+    "Name": "Vera Wang Variety",
+    "Brand": "Vera Wang",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-variety.jpg",
+    "Gender": "women",
+    "Price": "24.99",
+    "Longevity": "",
+    "Sillage": "",
+    "General Notes": [],
+    "Main Accords": [
+      "white floral",
+      "floral",
+      "citrus",
+      "rose"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "floral": "53%",
+      "citrus": "51%",
+      "rose": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 0.989
+      },
+      {
+        "name": "summer",
+        "score": 0.51
+      },
+      {
+        "name": "fall",
+        "score": 0
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 0.83
+      },
+      {
+        "name": "professional",
+        "score": 0.408
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [],
+      "Middle": [],
+      "Base": []
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/475413.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/vera-wang/vera-wang-variety/rock-princess-fragrance-mist-8.4-oz-and-shower-gel-6.7-oz-and-princess-fragrance-mist-8.4-oz?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#475413"
+  }
+]

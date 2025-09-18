@@ -1,0 +1,3978 @@
+[
+  {
+    "Name": "Calvin Klein Beauty",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-beauty.jpg",
+    "Gender": "women",
+    "Price": "39.99",
+    "Longevity": "64.2%",
+    "Sillage": "56.75%",
+    "General Notes": [
+      "Ambrette (Musk Mallow)",
+      "Jasmine",
+      "Virginia Cedar"
+    ],
+    "Main Accords": [
+      "white floral",
+      "floral",
+      "musky",
+      "woody"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "floral": "69%",
+      "musky": "64%",
+      "woody": "56%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.08
+      },
+      {
+        "name": "spring",
+        "score": 0.69
+      },
+      {
+        "name": "winter",
+        "score": 0.392
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 0.576
+      },
+      {
+        "name": "casual",
+        "score": 0.483
+      },
+      {
+        "name": "professional",
+        "score": 0.392
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Ambrette (Musk Mallow)",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambrette%20(musk%20Mallow).png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Virginia Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Virginia%20Cedar.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/201660.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/calvin-klein-beauty/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#201660"
+  },
+  {
+    "Name": "Calvin Klein Defy",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-defy.jpg",
+    "Gender": "men",
+    "Price": "54.99",
+    "Longevity": "53.4%",
+    "Sillage": "43.5%",
+    "General Notes": [
+      "mandarin orange",
+      "black pepper",
+      "saffiano leather",
+      "suede",
+      "vetiver"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "citrus",
+      "lavender",
+      "fresh spicy",
+      "amber",
+      "woody",
+      "earthy",
+      "floral",
+      "green",
+      "herbal"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "citrus": "92%",
+      "lavender": "85%",
+      "fresh spicy": "77%",
+      "amber": "70%",
+      "woody": "66%",
+      "earthy": "55%",
+      "floral": "45%",
+      "green": "45%",
+      "herbal": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.338
+      },
+      {
+        "name": "fall",
+        "score": 1.734
+      },
+      {
+        "name": "summer",
+        "score": 1.19
+      },
+      {
+        "name": "winter",
+        "score": 1.022
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.603
+      },
+      {
+        "name": "casual",
+        "score": 1.143
+      },
+      {
+        "name": "night out",
+        "score": 0.7
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/427466.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/calvin-klein-defy/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#427466"
+  },
+  {
+    "Name": "Calvin Klein Man",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-man.jpg",
+    "Gender": "men",
+    "Price": "40.99",
+    "Longevity": "56.4%",
+    "Sillage": "48.5%",
+    "General Notes": [
+      "Bergamot",
+      "Violet Leaf",
+      "Mandarin Orange",
+      "Rosemary",
+      "Incense",
+      "Bay Leaf",
+      "Mint",
+      "Nutmeg",
+      "Guaiac Wood",
+      "Musk",
+      "Amber",
+      "Sandalwood",
+      "Cypress"
+    ],
+    "Main Accords": [
+      "fresh spicy",
+      "woody",
+      "aromatic",
+      "ozonic",
+      "citrus",
+      "amber",
+      "green",
+      "aquatic",
+      "smoky",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "fresh spicy": "100%",
+      "woody": "81%",
+      "aromatic": "78%",
+      "ozonic": "59%",
+      "citrus": "57%",
+      "amber": "55%",
+      "green": "53%",
+      "aquatic": "51%",
+      "smoky": "48%",
+      "powdery": "47%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 1.819
+      },
+      {
+        "name": "spring",
+        "score": 1.483
+      },
+      {
+        "name": "fall",
+        "score": 1.279
+      },
+      {
+        "name": "winter",
+        "score": 1.007
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.562
+      },
+      {
+        "name": "casual",
+        "score": 0.921
+      },
+      {
+        "name": "night out",
+        "score": 0.79
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Violet Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet%20Leaf.png"
+        },
+        {
+          "name": "Rosemary",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rosemary.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Bay Leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bay%20Leaf.png"
+        },
+        {
+          "name": "Incense",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Incense.png"
+        },
+        {
+          "name": "Nutmeg",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Nutmeg.png"
+        },
+        {
+          "name": "Mint",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mint.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cypress",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cypress.png"
+        },
+        {
+          "name": "Guaiac Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guaiac%20Wood.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/154444.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/calvin-klein-man/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#154444"
+  },
+  {
+    "Name": "Calvin Klein Sheer Beauty",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-sheer-beauty.jpg",
+    "Gender": "women",
+    "Price": "44.99",
+    "Longevity": "50.6%",
+    "Sillage": "46.0%",
+    "General Notes": [
+      "Bergamot",
+      "Red berries",
+      "Bellini",
+      "Musk",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "fruity",
+      "floral",
+      "fresh",
+      "citrus",
+      "vanilla",
+      "sweet",
+      "white floral",
+      "musky",
+      "powdery",
+      "fresh spicy"
+    ],
+    "Main Accords Percentage": {
+      "fruity": "100%",
+      "floral": "78%",
+      "fresh": "74%",
+      "citrus": "72%",
+      "vanilla": "69%",
+      "sweet": "65%",
+      "white floral": "59%",
+      "musky": "58%",
+      "powdery": "58%",
+      "fresh spicy": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.168
+      },
+      {
+        "name": "summer",
+        "score": 1.46
+      },
+      {
+        "name": "winter",
+        "score": 0.621
+      },
+      {
+        "name": "fall",
+        "score": 0.522
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.324
+      },
+      {
+        "name": "night out",
+        "score": 1.005
+      },
+      {
+        "name": "professional",
+        "score": 0.924
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bellini",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bellini.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Red Berries",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Red%20Berries.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peony.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Pink Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Lily.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Vanille",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanille.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/223774.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/calvin-klein-sheer-beauty/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#223774"
+  },
+  {
+    "Name": "Calvin Klein Variety",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-variety.jpg",
+    "Gender": "women",
+    "Price": "48.99",
+    "Longevity": "54.4%",
+    "Sillage": "42.5%",
+    "General Notes": [
+      "Mandarin Orange",
+      "Italian Lemon",
+      "Freesia",
+      "Pomegranate",
+      "Cardamom"
+    ],
+    "Main Accords": [
+      "citrus",
+      "green",
+      "aromatic",
+      "woody",
+      "earthy",
+      "fresh",
+      "fresh spicy",
+      "sweet",
+      "ozonic"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "green": "84%",
+      "aromatic": "64%",
+      "woody": "64%",
+      "earthy": "59%",
+      "fresh": "52%",
+      "fresh spicy": "51%",
+      "sweet": "51%",
+      "ozonic": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.54
+      },
+      {
+        "name": "summer",
+        "score": 2.384
+      },
+      {
+        "name": "fall",
+        "score": 1.048
+      },
+      {
+        "name": "winter",
+        "score": 0.448
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.644
+      },
+      {
+        "name": "casual",
+        "score": 1.726
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Black Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Tea.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Haitian Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Haitian%20Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/235348.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/calvin-klein-variety/4-piece-womens-mini-variety-with-eternity-and-escape-and-obsession-and-ck-one-and-all-are-0.5-oz?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#235348"
+  },
+  {
+    "Name": "Calvin Klein Women",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-women.jpg",
+    "Gender": "women",
+    "Price": "74.99",
+    "Longevity": "60.2%",
+    "Sillage": "55.25%",
+    "General Notes": [
+      "Magnolia",
+      "Orange Blossom",
+      "Tea",
+      "Jasmine",
+      "Violet"
+    ],
+    "Main Accords": [
+      "citrus",
+      "woody",
+      "fresh spicy",
+      "white floral",
+      "musky",
+      "aromatic",
+      "floral",
+      "amber",
+      "powdery",
+      "fresh"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "woody": "77%",
+      "fresh spicy": "64%",
+      "white floral": "61%",
+      "musky": "58%",
+      "aromatic": "55%",
+      "floral": "54%",
+      "amber": "54%",
+      "powdery": "51%",
+      "fresh": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.265
+      },
+      {
+        "name": "fall",
+        "score": 1.755
+      },
+      {
+        "name": "summer",
+        "score": 1.44
+      },
+      {
+        "name": "winter",
+        "score": 0.971
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.195
+      },
+      {
+        "name": "casual",
+        "score": 1.718
+      },
+      {
+        "name": "night out",
+        "score": 1.062
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Grapefruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Grapefruit.png"
+        },
+        {
+          "name": "Eucalyptus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Eucalyptus.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        },
+        {
+          "name": "Black Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Pepper.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tea.png"
+        },
+        {
+          "name": "Magnolia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Magnolia.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Hedione",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Hedione.png"
+        },
+        {
+          "name": "Raspberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Raspberry.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Ambroxan",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambroxan.png"
+        },
+        {
+          "name": "White Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Musk.png"
+        },
+        {
+          "name": "Cashmeran",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cashmeran.png"
+        },
+        {
+          "name": "Olibanum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Olibanum.png"
+        },
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/315144.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/calvin-klein-women/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#315144"
+  },
+  {
+    "Name": "Calvin Klein Women Intense",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-women-intense.jpg",
+    "Gender": "women",
+    "Price": "3.99",
+    "Longevity": "65.2%",
+    "Sillage": "61.5%",
+    "General Notes": [
+      "lemon",
+      "cardamom",
+      "bergamot",
+      "black violet",
+      "orange blossom"
+    ],
+    "Main Accords": [
+      "citrus",
+      "warm spicy",
+      "white floral",
+      "woody",
+      "aromatic",
+      "amber",
+      "fresh spicy",
+      "powdery",
+      "violet",
+      "patchouli"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "warm spicy": "86%",
+      "white floral": "79%",
+      "woody": "74%",
+      "aromatic": "67%",
+      "amber": "64%",
+      "fresh spicy": "62%",
+      "powdery": "58%",
+      "violet": "54%",
+      "patchouli": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.351
+      },
+      {
+        "name": "winter",
+        "score": 2.298
+      },
+      {
+        "name": "spring",
+        "score": 1.369
+      },
+      {
+        "name": "summer",
+        "score": 1
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.336
+      },
+      {
+        "name": "night out",
+        "score": 1.328
+      },
+      {
+        "name": "casual",
+        "score": 0.9
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Cardamom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cardamom.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Black Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Violet.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Olibanum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Olibanum.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/389524.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/calvin-klein-women-intense/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#389524"
+  },
+  {
+    "Name": "Ck All",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-all.jpg",
+    "Gender": "unisex",
+    "Price": "47.99",
+    "Longevity": "56.6%",
+    "Sillage": "51.75%",
+    "General Notes": [
+      "Freesia",
+      "Lily",
+      "Rhubarb",
+      "Musk",
+      "Vetiver"
+    ],
+    "Main Accords": [
+      "citrus",
+      "white floral",
+      "aromatic",
+      "floral",
+      "green",
+      "fruity",
+      "fresh spicy",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "white floral": "81%",
+      "aromatic": "54%",
+      "floral": "53%",
+      "green": "51%",
+      "fruity": "45%",
+      "fresh spicy": "45%",
+      "musky": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.216
+      },
+      {
+        "name": "summer",
+        "score": 1.306
+      },
+      {
+        "name": "fall",
+        "score": 0.396
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.799
+      },
+      {
+        "name": "casual",
+        "score": 1.271
+      },
+      {
+        "name": "night out",
+        "score": 0.396
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Grapefruit blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Grapefruit%20Blossom.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Rhubarb",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rhubarb.png"
+        },
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        },
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/294415.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/calvin-klein/ck-all/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#294415"
+  },
+  {
+    "Name": "Ck Be",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-be.jpg",
+    "Gender": "unisex",
+    "Price": "40.99",
+    "Longevity": "48.8%",
+    "Sillage": "39.5%",
+    "General Notes": [
+      "Juniper",
+      "Mandarin Orange",
+      "Mint",
+      "Bergamot",
+      "Green Notes",
+      "Lavender",
+      "Peach",
+      "Freesia",
+      "Jasmine",
+      "Orchid",
+      "Magnolia",
+      "Green Grass",
+      "Cedar",
+      "Musk",
+      "Opoponax",
+      "Vanilla",
+      "Amber",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "green",
+      "aromatic",
+      "woody",
+      "powdery",
+      "lavender",
+      "fresh spicy",
+      "musky",
+      "floral",
+      "citrus",
+      "sweet"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "aromatic": "85%",
+      "woody": "81%",
+      "powdery": "76%",
+      "lavender": "74%",
+      "fresh spicy": "74%",
+      "musky": "69%",
+      "floral": "66%",
+      "citrus": "66%",
+      "sweet": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.649
+      },
+      {
+        "name": "fall",
+        "score": 1.35
+      },
+      {
+        "name": "summer",
+        "score": 1.26
+      },
+      {
+        "name": "winter",
+        "score": 0.567
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 3.301
+      },
+      {
+        "name": "casual",
+        "score": 1.362
+      },
+      {
+        "name": "night out",
+        "score": 0.621
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Mint",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mint.png"
+        },
+        {
+          "name": "Juniper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Juniper.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Green Grass",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Grass.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        },
+        {
+          "name": "Magnolia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Magnolia.png"
+        },
+        {
+          "name": "Orchid",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orchid.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Opoponax",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Opoponax.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/119918.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/calvin-klein/ck-be/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#119918"
+  },
+  {
+    "Name": "Ck Everyone",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-everyone.jpg",
+    "Gender": "unisex",
+    "Price": "47.99",
+    "Longevity": "51.4%",
+    "Sillage": "45.0%",
+    "General Notes": [
+      "orange oil",
+      "cedar",
+      "patchouli",
+      "musk",
+      "ginger"
+    ],
+    "Main Accords": [
+      "aquatic",
+      "citrus",
+      "fresh",
+      "musky",
+      "warm spicy",
+      "woody",
+      "green",
+      "powdery",
+      "sweet",
+      "fresh spicy"
+    ],
+    "Main Accords Percentage": {
+      "aquatic": "100%",
+      "citrus": "99%",
+      "fresh": "88%",
+      "musky": "65%",
+      "warm spicy": "62%",
+      "woody": "59%",
+      "green": "57%",
+      "powdery": "54%",
+      "sweet": "52%",
+      "fresh spicy": "47%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 3.112
+      },
+      {
+        "name": "spring",
+        "score": 2.227
+      },
+      {
+        "name": "fall",
+        "score": 1.612
+      },
+      {
+        "name": "winter",
+        "score": 1.033
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.883
+      },
+      {
+        "name": "professional",
+        "score": 2.042
+      },
+      {
+        "name": "night out",
+        "score": 1.081
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Orange Oil",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Oil.png"
+        },
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Watery Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Watery%20Notes.png"
+        },
+        {
+          "name": "Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tea.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/356990.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/calvin-klein/ck-everyone/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#356990"
+  },
+  {
+    "Name": "Ck Free",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-free.jpg",
+    "Gender": "men",
+    "Price": "31.99",
+    "Longevity": "41.0%",
+    "Sillage": "37.5%",
+    "General Notes": [
+      "Suede Note",
+      "Juniper Berry",
+      "Absinthe",
+      "Star Anise",
+      "Texas Cedar",
+      "Buchu",
+      "Coffee",
+      "Patchouli",
+      "Musks",
+      "Oak",
+      "Ironwood",
+      "Jackfruit",
+      "Tobacco Leaf"
+    ],
+    "Main Accords": [
+      "woody",
+      "aromatic",
+      "fresh spicy",
+      "anis",
+      "soft spicy",
+      "powdery",
+      "leather"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "aromatic": "81%",
+      "fresh spicy": "58%",
+      "anis": "52%",
+      "soft spicy": "50%",
+      "powdery": "49%",
+      "leather": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 0.9
+      },
+      {
+        "name": "winter",
+        "score": 0.7
+      },
+      {
+        "name": "spring",
+        "score": 0.567
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.804
+      },
+      {
+        "name": "night out",
+        "score": 0.288
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Juniper Berries",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Juniper%20Berries.png"
+        },
+        {
+          "name": "Star Anise",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Star%20Anise.png"
+        },
+        {
+          "name": "Wormwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Wormwood.png"
+        },
+        {
+          "name": "Jackfruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jackfruit.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Suede",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Suede.png"
+        },
+        {
+          "name": "Tobacco",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tobacco.png"
+        },
+        {
+          "name": "Coffee",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coffee.png"
+        },
+        {
+          "name": "Buchu or Agathosma",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Buchu%20Or%20Agathosma.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Virginia Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Virginia%20Cedar.png"
+        },
+        {
+          "name": "Oak",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oak.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Woody Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woody%20Notes.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/179572.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/ck-free/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#179572"
+  },
+  {
+    "Name": "Ck In2u",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-in2u.jpg",
+    "Gender": "women",
+    "Price": "40.99",
+    "Longevity": "57.6%",
+    "Sillage": "49.75%",
+    "General Notes": [
+      "Red Currant Leaf",
+      "Pink Grapefruit",
+      "Sicilian Bergamot",
+      "Cactus",
+      "Orchid",
+      "Vanilla",
+      "Red Cedar",
+      "Amber"
+    ],
+    "Main Accords": [
+      "citrus",
+      "aromatic",
+      "fresh spicy",
+      "vanilla",
+      "green",
+      "powdery",
+      "woody",
+      "amber"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "aromatic": "71%",
+      "fresh spicy": "70%",
+      "vanilla": "59%",
+      "green": "53%",
+      "powdery": "48%",
+      "woody": "46%",
+      "amber": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.821
+      },
+      {
+        "name": "summer",
+        "score": 1.318
+      },
+      {
+        "name": "winter",
+        "score": 1.205
+      },
+      {
+        "name": "fall",
+        "score": 0.854
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.597
+      },
+      {
+        "name": "casual",
+        "score": 0.9
+      },
+      {
+        "name": "night out",
+        "score": 0.853
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pink Grapefruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pink%20Grapefruit.png"
+        },
+        {
+          "name": "Sicilian Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sicilian%20Bergamot.png"
+        },
+        {
+          "name": "Red currant leaf",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Red%20Currant%20Leaf.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cactus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cactus.png"
+        },
+        {
+          "name": "Orchid",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orchid.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Red Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Red%20Cedar.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/152412.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/ck-in2u/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#152412"
+  },
+  {
+    "Name": "Ck One",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one.jpg",
+    "Gender": "unisex",
+    "Price": "52.99",
+    "Longevity": "52.6%",
+    "Sillage": "44.75%",
+    "General Notes": [
+      "Bergamot",
+      "Papaya",
+      "Lemon",
+      "Mandarin Orange",
+      "Cardamom",
+      "Green Notes",
+      "Pineapple",
+      "Lily of the Valley",
+      "Jasmine",
+      "Orris Root",
+      "Rose",
+      "Violet",
+      "Nutmeg",
+      "Oakmoss",
+      "Cedar",
+      "Musk",
+      "Amber",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "citrus",
+      "green",
+      "woody",
+      "powdery",
+      "white floral",
+      "fresh",
+      "aromatic",
+      "fresh spicy",
+      "floral",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "citrus": "100%",
+      "green": "72%",
+      "woody": "57%",
+      "powdery": "57%",
+      "white floral": "54%",
+      "fresh": "53%",
+      "aromatic": "53%",
+      "fresh spicy": "48%",
+      "floral": "47%",
+      "musky": "47%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.847
+      },
+      {
+        "name": "summer",
+        "score": 1.962
+      },
+      {
+        "name": "fall",
+        "score": 0.936
+      },
+      {
+        "name": "winter",
+        "score": 0.399
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.719
+      },
+      {
+        "name": "casual",
+        "score": 1.759
+      },
+      {
+        "name": "night out",
+        "score": 0.423
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        },
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Pineapple",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pineapple.png"
+        },
+        {
+          "name": "Cardamom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cardamom.png"
+        },
+        {
+          "name": "Papaya",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Papaya.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Nutmeg",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Nutmeg.png"
+        },
+        {
+          "name": "Orris Root",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orris%20Root.png"
+        },
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Green Accord",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Accord.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Green Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Tea.png"
+        },
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/115760.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/calvin-klein/ck-one/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#115760"
+  },
+  {
+    "Name": "Ck One Shock",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-shock.jpg",
+    "Gender": "men",
+    "Price": "44.99",
+    "Longevity": "62.6%",
+    "Sillage": "54.0%",
+    "General Notes": [
+      "Lavender",
+      "Clementine",
+      "Cucumber",
+      "Osmanthus",
+      "Cardamom"
+    ],
+    "Main Accords": [
+      "tobacco",
+      "warm spicy",
+      "amber",
+      "sweet",
+      "fresh spicy",
+      "woody",
+      "aromatic",
+      "patchouli",
+      "lavender",
+      "citrus"
+    ],
+    "Main Accords Percentage": {
+      "tobacco": "100%",
+      "warm spicy": "88%",
+      "amber": "81%",
+      "sweet": "78%",
+      "fresh spicy": "76%",
+      "woody": "69%",
+      "aromatic": "68%",
+      "patchouli": "59%",
+      "lavender": "59%",
+      "citrus": "56%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.548
+      },
+      {
+        "name": "winter",
+        "score": 2.483
+      },
+      {
+        "name": "spring",
+        "score": 0.98
+      },
+      {
+        "name": "summer",
+        "score": 0.56
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.611
+      },
+      {
+        "name": "night out",
+        "score": 1.514
+      },
+      {
+        "name": "casual",
+        "score": 0.972
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Clementine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Clementine.png"
+        },
+        {
+          "name": "Cucumber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cucumber.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Cardamom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cardamom.png"
+        },
+        {
+          "name": "Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pepper.png"
+        },
+        {
+          "name": "Basil",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Basil.png"
+        },
+        {
+          "name": "Osmanthus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Osmanthus.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Tobacco",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tobacco.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Woodsy Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Woodsy%20Notes.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/219836.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/ck-one-shock/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#219836"
+  },
+  {
+    "Name": "Ck One Summer",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-summer.jpg",
+    "Gender": "unisex",
+    "Price": "30.99",
+    "Longevity": "48.8%",
+    "Sillage": "40.75%",
+    "General Notes": [
+      "Lemon",
+      "Mojito",
+      "Ginger",
+      "Green Apple",
+      "Guava"
+    ],
+    "Main Accords": [
+      "aquatic",
+      "citrus",
+      "fruity",
+      "woody",
+      "aromatic",
+      "fresh",
+      "ozonic",
+      "amber",
+      "green",
+      "sweet"
+    ],
+    "Main Accords Percentage": {
+      "aquatic": "100%",
+      "citrus": "90%",
+      "fruity": "66%",
+      "woody": "66%",
+      "aromatic": "62%",
+      "fresh": "61%",
+      "ozonic": "52%",
+      "amber": "51%",
+      "green": "47%",
+      "sweet": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 3.108
+      },
+      {
+        "name": "spring",
+        "score": 2.23
+      },
+      {
+        "name": "fall",
+        "score": 1.104
+      },
+      {
+        "name": "winter",
+        "score": 0.87
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.49
+      },
+      {
+        "name": "professional",
+        "score": 2.225
+      },
+      {
+        "name": "night out",
+        "score": 0.51
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Watery Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Watery%20Notes.png"
+        },
+        {
+          "name": "Grapefruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Grapefruit.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Rhubarb",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rhubarb.png"
+        },
+        {
+          "name": "Watermelon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Watermelon.png"
+        },
+        {
+          "name": "Eucalyptus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Eucalyptus.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "White Woods",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Woods.png"
+        },
+        {
+          "name": "Ambroxan",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambroxan.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/359310.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/calvin-klein/ck-one-summer/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#401812"
+  },
+  {
+    "Name": "Ck One Summer Daze",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-summer-daze.jpg",
+    "Gender": "unisex",
+    "Price": "41.99",
+    "Longevity": "47.2%",
+    "Sillage": "40.75%",
+    "General Notes": [
+      "tea",
+      "mint",
+      "vetiver",
+      "white musk",
+      "kumquat"
+    ],
+    "Main Accords": [
+      "green",
+      "citrus",
+      "aromatic",
+      "fresh",
+      "musky",
+      "fresh spicy"
+    ],
+    "Main Accords Percentage": {
+      "green": "100%",
+      "citrus": "98%",
+      "aromatic": "93%",
+      "fresh": "59%",
+      "musky": "56%",
+      "fresh spicy": "54%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.923
+      },
+      {
+        "name": "summer",
+        "score": 2.17
+      },
+      {
+        "name": "fall",
+        "score": 0.504
+      },
+      {
+        "name": "winter",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.614
+      },
+      {
+        "name": "casual",
+        "score": 1.472
+      },
+      {
+        "name": "night out",
+        "score": 0.504
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Kumquat",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Kumquat.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Tea",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tea.png"
+        },
+        {
+          "name": "Mint",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mint.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "White Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Musk.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/455769.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/fragrances/calvin-klein/ck-one-summer-daze/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#434659"
+  },
+  {
+    "Name": "Contradiction",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/contradiction.jpg",
+    "Gender": "women",
+    "Price": "37.99",
+    "Longevity": "63.6%",
+    "Sillage": "58.75%",
+    "General Notes": [
+      "Lily of the Valley",
+      "Orchid",
+      "False Jasmine",
+      "Rose",
+      "Lily",
+      "Peony",
+      "Jasmine",
+      "Lilac",
+      "Eucalyptus",
+      "Blackberry",
+      "Musk",
+      "Tonka Bean",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "floral",
+      "white floral",
+      "woody",
+      "fresh",
+      "powdery",
+      "rose",
+      "camphor",
+      "sweet",
+      "musky",
+      "aromatic"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "white floral": "95%",
+      "woody": "90%",
+      "fresh": "74%",
+      "powdery": "61%",
+      "rose": "61%",
+      "camphor": "58%",
+      "sweet": "56%",
+      "musky": "55%",
+      "aromatic": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.097
+      },
+      {
+        "name": "fall",
+        "score": 1.305
+      },
+      {
+        "name": "summer",
+        "score": 0.74
+      },
+      {
+        "name": "winter",
+        "score": 0.63
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 1.776
+      },
+      {
+        "name": "professional",
+        "score": 1.506
+      },
+      {
+        "name": "night out",
+        "score": 0.495
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peony.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Orchid",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orchid.png"
+        },
+        {
+          "name": "False Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/False%20Jasmine.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Eucalyptus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Eucalyptus.png"
+        },
+        {
+          "name": "Lilac",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lilac.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Blackberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Blackberry.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tonka%20Bean.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/116718.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/contradiction/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#116718"
+  },
+  {
+    "Name": "Escape",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/escape.jpg",
+    "Gender": "women",
+    "Price": "39.99",
+    "Longevity": "76.6%",
+    "Sillage": "70.0%",
+    "General Notes": [
+      "Chamomile",
+      "Melon",
+      "Litchi",
+      "Ylang-Ylang",
+      "Cassia",
+      "Marigold",
+      "Oakmoss",
+      "Black Orchid",
+      "Apple",
+      "Mandarin Orange",
+      "Coriander",
+      "hyacinth",
+      "Tagetes",
+      "Apricot",
+      "Lily of the Valley",
+      "Jasmine",
+      "Peach",
+      "Rose",
+      "Carnation",
+      "Cloves",
+      "Oakmoss",
+      "Vanilla",
+      "Cedar",
+      "Musk",
+      "Vetiver",
+      "Amber",
+      "Sand"
+    ],
+    "Main Accords": [
+      "aromatic",
+      "fruity",
+      "floral",
+      "herbal",
+      "sweet",
+      "fresh spicy",
+      "fresh",
+      "green",
+      "woody",
+      "balsamic"
+    ],
+    "Main Accords Percentage": {
+      "aromatic": "100%",
+      "fruity": "96%",
+      "floral": "93%",
+      "herbal": "81%",
+      "sweet": "79%",
+      "fresh spicy": "72%",
+      "fresh": "69%",
+      "green": "65%",
+      "woody": "63%",
+      "balsamic": "62%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.84
+      },
+      {
+        "name": "summer",
+        "score": 1.08
+      },
+      {
+        "name": "winter",
+        "score": 0.875
+      },
+      {
+        "name": "fall",
+        "score": 0.567
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.026
+      },
+      {
+        "name": "casual",
+        "score": 1.815
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Melon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Melon.png"
+        },
+        {
+          "name": "Chamomile",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Chamomile.png"
+        },
+        {
+          "name": "Marigold",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Marigold.png"
+        },
+        {
+          "name": "Marigold",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Marigold.png"
+        },
+        {
+          "name": "Apricot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Apricot.png"
+        },
+        {
+          "name": "Hiacynth",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Hiacynth.png"
+        },
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Apple",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Apple.png"
+        },
+        {
+          "name": "Coriander",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coriander.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Ylang-Ylang",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ylang-ylang.png"
+        },
+        {
+          "name": "Litchi",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Litchi.png"
+        },
+        {
+          "name": "Black Currant",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Currant.png"
+        },
+        {
+          "name": "Cassia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cassia.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Carnation",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Carnation.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Cloves",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cloves.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/124022.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/escape/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#124022"
+  },
+  {
+    "Name": "Eternity",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity.jpg",
+    "Gender": "women",
+    "Price": "58.99",
+    "Longevity": "71.0%",
+    "Sillage": "63.5%",
+    "General Notes": [
+      "Sage",
+      "Freesia",
+      "Mandarin Orange",
+      "Green Notes",
+      "Citruses",
+      "Marigold",
+      "Jasmine",
+      "Narcissus",
+      "Violet",
+      "Rose",
+      "Lily of the Valley",
+      "Carnation",
+      "Lily",
+      "Heliotrope",
+      "Musk",
+      "Patchouli",
+      "Amber",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "floral",
+      "white floral",
+      "green",
+      "aromatic",
+      "warm spicy",
+      "powdery",
+      "fresh",
+      "herbal",
+      "soft spicy",
+      "citrus"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "white floral": "83%",
+      "green": "73%",
+      "aromatic": "67%",
+      "warm spicy": "63%",
+      "powdery": "59%",
+      "fresh": "50%",
+      "herbal": "49%",
+      "soft spicy": "49%",
+      "citrus": "48%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.985
+      },
+      {
+        "name": "summer",
+        "score": 1.418
+      },
+      {
+        "name": "winter",
+        "score": 0.63
+      },
+      {
+        "name": "fall",
+        "score": 0.504
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.065
+      },
+      {
+        "name": "casual",
+        "score": 1.632
+      },
+      {
+        "name": "night out",
+        "score": 0.504
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Freesia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Freesia.png"
+        },
+        {
+          "name": "Sage",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sage.png"
+        },
+        {
+          "name": "Citruses",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Citruses.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Carnation",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Carnation.png"
+        },
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Narcissus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Narcissus.png"
+        },
+        {
+          "name": "Marigold",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Marigold.png"
+        },
+        {
+          "name": "Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Violet.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Heliotrope",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Heliotrope.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/117740.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/eternity/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#117740"
+  },
+  {
+    "Name": "Eternity Air",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-air.jpg",
+    "Gender": "women",
+    "Price": "46.99",
+    "Longevity": "54.2%",
+    "Sillage": "51.75%",
+    "General Notes": [
+      "Pear",
+      "Peony",
+      "Lily-of-the-Valley",
+      "Cedar",
+      "Musk"
+    ],
+    "Main Accords": [
+      "ozonic",
+      "citrus",
+      "fruity",
+      "fresh",
+      "floral",
+      "woody",
+      "musky",
+      "white floral",
+      "fresh spicy",
+      "powdery"
+    ],
+    "Main Accords Percentage": {
+      "ozonic": "100%",
+      "citrus": "95%",
+      "fruity": "82%",
+      "fresh": "81%",
+      "floral": "75%",
+      "woody": "63%",
+      "musky": "62%",
+      "white floral": "53%",
+      "fresh spicy": "52%",
+      "powdery": "51%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 2.56
+      },
+      {
+        "name": "spring",
+        "score": 2.415
+      },
+      {
+        "name": "fall",
+        "score": 1.125
+      },
+      {
+        "name": "winter",
+        "score": 0.441
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.19
+      },
+      {
+        "name": "professional",
+        "score": 1.507
+      },
+      {
+        "name": "night out",
+        "score": 0.558
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Ozonic notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ozonic%20Notes.png"
+        },
+        {
+          "name": "Grapefruit",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Grapefruit.png"
+        },
+        {
+          "name": "Black Currant",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Currant.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peony.png"
+        },
+        {
+          "name": "Pear",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pear.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Ambergris",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ambergris.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/308693.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/eternity-air/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#308693"
+  },
+  {
+    "Name": "Eternity Aqua",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-aqua.jpg",
+    "Gender": "men",
+    "Price": "41.99",
+    "Longevity": "58.0%",
+    "Sillage": "51.25%",
+    "General Notes": [
+      "Lotus",
+      "Green Notes",
+      "Cucumber",
+      "Citruses",
+      "Sichuan Pepper",
+      "Plum",
+      "Virginia Cedar",
+      "Lavender",
+      "Guaiac Wood",
+      "Patchouli",
+      "Sandalwood",
+      "Musk"
+    ],
+    "Main Accords": [
+      "ozonic",
+      "green",
+      "aquatic",
+      "woody",
+      "citrus",
+      "fresh spicy",
+      "floral",
+      "powdery",
+      "fruity",
+      "lavender"
+    ],
+    "Main Accords Percentage": {
+      "ozonic": "100%",
+      "green": "99%",
+      "aquatic": "97%",
+      "woody": "92%",
+      "citrus": "87%",
+      "fresh spicy": "66%",
+      "floral": "59%",
+      "powdery": "57%",
+      "fruity": "54%",
+      "lavender": "54%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 3.137
+      },
+      {
+        "name": "spring",
+        "score": 2.165
+      },
+      {
+        "name": "fall",
+        "score": 0.828
+      },
+      {
+        "name": "winter",
+        "score": 0.644
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.573
+      },
+      {
+        "name": "casual",
+        "score": 1.972
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Cucumber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cucumber.png"
+        },
+        {
+          "name": "Citruses",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Citruses.png"
+        },
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Lotus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lotus.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Plum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Plum.png"
+        },
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        },
+        {
+          "name": "Sichuan Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sichuan%20Pepper.png"
+        },
+        {
+          "name": "Virginia Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Virginia%20Cedar.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        },
+        {
+          "name": "Guaiac Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guaiac%20Wood.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/194588.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/eternity-aqua/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#194588"
+  },
+  {
+    "Name": "Eternity Flame",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-flame.jpg",
+    "Gender": "men",
+    "Price": "39.99",
+    "Longevity": "59.4%",
+    "Sillage": "54.5%",
+    "General Notes": [
+      "Pineapple",
+      "Rosemary",
+      "Labdanum",
+      "Amber",
+      "Leather"
+    ],
+    "Main Accords": [
+      "amber",
+      "leather",
+      "fruity",
+      "aromatic",
+      "sweet",
+      "animalic",
+      "fresh spicy",
+      "woody",
+      "tropical"
+    ],
+    "Main Accords Percentage": {
+      "amber": "100%",
+      "leather": "69%",
+      "fruity": "64%",
+      "aromatic": "63%",
+      "sweet": "63%",
+      "animalic": "59%",
+      "fresh spicy": "57%",
+      "woody": "53%",
+      "tropical": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.477
+      },
+      {
+        "name": "winter",
+        "score": 1.171
+      },
+      {
+        "name": "spring",
+        "score": 0.441
+      },
+      {
+        "name": "summer",
+        "score": 0.392
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.414
+      },
+      {
+        "name": "professional",
+        "score": 1.001
+      },
+      {
+        "name": "casual",
+        "score": 0.378
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pineapple",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pineapple.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Rosemary",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rosemary.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Leather",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Leather.png"
+        },
+        {
+          "name": "Labdanum",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Labdanum.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/337806.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/eternity-flame/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#322743"
+  },
+  {
+    "Name": "Eternity Moment",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-moment.jpg",
+    "Gender": "women",
+    "Price": "45.99",
+    "Longevity": "62.2%",
+    "Sillage": "56.0%",
+    "General Notes": [
+      "Guava",
+      "Litchi",
+      "Raspberry",
+      "Melon",
+      "Chinese Pink Peony",
+      "Water Lily",
+      "Jasmine",
+      "Passion Flower",
+      "Cashmere Wood",
+      "Brazilian Rosewood",
+      "Musk",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "floral",
+      "fresh",
+      "fruity",
+      "white floral",
+      "aquatic",
+      "woody",
+      "tropical",
+      "rose",
+      "sweet",
+      "musky"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "fresh": "88%",
+      "fruity": "75%",
+      "white floral": "56%",
+      "aquatic": "54%",
+      "woody": "53%",
+      "tropical": "52%",
+      "rose": "51%",
+      "sweet": "50%",
+      "musky": "49%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 1.88
+      },
+      {
+        "name": "summer",
+        "score": 1.782
+      },
+      {
+        "name": "fall",
+        "score": 0.918
+      },
+      {
+        "name": "winter",
+        "score": 0.371
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "casual",
+        "score": 2.312
+      },
+      {
+        "name": "night out",
+        "score": 0.441
+      },
+      {
+        "name": "professional",
+        "score": 0.371
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Litchi",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Litchi.png"
+        },
+        {
+          "name": "Raspberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Raspberry.png"
+        },
+        {
+          "name": "Melon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Melon.png"
+        },
+        {
+          "name": "Guava",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Guava.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Chinese Pink Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Chinese%20Pink%20Peony.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Water Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Water%20Lily.png"
+        },
+        {
+          "name": "Passion Flower",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Passion%20Flower.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Brazilian Rosewood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Brazilian%20Rosewood.png"
+        },
+        {
+          "name": "Cashmere Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cashmere%20Wood.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/134948.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/eternity-moment/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#134948"
+  },
+  {
+    "Name": "Eternity Now",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-now.jpg",
+    "Gender": "women",
+    "Price": "21.99",
+    "Longevity": "59.2%",
+    "Sillage": "53.25%",
+    "General Notes": [
+      "Litchi",
+      "Sorbet",
+      "Quince",
+      "Peony",
+      "Neroli"
+    ],
+    "Main Accords": [
+      "vanilla",
+      "coconut",
+      "sweet",
+      "tropical",
+      "fruity",
+      "warm spicy",
+      "soft spicy",
+      "woody",
+      "powdery",
+      "anis"
+    ],
+    "Main Accords Percentage": {
+      "vanilla": "100%",
+      "coconut": "76%",
+      "sweet": "73%",
+      "tropical": "69%",
+      "fruity": "62%",
+      "warm spicy": "56%",
+      "soft spicy": "53%",
+      "woody": "53%",
+      "powdery": "52%",
+      "anis": "52%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 1.831
+      },
+      {
+        "name": "fall",
+        "score": 0.925
+      },
+      {
+        "name": "summer",
+        "score": 0.552
+      },
+      {
+        "name": "spring",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.148
+      },
+      {
+        "name": "professional",
+        "score": 0.683
+      },
+      {
+        "name": "casual",
+        "score": 0.438
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Coconut Nectar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coconut%20Nectar.png"
+        },
+        {
+          "name": "Star Anise",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Star%20Anise.png"
+        },
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Carambola (Star Fruit)",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Carambola%20(star%20Fruit).png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tonka%20Bean.png"
+        },
+        {
+          "name": "Moroccan Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Moroccan%20Cedar.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/269826.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/eternity-now/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#269829"
+  },
+  {
+    "Name": "Eternity Summer Daze",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-summer-daze.jpg",
+    "Gender": "men",
+    "Price": "42.99",
+    "Longevity": "57.0%",
+    "Sillage": "46.0%",
+    "General Notes": [
+      "lavender",
+      "mint",
+      "calypsone",
+      "patchouli",
+      "mandarin orange"
+    ],
+    "Main Accords": [
+      "aquatic",
+      "green",
+      "citrus",
+      "aromatic",
+      "fresh spicy",
+      "lavender",
+      "patchouli",
+      "woody",
+      "warm spicy"
+    ],
+    "Main Accords Percentage": {
+      "aquatic": "100%",
+      "green": "95%",
+      "citrus": "87%",
+      "aromatic": "84%",
+      "fresh spicy": "69%",
+      "lavender": "62%",
+      "patchouli": "60%",
+      "woody": "48%",
+      "warm spicy": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "summer",
+        "score": 2.34
+      },
+      {
+        "name": "spring",
+        "score": 2.131
+      },
+      {
+        "name": "winter",
+        "score": 1.266
+      },
+      {
+        "name": "fall",
+        "score": 1.212
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.727
+      },
+      {
+        "name": "casual",
+        "score": 1.583
+      },
+      {
+        "name": "night out",
+        "score": 0.36
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Mint",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mint.png"
+        },
+        {
+          "name": "Lavender",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lavender.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Calypsone",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Calypsone.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/444387.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/eternity-summer-daze/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#444387"
+  },
+  {
+    "Name": "Euphoria",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/euphoria.jpg",
+    "Gender": "women",
+    "Price": "67.99",
+    "Longevity": "70.4%",
+    "Sillage": "63.75%",
+    "General Notes": [
+      "Pomegranate",
+      "Orchid",
+      "Lotus",
+      "Violet",
+      "Amber",
+      "Musk",
+      "Mahogany"
+    ],
+    "Main Accords": [
+      "woody",
+      "floral",
+      "sweet",
+      "powdery",
+      "amber",
+      "fruity",
+      "violet",
+      "fresh spicy"
+    ],
+    "Main Accords Percentage": {
+      "woody": "100%",
+      "floral": "80%",
+      "sweet": "60%",
+      "powdery": "59%",
+      "amber": "57%",
+      "fruity": "54%",
+      "violet": "48%",
+      "fresh spicy": "47%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 1.47
+      },
+      {
+        "name": "winter",
+        "score": 1.156
+      },
+      {
+        "name": "spring",
+        "score": 0.8
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 1.054
+      },
+      {
+        "name": "casual",
+        "score": 0.92
+      },
+      {
+        "name": "night out",
+        "score": 0.57
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Pomegranate",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pomegranate.png"
+        },
+        {
+          "name": "Persimmon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Persimmon.png"
+        },
+        {
+          "name": "Green Accord",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Accord.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Black Orchid",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Orchid.png"
+        },
+        {
+          "name": "Lotus",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lotus.png"
+        },
+        {
+          "name": "Champaca",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Champaca.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Mahogany",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mahogany.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Black Violet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Violet.png"
+        },
+        {
+          "name": "Whipped Cream",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Whipped%20Cream.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/139842.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/euphoria/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#139842"
+  },
+  {
+    "Name": "Euphoria Men",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/euphoria-men.jpg",
+    "Gender": "men",
+    "Price": "58.99",
+    "Longevity": "49.4%",
+    "Sillage": "43.0%",
+    "General Notes": [
+      "Pepper",
+      "Ginger",
+      "Cedar",
+      "Sage",
+      "Black Basil",
+      "Suede",
+      "Brazilian Redwood",
+      "Patchouli Amber"
+    ],
+    "Main Accords": [
+      "fresh spicy",
+      "warm spicy",
+      "aromatic",
+      "woody",
+      "herbal",
+      "amber",
+      "fresh",
+      "green",
+      "musky",
+      "leather"
+    ],
+    "Main Accords Percentage": {
+      "fresh spicy": "100%",
+      "warm spicy": "91%",
+      "aromatic": "84%",
+      "woody": "78%",
+      "herbal": "65%",
+      "amber": "55%",
+      "fresh": "49%",
+      "green": "48%",
+      "musky": "46%",
+      "leather": "46%"
+    },
+    "Season Ranking": [
+      {
+        "name": "fall",
+        "score": 2.394
+      },
+      {
+        "name": "winter",
+        "score": 1.896
+      },
+      {
+        "name": "spring",
+        "score": 1.462
+      },
+      {
+        "name": "summer",
+        "score": 0.778
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 1.968
+      },
+      {
+        "name": "professional",
+        "score": 1.818
+      },
+      {
+        "name": "casual",
+        "score": 0.49
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Ginger",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Ginger.png"
+        },
+        {
+          "name": "Pepper",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Pepper.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Black Basil",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Black%20Basil.png"
+        },
+        {
+          "name": "Sage",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sage.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Suede",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Suede.png"
+        },
+        {
+          "name": "Brazilian Redwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Brazilian%20Redwood.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/145853.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/cologne/calvin-klein/euphoria-men/edt?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#145853"
+  },
+  {
+    "Name": "Obsession",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/obsession.jpg",
+    "Gender": "women",
+    "Price": "33.99",
+    "Longevity": "79.2%",
+    "Sillage": "70.5%",
+    "General Notes": [
+      "Basil",
+      "Peach",
+      "Vanilla",
+      "Lemon",
+      "Bergamot",
+      "Mandarin Orange",
+      "Green Notes",
+      "Jasmine",
+      "Orange Blossom",
+      "Rose",
+      "Cedar",
+      "Sandalwood",
+      "Coriander",
+      "Oakmoss",
+      "Spices",
+      "Vetiver",
+      "Vanilla",
+      "Incense",
+      "Civet",
+      "Musk",
+      "Amber"
+    ],
+    "Main Accords": [
+      "amber",
+      "warm spicy",
+      "woody",
+      "powdery",
+      "aromatic",
+      "musky",
+      "animalic",
+      "vanilla",
+      "smoky",
+      "balsamic"
+    ],
+    "Main Accords Percentage": {
+      "amber": "100%",
+      "warm spicy": "82%",
+      "woody": "80%",
+      "powdery": "75%",
+      "aromatic": "66%",
+      "musky": "64%",
+      "animalic": "59%",
+      "vanilla": "57%",
+      "smoky": "56%",
+      "balsamic": "55%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 3.078
+      },
+      {
+        "name": "fall",
+        "score": 2.952
+      },
+      {
+        "name": "spring",
+        "score": 0.462
+      },
+      {
+        "name": "summer",
+        "score": 0
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "night out",
+        "score": 2.911
+      },
+      {
+        "name": "professional",
+        "score": 1.67
+      },
+      {
+        "name": "casual",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Basil",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Basil.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        },
+        {
+          "name": "Green Notes",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Green%20Notes.png"
+        },
+        {
+          "name": "Peach",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peach.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Spices",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Spices.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Coriander",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Coriander.png"
+        },
+        {
+          "name": "Oakmoss",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Oakmoss.png"
+        },
+        {
+          "name": "Cedar",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cedar.png"
+        },
+        {
+          "name": "Orange Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Orange%20Blossom.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        },
+        {
+          "name": "Incense",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Incense.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Civet",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Civet.png"
+        },
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/120689.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/obsession/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#155357"
+  },
+  {
+    "Name": "Obsession Night",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/obsession-night.jpg",
+    "Gender": "women",
+    "Price": "42.99",
+    "Longevity": "65.2%",
+    "Sillage": "56.75%",
+    "General Notes": [
+      "Bitter Orange",
+      "Angelica",
+      "Bergamot",
+      "White Flowers",
+      "Mandarin Orange",
+      "Rose",
+      "Lily of the Valley",
+      "Jasmine",
+      "Gardenia",
+      "Cashmere Wood",
+      "Vanilla",
+      "Amber",
+      "Tonka Bean",
+      "Sandalwood"
+    ],
+    "Main Accords": [
+      "white floral",
+      "citrus",
+      "amber",
+      "woody",
+      "vanilla",
+      "musky",
+      "powdery",
+      "balsamic",
+      "sweet",
+      "aromatic"
+    ],
+    "Main Accords Percentage": {
+      "white floral": "100%",
+      "citrus": "99%",
+      "amber": "87%",
+      "woody": "86%",
+      "vanilla": "72%",
+      "musky": "70%",
+      "powdery": "69%",
+      "balsamic": "52%",
+      "sweet": "45%",
+      "aromatic": "44%"
+    },
+    "Season Ranking": [
+      {
+        "name": "winter",
+        "score": 2.31
+      },
+      {
+        "name": "fall",
+        "score": 2.274
+      },
+      {
+        "name": "spring",
+        "score": 1.199
+      },
+      {
+        "name": "summer",
+        "score": 0.99
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.248
+      },
+      {
+        "name": "night out",
+        "score": 2.004
+      },
+      {
+        "name": "casual",
+        "score": 1.161
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "White Flowers",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/White%20Flowers.png"
+        },
+        {
+          "name": "Bitter Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bitter%20Orange.png"
+        },
+        {
+          "name": "Angelica",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Angelica.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Mandarin Orange",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mandarin%20Orange.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Gardenia",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Gardenia.png"
+        },
+        {
+          "name": "Jasmine",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Jasmine.png"
+        },
+        {
+          "name": "Lily-of-the-Valley",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily-of-the-valley.png"
+        },
+        {
+          "name": "Rose",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Rose.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Cashmere Wood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Cashmere%20Wood.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Tonka Bean",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Tonka%20Bean.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/141003.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/obsession-night/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#141003"
+  },
+  {
+    "Name": "Truth",
+    "Brand": "Calvin Klein",
+    "Image URL": "https://d2k6fvhyk5xgx.cloudfront.net/images/truth.jpg",
+    "Gender": "women",
+    "Price": "49.99",
+    "Longevity": "63.8%",
+    "Sillage": "57.25%",
+    "General Notes": [
+      "Lemon",
+      "Bergamot",
+      "Clover",
+      "Bamboo",
+      "Patchouli",
+      "Vetiver",
+      "Blackberry",
+      "Mimosa",
+      "Silkwood Blossom",
+      "Lily",
+      "Peony",
+      "Sandalwood",
+      "Vanilla",
+      "Amber",
+      "Musk"
+    ],
+    "Main Accords": [
+      "floral",
+      "woody",
+      "green",
+      "citrus",
+      "sweet",
+      "powdery",
+      "white floral",
+      "aromatic",
+      "earthy",
+      "fresh"
+    ],
+    "Main Accords Percentage": {
+      "floral": "100%",
+      "woody": "90%",
+      "green": "70%",
+      "citrus": "61%",
+      "sweet": "59%",
+      "powdery": "56%",
+      "white floral": "54%",
+      "aromatic": "52%",
+      "earthy": "51%",
+      "fresh": "45%"
+    },
+    "Season Ranking": [
+      {
+        "name": "spring",
+        "score": 2.923
+      },
+      {
+        "name": "summer",
+        "score": 1.48
+      },
+      {
+        "name": "fall",
+        "score": 1.218
+      },
+      {
+        "name": "winter",
+        "score": 0.63
+      }
+    ],
+    "Occasion Ranking": [
+      {
+        "name": "professional",
+        "score": 2.604
+      },
+      {
+        "name": "casual",
+        "score": 2.053
+      },
+      {
+        "name": "night out",
+        "score": 0
+      }
+    ],
+    "Notes": {
+      "Top": [
+        {
+          "name": "Bamboo",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bamboo.png"
+        },
+        {
+          "name": "Clover",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Clover.png"
+        },
+        {
+          "name": "Bergamot",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Bergamot.png"
+        },
+        {
+          "name": "Vetiver",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vetiver.png"
+        },
+        {
+          "name": "Lemon",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lemon.png"
+        },
+        {
+          "name": "Patchouli",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Patchouli.png"
+        }
+      ],
+      "Middle": [
+        {
+          "name": "Lily",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Lily.png"
+        },
+        {
+          "name": "Peony",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Peony.png"
+        },
+        {
+          "name": "Sandalwood",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Sandalwood.png"
+        },
+        {
+          "name": "Mimosa",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Mimosa.png"
+        },
+        {
+          "name": "Silkwood Blossom",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Silkwood%20Blossom.png"
+        },
+        {
+          "name": "Blackberry",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Blackberry.png"
+        }
+      ],
+      "Base": [
+        {
+          "name": "Musk",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Musk.png"
+        },
+        {
+          "name": "Vanilla",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Vanilla.png"
+        },
+        {
+          "name": "Amber",
+          "imageUrl": "https://d2k6fvhyk5xgx.cloudfront.net/note_images/Amber.png"
+        }
+      ]
+    },
+    "Image Fallbacks": [
+      "https://cdn.fragrancenet.com/images/photos/600x600/118785.jpg"
+    ],
+    "Purchase URL": "https://www.fragrancenet.com/perfume/calvin-klein/truth/eau-de-parfum?mv_pc=LS&utm_campaign=MmJMBbLy6ow&utm_medium=Affiliate&utm_source=LS#118785"
+  }
+]
