@@ -1,8 +1,14 @@
-//const { argv } = require("node:process");
-const { getPerfumeByName, setPerfumeBrand } = require("./queries.js");
+//before running this code, we need to run createTables.js
+
+const {
+  getPerfumeByName,
+  setPerfumeBrand,
+  setPerfumeCategory,
+  setPerfumePrice,
+  setPerfumeInventory,
+} = require("./queries.js");
 const fs = require("fs");
 const path = require("path");
-const { Client } = require("pg");
 
 const CLEAR_OLD_DATA_SQL = `
 TRUNCATE TABLE inventory CASCADE;
@@ -35,7 +41,7 @@ async function addPerfumeData() {
   const allBrands = new Set();
   let allPerfumesSQL = "";
   for (let i = 0; i < perfumeData.length; i++) {
-    //console.log(perfumeData[i]);
+    //console.log(perfumeData[i].price);
     allBrands.add(perfumeData[i].brand_name);
     allPerfumesSQL += `('${perfumeData[i].description}', '${
       perfumeData[i].image_url
@@ -74,6 +80,8 @@ async function addPerfumeData() {
     const perfume_row = await getPerfumeByName(perfumeData[i].perfume_name);
     await setPerfumeBrand(perfume_row.perfume_id, perfumeData[i].brand_name);
     await setPerfumeCategory(perfume_row.perfume_id, perfumeData[i].category_name, perfumeData[i].category_type);
+    await setPerfumePrice(perfume_row.perfume_id, Number(perfumeData[i].price > 0) ? perfumeData[i].price : 0.01);
+    await setPerfumeInventory(perfume_row.perfume_id, Math.floor(Math.random() * 3));
   }
   console.log("brand, category and perfumes tables seeded");
 }
