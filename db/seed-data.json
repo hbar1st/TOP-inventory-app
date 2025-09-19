@@ -1,0 +1,1682 @@
+[
+  {
+    "perfume_name": "Calvin Klein Beauty",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-beauty.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 39.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Calvin Klein Defy",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-defy.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 54.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Calvin Klein Man",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-man.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 40.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Calvin Klein Sheer Beauty",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-sheer-beauty.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 44.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Calvin Klein Variety",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-variety.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 48.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Calvin Klein Women",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-women.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 74.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Calvin Klein Women Intense",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-women-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 3.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Ck All",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-all.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 47.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Ck Be",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-be.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 40.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Ck Everyone",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-everyone.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 47.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Ck Free",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-free.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 31.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Ck In2u",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-in2u.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 40.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Ck One",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 52.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Ck One Shock",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-shock.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 44.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Ck One Summer",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-summer.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 30.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Ck One Summer Daze",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-summer-daze.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 41.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Contradiction",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/contradiction.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 37.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Escape",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/escape.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 39.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 58.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity Air",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-air.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 46.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity Aqua",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-aqua.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 41.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity Flame",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-flame.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 39.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity Moment",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-moment.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 45.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity Now",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-now.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 21.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eternity Summer Daze",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eternity-summer-daze.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 42.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Euphoria",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/euphoria.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 67.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Euphoria Men",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/euphoria-men.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 58.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Obsession",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/obsession.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 33.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Obsession Night",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/obsession-night.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 42.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Truth",
+    "brand_name": "Calvin Klein",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/truth.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 49.99,
+    "created_at": "2025-09-18T19:35:24.618Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier Baiser Vole",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-baiser-vole.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 144.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier Carat",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-carat.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 3.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier De Lune",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-de-lune.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 161.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier L''Envol",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lenvol.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 14.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier L''Heure Convoitee Ii",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheure-convoitee-ii.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 543.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier L''Heure Folle X",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheure-folle-x.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 163.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier L''Heures Voyageuses Oud & Mint",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-mint.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 408.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier L''Heures Voyageuses Oud & Musc",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 392.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier La Panthere",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 160.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier La Panthere Edition Soir",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-edition-soir.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": null,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier La Panthere Elixir",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-elixir.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 189.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Cartier La Panthere Etincelante",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-etincelante.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 158.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier La Panthere Noir Absolu",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-la-panthere-noir-absolu.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 222.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Cartier Parfum d''Interieur Boutique",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-parfum-dinterieur-boutique.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 178.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Cartier Rivieres Allegresse",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-rivieres-allegresse.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 104.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Cartier Rivieres Insouciance",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-rivieres-insouciance.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 109.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Cartier Rivieres Luxuriance",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-rivieres-luxuriance.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 93.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Cartier Variety",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-variety.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 68.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Declaration",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 114.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Declaration Essence",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-essence.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 23.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Declaration Haute Fraicheur",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-haute-fraicheur.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 107.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Declaration L''Eau",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-leau.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 117.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Declaration d''Un Soir",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/declaration-dun-soir.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 171.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Eau De Cartier Essence De Bois",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/eau-de-cartier-essence-de-bois.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 39.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Le Baiser Du Dragon",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/le-baiser-du-dragon.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 397.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Must De Cartier",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/must-de-cartier.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 97.79,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Pasha De Cartier",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 160.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Pasha De Cartier Edition Noire",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier-edition-noire.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 119.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Pasha De Cartier Edition Noire Sport",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier-edition-noire-sport.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 73.19,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Pasha De Cartier Noir Absolu",
+    "brand_name": "Cartier",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/pasha-de-cartier-noir-absolu.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 144.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Chirstian Dior Eau Sauvage Edt",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/chirstian-dior-eau-sauvage-edt.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 69,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Christian Dior Dior Sauvage Edp",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/christian-dior-dior-sauvage-edp.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 85,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Addict Women Edt",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-addict-women-edt.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 75,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Ambre Nuit",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-ambre-nuit.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 39.99,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Fahrenheit Parfum",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-fahrenheit-parfum.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 112,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Feve Delicieuse Discontinued",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-feve-delicieuse-discontinued.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 55,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Gris Dior",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-gris-dior.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 35,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Rouge Trafalgar",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-rouge-trafalgar.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 35,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Sauvage Edt",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-sauvage-edt.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 12,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dior Vanilla Diorama",
+    "brand_name": "Dior",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dior-vanilla-diorama.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 35,
+    "created_at": "2025-09-18T19:35:24.619Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G L''Imperatrice",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-limperatrice.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 67.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G Light Blue",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-light-blue.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 87.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G Light Blue Eau Intense",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-light-blue-eau-intense.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 97.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G Light Blue Forever",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-light-blue-forever.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 82.54,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G Light Blue Italian Love",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-light-blue-italian-love.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 13.19,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G Light Blue Summer Vibes",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-light-blue-summer-vibes.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 94.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "D & G Light Blue Sun",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/d-&-g-light-blue-sun.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 82.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 82.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 98.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana Devotion",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-devotion.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 134.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana Devotion Intense",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-devotion-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 148.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana Intenso",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-intenso.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 91.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana K",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-k.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 62.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana Pour Femme",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-pour-femme.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 96.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana Pour Femme Intense",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-pour-femme-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 103.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce & Gabbana Q",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-&-gabbana-q.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 99.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Blue Jasmine",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-blue-jasmine.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 114.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Garden",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-garden.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 99.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Lily",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-lily.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 99.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Peony",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-peony.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 74.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Rose",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-rose.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 99.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Shine",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-shine.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 80.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Dolce Violet",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/dolce-violet.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 90.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The One",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-one.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 90.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The One Gentleman",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-one-gentleman.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 99.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The One Gold",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-one-gold.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 104.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The One Intense",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-one-intense.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 114.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The Only One",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-only-one.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 38.39,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The Only One 2",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-only-one-2.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 87.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "The Only One Intense",
+    "brand_name": "Dolce And Gabanna",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/the-only-one-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 122.99,
+    "created_at": "2025-09-18T19:35:24.621Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Accenti",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/accenti.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 3.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bamboo",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bamboo.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 117.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 142.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom Acqua Di Fiori",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-acqua-di-fiori.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 236.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom Ambrosia Di Fiori",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-ambrosia-di-fiori.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 146.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom Intense",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 164.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom Intense Edp",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-intense-edp.jpg",
+    "category_type": "gender",
+    "category_name": "Men",
+    "price": 39,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom Nettare Di Fiori",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-nettare-di-fiori.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 71.39,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Bloom Profumo Di Fiori",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-bloom-profumo-di-fiori.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 139.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci By Gucci",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-by-gucci.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 51.59,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Flora",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 133.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Flora Gorgeous Gardenia",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora-gorgeous-gardenia.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 119.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Flora Gorgeous Jasmine",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora-gorgeous-jasmine.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 169.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Flora Gorgeous Magnolia",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-flora-gorgeous-magnolia.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 179.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 177.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Absolute",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-absolute.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 124.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Absolute Pour Femme",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-absolute-pour-femme.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 144.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Black",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-black.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 183.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Gucci Guilty Black Pour Homme",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-black-pour-homme.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 139.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Cologne",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-cologne.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 14.39,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Eau",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-eau.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 118.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Elixir De Parfum",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-elixir-de-parfum.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 161.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Love Edition",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-love-edition.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 215.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Pour Femme",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-pour-femme.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 134.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Pour Femme Intense",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-pour-femme-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 165.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Guilty Pour Homme",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-guilty-pour-homme.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 112.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Intense Oud",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-intense-oud.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 199.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Memoire d''Une Odeur",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-memoire-dune-odeur.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 91.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Rush",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-rush.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 104.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Gucci Variety",
+    "brand_name": "Gucci",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/gucci-variety.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 83.99,
+    "created_at": "2025-09-18T19:35:24.622Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Prada Amber",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-amber.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 142.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Candy",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-candy.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 159.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Candy Florale",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-candy-florale.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 51.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Candy Gloss",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-candy-gloss.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 16.24,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Candy Kiss",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-candy-kiss.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 110.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Candy Night",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-candy-night.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 15.59,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Candy Sugar Pop",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-candy-sugar-pop.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 46.19,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Prada Infusion De Amande",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-infusion-de-amande.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 189.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Infusion De Fleur d''Oranger",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-infusion-de-fleur-doranger.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 130.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Infusion De Vanille",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-infusion-de-vanille.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 145.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Infusion Iris Cedre",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-infusion-iris-cedre.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 13.79,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Infusion Variety",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-infusion-variety.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 130.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Prada Infusion d''Iris",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-infusion-diris.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 104.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Intense",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-intense.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 15.59,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Prada L''Homme",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-lhomme.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 129.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada L''Homme Intense",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-lhomme-intense.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 154.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada L''Homme L''Eau",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-lhomme-leau.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 131.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada La Femme",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-la-femme.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 149.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada La Femme Intense",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-la-femme-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 38.39,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada La Femme L''Eau",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-la-femme-leau.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 130.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Les Infusions De Rose",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-les-infusions-de-rose.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 125.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Les Infusions Mandarine",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-les-infusions-mandarine.jpg",
+    "category_type": "gender",
+    "category_name": "unisex",
+    "price": 178.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Luna Rossa",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-luna-rossa.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 134.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Luna Rossa Black",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-luna-rossa-black.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 14.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Luna Rossa Carbon",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-luna-rossa-carbon.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 122.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Luna Rossa Ocean",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-luna-rossa-ocean.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 139.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Luna Rossa Sport",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-luna-rossa-sport.jpg",
+    "category_type": "gender",
+    "category_name": "men",
+    "price": 129.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Paradoxe",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-paradoxe.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 184.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Paradoxe Intense",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-paradoxe-intense.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 159.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Prada Paradoxe Virtual Flower",
+    "brand_name": "Prada",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/prada-paradoxe-virtual-flower.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 189.99,
+    "created_at": "2025-09-18T19:35:24.623Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Vera Wang",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 39.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Vera Wang Embrace",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-embrace.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 12.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Vera Wang Glam Princess",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-glam-princess.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 32.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Vera Wang Lovestruck",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-lovestruck.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 42.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de toilette"
+  },
+  {
+    "perfume_name": "Vera Wang Princess",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-princess.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 36.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Vera Wang Princess Flower Princess",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-princess-flower-princess.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 34.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Vera Wang Rock Princess",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-rock-princess.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 14.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de parfum"
+  },
+  {
+    "perfume_name": "Vera Wang Variety",
+    "brand_name": "Vera Wang",
+    "image_url": "https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-variety.jpg",
+    "category_type": "gender",
+    "category_name": "women",
+    "price": 24.99,
+    "created_at": "2025-09-18T19:35:24.624Z",
+    "description": "Eau de toilette"
+  }
+]
