@@ -40,7 +40,7 @@ async function getPerfumePriceId(perfume_id) {
     "SELECT perfume_price_id FROM perfume_price WHERE perfume_id=$1",
     [perfume_id]
   );
-
+  
   console.log("in getPerfumePriceId: ", rows);
   return rows.length > 0 ? rows[0] : {};
 }
@@ -86,28 +86,53 @@ async function setPerfumeBrand(perfume_id, brand_name) {
   }
 }
 
-
-async function updatePerfume(data) {
-  /*
-  const text =
-  "UPDATE messages SET text = $1, username=$2, added=$3 WHERE id=$4";
-  console.log("my query: ", text);
-  const values = [textmsg, author, timestamp, id];
-  
-  await pool.query(text, values);
-  */
-  // make this work for any object with any set of columns so long as the perfume_name or the perfume_id is provided
-  const keys = Object.keys(data);
+async function addPerfumeCategory(perfume_id, category_id) {
+  console.log("In addPerfumeCategory: ", perfume_id, category_id);
+  if (perfume_id && category_id) {
+    const id = await pool.query(
+      "INSERT INTO perfume_category (perfume_id, category_id) VALUES ($1,$2);",
+      [perfume_id, category_id]
+    );
+  } else {
+    const message = `One of the values for perfume_id or category_id are null: ${perfume_id}, ${category_id}`;
+    console.log(message);
+    throw new Error(message);
+  }
 }
+
+async function addCategory(name, type) {
+  if (name && type) {
+    const id = await pool.query(
+      "INSERT INTO categories (category_name, type) VALUES ($1,$2) RETURNING category_id;",
+      [name, type]
+    );
+    console.log("in addCategory: ", id.rows[0].category_id);
+    return id.rows[0].category_id;
+  } else {
+    const message = `One of the values for category_name or type are null: ${name}, ${type}`;
+    console.log(message);
+    throw new Error(message);
+  }
+}
+
+/*
+const text =
+"UPDATE messages SET text = $1, username=$2, added=$3 WHERE id=$4";
+console.log("my query: ", text);
+const values = [textmsg, author, timestamp, id];
+
+await pool.query(text, values);
+*/
+// make this work for any object with any set of columns so long as the perfume_name or the perfume_id is provided
+//const keys = Object.keys(data);
+
 module.exports = {
+  addCategory,
+  addPerfumeCategory,
   getPerfumeByName,
   getCategory,
   getBrandByName,
   getPerfumePriceId,
-  getAllCategoriesInventory,
-  getAllPerfumesInventory,
-  getAllPerfumesInventoryByCategory,
-  getAllPerfumesInventoryByBrand,
   setPerfumeBrand,
   setPerfumeCategory,
   setPerfumePrice,

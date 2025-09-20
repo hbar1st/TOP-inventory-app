@@ -1,11 +1,14 @@
 //before running this code, we need to run createTables.js
 
+const { name } = require("ejs");
 const {
   getPerfumeByName,
   setPerfumeBrand,
   setPerfumeCategory,
   setPerfumePrice,
   setPerfumeInventory,
+  addCategory,
+  addPerfumeCategory,
 } = require("./queries.js");
 const fs = require("fs");
 const path = require("path");
@@ -66,23 +69,34 @@ async function addPerfumeData() {
 
   `;
 
- 
   try {
-    
     await pool.query(CLEAR_OLD_DATA_SQL);
     await pool.query(INITIAL_SETUP_SQL);
-
-
   } catch (err) {
     console.error(err);
-  } 
-  for (let i = 0; i < perfumeData.length; i++) {
-    const perfume_row = await getPerfumeByName(perfumeData[i].perfume_name);
-    await setPerfumeBrand(perfume_row.perfume_id, perfumeData[i].brand_name);
-    await setPerfumeCategory(perfume_row.perfume_id, perfumeData[i].category_name, perfumeData[i].category_type);
-    await setPerfumePrice(perfume_row.perfume_id, Number(perfumeData[i].price > 0) ? perfumeData[i].price : 0.01);
-    await setPerfumeInventory(perfume_row.perfume_id, Math.floor(Math.random() * 3));
   }
+  for (let i = 0; i < perfumeData.length; i++) {
+    const perfumeRow = await getPerfumeByName(perfumeData[i].perfume_name);
+    await setPerfumeBrand(perfumeRow.perfume_id, perfumeData[i].brand_name);
+    await setPerfumeCategory(
+      perfumeRow.perfume_id,
+      perfumeData[i].category_name,
+      perfumeData[i].category_type
+    );
+    await setPerfumePrice(
+      perfumeRow.perfume_id,
+      Number(perfumeData[i].price > 0) ? perfumeData[i].price : 0.01
+    );
+    await setPerfumeInventory(
+      perfumeRow.perfume_id,
+      Math.floor(Math.random() * 3)
+    );
+  }
+
+  const hautePerfumeRow = await getPerfumeByName("%oud & musc%"); //get one perfume to mark as 'haute' category
+  const category_id = await addCategory("couture", "haute");
+  console.log(category_id);
+  await addPerfumeCategory(hautePerfumeRow.perfume_id, category_id);
   console.log("brand, category and perfumes tables seeded");
 }
 

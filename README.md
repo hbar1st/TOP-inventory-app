@@ -1,6 +1,8 @@
 # TOP-inventory-app
 ## An inventory app for TOP practice
 
+**[Live App Link](top-inventory-app-production-69b2.up.railway.app "Perfume Inventory App")**
+
 ### Must-have features:
 
 - A way to do CRUD on all categories and perfumes;
@@ -24,3 +26,9 @@
 - If a brand is removed, it removes all the perfumes attached to it.
 - Search by name, description, brand or category_name.
 - Add a feature to show average purchase price for stock by perfume.
+
+
+TODO:
+[ ] figure out why the populate tables script is failing
+[ ] remove the production env setting (set it back to dev)
+[ ] continue coding the rest of the requirements
