@@ -1,20 +1,33 @@
 
 :root {
   --background-color: rgb(221 182 251 / 36%);
+  --focused-background-color: rgba(238, 215, 255, 0.36);
 }
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+.parisienne-regular {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 body {
-  display: flex
-  ;
+  
+  background: linear-gradient(180deg, #ffffff 0% 50%, pink, #dd5292bd, #90509e);
+  min-height: 100dvh;
+  
+  font-family: "Parisienne", cursive;
+}
+main {
+  display: flex;
+  margin: 3rem 0;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  row-gap: 1rem;
+  row-gap: 2rem;
 }
 
 ul {
@@ -27,16 +40,30 @@ ul {
       display: flex;
       flex-direction: column;
       align-items: center;
-      
+      row-gap: 5px;
       font-size: clamp(.2vw,.8rem,4vw);
+      font-weight: 555;
     }
     div > span {
+      
       display: inline-block;
       background-color: var(--background-color);
       border-radius: 50%;
       width: 100px;
-      padding: 10%;
+      padding: 14%;
       aspect-ratio: 1;
+      border: 2px solid var(--background-color);
+
+      img {
+        display: inline-block;
+    position: relative;
+    margin: auto;
+    top: 3px;
+      }
+    }
+    div > span:hover {
+      border: 2px solid var(--background-color);
+      background-color: var(--focused-background-color);
     }
   }
 }
@@ -47,7 +74,6 @@ ul {
 
 h1 {
   width: clamp(100px, 30vh, 65vw);
-  
   img {
     width: 100%;
   }
@@ -56,21 +82,35 @@ h1 {
 form {
   display: flex;
   border-radius: 25px;
-  border: .5px solid var(--background-color);
+  justify-content: center;
 }
 input[type=text] {
+  min-width: clamp(50vw, 100%, 97%);
   border-radius: 25px 0px 0px 25px;
   background-color: var(--background-color);
   padding: 15px 5px 15px 15px;
   border: none;
-  font-size: clamp(.2vw,1rem,4vw);
+  font-size: clamp(.2vw,1rem,9vw);
+  
+  font-family: "Parisienne", cursive;
 }
-
+input::placeholder { 
+  color: black;
+  opacity: 1; 
+}
+input[type="text"]:focus {
+  border: none;
+  outline: none;
+  
+  background-color: var(--focused-background-color);
+}
+input:hover {
+  
+      background-color: var(--focused-background-color);
+}
 .search-container > button {
   border-radius: 0px 25px 25px 0px;
-  float: right;
-  padding: 6px 10px;
-  font-size: 17px;
+  padding: 0px 10px;
   border: none;
   cursor: pointer;
   
@@ -80,5 +120,5 @@ input[type=text] {
 }
 
 .search-container button:hover {
-  background: #ccc;
+  background: var(--focused-background-color);
 }

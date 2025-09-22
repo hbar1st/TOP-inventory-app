@@ -4,23 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
   <title>Mini Messaging App</title>
 </head>
 </nav>
 <body>
+  <main>
   <h1><img src="scentory-logo.png" alt="Scent Inventory logo"></h1>
-  <form class="search-container" method="GET" action="/details">
+  <form class="search-container" method="GET" action="/search">
     
-    <input type="text" name="search-text" id="search-text" placeholder="Search by name, description, category or brand.">
+    <input type="text" name="search-text" id="search-text" placeholder="Search by name, description, category or brand." title="Search by name, description, category or brand.">
     <button type="submit"><img src="search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="search"></button></form>
     
   </form>
   <ul>
-    <li><div><span><img src="file-table-box-outline.svg" alt="all items"></span>All items</div></li>
+    <li><a href="/items"><div><span><img src="file-table-box-outline.svg" alt="all items" title="all items"></span>All items</div></a></li>
     
-    <li><div><span><img src="star-box-outline.svg" alt="brands"></span>Brands</div></li>
+    <li><a href="/brands"><div><span><img src="star-box-outline.svg" alt="brands" title="brands"></span>Brands</div></a></li>
     
-    <li><div><span><img src="shape-outline.svg" alt="categories"></span>Categories</div></li>
+    <li><a href="/categories"><div><span><img src="shape-outline.svg" alt="categories" title="categories"></span>Categories</div></a></li>
   </ul>
+  </main>
 </body>
 </html>
