@@ -29,6 +29,4 @@
 
 
 TODO:
-[ ] figure out why the populate tables script is failing
-[ ] remove the production env setting (set it back to dev)
-[ ] continue coding the rest of the requirements
+[ ] 

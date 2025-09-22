@@ -1,4 +1,6 @@
 require("express");
+const CustomNotFoundError = require("../Errors/CustomNotFoundError");
+
 const { pool } = require("./pool");
 
 async function getPerfumeByName(name) {
@@ -30,7 +32,7 @@ async function setPerfumeCategory(perfume_id, category_name, category_type) {
   } else {
     const message = `One of the values given to setPerfumeCategory for perfume_id or brand_id are null: ${perfume_id}, ${category.category_id}`;
     console.log(message);
-    throw new Error(message);
+    throw new CustomNotFoundError(message);
   }
 }
 
