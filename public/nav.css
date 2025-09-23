@@ -26,6 +26,9 @@ nav {
         align-items: center;
         min-width: 80px;
         max-width: 150px;
+        a {
+          text-decoration: none;
+        }
         img {
           width: 100%;
         }
