@@ -1,8 +1,4 @@
 
-:root {
-  --background-color: rgb(221 182 251 / 36%);
-  --focused-background-color: rgba(238, 215, 255, 0.36);
-}
 * {
   padding: 0;
   margin: 0;
@@ -23,12 +19,11 @@
 
 body {
   
-  /*background: linear-gradient(180deg, #f7f7f7 0% 50%, pink, #dd5292bd, #90509e);*/
-
   background: radial-gradient(ellipse at 50% 19%, #f7f7f7 0% 55%, #d1b8ef, #c99bf5 75%, #90509e 85%, black 100%);
   min-height: 100dvh;
   
 }
+
 main {
   display: flex;
   margin: 3rem 0;
@@ -80,10 +75,6 @@ ul {
   }
 }
 
-.topnav .search-container {
-  float: right;
-}
-
 h1 {
   width: clamp(100px, 30vh, 65vw);
   img {
@@ -117,8 +108,7 @@ input[type="text"]:focus {
   background-color: var(--focused-background-color);
 }
 input:hover {
-  
-      background-color: var(--focused-background-color);
+  background-color: var(--focused-background-color);
 }
 .search-container > button {
   border-radius: 0px 25px 25px 0px;

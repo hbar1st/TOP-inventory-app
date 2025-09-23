@@ -27,6 +27,9 @@
 - Search by name, description, brand or category_name.
 - Add a feature to show average purchase price for stock by perfume.
 
+### Nice to have:
+
+- Add a menu icon that shows a drop down menu that lets us go to All Items, Brands, & Categories
 
 TODO:
 [ ] create a font package and include it into the repo (then replace appropriate code)
