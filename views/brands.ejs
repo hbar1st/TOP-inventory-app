@@ -18,7 +18,8 @@
   <%- include("partials/nav.ejs", {currentPage: 'brands'}); %>
   <main>
     <section>
-      <header><h2>Brand Inventory</h2> <span class="item-count">(total count: <%= item_count %> )</span></header>
+      <header><h2>Brand Inventory</h2> <span class="item-count">total # of brands: <%= brands.length %>, </span>
+        <span class="item-count">total item count: <%= item_count %></span></header>
       <ul class="wrapper">
         <li class="box">
           <span>Add brand</span>

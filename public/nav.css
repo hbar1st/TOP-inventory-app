@@ -69,3 +69,9 @@ ul {
 .highlight-menu {
   text-decoration: purple wavy underline ;
 }
+
+ul > li:nth-child(4) > a {
+  display: flex;
+  justify-content: center;
+  column-gap: 3px;
+}
