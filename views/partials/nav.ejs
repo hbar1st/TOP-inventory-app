@@ -10,11 +10,11 @@
       </form>
     </div>
     <ul>
-      <li><a href="/items"><span>All items</span></a></li>
+      <li><a href="/items" class="<%= (currentPage === 'items') ? 'highlight-menu' : '' %>"><span>All items</span></a></li>
       
-      <li><a href="/brands"><span>Brands</span></a></li>
+      <li><a href="/brands" class="<%= (currentPage === 'brands') ? 'highlight-menu' : '' %>"><span>Brands</span></a></li>
       
-      <li><a href="/categories"><span>Categories</span></a></li>
+      <li><a href="/categories" class="<%= (currentPage === 'categories') ? 'highlight-menu' : '' %>"><span>Categories</span></a></li>
     </ul>
   </div>
 </nav>

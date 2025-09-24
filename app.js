@@ -12,8 +12,6 @@ app.use(express.urlencoded({ extended: true })); //used to parse form body
 
 const inventoryRouter = require("./routes/inventoryRouter");
 app.use("/", inventoryRouter);
-//app.use("/brands", inventoryRouter);
-//app.use("/categories", inventoryRouter);
 
 // catch-all for errors
 app.use((err, req, res, next) => {

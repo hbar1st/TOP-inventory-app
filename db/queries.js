@@ -2,19 +2,42 @@ require("express");
 const CustomNotFoundError = require("../Errors/CustomNotFoundError");
 
 const { pool } = require("./pool");
+const LIMIT_SETTING = 50;
 
 async function getPerfumeByName(name) {
   console.log("in getPerfumeByName: ", name);
-  const { rows } = await pool.query("SELECT * FROM perfumes WHERE perfume_name ILIKE $1", [name]);
+  const { rows } = await pool.query("SELECT * FROM perfumes WHERE perfume_name ILIKE $1;", [name]);
   
   console.log("in getPerfumeByName: ", rows);
   return rows.length > 0 ? rows[0] : {};
 }
 
+async function countAllItems() {
+  const { rows } = await pool.query("SELECT COUNT(*) FROM perfume_brand;");
+  console.log("in countAllItems: ", rows);
+  return rows[0].count;
+}
+/**
+ * keep in mind that we want to order the returned rows in case there are more rows than the LIMIT_SETTING allows
+ * per query. This way, we can try to return the next set of rows if the user invokes a 'view more' link.
+ * 
+ * @returns 
+ */
+async function getAllBrands(viewedRows) {
+  console.log("in getAllBrands query: ", viewedRows);
+    const { rows } = await pool.query(
+      "SELECT b.brand_id, brand_name, count(perfume_id) AS perfume_count FROM brands AS b LEFT JOIN perfume_brand AS p USING (brand_id) GROUP BY b.brand_id ORDER BY brand_name LIMIT ($2) OFFSET $1;",
+      [viewedRows, LIMIT_SETTING]
+    );
+
+    console.log("in getAllBrands: ", rows);
+  return { rows, viewedRows: rows.length + viewedRows };
+}
+
 async function getCategory(name, type) {
   console.log("in getCategory: ", name);
   const { rows } = await pool.query(
-    "SELECT category_id FROM categories WHERE category_name ILIKE $1 AND type ILIKE $2",
+    "SELECT category_id FROM categories WHERE category_name ILIKE $1 AND type ILIKE $2;",
     [name, type]
   );
   
@@ -39,7 +62,7 @@ async function setPerfumeCategory(perfume_id, category_name, category_type) {
 async function getPerfumePriceId(perfume_id) {
   console.log("in getPerfumePriceId: ", perfume_id);
   const { rows } = await pool.query(
-    "SELECT perfume_price_id FROM perfume_price WHERE perfume_id=$1",
+    "SELECT perfume_price_id FROM perfume_price WHERE perfume_id=$1;",
     [perfume_id]
   );
   
@@ -68,7 +91,7 @@ async function getBrandByName(name) {
   
   console.log("in getBrandByName: ", name);
   const { rows } = await pool.query(
-    "SELECT brand_id FROM brands WHERE brand_name ILIKE $1",
+    "SELECT brand_id FROM brands WHERE brand_name ILIKE $1;",
     [name]
   );
   
@@ -131,6 +154,7 @@ await pool.query(text, values);
 module.exports = {
   addCategory,
   addPerfumeCategory,
+  getAllBrands,
   getPerfumeByName,
   getCategory,
   getBrandByName,
@@ -139,4 +163,5 @@ module.exports = {
   setPerfumeCategory,
   setPerfumePrice,
   setPerfumeInventory,
+  countAllItems,
 };

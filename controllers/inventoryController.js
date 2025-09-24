@@ -8,7 +8,15 @@ async function getAllCategories(req, res) {
 }
 
 async function getAllBrands(req, res) {
-  res.render("brands", { allCount: 1000, brandCount: 7, categoryCount: 4 });
+  const viewedRows = req.query.vw ?? 0;
+  /*const brands = await db.getAllBrands(viewedRows);
+  const item_count = await db.countAllItems();*/
+  const [brands, item_count] = await Promise.all([
+    db.getAllBrands(viewedRows),
+    db.countAllItems()
+  ]);
+  console.log({ item_count });
+  res.render("brands", { viewedRows: brands.viewedRows, brands: brands.rows, item_count });
 }
 
 module.exports = { getAllCategories, getAllBrands };

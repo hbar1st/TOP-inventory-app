@@ -11,9 +11,25 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
   <title>Inventory App Brands</title>
 </head>
-<body class=".playfair-display-400">
-  <%- include("partials/nav.ejs") %>
-</body>
-</html>
+<body class="playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: 'brands'}); %>
+  <main>
+    <section>
+      <header><h2>Brand Inventory</h2> <span class="item-count">(total count: <%= item_count %> )</span></header>
+      <ul class="wrapper">
+        <li class="box">
+          <span>Add brand</span>
+          <span class="large-count"><img class="large-icon" src="images/add-icon-hb-mod.svg" alt="Add icon"></li></span>
+          <% brands.forEach((brand) => { %>
+            <li class="box" name="<%= brand.brand_id %>">
+              <span class="parisienne-regular box-title"><%= brand.brand_name %></span>
+              <span>Qty: <span class="large-count"><%= brand.perfume_count %></span></span></li>
+              <% }); %>
+            </ul>
+          </section>
+        </main>
+      </body>
+      </html>
