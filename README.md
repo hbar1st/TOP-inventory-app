@@ -30,6 +30,7 @@
 ### Nice to have:
 
 - Add a menu icon that shows a drop down menu that lets us go to All Items, Brands, & Categories
+- Figure out a way to limit query results so we're displaying them by a set limit (say 50 items each time). This means we need a way to 'view more' and a way 'see previous' or 'go back' to view the previous page of results? That's a routing problem?
 
 TODO:
 [ ] create a font package and include it into the repo (then replace appropriate code)

@@ -14,23 +14,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
   <title>Inventory App Brands</title>
 </head>
-<body class="playfair-display-400">
+<body class="panel playfair-display-400">
   <%- include("partials/nav.ejs", {currentPage: 'brands'}); %>
   <main>
     <section>
-      <header><h2>Brand Inventory</h2> <span class="item-count">total # of brands: <%= brands.length %>, </span>
-        <span class="item-count">total item count: <%= item_count %></span></header>
+      <header>
+        <h2>Brand Inventory</h2> 
+        <p class="sub-header">
+        <span class="item-count">total # of brands: <%= brands.length %>, </span>
+        <span class="item-count">total item count: <%= item_count %></span>
+        </p>
+      </header>
       <ul class="wrapper">
         <li class="box">
           <span>Add brand</span>
-          <span class="large-count"><img class="large-icon" src="images/add-icon-hb-mod.svg" alt="Add icon"></li></span>
-          <% brands.forEach((brand) => { %>
-            <li class="box" name="<%= brand.brand_id %>">
-              <span class="parisienne-regular box-title"><%= brand.brand_name %></span>
-              <span>Qty: <span class="large-count"><%= brand.perfume_count %></span></span></li>
-              <% }); %>
-            </ul>
-          </section>
-        </main>
-      </body>
-      </html>
+          <span class="large-count"><img class="large-icon" src="images/star-with-plus.svg" alt="Add icon"></span>
+        </li>
+        <% brands.forEach((brand) => { %>
+          <li class="box" name="<%= brand.brand_id %>">
+            <span class="box-title"><%= brand.brand_name %></span>
+            <span>Qty: <span class="large-count"><%= brand.perfume_count %></span></span>
+          </li>
+        <% }); %>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

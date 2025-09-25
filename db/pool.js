@@ -17,7 +17,7 @@ const dbConfig =
     ? {
         // on Railway, these environment variables need to be shared from the database service into the nodejs app block
         // this is a manual process that must be done in the Railway dashboard (via their gui)
-        connectionString: process.env.DATABASE_PUBLIC_URL,
+        connectionString: process.env.DATABASE_URL,
         ssl: { rejectUnauthorized: false },
       }
     : {

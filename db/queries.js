@@ -18,19 +18,30 @@ async function countAllItems() {
   return rows[0].count;
 }
 /**
- * keep in mind that we want to order the returned rows in case there are more rows than the LIMIT_SETTING allows
- * per query. This way, we can try to return the next set of rows if the user invokes a 'view more' link.
- * 
- * @returns 
- */
+* keep in mind that we want to order the returned rows in case there are more rows than the LIMIT_SETTING allows
+* per query. This way, we can try to return the next set of rows if the user invokes a 'view more' link.
+* 
+* @returns 
+*/
 async function getAllBrands(viewedRows) {
   console.log("in getAllBrands query: ", viewedRows);
-    const { rows } = await pool.query(
-      "SELECT b.brand_id, brand_name, count(perfume_id) AS perfume_count FROM brands AS b LEFT JOIN perfume_brand AS p USING (brand_id) GROUP BY b.brand_id ORDER BY brand_name LIMIT ($2) OFFSET $1;",
-      [viewedRows, LIMIT_SETTING]
-    );
+  const { rows } = await pool.query(
+    "SELECT b.brand_id, brand_name, COUNT(perfume_id) AS perfume_count FROM brands AS b LEFT JOIN perfume_brand USING (brand_id) GROUP BY b.brand_id ORDER BY brand_name LIMIT ($2) OFFSET $1;",
+    [viewedRows, LIMIT_SETTING]
+  );
+  
+  console.log("in getAllBrands: ", rows);
+  return { rows, viewedRows: rows.length + viewedRows };
+}
 
-    console.log("in getAllBrands: ", rows);
+async function getAllCategories(viewedRows) {
+  console.log("in getAllCategories: ", viewedRows);
+  const { rows } = await pool.query(
+    "SELECT c.category_id, type, category_name, COUNT(perfume_id) AS perfume_count FROM categories AS c LEFT JOIN perfume_category AS p USING (category_id) GROUP BY type,c.category_name,c.category_id ORDER BY type LIMIT ($2) OFFSET $1;",
+    [viewedRows, LIMIT_SETTING]
+  );
+  
+  console.log("in getAllCategories: ", rows);
   return { rows, viewedRows: rows.length + viewedRows };
 }
 
@@ -155,6 +166,7 @@ module.exports = {
   addCategory,
   addPerfumeCategory,
   getAllBrands,
+  getAllCategories,
   getPerfumeByName,
   getCategory,
   getBrandByName,

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/categories.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <title>Inventory App Categories</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: 'categories'}); %>
+  <main>
+    <section>
+      <header>
+        <h2>Categories by type</h2> 
+        <p class="sub-header">
+          <span class="item-count">total # of categories: <%= categories.length %>, </span>
+          <span class="item-count">total item count: <%= item_count %></span>
+        </p>
+      </header>
+      <section class="mid-section">
+        <ul>
+          
+          <% let currType = ""; %>
+          <% let totalPerType = 0; %>
+          <% for (let i = 0; i < categories.length; i++) { %>
+            <% if (categories[i].type != currType) {  %>
+              <% currType = categories[i].type; %>
+ 
+              <li>
+                <header><span>Category Type:</span> <%= categories[i].type %></header>
+                <ul class="wrapper">
+                  <li class="box">
+                    <span>Add category</span>
+                    <span class="large-count"><img class="large-icon" src="images/wonky-plus-mod.svg" alt="Add icon"></span>
+                  </li>
+                  
+                  <% while( (i < categories.length) && (currType === categories[i].type)) { %>
+                    
+                    <% totalPerType += +categories[i].perfume_count %>
+                    <li class="box" name="<%= categories[i].category_id %>">
+                      <span class="box-title"><%= categories[i].category_name %></span>
+                      <span>Qty: <span class="large-count"><%= categories[i].perfume_count %></span></span>
+                    </li>
+                    <% i++; %>
+                    <% } %>
+                    <% i--; %>
+                  </ul>
+                  
+                  <span>Item count for this type:  <%= totalPerType %></span>
+                  <% totalPerType = 0 %>
+                </li>
+                <% } } %>
+              </ul>
+            </section>
+          </section>
+        </main>
+      </body>
+      </html>

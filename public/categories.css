@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mid-section {
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+  > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    row-gap: 1rem;
+    > li {
+      width: 100%;
+      background-color: #f1ecf9;
+      border: 1px dotted purple;
+      display: flex;
+      flex-direction: column;
+
+      > header, > span{
+        margin-left: 1rem;
+      }
+    }
+  }
+}

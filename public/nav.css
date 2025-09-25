@@ -67,6 +67,7 @@ ul {
 }
 
 .highlight-menu {
+  text-underline-position: below;
   text-decoration: purple wavy underline ;
 }
 
