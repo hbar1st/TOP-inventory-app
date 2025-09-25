@@ -13,7 +13,7 @@ input[type=text] {
   min-width: 150px;
   font-size: clamp(10px,3vmin,20px);
   border: none;
-  flex-grow: 2;
+  flex-grow: 2.2;
 }
 
 input::placeholder { 
