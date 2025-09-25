@@ -7,13 +7,6 @@
 .large-icon {
   width: clamp(1rem, 5vw + 1rem, 2rem);
 }
-.large-count {
-  font-size: clamp(1rem, 5vw + 1rem, 2rem);
-  display: flex;
-  flex-grow: 2;
-  justify-content: center;
-  align-items: center;
-}
 
 .parisienne-regular {
   

@@ -19,9 +19,18 @@
       border: 1px dotted purple;
       display: flex;
       flex-direction: column;
-
+      
       > header, > span{
         margin-left: 1rem;
+      }
+      > span {
+        font-size: smaller;
+        color: #31203a;
+
+        > span {
+          background-color: #fdfeff;
+          padding: 1px 1px;
+        }
       }
     }
   }
