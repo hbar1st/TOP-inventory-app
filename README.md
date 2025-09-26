@@ -37,4 +37,6 @@
 - A way to uploade data from a csv file
 
 TODO:
+[ ] add the price to the queries you run when someone searches so I can display all the price points for that perfume
+[ ] add the inventory counts to the queries you run when someone searches so I can display it for each perfume that is searched up
 [ ] create a font package and include it into the repo (then replace appropriate code)

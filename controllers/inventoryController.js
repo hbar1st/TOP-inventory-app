@@ -63,6 +63,56 @@ async function getPerfumeDetailsById(req, res) {
 }
 
 async function search(req, res) {
-  console.log("searchText: ",req.query.searchText);
+  const searchText = req.query.searchText;
+  
+  // get all available brands and categories in all cases
+  const [categories, categoryTypes, brands] = await Promise.all([
+    db.getAllCategories(),
+    db.getAllCategoryTypes(),
+    db.getAllBrands()
+  ]);
+  console.log("brands found: ", brands);
+  // figure out if this is an id (it will be a number)
+  // if not an id, then search for it in descriptin/name/brand_name/category fields and gather all the results for display by type
+  // all perfume matches together, all categories together, all brands together
+  if (Number.isNaN(Number(searchText))) {
+    const perfumes = await Promise.all([
+      db.getPerfumesByName(searchText),
+      db.getPerfumesByDesc(searchText),
+      db.getPerfumesByBrand(searchText),
+    ]);
+    
+    // go thru the list and remove duplicates
+    let ids = new Set();
+    let perfumeList = [];
+    perfumes.flat().forEach((el) => {
+      if (!ids.has(el.perfume_id)) {
+        ids.add(el.perfume_id);
+        perfumeList.push(el);
+      }
+    });
+    
+    res.render("perfume", {
+      searchText,
+      details: perfumeList,
+      categories: categories.rows,
+      categoryTypes: categoryTypes.rows,
+      brands: brands.rows,
+    });
+  } else {
+    const perfume_id = Number(searchText);
+    const [perfume, categories] = await Promise.all([
+      db.getPerfumeDetailsById(perfume_id),
+      db.getPerfumeCategories(perfume_id)
+    ]);
+    res.render("perfume", {
+      searchText,
+      details: perfume,
+      categories: categories.rows,
+      categoryTypes: categoryTypes.rows,
+      brands: brands.rows,
+    });
+  }
+  
 }
 module.exports = { search, showLandingPage, getPerfumeDetailsById, getAllCategories, getAllBrands, getAllItems };

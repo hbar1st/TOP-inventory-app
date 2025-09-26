@@ -13,7 +13,7 @@ img:not(.icon):not(.logo) {
 table {
   background-color: white;
   padding: .1rem;
-  border: 2px solid var(--purple);
+  border: .5px dotted var(--purple);
   border-spacing: 1px;
 }
 
@@ -49,18 +49,53 @@ tbody {
     }
   }
 }
+
+@media screen and (min-width: 450px) and (max-width:550px) {
+  main {
+    section {
+      margin: 5px 5px;
+      padding: 5px;
+    }
+  }
+
+    table {
+    margin: 0;
+    padding: 0;
+    thead {
+      font-size: clamp(12px, .7rem, 15px);
+    }
+    img {
+      max-width: clamp(50px,3rem,75px) !important;
+    }
+    
+    td {
+      max-width: 65px;
+    }
+    
+    tbody {
+      tr {
+        td:nth-child(2) {
+          max-width: 90px;
+        }
+      }
+    }
+  }
+}
 @media screen and (max-width: 450px) {
   body {
     min-width: 100vw;
   }
   main {
     max-width: 100%;
+    margin: 5px 5px !important;
     section {
       min-width: calc(100vw - 1rem);
       max-width: calc(100vw - 1rem);
+      margin: 5px 5px;
+      padding: 5px;
     }
   }
-
+  
   table {
     margin: 0;
     padding: 0;
@@ -70,15 +105,15 @@ tbody {
     img {
       max-width: 40px !important;
     }
-
+    
     td {
-      max-width: 65px;
+      max-width: 60px;
     }
-
+    
     tbody {
       tr {
         td:nth-child(2) {
-          max-width: 90px;
+          max-width: 80px;
         }
       }
     }

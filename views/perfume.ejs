@@ -1,0 +1,77 @@
+<!--
+{
+description: 'Eau de toilette',
+image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-variety.jpg',
+created_at: 2025-09-21T14:20:29.949Z,
+perfume_name: 'Vera Wang Variety',
+perfume_id: 168,
+brand_id: 7,
+brand_name: 'Vera Wang'
+}
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/perfume.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Inventory App Perfumes</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: ''}); %>
+  <main>
+    <% if (details.length === 0) { %>
+      <section class="blank"><p>No perfumes found for the search term: <%= searchText %></p></section>
+      
+    <% } %>
+    <% details.forEach(el => { %>
+      <section class="perfume-details">
+        <header>
+          <div> 
+            
+            <img src="images/drop-down.svg" alt="drop-down">
+            <img src="<%= el.image_url %>" alt="the bottle">
+            <h3>ID#<%= el.perfume_id %></h3>
+          </div>
+        </header>
+        <form action="" method="post">
+          <div class="field">
+            <label for="">Perfume Name:</label>
+            <input type="text" name="" id="" value="<%= el.perfume_name %>">
+          </div>
+          <div  class="field">
+            <label for="">Image URL:</label>
+            
+            <input type="text" name="" id="" value="<%= el.image_url %>">
+          </div>
+          <div>
+            <label for="">Brand:</label>
+              <select id="" name="brands">
+                <% brands.forEach(brand => { %>
+                  <% if (el.brand_id === brand.brand_id) { %>
+                    <option selected value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                    <% } else { %>
+                      <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                      <% } %>
+                      <% }); %>
+                    </select>
+                </div>
+                          <div>
+            <label for="">Categories:</label>
+              <select id="" name="categoryType">
+
+                    </select>
+                </div>
+              </form>
+            </section>
+            <% }); %>
+          </main>
+        </body>
+        </html>

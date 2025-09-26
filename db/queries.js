@@ -4,12 +4,48 @@ const CustomNotFoundError = require("../Errors/CustomNotFoundError");
 const { pool } = require("./pool");
 const LIMIT_SETTING = 50;
 
-async function getPerfumeByName(name) {
-  console.log("in getPerfumeByName: ", name);
-  const { rows } = await pool.query("SELECT * FROM perfumes WHERE perfume_name ILIKE $1;", [name]);
+async function getPerfumesByCategoryDetails(detail) {
+    console.log("in getPerfumesByCategoryDetails: ", detail);
+    const { rows } = await pool.query(
+      "SELECT p.*,pb.brand_id,brand_name,type,category_name FROM perfumes as p LEFT JOIN perfume_brand AS pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) LEFT JOIN categories USING (category_id) WHERE type ILIKE $1 OR category_name ILIKE $1 GROUP BY p.perfume_id,category_name,categories.type,pb.brand_id,brands.brand_name ORDER BY perfume_name;",
+      [`%${detail}%`]
+    );
+
+    console.log("in getPerfumesByCategoryDetails: ", detail);
+    return rows;
+}
+
+async function getPerfumesByBrand(brand) {
+  console.log("in getPerfumesByBrand: ", brand);
+  const { rows } = await pool.query(
+    "SELECT p.*,pb.brand_id,brand_name,ARRAY_AGG(category_id) FROM perfumes as p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE brand_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
+    [`%${brand}%`]
+  );
+
+  console.log("in getPerfumesByBrand: ", rows);
+  return rows;
+}
+
+async function getPerfumesByName(name) {
+  console.log("in getPerfumesByName: ", name);
+  const { rows } = await pool.query(
+    "SELECT p.*,pb.brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE perfume_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
+    [`%${name}%`]
+  );
   
-  console.log("in getPerfumeByName: ", rows);
-  return rows.length > 0 ? rows[0] : {};
+  console.log("in getPerfumesByName: ", rows);
+  return rows;
+}
+
+async function getPerfumesByDesc(word) {
+  console.log("in getPerfumeByDesc: ", word);
+  const { rows } = await pool.query(
+    "SELECT p.*,pb.brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE description ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
+    [`%${word}%`]
+  );
+
+  console.log("in getPerfumeByDesc: ", rows);
+  return rows;
 }
 
 async function countAllItems() {
@@ -23,7 +59,7 @@ async function countAllItems() {
 * 
 * @returns 
 */
-async function getAllBrands(viewedRows) {
+async function getAllBrands(viewedRows = 0) {
   console.log("in getAllBrands query: ", viewedRows);
   const { rows } = await pool.query(
     "SELECT b.brand_id, brand_name, COUNT(perfume_id) AS perfume_count FROM brands AS b LEFT JOIN perfume_brand USING (brand_id) GROUP BY b.brand_id ORDER BY brand_name LIMIT ($2) OFFSET $1;",
@@ -33,8 +69,12 @@ async function getAllBrands(viewedRows) {
   console.log("in getAllBrands: ", rows);
   return { rows, viewedRows: rows.length + viewedRows };
 }
-
-async function getAllCategories(viewedRows) {
+async function getAllCategoryTypes() {
+  console.log("in getAllCategoryTypes ");
+  //TODO fill this in?
+  console.log("in getAllCategoryTypes: ", rows);
+}
+async function getAllCategories(viewedRows=0) {
   console.log("in getAllCategories: ", viewedRows);
   const { rows } = await pool.query(
     "SELECT c.category_id, type, category_name, COUNT(perfume_id) AS perfume_count FROM categories AS c LEFT JOIN perfume_category AS p USING (category_id) GROUP BY type,c.category_name,c.category_id ORDER BY type LIMIT ($2) OFFSET $1;",
@@ -45,10 +85,10 @@ async function getAllCategories(viewedRows) {
   return { rows, viewedRows: rows.length + viewedRows };
 }
 
-async function getAllItems(viewedRows) {
+async function getAllItems(viewedRows=0) {
   console.log("in getAllItems: ", viewedRows);
   const { rows } = await pool.query(
-    "SELECT perfume_id,image_url,perfume_name,brand_name,price,count FROM perfumes AS p LEFT JOIN perfume_price AS pp USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) ORDER BY perfume_name LIMIT ($2) OFFSET $1;",
+    "SELECT perfume_id,image_url,perfume_name,brand_name,price,count FROM perfumes AS p LEFT JOIN perfume_price USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) ORDER BY perfume_name LIMIT ($2) OFFSET $1;",
     [viewedRows, LIMIT_SETTING]);
   console.log("in getAllItems: ", rows.length);
   return { rows, viewedRows: rows.length + viewedRows };
@@ -57,18 +97,19 @@ async function getAllItems(viewedRows) {
 async function getPerfumeDetailsById(id) {
   console.log("in getPerfumeDetailsById: ", id);
   const { rows } = await pool.query(
-    "SELECT p.perfume_id,image_url,description,perfume_name,price,count,brand_name FROM perfumes AS p LEFT JOIN perfume_price USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) WHERE perfume_id=$1;",
-    [id]
+    "SELECT p.perfume_id,image_url,description,perfume_name,price,count,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_price USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE perfume_id=38 GROUP BY p.perfume_id,price,count,brand_name;",[
+      id
+    ]
   );
   
   console.log("in getPerfumeDetailsById: ", rows);
-  return rows[0];
+  return rows;
 }
 
 async function getPerfumeCategories(id) {
   console.log("in getPerfumeCategories: ", id);
   const { rows } = await pool.query(
-    "SELECT perfume_id,c.* FROM perfume_category AS p LEFT JOIN categories AS c USING (category_id) WHERE perfume_id=$1;",
+    "SELECT perfume_id,c.* FROM perfume_category AS p LEFT JOIN categories AS c USING (category_id) WHERE perfume_id=$1 GROUP BY type,c.category_name,c.category_id,p.perfume_id ORDER BY type ;",
     [id]
   );
 
@@ -80,7 +121,7 @@ async function getCategory(name, type) {
   console.log("in getCategory: ", name);
   const { rows } = await pool.query(
     "SELECT category_id FROM categories WHERE category_name ILIKE $1 AND type ILIKE $2;",
-    [name, type]
+    [`%${name}%`, `%${type}%`]
   );
   
   console.log("in getCategory: ", rows);
@@ -199,7 +240,11 @@ module.exports = {
   getAllItems,
   getAllBrands,
   getAllCategories,
-  getPerfumeByName,
+  getAllCategoryTypes,
+  getPerfumesByName,
+  getPerfumesByDesc,
+  getPerfumesByBrand,
+  getPerfumesByCategoryDetails,
   getPerfumeDetailsById,
   getPerfumeCategories,
   getCategory,
