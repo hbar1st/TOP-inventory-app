@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/items.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Inventory App Categories</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: 'items'}); %>
+  <main>
+    <section>
+      <header>
+        <h2>Full Inventory</h2> 
+        <p class="sub-header">
+          <span class="item-count">total # of items: <%= items.length %></span>
+        </p>
+      </header>
+      <table class="mid-section">
+        <thead>
+          <th></th>
+          <th>Name</th>
+          <th>Count</th>
+          <th>Image</th>
+          <th>Brand</th>
+          <th>Price</th>
+          <th>Id.</th>
+        </thead>
+        <tbody>
+          <% items.forEach(perfume => { %>
+            <%- include("partials/item-row.ejs", {perfume}) %>
+            <% }); %>
+          </tbody>
+        </table>
+        
+      </main>
+    </body>
+    </html>
+    <!--
+    {
+    perfume_id: 5,
+    description: 'Eau de parfum',
+    image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-variety.jpg',
+    perfume_name: 'Calvin Klein Variety',
+    brand_name: 'Calvin Klein',
+    price: '48.99',
+    count: 2
+    }
+    -->

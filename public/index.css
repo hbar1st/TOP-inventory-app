@@ -15,7 +15,7 @@
 
 body {
   
-  background: radial-gradient(ellipse at 50% 19%, #f7f7f7 0% 65%, #d1b8ef, #c99bf5 75%, #90509e 85%, black 100%);
+  background: radial-gradient(ellipse at 50% 19%, #f7f7f7 0% 65%, #d1b8ef, #c99bf5 75%, var(--purple) 85%, black 100%);
   min-height: 100dvh;
   max-height: 100dvh;
 }

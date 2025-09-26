@@ -31,6 +31,10 @@
 
 - Add a menu icon that shows a drop down menu that lets us go to All Items, Brands, & Categories
 - Figure out a way to limit query results so we're displaying them by a set limit (say 50 items each time). This means we need a way to 'view more' and a way 'see previous' or 'go back' to view the previous page of results? That's a routing problem?
+- Create a way to bulk remove rows of perfumes from the items view. (by selecting the rows one wants to remove then running the delete)
+- Create a way to bulk edit rows of perfumes by selecting the perfumes then being shown a dialog that lets you modify fields and 'apply to all' and showing how many rows were selected to confirm the update. (Maybe I want to change the name of the brand in bulk for eg)
+- A way to download the data in a csv file
+- A way to uploade data from a csv file
 
 TODO:
 [ ] create a font package and include it into the repo (then replace appropriate code)

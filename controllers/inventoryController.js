@@ -33,4 +33,17 @@ async function getAllCategories(req, res) {
   });
 }
 
-module.exports = { showLandingPage, getAllCategories, getAllBrands };
+async function getAllItems(req, res) {
+  const viewedRows = req.query.vw ?? 0;
+  const [items, item_count] = await Promise.all([
+    db.getAllItems(viewedRows),
+    db.countAllItems(),
+  ]);
+  console.log(items.rows[5]);
+  res.render("items", {
+    viewedRows: items.viewedRows,
+    items: items.rows,
+    item_count,
+  });
+}
+module.exports = { showLandingPage, getAllCategories, getAllBrands, getAllItems };

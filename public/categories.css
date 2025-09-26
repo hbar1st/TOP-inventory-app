@@ -16,7 +16,7 @@
     > li {
       min-width: 100%;
       background-color: #f1ecf9;
-      border: 1px dotted purple;
+      border: 1px dotted var(--purple);
       display: flex;
       flex-direction: column;
       

@@ -48,7 +48,7 @@ async function getAllCategories(viewedRows) {
 async function getAllItems(viewedRows) {
   console.log("in getAllItems: ", viewedRows);
   const { rows } = await pool.query(
-    "SELECT description,image_url,perfume_name,brand_name,type,category_name,price,count FROM perfumes AS p LEFT JOIN perfume_price AS pp USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) LEFT JOIN categories USING (category_id) ORDER BY perfume_name LIMIT ($2) OFFSET $1;",
+    "SELECT perfume_id,description,image_url,perfume_name,brand_name,price,count FROM perfumes AS p LEFT JOIN perfume_price AS pp USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) ORDER BY perfume_name LIMIT ($2) OFFSET $1;",
     [viewedRows, LIMIT_SETTING]);
   console.log("in getAllItems: ", rows.length);
   return { rows, viewedRows: rows.length + viewedRows };

@@ -2,6 +2,8 @@
   --background-color: rgb(221 182 251 / 36%);
   --focused-background-color: rgba(238, 215, 255, 0.36);
   --app-max-width: 730px;
+  --purple: #90509e;
+  --info-font-size: clamp(10px,3vmin,20px);
 }
 
 .playfair-display-400 {
@@ -15,9 +17,9 @@
 main > section {
   background-color: #ece2f8;
   border-radius: 5px;
-  border: 1px solid purple;
+  border: 1px solid var(--purple);
   max-width: calc(var(--app-max-width) + 200px);
-  padding: 1rem 0rem 0rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
   margin: auto auto;
   > * {
     margin: auto auto;
@@ -35,21 +37,19 @@ main > section {
   font-size: clamp(10px,3vmin,20px);
     background: linear-gradient(10deg, #78c3d3, #b6cfe7, #b6dee7, #a5c8e4, rgb(147 189 199));
     padding: .1rem .5rem;
-    border: .5px dotted purple;
+    border: .5px dotted var(--purple);
     border-radius: 7px;
 }
 
 body.panel {
   
-  
-  background:linear-gradient(0deg, black 0%, #90509e 3%, #c99bf5 9%, #e0cdf6 18%, #f9f9f9 80% 100%);
+  background:linear-gradient(0deg, black 0%, var(--purple) 3%, #c99bf5 9%, #e0cdf6 18%, #f9f9f9 80% 100%);
   min-height: 100dvh;
-  
 }
 
 
 body.panel main {
-  margin: 40px;
+  margin: clamp(5px, 40px, 45px);
 }
 
 .wrapper {
@@ -80,7 +80,7 @@ body.panel main {
     color: #000000b8;
     font-weight: 900;
     text-align: center;
-    text-shadow: 0px 1px 0px #a22f62;
+    text-shadow: 0px 1px 0px #4c2fa2, 1px 0px 1px white
     background: linear-gradient(10deg, #78c3d3, #b6cfe7, #b6dee7, #a5c8e4, rgb(147 189 199));
     padding-bottom: 1%;
   }
