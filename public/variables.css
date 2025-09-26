@@ -80,7 +80,7 @@ body.panel main {
     color: #000000b8;
     font-weight: 900;
     text-align: center;
-    text-shadow: 0px 1px 0px #4c2fa2, 1px 0px 1px white
+    text-shadow: 0px 1px 0px #4c2fa2, 1px 0px 1px white;
     background: linear-gradient(10deg, #78c3d3, #b6cfe7, #b6dee7, #a5c8e4, rgb(147 189 199));
     padding-bottom: 1%;
   }
