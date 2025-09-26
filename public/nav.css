@@ -43,7 +43,7 @@ ul {
   justify-content: space-evenly;
   list-style-type: none;
   
-  font-size: clamp(10px,3vmin,20px);
+  font-size: var(--info-font-size);
 
   li {
     padding: 0.2rem 0.5rem;

@@ -53,8 +53,7 @@ ul {
       display: inline-block;
       background-color: var(--background-color);
       border-radius: 50%;
-      min-width: 100px;
-      max-width: 100px;
+      width: clamp(70px, 18vw ,100px);
       padding: 17%;
       aspect-ratio: 1;
       border: 2px solid var(--background-color);
@@ -62,11 +61,12 @@ ul {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-
+      
       img {
         display: inline-block;
-    position: relative;
-    margin: auto;
+        aspect-ratio: 1;
+        position: relative;
+        margin: auto;
       }
     }
     div > span:hover {

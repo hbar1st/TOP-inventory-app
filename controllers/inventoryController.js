@@ -46,4 +46,23 @@ async function getAllItems(req, res) {
     item_count,
   });
 }
-module.exports = { showLandingPage, getAllCategories, getAllBrands, getAllItems };
+
+async function getPerfumeDetailsById(req, res) {
+  const perfume_id = +req.params.id;
+  console.log({perfume_id})
+  const [perfume, categories] = await Promise.all([
+    db.getPerfumeDetailsById(perfume_id),
+    db.getPerfumeCategories(perfume_id),
+  ]);
+  
+  res.render("perfume", {
+    details: perfume.rows,
+    categories,
+  });
+  
+}
+
+async function search(req, res) {
+  console.log("searchText: ",req.query.searchText);
+}
+module.exports = { search, showLandingPage, getPerfumeDetailsById, getAllCategories, getAllBrands, getAllItems };

@@ -48,10 +48,32 @@ async function getAllCategories(viewedRows) {
 async function getAllItems(viewedRows) {
   console.log("in getAllItems: ", viewedRows);
   const { rows } = await pool.query(
-    "SELECT perfume_id,description,image_url,perfume_name,brand_name,price,count FROM perfumes AS p LEFT JOIN perfume_price AS pp USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) ORDER BY perfume_name LIMIT ($2) OFFSET $1;",
+    "SELECT perfume_id,image_url,perfume_name,brand_name,price,count FROM perfumes AS p LEFT JOIN perfume_price AS pp USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) ORDER BY perfume_name LIMIT ($2) OFFSET $1;",
     [viewedRows, LIMIT_SETTING]);
   console.log("in getAllItems: ", rows.length);
   return { rows, viewedRows: rows.length + viewedRows };
+}
+
+async function getPerfumeDetailsById(id) {
+  console.log("in getPerfumeDetailsById: ", id);
+  const { rows } = await pool.query(
+    "SELECT p.perfume_id,image_url,description,perfume_name,price,count,brand_name FROM perfumes AS p LEFT JOIN perfume_price USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) WHERE perfume_id=$1;",
+    [id]
+  );
+  
+  console.log("in getPerfumeDetailsById: ", rows);
+  return rows[0];
+}
+
+async function getPerfumeCategories(id) {
+  console.log("in getPerfumeCategories: ", id);
+  const { rows } = await pool.query(
+    "SELECT perfume_id,c.* FROM perfume_category AS p LEFT JOIN categories AS c USING (category_id) WHERE perfume_id=$1;",
+    [id]
+  );
+
+  console.log("in getPerfumeCategories: ", rows);
+  return rows;
 }
 
 async function getCategory(name, type) {
@@ -178,6 +200,8 @@ module.exports = {
   getAllBrands,
   getAllCategories,
   getPerfumeByName,
+  getPerfumeDetailsById,
+  getPerfumeCategories,
   getCategory,
   getBrandByName,
   getPerfumePriceId,

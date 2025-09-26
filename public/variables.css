@@ -3,7 +3,7 @@
   --focused-background-color: rgba(238, 215, 255, 0.36);
   --app-max-width: 730px;
   --purple: #90509e;
-  --info-font-size: clamp(10px,3vmin,20px);
+  --info-font-size: clamp(10px,2.5vmin,20px);
 }
 
 .playfair-display-400 {
@@ -39,6 +39,7 @@ main > section {
     padding: .1rem .5rem;
     border: .5px dotted var(--purple);
     border-radius: 7px;
+    text-shadow: 1px 0px 1px white;
 }
 
 body.panel {
@@ -49,7 +50,7 @@ body.panel {
 
 
 body.panel main {
-  margin: clamp(5px, 40px, 45px);
+  margin: .5rem;
 }
 
 .wrapper {
