@@ -112,7 +112,7 @@ async function getAllItems(viewedRows=0) {
   async function getPerfumeDetailsById(id) {
     console.log("in getPerfumeDetailsById: ", id);
     const { rows } = await pool.query(
-      "SELECT p.perfume_id,image_url,description,REPLACE(perfume_name, '''''', '''') as perfume_name,price,count,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_price USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE perfume_id=$1 GROUP BY p.perfume_id,price,count,brand_name;",
+      "SELECT p.perfume_id,image_url,description,REPLACE(perfume_name, '''''', '''') as perfume_name,price,count,brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_price USING (perfume_id) LEFT JOIN inventory USING (perfume_price_id) LEFT JOIN perfume_brand USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE perfume_id=$1 GROUP BY p.perfume_id,brand_id,price,count,brand_name;",
       [id]
     );
     

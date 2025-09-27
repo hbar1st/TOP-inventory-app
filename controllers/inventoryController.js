@@ -60,14 +60,18 @@ async function getAllItems(req, res) {
 async function getPerfumeDetailsById(req, res) {
   const perfume_id = +req.params.id;
   console.log({perfume_id})
-  const [perfume, categories] = await Promise.all([
+  const [perfume, categories, allbrands] = await Promise.all([
     db.getPerfumeDetailsById(perfume_id),
     db.getPerfumeCategories(perfume_id),
+    db.getAllBrands()
   ]);
-  
+  console.log("this is the perfume I'm trying to see:")
+  console.log(perfume, categories, allbrands);
   res.render("perfume", {
-    details: [perfume.rows],
-    categories,
+    searchText: '',
+    details: perfume,
+    categories: categories.rows,
+    brands: allbrands.rows
   });
   
 }

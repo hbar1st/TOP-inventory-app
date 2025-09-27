@@ -1,14 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <link rel="stylesheet" href="/variables.css">
-  <link rel="stylesheet" href="/perfume.css">
   <link rel="stylesheet" href="/nav.css">
   <link rel="stylesheet" href="/search.css">
+  <link rel="stylesheet" href="/perfume.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
@@ -18,10 +16,12 @@
   <%- include("partials/nav.ejs", {currentPage: ''}); %>
   <main>
     <% if (details.length === 0) { %>
-      <section class="blank"><p>No perfumes found for the search term: <%= searchText %></p></section>
+      <section class="blank">
+        <p>No perfumes found for the search term: <%= searchText %></p>
+      </section>
       
       <% } %>
-      <% details.forEach(el => { %>
+            <% details.forEach(el => { console.log(el);%>
         <section class="perfume-details">
           <header>
             <div> 
@@ -62,6 +62,7 @@
                 </form>
               </section>
               <% }); %>
-            </main>
-          </body>
-          </html>
+
+    </main>
+  </body>
+  </html>
