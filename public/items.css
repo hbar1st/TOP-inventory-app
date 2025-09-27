@@ -10,6 +10,7 @@ img:not(.icon):not(.logo) {
   min-width: clamp(24px, 32px ,64px);
 }
 
+
 table {
   background-color: white;
   padding: .1rem;
@@ -18,7 +19,6 @@ table {
 }
 
 thead {
-  
   /*background: linear-gradient(90deg, purple 0%, #3e2244 20% 80%, black);
   background: repeating-radial-gradient(transparent, purple 10%, #3e2244 20% 80%, black 85%, transparent 100%);
   background-size: 50px 50px;
@@ -30,11 +30,38 @@ thead {
   text-align: left;
   font-size: clamp(11px, .9rem, 1rem);
   th {
+    
     padding-right: 5px;
-    padding-left: 5px
+    padding-left: 5px;
   }
 }
 
+select,
+::picker(select) {
+  appearance: base-select;
+  margin-right: 1px;
+}
+select {
+  font-size: clamp(10px, .9rem, 1rem);
+  min-width: 100%;
+  border-radius: 0px;
+}
+select:disabled {
+  color: black;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+}
+option::checkmark {
+  color: transparent;
+  font-size: .1px;
+}
+
+
+select:disabled::picker-icon {
+  color: transparent;
+  outline: none;
+}
 tbody {
   font-family:Arial, Helvetica, sans-serif;
   font-size: var(--info-font-size);
@@ -57,6 +84,18 @@ tbody {
   }
 }
 
+@media screen and (min-width: 550px) and (max-width:750px) {
+    thead {
+      font-size: clamp(10px, .6rem, .7rem);
+    }
+    tr {
+      font-size: clamp(10px,2vmin,20px);
+    }
+    img {
+      max-width: 65px;
+    }
+}
+
 @media screen and (min-width: 450px) and (max-width:550px) {
   main {
     section {
@@ -64,12 +103,14 @@ tbody {
       padding: 5px;
     }
   }
-  
+  .table-container {
+    overflow-x: auto;
+  }
   table {
     margin: 0;
     padding: 0;
     thead {
-      font-size: clamp(12px, .7rem, 15px);
+      font-size: clamp(10px, .7rem, 15px);
     }
     img {
       max-width: clamp(50px,3rem,75px) !important;
@@ -78,6 +119,7 @@ tbody {
     td {
       max-width: 65px;
     }
+    
     
     tbody {
       tr {
@@ -102,21 +144,24 @@ tbody {
       padding: 5px;
     }
   }
-  
+  .table-container {
+    overflow-x: auto;
+  }
   table {
     margin: 0;
     padding: 0;
-    thead {
-      font-size: 11px;
-    }
+
     img {
       max-width: 40px !important;
     }
     
     td {
-      max-width: 60px;
+      max-width: min-content;
     }
     
+    th {
+      font-size: 10px;
+    }
     tbody {
       tr {
         td:nth-child(2) {

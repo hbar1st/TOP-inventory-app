@@ -68,6 +68,7 @@ async function getPerfumeDetailsById(req, res) {
   console.log("this is the perfume I'm trying to see:")
   console.log(perfume, categories, allbrands);
   res.render("perfume", {
+    imagesPath: '../images',
     searchText: '',
     details: perfume,
     categories: categories.rows,
