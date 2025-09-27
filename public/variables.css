@@ -1,5 +1,6 @@
 :root {
-  --background-color: rgb(221 182 251 / 36%);
+  /*--background-color: rgb(221 182 251 / 36%);*/
+  --background-color: rgb(249 228 243);
   --focused-background-color: rgba(238, 215, 255, 0.36);
   --app-max-width: 730px;
   --purple: #90509e;
@@ -54,6 +55,10 @@ body.panel main {
   margin: .5rem;
 }
 
+option:checked {
+  background-color: #ece2f8;
+  color: black;
+}
 .wrapper {
   display: grid;
   grid-gap: 10px;

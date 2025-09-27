@@ -5,7 +5,7 @@
 }
 .perfume-details {
   background-color: #f5f7ff;
-    background: repeating-radial-gradient(transparent 0%, #e6ebff 20%, #e6ebff  21%, transparent 30%);
+    background: repeating-radial-gradient(white 0%, #e6ebff 20%, #e6ebff  21%, white 30%);
   background-size: 20px 20px;
   font-family:'Courier New', Courier, monospace;
   font-size: var(--info-font-size);
@@ -32,7 +32,7 @@
 }
 .perfume-details img {
   max-width: clamp(40px, 3vw, 100px);
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .perfume-details form {
@@ -45,4 +45,23 @@
 }
 .blank {
   margin-top: 2rem;
+}
+
+select {
+  font-size: clamp(10px, .9rem, 1rem);
+  min-width: max-content;
+  background-color: #e6ebff;
+  border-radius: 0px;
+}
+h3 {
+  display: inline-block;
+}
+
+.button-panel {
+    justify-self: self-end;
+    grid-column: 1 / -1;
+    margin-right: clamp(.5vw,1rem, .5em);
+  button {
+    min-width: 8.5em;
+  }
 }

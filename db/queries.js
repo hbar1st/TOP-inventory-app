@@ -7,7 +7,7 @@ const LIMIT_SETTING = 50;
 async function getPerfumesByCategoryDetails(detail) {
   console.log("in getPerfumesByCategoryDetails: ", detail);
   const { rows } = await pool.query(
-    "SELECT p.perfume_id,p.description,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,type,category_name FROM perfumes as p LEFT JOIN perfume_brand AS pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) LEFT JOIN categories USING (category_id) WHERE type ILIKE $1 OR category_name ILIKE $1 GROUP BY p.perfume_id,category_name,categories.type,pb.brand_id,brands.brand_name ORDER BY perfume_name;",
+    "SELECT p.perfume_id,p.description,p.image_url,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,type,category_name FROM perfumes as p LEFT JOIN perfume_brand AS pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) LEFT JOIN categories USING (category_id) WHERE type ILIKE $1 OR category_name ILIKE $1 GROUP BY p.perfume_id,category_name,categories.type,pb.brand_id,brands.brand_name ORDER BY perfume_name;",
     [`%${detail}%`]
   );
   
@@ -18,7 +18,7 @@ async function getPerfumesByCategoryDetails(detail) {
 async function getPerfumesByBrand(brand) {
   console.log("in getPerfumesByBrand: ", brand);
   const { rows } = await pool.query(
-    "SELECT p.perfume_id,p.description,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,ARRAY_AGG(category_id) FROM perfumes as p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE brand_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
+    "SELECT p.perfume_id,p.description,p.image_url,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,ARRAY_AGG(category_id) FROM perfumes as p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE brand_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
     [`%${brand}%`]
   );
   
@@ -29,7 +29,7 @@ async function getPerfumesByBrand(brand) {
 async function getPerfumesByName(name) {
   console.log("in getPerfumesByName: ", name);
   const { rows } = await pool.query(
-    "SELECT p.perfume_id,p.description,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE perfume_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
+    "SELECT p.perfume_id,p.description,p.image_url,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE perfume_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
     [`%${name}%`]
   );
   
@@ -40,7 +40,7 @@ async function getPerfumesByName(name) {
 async function getPerfumesByDesc(word) {
   console.log("in getPerfumeByDesc: ", word);
   const { rows } = await pool.query(
-    "SELECT p.perfume_id,p.description,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE description ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
+    "SELECT p.perfume_id,p.description,p.image_url,p.created_at,REPLACE(p.perfume_name, '''''', '''') as perfume_name,pb.brand_id,brand_name,ARRAY_AGG(category_id) AS category_list FROM perfumes AS p LEFT JOIN perfume_brand as pb USING (perfume_id) LEFT JOIN brands USING (brand_id) LEFT JOIN perfume_category USING (perfume_id) WHERE description ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name ORDER BY perfume_name;",
     [`%${word}%`]
   );
   
