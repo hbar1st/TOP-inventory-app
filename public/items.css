@@ -18,7 +18,14 @@ table {
 }
 
 thead {
-  background: linear-gradient(90deg, purple 0%, #3e2244 20% 80%, black);
+  
+  /*background: linear-gradient(90deg, purple 0%, #3e2244 20% 80%, black);
+  background: repeating-radial-gradient(transparent, purple 10%, #3e2244 20% 80%, black 85%, transparent 100%);
+  background-size: 50px 50px;
+  */
+  
+  background: repeating-radial-gradient(purple 0%, #3e2244 20% 30%, black 35%,rgb(140, 69, 168) 40%, purple 100%);
+  background-size: 5px 3px;
   color: white;
   text-align: left;
   font-size: clamp(11px, .9rem, 1rem);
@@ -57,8 +64,8 @@ tbody {
       padding: 5px;
     }
   }
-
-    table {
+  
+  table {
     margin: 0;
     padding: 0;
     thead {

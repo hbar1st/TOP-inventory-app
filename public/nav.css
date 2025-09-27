@@ -68,10 +68,13 @@ ul {
 }
 
 .highlight-menu {
-  text-underline-position: below;
-  text-decoration: var(--purple) wavy underline ;
+  color: white;
 }
-
+li:has(>.highlight-menu) {
+  background: linear-gradient(90deg, #3e2244 0% 90%, black);
+  box-shadow: none;
+  
+}
 ul > li:nth-child(4) > a {
   display: flex;
   justify-content: center;

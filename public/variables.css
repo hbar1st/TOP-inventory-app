@@ -4,6 +4,7 @@
   --app-max-width: 730px;
   --purple: #90509e;
   --info-font-size: clamp(10px,2.5vmin,20px);
+  --gradient-background: linear-gradient(90deg, #3e2244 0%, black);
 }
 
 .playfair-display-400 {

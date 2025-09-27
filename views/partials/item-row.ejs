@@ -3,12 +3,13 @@
     <td class="pad-left"><%= perfume.perfume_name %></td>
     <td class="pad-left"><%= perfume.description %></td>
     <td class="pad-left"><%= perfume.count %></td>
-    <td class="center"><img src="<%= perfume.image_url %>" alt="perfume bottle"></td>
+    <td class="center"><img src="<%= perfume.image_url %>" alt="perfume bottle" onerror="this.onerror = null; this.src='images/perfume-bottle-image.jpg' "></td>
     <td class="pad-left"><%= perfume.brand_name %></td>
     <td class="pad-left">
         <select name="" id="">
             <% perfume.price_id_count.forEach(value => { %>
-            <option value=""><%= value %></option>
+                <% const valueArr = value[0] ? value[0].split(',') : ['-',,'-']; %>
+            <option value=""><%= `\$${valueArr[0]}|${valueArr[2]}` %></option>
             <% }); %>
         </select>
     </td>

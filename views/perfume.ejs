@@ -1,14 +1,4 @@
-<!--
-{
-description: 'Eau de toilette',
-image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/vera-wang-variety.jpg',
-created_at: 2025-09-21T14:20:29.949Z,
-perfume_name: 'Vera Wang Variety',
-perfume_id: 168,
-brand_id: 7,
-brand_name: 'Vera Wang'
-}
--->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,29 +20,29 @@ brand_name: 'Vera Wang'
     <% if (details.length === 0) { %>
       <section class="blank"><p>No perfumes found for the search term: <%= searchText %></p></section>
       
-    <% } %>
-    <% details.forEach(el => { %>
-      <section class="perfume-details">
-        <header>
-          <div> 
-            
-            <img src="images/drop-down.svg" alt="drop-down">
-            <img src="<%= el.image_url %>" alt="the bottle">
-            <h3>ID#<%= el.perfume_id %></h3>
-          </div>
-        </header>
-        <form action="" method="post">
-          <div class="field">
-            <label for="">Perfume Name:</label>
-            <input type="text" name="" id="" value="<%= el.perfume_name %>">
-          </div>
-          <div  class="field">
-            <label for="">Image URL:</label>
-            
-            <input type="text" name="" id="" value="<%= el.image_url %>">
-          </div>
-          <div>
-            <label for="">Brand:</label>
+      <% } %>
+      <% details.forEach(el => { %>
+        <section class="perfume-details">
+          <header>
+            <div> 
+              
+              <img src="images/drop-down.svg" alt="drop-down">
+              <img src="<%= el.image_url %>" alt="the bottle">
+              <h3>ID#<%= el.perfume_id %></h3>
+            </div>
+          </header>
+          <form action="" method="post">
+            <div class="field">
+              <label for="">Perfume Name:</label>
+              <input type="text" name="" id="" value="<%= el.perfume_name %>">
+            </div>
+            <div  class="field">
+              <label for="">Image URL:</label>
+              
+              <input type="text" name="" id="" value="<%= el.image_url %>">
+            </div>
+            <div>
+              <label for="">Brand:</label>
               <select id="" name="brands">
                 <% brands.forEach(brand => { %>
                   <% if (el.brand_id === brand.brand_id) { %>
@@ -62,16 +52,16 @@ brand_name: 'Vera Wang'
                       <% } %>
                       <% }); %>
                     </select>
-                </div>
-                          <div>
-            <label for="">Categories:</label>
-              <select id="" name="categoryType">
-
+                  </div>
+                  <div>
+                    <label for="">Categories:</label>
+                    <select id="" name="categoryType">
+                      
                     </select>
-                </div>
-              </form>
-            </section>
-            <% }); %>
-          </main>
-        </body>
-        </html>
+                  </div>
+                </form>
+              </section>
+              <% }); %>
+            </main>
+          </body>
+          </html>

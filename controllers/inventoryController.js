@@ -39,6 +39,16 @@ async function getAllItems(req, res) {
     db.getAllItems(),
     db.countAllItems(),
   ]);
+  
+  for (let i = 0; i < items.rows.length; i++) {
+    const price_id_count_array = items.rows[i].price_id_count;
+    console.log(price_id_count_array[0]);
+    const count = price_id_count_array.reduce((acc, el) => el[0] ? acc + Number(el[0].split(',')[2]) : 0, 0);
+    if (price_id_count_array.length > 1) {
+      console.log("found one item with 2 prices: ", items.rows[i].perfume_id, price_id_count_array);
+    }
+    items.rows[i].count = count;
+  }
   console.log(items.rows[5]);
   res.render("items", {
     viewedRows: items.viewedRows,
@@ -56,7 +66,7 @@ async function getPerfumeDetailsById(req, res) {
   ]);
   
   res.render("perfume", {
-    details: perfume.rows,
+    details: [perfume.rows],
     categories,
   });
   
