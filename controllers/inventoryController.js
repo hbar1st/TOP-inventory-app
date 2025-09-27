@@ -36,7 +36,7 @@ async function getAllCategories(req, res) {
 async function getAllItems(req, res) {
   const viewedRows = req.query.vw ?? 0;
   const [items, item_count] = await Promise.all([
-    db.getAllItems(viewedRows),
+    db.getAllItems(),
     db.countAllItems(),
   ]);
   console.log(items.rows[5]);
@@ -66,12 +66,11 @@ async function search(req, res) {
   const searchText = req.query.searchText;
   
   // get all available brands and categories in all cases
-  const [categories, categoryTypes, brands] = await Promise.all([
+  const [categories, brands] = await Promise.all([
     db.getAllCategories(),
-    db.getAllCategoryTypes(),
     db.getAllBrands()
   ]);
-  console.log("brands found: ", brands);
+  console.log("brands found: ", categories);
   // figure out if this is an id (it will be a number)
   // if not an id, then search for it in descriptin/name/brand_name/category fields and gather all the results for display by type
   // all perfume matches together, all categories together, all brands together
@@ -96,20 +95,17 @@ async function search(req, res) {
       searchText,
       details: perfumeList,
       categories: categories.rows,
-      categoryTypes: categoryTypes.rows,
       brands: brands.rows,
     });
   } else {
     const perfume_id = Number(searchText);
-    const [perfume, categories] = await Promise.all([
-      db.getPerfumeDetailsById(perfume_id),
-      db.getPerfumeCategories(perfume_id)
+    const [perfume] = await Promise.all([
+      db.getPerfumeDetailsById(perfume_id)
     ]);
     res.render("perfume", {
       searchText,
       details: perfume,
       categories: categories.rows,
-      categoryTypes: categoryTypes.rows,
       brands: brands.rows,
     });
   }

@@ -1,9 +1,16 @@
 <tr>
-    <td class="center"><a href="item/<%= perfume.perfume_id %>"><img src="images/pen.svg" alt="menu icon"></a></td>
+    <td class="center"><a href="item/<%= perfume.perfume_id %>"><img src="images/pen.svg" alt="menu icon" title="edit"></a></td>
     <td class="pad-left"><%= perfume.perfume_name %></td>
+    <td class="pad-left"><%= perfume.description %></td>
     <td class="pad-left"><%= perfume.count %></td>
     <td class="center"><img src="<%= perfume.image_url %>" alt="perfume bottle"></td>
     <td class="pad-left"><%= perfume.brand_name %></td>
-    <td class="pad-left"><%= perfume.price %></td>
+    <td class="pad-left">
+        <select name="" id="">
+            <% perfume.price_id_count.forEach(value => { %>
+            <option value=""><%= value %></option>
+            <% }); %>
+        </select>
+    </td>
     <td class="pad-left"><%= perfume.perfume_id %></td>
 </tr>
