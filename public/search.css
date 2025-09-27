@@ -8,7 +8,7 @@ form {
 input[type=text] {
   border-radius: 25px 0px 0px 25px;
   background-color: var(--background-color);
-  --padding: clamp(5px, 15px, 1vmin);
+  --padding: .2em; /* clamp(5px, 15px, 1vmin);*/
   padding: var(--padding) 5px var(--padding) var(--padding);
   min-width: 150px;
   font-size: var(--info-font-size);

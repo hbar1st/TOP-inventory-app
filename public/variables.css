@@ -55,9 +55,9 @@ body.panel main {
   margin: .5rem;
 }
 
-option:checked {
-  background-color: #ece2f8;
-  color: black;
+option:checked:not(.original) {
+  background-color: purple;
+  color: white;
 }
 .wrapper {
   display: grid;
@@ -115,4 +115,45 @@ option:checked {
 
 .icon {
   width: clamp(10px,3vmin,20px);
+}
+
+
+select::picker(select) {
+  appearance: base-select;
+
+}
+
+select::picker-icon {
+  padding-top: 2px;
+  padding-right: 5px;
+}
+
+
+select {
+  font-size: clamp(10px, .9rem, 1rem);
+  min-width: 100%;
+  border: none;
+  
+}
+
+select.prices:disabled {
+  color: black;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+}
+option::checkmark {
+  color: transparent;
+  font-size: .1px;
+}
+
+
+select.prices:disabled::picker-icon {
+  color: transparent;
+  outline: none;
+}
+
+option.original {
+  font-weight: 650;
+  background-color: white;
 }

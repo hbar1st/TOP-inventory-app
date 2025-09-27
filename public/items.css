@@ -36,32 +36,7 @@ thead {
   }
 }
 
-select,
-::picker(select) {
-  appearance: base-select;
-  margin-right: 1px;
-}
-select {
-  font-size: clamp(10px, .9rem, 1rem);
-  min-width: 100%;
-  border-radius: 0px;
-}
-select:disabled {
-  color: black;
-  outline: none;
-  background-color: transparent;
-  border: 0px;
-}
-option::checkmark {
-  color: transparent;
-  font-size: .1px;
-}
 
-
-select:disabled::picker-icon {
-  color: transparent;
-  outline: none;
-}
 tbody {
   font-family:Arial, Helvetica, sans-serif;
   font-size: var(--info-font-size);

@@ -97,18 +97,20 @@ async function search(req, res) {
     ]);
     
     // go thru the list and remove duplicates
+    /*
     let ids = new Set();
     let perfumeList = [];
+    
     perfumes.flat().forEach((el) => {
       if (!ids.has(el.perfume_id)) {
         ids.add(el.perfume_id);
         perfumeList.push(el);
       }
     });
-    
+    */
     res.render("perfume", {
       searchText,
-      details: perfumeList,
+      details: perfumes.flat(),
       categories: categories.rows,
       brands: brands.rows,
     });
@@ -127,3 +129,19 @@ async function search(req, res) {
   
 }
 module.exports = { search, showLandingPage, getPerfumeDetailsById, getAllCategories, getAllBrands, getAllItems };
+
+/**
+ * 
+ * {
+  perfume_id: 38,
+  image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
+  description: 'Eau de parfum',
+  perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
+  avg: '529.8250000000000000',
+  perfume_price_ids: [ 38, 169 ],
+  total_count: '4',
+  brand_id: 2,
+  brand_name: 'Cartier',
+  category_list: [ 2, 4 ]
+}
+ */

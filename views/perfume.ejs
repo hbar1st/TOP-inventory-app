@@ -21,7 +21,7 @@
       </section>
       
       <% } %>
-            <% details.forEach(el => { console.log(el);%>
+      <% details.forEach(el => { console.log(el);%>
         <section class="perfume-details">
           <header>
             <div> 
@@ -29,44 +29,69 @@
               <img src="<%= el.image_url %>" alt="the bottle">
               
               <h3>ID#<%= el.perfume_id %></h3>
-            </div>
-          </header>
-          <form action="" method="post">
-            <div class="field">
-              <label for="">Perfume Name:</label>
-              <input type="text" name="" id="" value="<%= el.perfume_name %>">
-            </div>
-            <div  class="field">
-              <label for="">Image URL:</label>
-              
-              <input type="text" name="" id="" value="<%= el.image_url %>">
-            </div>
-            <div>
-              <label for="">Brand:</label>
-              <select id="" name="brands">
-                <% brands.forEach(brand => { %>
-                  <% if (el.brand_id === brand.brand_id) { %>
-                    <option selected value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                    <% } else { %>
-                      <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                      <% } %>
-                      <% }); %>
-                    </select>
-                  </div>
-                  <div>
-                    <label for="">Categories:</label>
-                    <select id="" name="categoryType">
-                      
-                    </select>
-                  </div>
-                  <div class="button-panel">
-                    <button type="submit">Submit Changes</button>
-                    <button type="submit">Delete</button>
-                  </div>
-                </form>
-              </section>
-              <% }); %>
-
-    </main>
-  </body>
-  </html>
+              </div>
+              <div>
+                <label for="">Receipt ids:</label>
+                <select class="prices" <%= (el.perfume_price_ids.length === 1) ? `disabled` : ``%>>
+                  <% el.perfume_price_ids.forEach(price => { %>
+                  <option value="<%= price %>"><%= price %></option>
+                  <% }) %>
+                </select>
+                </div>
+             
+            </header>
+            <form action="" method="post">
+              <div class="field">
+                <label for="">Perfume Name</label>
+                <input type="text" name="" id="" value="<%= el.perfume_name %>">
+              </div>
+              <div  class="field">
+                <label for="">Image URL</label>
+                
+                <input type="text" name="" id="" value="<%= el.image_url %>">
+              </div>
+              <div  class="field">
+                <label for="">Description</label>
+                
+                <input type="text" name="" id="" value="<%= el.description %>">
+              </div>
+              <div  class="field">
+                <label for="">Avg. Price ($)</label>
+                
+                <input type="text" name="" id="" value="<%= Number(el.avg).toFixed(2) %>">
+              </div>
+              <div  class="field">
+                <label for="">Inventory</label>
+                
+                <input type="text" name="" id="" value="<%= el.total_count %>">
+              </div>
+              <div class="field">
+                <label for="">Brand</label>
+                <select id="" name="brands">
+                  <% brands.forEach(brand => { %>
+                    <% if (el.brand_id === brand.brand_id) { %>
+                      <option selected class="original" value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                      <% } else { %>
+                        <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                        <% } %>
+                        <% }); %>
+                      </select>
+                    </div>
+                    <div class="field">
+                      <label for="">Categories</label>
+                      <select id="" name="categoryType">
+                        
+                      </select>
+                    </div>
+                    <div class="button-panel playfair-display-400">
+                      <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save Changes</button>
+                      <button type="button"><a href="http://"><img class="icon" src="/images/perfume-plus.svg" alt="Add">Add Stock</a></button>
+                      <button type="submit"><img class="icon" src="/images/delete-icon.svg" alt="Delete">Delete</button>
+                    </div>
+                  </form>
+                </section>
+                <% }); %>
+                
+              </main>
+            </body>
+            </html>

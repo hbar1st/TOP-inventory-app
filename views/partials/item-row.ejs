@@ -6,7 +6,7 @@
     <td class="center"><img src="<%= perfume.image_url %>" alt="perfume bottle" onerror="this.onerror = null; this.src='images/perfume-bottle-image.jpg' "></td>
     <td class="pad-left"><%= perfume.brand_name %></td>
     <td class="pad-left">
-        <select <%= (perfume.price_id_count.length === 1) ? `disabled` : ``%>>
+        <select class="prices" <%= (perfume.price_id_count.length === 1) ? `disabled` : ``%>>
             <% perfume.price_id_count.forEach(value => { %>
                 <% const valueArr = value[0] ? value[0].split(',') : ['-',,'-']; %>
             <option value=""><%= `\$${valueArr[0]}|${valueArr[2]}` %></option>
