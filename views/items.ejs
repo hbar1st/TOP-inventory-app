@@ -23,25 +23,26 @@
           <span class="item-count">total # of items: <%= items.length %></span>
         </p>
       </header>
-      <table class="mid-section">
-        <thead>
-          <th></th>
-          <th>Name</th>
-          <th>Description</th>
-          <th>Count</th>
-          <th>Image</th>
-          <th>Brand</th>
-          <th>Cost|Count</th>
-          <th>Id.</th>
-        </thead>
-        <tbody>
-          <% items.forEach(perfume => { %>
-            <%- include("partials/item-row.ejs", {perfume}) %>
-            <% }); %>
-          </tbody>
-        </table>
-        
+      <div class="table-container">
+        <table class="mid-section">
+          <thead>
+            <th></th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Count</th>
+            <th>Image</th>
+            <th>Brand</th>
+            <th>Cost|Count</th>
+            <th>Id.</th>
+          </thead>
+          <tbody>
+            <% items.forEach(perfume => { %>
+              <%- include("partials/item-row.ejs", {perfume}) %>
+              <% }); %>
+            </tbody>
+          </table>
+        </div>
       </main>
     </body>
     </html>
- 
+    
