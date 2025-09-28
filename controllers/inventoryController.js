@@ -9,8 +9,6 @@ async function showLandingPage(req, res) {
 
 async function getAllBrands(req, res) {
   const viewedRows = req.query.vw ?? 0;
-  /*const brands = await db.getAllBrands(viewedRows);
-  const item_count = await db.countAllItems();*/
   const [brands, item_count] = await Promise.all([
     db.getAllBrands(viewedRows),
     db.countAllItems()
@@ -49,7 +47,6 @@ async function getAllItems(req, res) {
     }
     items.rows[i].count = count;
   }
-  console.log(items.rows[5]);
   res.render("items", {
     viewedRows: items.viewedRows,
     items: items.rows,
@@ -60,21 +57,17 @@ async function getAllItems(req, res) {
 async function getPerfumeDetailsById(req, res) {
   const perfume_id = +req.params.id;
   console.log({perfume_id})
-  const [perfume, categories, allbrands] = await Promise.all([
+  const [perfume, categories, brands] = await Promise.all([
     db.getPerfumeDetailsById(perfume_id),
-    db.getPerfumeCategories(perfume_id),
+    db.getAllCategories(),
     db.getAllBrands()
   ]);
-  console.log("this is the perfume I'm trying to see:")
-  console.log(perfume, categories, allbrands);
   res.render("perfume", {
-    imagesPath: '../images',
     searchText: '',
     details: perfume,
     categories: categories.rows,
-    brands: allbrands.rows
+    brands: brands.rows
   });
-  
 }
 
 async function search(req, res) {
@@ -119,6 +112,7 @@ async function search(req, res) {
     const [perfume] = await Promise.all([
       db.getPerfumeDetailsById(perfume_id)
     ]);
+    
     res.render("perfume", {
       searchText,
       details: perfume,

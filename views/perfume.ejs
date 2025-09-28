@@ -21,7 +21,7 @@
       </section>
       
       <% } %>
-      <% details.forEach(el => { console.log(el);%>
+      <% details.forEach(el => { console.log('in perfume.ejs: ',el);%>
          <%- include("partials/perfume-details.ejs", {el, categories, brands}); %>
         <% }); %>
         
