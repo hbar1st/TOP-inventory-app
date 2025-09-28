@@ -23,9 +23,10 @@
       <% } else { %>
         <% if (add) { %>
           <%- include("partials/add-perfume.ejs", {categories, brands}); %>
-          <% } else { %>
+          <% } else { console.log(details) %>
             <% details.forEach(el => { %>
-            <%- include("partials/perfume-details.ejs", {el, categories, brands}); %>
+              <% let p = pp_id ?? el.perfume_price_ids[0]; console.log(el.perfume_prices); console.log(pp_id, p) %>
+            <%- include("partials/perfume-details.ejs", {el, perfume_prices: el.perfume_prices, pp_id: p, categories, brands}); %>
             <% }); %>
             <% } %>
             

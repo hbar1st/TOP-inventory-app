@@ -196,67 +196,67 @@ async function getAllItems(viewedRows=0) {
   console.log("in getAllItems: ", rows.length);
   return { rows, viewedRows: rows.length + viewedRows };
 }
-async function getPerfumeByPerfumePriceId(perfume_price_id) {
-  console.log("in getPerfumeByPerfumePriceId: ", perfume_price_id);
+async function getPerfumeIdByPerfumePriceId(perfume_price_id) {
+  console.log("in getPerfumeIdByPerfumePriceId: ", perfume_price_id);
   const { rows } = await pool.query(
-    `SELECT DISTINCT p.perfume_id,
-    image_url,
-    description,
-    created_at,
-    sub.pp_id,
-    sub.pp_price,
-    sub.pp_count,
-    REPLACE(perfume_name, '''''', '''') as perfume_name,
-    AVG(price),
-    ARRAY_AGG(DISTINCT pp.perfume_price_id) as perfume_price_ids,
-    SUM(count) as total_count,
-    brand_id,
-    brand_name,
-    ARRAY_AGG(DISTINCT category_id) AS category_list
-    FROM
-    (SELECT perfume_id,price as pp_price, count as pp_count, $2 as pp_id
+    `SELECT perfume_id
     FROM perfume_price
     INNER JOIN perfumes USING (perfume_id)
-    LEFT JOIN inventory USING (perfume_price_id)
-    WHERE perfume_price_id=$1) as sub
-    LEFT JOIN perfumes as p ON sub.perfume_id = p.perfume_id
-    LEFT JOIN perfume_price as pp ON sub.perfume_id = pp.perfume_id
-    LEFT JOIN inventory as i ON i.perfume_price_id = pp.perfume_price_id
-    LEFT JOIN perfume_brand as pb ON pb.perfume_id = pp.perfume_id
-    LEFT JOIN brands USING (brand_id)
-    LEFT JOIN perfume_category as pc ON pc.perfume_id = pp.perfume_id
-    LEFT JOIN categories USING (category_id)
-    GROUP BY p.perfume_id,brand_id,brand_name, sub.pp_id, sub.pp_price, sub.pp_count;`,
-    [`${perfume_price_id}`, perfume_price_id]
+    WHERE perfume_price_id=$1;`,
+    [perfume_price_id]
   );
 
   console.log("in getPerfumeByPerfumePriceId: ", rows);
-  return rows;
+  return rows[0];
 }
 
 async function getPerfumeDetailsById(id) {
   console.log("in getPerfumeDetailsById: ", id);
   const { rows } = await pool.query(
-    `SELECT DISTINCT p.perfume_id,
-    image_url,
-    description,
-    perfume_price_id,
-    REPLACE(perfume_name, '''''', '''') as perfume_name,
-    AVG(price),
-    ARRAY_AGG(DISTINCT perfume_price_id) as perfume_price_ids,
-    SUM(count) as total_count,
-    brand_id,
-    brand_name,
-    ARRAY_AGG(DISTINCT category_id) AS category_list
-    FROM perfumes AS p
-    LEFT JOIN perfume_price USING (perfume_id)
-    LEFT JOIN inventory USING (perfume_price_id)
-    LEFT JOIN perfume_brand USING (perfume_id)
-    LEFT JOIN brands USING (brand_id)
-    LEFT JOIN perfume_category USING (perfume_id)
-    LEFT JOIN categories USING (category_id)
-    WHERE perfume_id=$1
-    GROUP BY p.perfume_id,brand_id,brand_name;`,
+    `SELECT 
+  p.perfume_id,
+  image_url,
+  description,
+  created_at,
+  (
+    SELECT JSON_AGG(JSON_BUILD_OBJECT(
+      'pp_id', sub.pp_id,
+      'pp_price', sub.pp_price,
+      'pp_count', sub.pp_count
+    ))
+    FROM (
+      SELECT DISTINCT
+        pp.perfume_price_id AS pp_id,
+        pp.price AS pp_price,
+        i.count AS pp_count
+      FROM perfume_price pp
+      LEFT JOIN inventory i USING (perfume_price_id)
+      WHERE pp.perfume_id = p.perfume_id
+    ) sub
+  ) AS perfume_prices,
+  REPLACE(perfume_name, '''''', '''') AS perfume_name,
+  AVG(price) AS avg_price,
+  ARRAY_AGG(DISTINCT perfume_price_id) AS perfume_price_ids,
+  SUM(count) AS total_count,
+  brand_id,
+  brand_name,
+  ARRAY_AGG(DISTINCT category_id) AS category_list
+FROM perfumes AS p
+LEFT JOIN perfume_price USING (perfume_id)
+LEFT JOIN inventory USING (perfume_price_id)
+LEFT JOIN perfume_brand USING (perfume_id)
+LEFT JOIN brands USING (brand_id)
+LEFT JOIN perfume_category USING (perfume_id)
+LEFT JOIN categories USING (category_id)
+WHERE p.perfume_id = $1
+GROUP BY 
+  p.perfume_id,
+  image_url,
+  description,
+  perfume_name,
+  brand_id,
+  brand_name;
+`,
     [`${id}`]
   );
   
@@ -404,7 +404,7 @@ module.exports = {
   getPerfumesByBrand,
   getPerfumesByCategoryDetails,
   getPerfumeDetailsById,
-  getPerfumeByPerfumePriceId,
+  getPerfumeIdByPerfumePriceId,
   getPerfumeCategories,
   getCategory,
   getBrandByName,

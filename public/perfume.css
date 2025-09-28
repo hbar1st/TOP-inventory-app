@@ -135,7 +135,7 @@ button > a {
   column-gap: .2em;
 }
 
-optgroup > option {
+option:not(:disabled) {
   padding-left: .8em;
 }
 

@@ -79,27 +79,31 @@ async function getPerfumeDetailsById(req, res) {
     db.getAllBrands()
   ]);
   res.render("perfume", {
-    searchText: '',
+    searchText: "",
     details: perfume,
     categories: categories.rows,
     brands: brands.rows,
-    add: false
+    pp_id: null,
+    add: false,
   });
 }
 
 async function getPerfumeByPerfumePriceId(req, res) {
   const perfume_price_id = +req.params.id;
   console.log({ perfume_price_id });
-  const [perfume, categories, brands] = await Promise.all([
-    db.getPerfumeByPerfumePriceId(perfume_price_id),
+  const [{ perfume_id }, categories, brands] = await Promise.all([
+    db.getPerfumeIdByPerfumePriceId(perfume_price_id),
     db.getAllCategories(),
     db.getAllBrands(),
   ]);
+  console.log({ perfume_id });
+  const perfume = await getPerfumeById(perfume_id);
   res.render("perfume", {
     searchText: "",
     details: perfume,
     categories: categories.rows,
     brands: brands.rows,
+    pp_id: perfume_price_id,
     add: false,
   });
 }
@@ -144,19 +148,31 @@ async function search(req, res) {
     });
   } else {
     const perfume_id = Number(searchText);
+    const perfume = await getPerfumeById(perfume_id);
+    /*
     const [perfume] = await Promise.all([
-      db.getPerfumeDetailsById(perfume_id)
+    db.getPerfumeDetailsById(perfume_id)
     ]);
-    
+    */
     res.render("perfume", {
       searchText,
       details: perfume,
       categories: categories.rows,
       brands: brands.rows,
+      pp_id: null,
       add: false,
     });
+    
   }
   
+}
+
+async function getPerfumeById(perfume_id) {
+  const [perfume] = await Promise.all([
+    db.getPerfumeDetailsById(perfume_id)
+  ]);
+  console.log("after the await:",perfume);
+  return perfume;
 }
 module.exports = {
   addNewPerfume,
@@ -171,17 +187,17 @@ module.exports = {
 };
 
 /**
- * 
- * {
-  perfume_id: 38,
-  image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
-  description: 'Eau de parfum',
-  perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
-  avg: '529.8250000000000000',
-  perfume_price_ids: [ 38, 169 ],
-  total_count: '4',
-  brand_id: 2,
-  brand_name: 'Cartier',
-  category_list: [ 2, 4 ]
+* 
+* {
+perfume_id: 38,
+image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
+description: 'Eau de parfum',
+perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
+avg: '529.8250000000000000',
+perfume_price_ids: [ 38, 169 ],
+total_count: '4',
+brand_id: 2,
+brand_name: 'Cartier',
+category_list: [ 2, 4 ]
 }
- */
+*/

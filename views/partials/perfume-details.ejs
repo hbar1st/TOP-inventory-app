@@ -11,78 +11,74 @@
               <div>
                 <label for="">Avg. Price ($)</label>
                 
-                <input disabled type="text" name="" id="" value="<%= Number(el.avg).toFixed(2) %>">
+                <input disabled type="text" name="" id="" value="<%= Number(el.avg_price).toFixed(2) %>">
               </div>
               <div>
-                            <label for="">Inventory</label>
-              
-              <input disabled type="text" name="" id="" value="<%= el.total_count %>">
-            </div>
-              <div>
-              <label for="">Receipt ids:</label>
-              <select onchange="window.location.href = `/perfume-price-id/${this.value}`;" class="prices" id="perfume-prices" <%= (el.perfume_price_ids.length === 1) ? `disabled` : ``%>>
-                <% el.perfume_price_ids.forEach(price => { %>
-                  <option value="<%= price %>" <%= (el.pp_id == price) ? 'selected' : '' %> ><%= price %></option>
-                  <% }) %>
-                </select>
+                <label for="">Inventory</label>
+                
+                <input disabled type="text" name="" id="" value="<%= el.total_count %>">
               </div>
-            </div>
-          </header>
-          <form action="" method="post">
-            <div class="field">
-              <label for="">Perfume Name</label>
-              <input type="text" name="" id="" value="<%= el.perfume_name %>">
-            </div>
-            <div  class="field">
-              <label for="">Image URL</label>
+              <div>
+                <label for="">Receipt ids:</label>
+                <select onchange="window.location.href = `/perfume-price-id/${this.value}`;" class="prices" id="perfume-prices" <%= (el.perfume_price_ids.length === 1) ? `disabled` : ``%>>
+                  <% el.perfume_price_ids.forEach(price => { %>
+                    <option value="<%= price %>" <%= (pp_id == price) ? 'selected' : '' %> ><%= price %></option>
+                    <% }) %>
+                  </select>
+                </div>
+              </div>
+            </header>
+            <form action="" method="post">
+              <div class="field">
+                <label for="">Perfume Name</label>
+                <input type="text" name="" id="" value="<%= el.perfume_name %>">
+              </div>
+              <div  class="field">
+                <label for="">Image URL</label>
+                
+                <input type="text" name="" id="" value="<%= el.image_url %>">
+              </div>
+              <div  class="field">
+                <label for="">Description</label>
+                
+                <input type="text" name="" id="" value="<%= el.description %>">
+              </div>
               
-              <input type="text" name="" id="" value="<%= el.image_url %>">
-            </div>
-            <div  class="field">
-              <label for="">Description</label>
+              <div  class="field">
+                <label for="">Purchase price ($)</label>
+                <% let [ perfumePriceInv ] = perfume_prices.filter(obj => obj.pp_id == pp_id); %>
+                <input type="text" name="price" id="" value="<%= perfumePriceInv.pp_price %>">
+              </div>
               
-              <input type="text" name="" id="" value="<%= el.description %>">
-            </div>
-            
-            <div  class="field">
-              <label for="">Purchase price ($)</label>
-              
-              <input type="text" name="price" id="" value="<%= Number(el.pp_price).toFixed(2) %>">
-            </div>
-            
-            <div  class="field">
-              <label for="">Count</label>
-              
-              <input type="text" name="" id="" value="<%= el.pp_count %>">
-            </div>
-            <div class="field">
-              <label for="">Brand</label>
-              <select name="brands">
-                <% brands.forEach(brand => { %>
-                  <% if (el.brand_id === brand.brand_id) { %>
-                    <option selected id=<%= el.brand_id %> class="original" value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                    <% } else { %>
-                      <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                      <% } %>
-                      <% }); %>
-                    </select>
-                  </div>
-                  <div class="field">
-                    <label for="categories">Categories</label>
-                    <select multiple id="categories" name="categoryType">
-                      <% let currType = ""; %>
-                      <% for (let i = 0; i < categories.length; i++ ) { %>
-                        <% if ( currType !== categories[i].type ) { %>
-                          <optgroup label="<%= categories[i].type %>"><%= categories[i].type %>
+              <div  class="field">
+                <label for="">Count</label>
+                
+                <input type="text" name="" id="" placeholder="nothing yet" value="<%= perfumePriceInv.pp_count %>">
+              </div>
+              <div class="field">
+                <label for="">Brand</label>
+                <select name="brands">
+                  <% brands.forEach(brand => { %>
+                    <% if (el.brand_id === brand.brand_id) { %>
+                      <option selected id=<%= el.brand_id %> class="original" value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                      <% } else { %>
+                        <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                        <% } %>
+                        <% }); %>
+                      </select>
+                    </div>
+                    <div class="field">
+                      <label for="categories">Categories</label>
+                      <select multiple id="categories" name="categoryType"> <% let currType = ""; %>
+                        
+                       <% for (let i = 0; i < categories.length; i++) { %>
+                          <% if (currType !== categories[i].type) { %>
+                            <option disabled>Type: <%= categories[i].type %> </option>
                             <% currType = categories[i].type %>
                             <% } %>
-                            <option id=<%= categories[i].category_id %> <%= (el.category_list.indexOf(categories[i].category_id) >= 0) ? 'selected class=original' : '' %> value="<%= categories[i].category_name %>"><%= categories[i].category_name %></option>
-                            <% if (i < categories.length-2 && categories[i].type !== categories[i+1].type ) { %>
-                            </optgroup>
-                            <% } else if (i === categories.length-1) { %>
-                            </optgroup>
-                            <% }} %>
-                          </select>
+    <option id=<%= categories[i].category_id %> <%= (el.category_list.indexOf(categories[i].category_id) >= 0) ? 'selected class=original' : '' %> value="<%= categories[i].category_name %>" ><%= categories[i].category_name %></option >
+                          <% } %>
+                        </select>
                         </div>
                         <div class="button-panel playfair-display-400">
                           <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save Changes</button>

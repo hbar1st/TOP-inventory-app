@@ -159,4 +159,9 @@ select.prices:disabled::picker-icon {
 
 option.original {
   background-color: white;
+  border: .3px dashed black;
+}
+
+option.original::after {
+  content: "*";
 }
