@@ -1,0 +1,79 @@
+        <section class="perfume-details">
+          <header>
+            <div> 
+              
+              <img src="<%= el.image_url %>" alt="the bottle">
+              
+              <h3>ID#<%= el.perfume_id %></h3>
+            </div>
+            <div>
+              <label for="">Receipt ids:</label>
+              <select class="prices" <%= (el.perfume_price_ids.length === 1) ? `disabled` : ``%>>
+                <% el.perfume_price_ids.forEach(price => { %>
+                  <option value="<%= price %>"><%= price %></option>
+                  <% }) %>
+                </select>
+              </div>
+              
+            </header>
+            <form action="" method="post">
+              <div class="field">
+                <label for="">Perfume Name</label>
+                <input type="text" name="" id="" value="<%= el.perfume_name %>">
+              </div>
+              <div  class="field">
+                <label for="">Image URL</label>
+                
+                <input type="text" name="" id="" value="<%= el.image_url %>">
+              </div>
+              <div  class="field">
+                <label for="">Description</label>
+                
+                <input type="text" name="" id="" value="<%= el.description %>">
+              </div>
+              <div  class="field">
+                <label for="">Avg. Price ($)</label>
+                
+                <input type="text" name="" id="" value="<%= Number(el.avg).toFixed(2) %>">
+              </div>
+              <div  class="field">
+                <label for="">Inventory</label>
+                
+                <input type="text" name="" id="" value="<%= el.total_count %>">
+              </div>
+              <div class="field">
+                <label for="">Brand</label>
+                <select name="brands">
+                  <% brands.forEach(brand => { %>
+                    <% if (el.brand_id === brand.brand_id) { %>
+                      <option selected id=<%= el.brand_id %> class="original" value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                      <% } else { %>
+                        <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
+                        <% } %>
+                        <% }); %>
+                      </select>
+                    </div>
+                    <div class="field">
+                      <label for="categories">Categories</label>
+                      <select multiple id="categories" name="categoryType">
+                        <% let currType = ""; %>
+                        <% for (let i = 0; i < categories.length; i++ ) { %>
+                        <% if ( currType !== categories[i].type ) { %>
+                          <optgroup label="<%= categories[i].type %>"><%= categories[i].type %>
+                          <% currType = categories[i].type %>
+                          <% } %>
+                          <option id=<%= categories[i].category_id %> <%= (el.category_list.indexOf(categories[i].category_id) >= 0) ? 'selected class=original' : '' %> value="<%= categories[i].category_name %>"><%= categories[i].category_name %></option>
+                          <% if (i < categories.length-2 && categories[i].type !== categories[i+1].type ) { %>
+                          </optgroup>
+                          <% } else if (i === categories.length-1) { %>
+                          </optgroup>
+                        <% }} %>
+                        </select>
+                      </div>
+                      <div class="button-panel playfair-display-400">
+                        <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save Changes</button>
+                        <button type="button"><a href="http://"><img class="icon" src="/images/perfume-plus.svg" alt="Add">Add Stock</a></button>
+                        <button type="submit"><img class="icon" src="/images/delete-icon.svg" alt="Delete">Delete</button>
+                      </div>
+                    </form>
+                  </section>

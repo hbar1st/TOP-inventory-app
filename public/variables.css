@@ -154,6 +154,5 @@ select.prices:disabled::picker-icon {
 }
 
 option.original {
-  font-weight: 650;
   background-color: white;
 }

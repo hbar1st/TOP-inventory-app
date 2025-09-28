@@ -96,8 +96,8 @@ async function search(req, res) {
       db.getPerfumesByBrand(searchText),
     ]);
     
-    // go thru the list and remove duplicates
-    /*
+    // go thru the list and remove duplicates since the 3 queries above are not mutually-exclusive searches
+    
     let ids = new Set();
     let perfumeList = [];
     
@@ -107,10 +107,10 @@ async function search(req, res) {
         perfumeList.push(el);
       }
     });
-    */
+    
     res.render("perfume", {
       searchText,
-      details: perfumes.flat(),
+      details: perfumeList,
       categories: categories.rows,
       brands: brands.rows,
     });

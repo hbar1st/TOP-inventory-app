@@ -79,6 +79,15 @@ h3 {
     display: flex;
     column-gap: .2em;
     font-size: smaller;
+    background-color: white;
+    border-right: 2px solid #d4c5ed;
+    border-left: 1px dotted #d4c5ed;
+    border-top: .5px solid #d4c5ed;
+    box-shadow: 1px 1px 3px 1px gray;
+  }
+
+  button:hover {
+    background-color: var(--focused-background-color);
   }
 }
 
@@ -93,3 +102,8 @@ button > a {
   display: flex;
   column-gap: .2em;
 }
+
+optgroup > option {
+  padding-left: .8em;
+}
+
