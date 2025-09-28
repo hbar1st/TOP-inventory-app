@@ -13,7 +13,6 @@ async function getAllBrands(req, res) {
     db.getAllBrands(viewedRows),
     db.countAllItems()
   ]);
-  console.log({ item_count });
   res.render("brands", { viewedRows: brands.viewedRows, brands: brands.rows, item_count });
 }
 
@@ -23,7 +22,6 @@ async function getAllCategories(req, res) {
     db.getAllCategories(viewedRows),
     db.countAllItems(),
   ]);
-  console.log(categories.rows);
   res.render("categories", {
     viewedRows: categories.viewedRows,
     categories: categories.rows,
@@ -54,6 +52,20 @@ async function getAllItems(req, res) {
   });
 }
 
+async function getPerfumeForm(req, res) {
+  const [categories, brands] = await Promise.all([
+    db.getAllCategories(),
+    db.getAllBrands(),
+  ]);
+  res.render("perfume", {
+    searchText: "",
+    details: [],
+    categories: categories.rows,
+    brands: brands.rows,
+    add: true
+  });
+}
+
 async function getPerfumeDetailsById(req, res) {
   const perfume_id = +req.params.id;
   console.log({perfume_id})
@@ -66,7 +78,8 @@ async function getPerfumeDetailsById(req, res) {
     searchText: '',
     details: perfume,
     categories: categories.rows,
-    brands: brands.rows
+    brands: brands.rows,
+    add: false
   });
 }
 
@@ -78,7 +91,7 @@ async function search(req, res) {
     db.getAllCategories(),
     db.getAllBrands()
   ]);
-  console.log("brands found: ", categories);
+  
   // figure out if this is an id (it will be a number)
   // if not an id, then search for it in descriptin/name/brand_name/category fields and gather all the results for display by type
   // all perfume matches together, all categories together, all brands together
@@ -106,6 +119,7 @@ async function search(req, res) {
       details: perfumeList,
       categories: categories.rows,
       brands: brands.rows,
+      add: false,
     });
   } else {
     const perfume_id = Number(searchText);
@@ -118,11 +132,12 @@ async function search(req, res) {
       details: perfume,
       categories: categories.rows,
       brands: brands.rows,
+      add: false,
     });
   }
   
 }
-module.exports = { search, showLandingPage, getPerfumeDetailsById, getAllCategories, getAllBrands, getAllItems };
+module.exports = { search, showLandingPage, getPerfumeForm, getPerfumeDetailsById, getAllCategories, getAllBrands, getAllItems };
 
 /**
  * 

@@ -15,16 +15,23 @@
 <body class="panel playfair-display-400">
   <%- include("partials/nav.ejs", {currentPage: ''}); %>
   <main>
-    <% if (details.length === 0) { %>
+    <% if (details.length === 0 && !add) { %>
       <section class="blank">
         <p>No perfumes found for the search term: <%= searchText %></p>
       </section>
       
-      <% } %>
-      <% details.forEach(el => { console.log('in perfume.ejs: ',el);%>
-         <%- include("partials/perfume-details.ejs", {el, categories, brands}); %>
-        <% }); %>
-        
-      </main>
-    </body>
-    </html>
+      <% } else { %>
+        <% if (add) { %>
+          <%- include("partials/add-perfume.ejs", {categories, brands}); %>
+          <% } else { %>
+            <% details.forEach(el => { %>
+            <%- include("partials/perfume-details.ejs", {el, categories, brands}); %>
+            <% }); %>
+            <% } %>
+            
+            
+            <% } %>
+            
+          </main>
+        </body>
+        </html>

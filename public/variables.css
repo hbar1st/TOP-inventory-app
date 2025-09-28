@@ -142,11 +142,15 @@ select.prices:disabled {
   background-color: transparent;
   border: 0px;
 }
+/*
 option::checkmark {
+  color: black;
+}
+select.prices option::checkmark {
   color: transparent;
   font-size: .1px;
 }
-
+*/
 
 select.prices:disabled::picker-icon {
   color: transparent;
