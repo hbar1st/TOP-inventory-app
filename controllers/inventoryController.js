@@ -66,6 +66,10 @@ async function getPerfumeForm(req, res) {
   });
 }
 
+async function addNewPerfume(req, res) {
+  console.log(req.query);
+}
+
 async function getPerfumeDetailsById(req, res) {
   const perfume_id = +req.params.id;
   console.log({perfume_id})
@@ -80,6 +84,23 @@ async function getPerfumeDetailsById(req, res) {
     categories: categories.rows,
     brands: brands.rows,
     add: false
+  });
+}
+
+async function getPerfumeByPerfumePriceId(req, res) {
+  const perfume_price_id = +req.params.id;
+  console.log({ perfume_price_id });
+  const [perfume, categories, brands] = await Promise.all([
+    db.getPerfumeByPerfumePriceId(perfume_price_id),
+    db.getAllCategories(),
+    db.getAllBrands(),
+  ]);
+  res.render("perfume", {
+    searchText: "",
+    details: perfume,
+    categories: categories.rows,
+    brands: brands.rows,
+    add: false,
   });
 }
 
@@ -137,7 +158,17 @@ async function search(req, res) {
   }
   
 }
-module.exports = { search, showLandingPage, getPerfumeForm, getPerfumeDetailsById, getAllCategories, getAllBrands, getAllItems };
+module.exports = {
+  addNewPerfume,
+  search,
+  showLandingPage,
+  getPerfumeByPerfumePriceId,
+  getPerfumeForm,
+  getPerfumeDetailsById,
+  getAllCategories,
+  getAllBrands,
+  getAllItems,
+};
 
 /**
  * 
