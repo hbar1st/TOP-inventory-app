@@ -52,6 +52,16 @@ async function getAllItems(req, res) {
   });
 }
 
+async function getBrandsForm(req, res) {
+    const [brands] = await Promise.all([
+      db.getAllBrands(),
+    ]);
+    res.render("brands-form", {
+      brands: brands.rows,
+      add: false
+    });
+}
+
 async function getPerfumeForm(req, res) {
   const [categories, brands] = await Promise.all([
     db.getAllCategories(),
@@ -68,6 +78,12 @@ async function getPerfumeForm(req, res) {
 
 async function addNewPerfume(req, res) {
   console.log(req.query);
+}
+
+async function addNewBrand(req, res) {
+  console.log("in addNewBrand");
+  console.log(req.query.brand);
+  res.send(req.query.brand);
 }
 
 async function getPerfumeDetailsById(req, res) {
@@ -174,16 +190,23 @@ async function getPerfumeById(perfume_id) {
   console.log("after the await:",perfume);
   return perfume;
 }
+
+async function getDeleteBrandConfirmationForm(req, res) {
+  res.send("later TODO")
+}
 module.exports = {
   addNewPerfume,
+  addNewBrand,
   search,
   showLandingPage,
   getPerfumeByPerfumePriceId,
   getPerfumeForm,
+  getBrandsForm,
   getPerfumeDetailsById,
   getAllCategories,
   getAllBrands,
   getAllItems,
+  getDeleteBrandConfirmationForm,
 };
 
 /**

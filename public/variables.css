@@ -71,6 +71,9 @@ option:checked:not(.original) {
 }
 
 .box {
+  padding: 1px;
+}
+.box > a {
     display: flex;
   flex-direction: column;
   border-radius: 5px;
@@ -164,4 +167,8 @@ option.original {
 
 option.original::after {
   content: "*";
+}
+
+main > section > header > div{
+  display: flex;
 }

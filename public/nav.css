@@ -37,8 +37,9 @@ nav {
   }
 }
 
-ul {
+nav ul {
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
   justify-content: space-evenly;
   list-style-type: none;
@@ -70,12 +71,12 @@ ul {
 .highlight-menu {
   color: white;
 }
-li:has(>.highlight-menu) {
+nav li:has(>.highlight-menu) {
   background: linear-gradient(90deg, #3e2244 0% 90%, black);
   box-shadow: none;
   
 }
-ul > li:nth-child(4) > a {
+nav ul > li:nth-child(4) > a {
   display: flex;
   justify-content: center;
   column-gap: 3px;

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="stylesheet" href="/brands.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Inventory App Brands</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: ''}); %>
+  <main>
+    <section class="perfume-details brands">
+      <header>
+        <h3>Enter the name of a new brand to add or choose a brand to delete.</h3>
+        <p>Note that deleting a brand requires a secret passcode and will result in all related perfumes getting deleted permanently!</p>
+      </header>
+      <div>
+      <form action="/add/brand" method="POST">
+        <div>
+          <label for="new">Add new brand:</label>
+          <input required id="new" type="text" name="brand" placeholder="new brand name">
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <section>
+        <ul>
+          <% brands.forEach((brand) => { %>
+            <li>
+              <a href="delete/<%= brand.brand_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+              <span><%= brand.brand_name %></span>
+              <span>Qty: <%= brand.perfume_count %></span>
+              
+            </li>
+            <% }); %>
+          </ul>
+        </section>
+        </div>
+      </section>
+    </main>
+  </body>
+  </html>

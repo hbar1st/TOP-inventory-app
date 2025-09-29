@@ -36,16 +36,20 @@
                 <header><span>Category Type:</span> <%= categories[i].type %></header>
                 <ul class="wrapper">
                   <li class="box">
+                    <a href="http://">
                     <span>Add category</span>
                     <span class="large-count"><img class="large-icon" src="/images/wonky-plus-mod.svg" alt="Add icon"></span>
+                    </a>
                   </li>
                   
                   <% while( (i < categories.length) && (currType === categories[i].type)) { %>
                     
                     <% totalPerType += +categories[i].perfume_count %>
                     <li class="box" name="<%= categories[i].category_id %>">
+                      <a href="http://">
                       <span class="box-title"><%= categories[i].category_name %></span>
                       <span>Qty: <span class="large-count"><%= categories[i].perfume_count %></span></span>
+                      </a>
                     </li>
                     <% i++; %>
                     <% } %>
