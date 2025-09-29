@@ -6,6 +6,7 @@
 
 .large-icon {
   width: clamp(1rem, 5vw + 1rem, 2rem);
+  max-width: 2rem;
 }
 
 .parisienne-regular {
@@ -32,14 +33,19 @@
   border-radius: 5px;
   flex-direction: column;
   justify-content: flex-start;
-  width: 50%;
+  min-width: clamp(300px, 50%, 100%);
   margin: initial;
   padding: 1rem;
   row-gap: 1rem;
+
   label {
-    font-size: smaller;
+    font-size: var(--info-font-size);
     font-weight: bold;
     min-width: 35%;
+  }
+  div {
+    display: flex;
+    flex-flow: row wrap;
   }
   input[type="text"] {
     border-bottom: 1px solid black;
@@ -49,6 +55,12 @@
     background-color: #e6ebff;
     font-size: clamp(11px, .9rem, 1rem);
     min-width: auto;
+  }
+
+  button {
+    padding: 0.1rem 1rem;
+    width: clamp(50px, 50%, 100px);
+    align-self: flex-end;
   }
 }
 
@@ -74,6 +86,6 @@ ul {
 .brands > div {
     display: flex;
     column-gap: 2rem;
+    row-gap:1rem;
+    flex-flow: row wrap;
   }
-
-}

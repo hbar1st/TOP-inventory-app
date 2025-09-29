@@ -19,7 +19,7 @@
   <main>
     <section>
       <header>
-        <div><a href="/edit/brands/" title="Manage brands"><img src="/images/pen.svg" alt="manage brands"></a><h2>Brand Inventory</h2></div>
+        <div><a href="/brands/edit" title="Manage brands"><img src="/images/pen.svg" alt="manage brands"></a><h2>Brand Inventory</h2></div>
         <p class="sub-header">
         <span class="item-count">total # of brands: <%= brands.length %>, </span>
         <span class="item-count">total item count: <%= item_count %></span>
@@ -27,14 +27,14 @@
       </header>
       <ul class="wrapper">
         <li class="box">
-          <a href="http://">
-          <span>Add brand</span>
+          <a href="/brands/edit">
+          <span>Manage brands</span>
           <span class="large-count"><img class="large-icon" src="/images/star-with-plus.svg" alt="Add icon"></span>
           </a>
         </li>
         <% brands.forEach((brand) => { %>
           <li class="box" name="<%= brand.brand_id %>">
-            <a href="search/<%= brand.brand_id %>">
+            <a href="/search/?searchText=<%- brand.brand_name %>">
             <span class="box-title"><%= brand.brand_name %></span>
             <span>Qty: <span class="large-count"><%= brand.perfume_count %></span></span>
             </a>

@@ -1,3 +1,5 @@
+
+require("dotenv").config();
 const express = require("express");
 
 const app = express();
@@ -12,6 +14,21 @@ app.use(express.urlencoded({ extended: true })); //used to parse form body
 
 const inventoryRouter = require("./routes/inventoryRouter");
 app.use("/", inventoryRouter);
+
+const deleteRouter = require("./routes/deleteRouter");
+const { env } = require("node:process");
+app.use("/delete", (req, res, next) => {
+  if (req.query.passphrase === process.env.PASSPHRASE) {
+    next();
+  } else {
+    console.log(req.originalUrl);
+    res.render("get-pass-phrase", {
+      route: req.originalUrl,
+      action: 'delete',
+    });
+  }
+},
+deleteRouter);
 
 // catch-all for errors
 app.use((err, req, res, next) => {

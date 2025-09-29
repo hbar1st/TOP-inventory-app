@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="stylesheet" href="/passphrase.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Inventory App Passphrase</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: ''}); %>
+  <main class="center">
+
+    <form class="action" action="<%= route %>" method="post">
+      <div>
+      <label for="">Enter secret passphrase to complete the requested action: [<%= action %>]</label>
+      <input id="passphrase" type="text" name="passphrase">
+      </div>
+      <div>
+      <button type="submit">Make it so!</button>
+      <button type="button"><a href="/">Cancel</a></button>
+      </div>
+    </form>
+
+    </main>
+    </body>
+    </html>

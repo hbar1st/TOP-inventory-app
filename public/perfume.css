@@ -29,12 +29,13 @@
     width: fit-content;
     background:transparent;
   }
+
   div.perfume-price-panel {
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: auto auto;
     font-style: normal;
-    font-size: small;
+    font-size: var(--info-font-size);
     
     div {
       display: grid;

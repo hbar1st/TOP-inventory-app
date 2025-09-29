@@ -72,6 +72,7 @@ async function getPerfumeForm(req, res) {
     details: [],
     categories: categories.rows,
     brands: brands.rows,
+    pp_id: null,
     add: true
   });
 }
@@ -80,10 +81,24 @@ async function addNewPerfume(req, res) {
   console.log(req.query);
 }
 
+[
+  body("brand")
+    .trim()
+    .notEmpty()
+    .withMessage("Brand name can not be empty.")
+];
+
+
 async function addNewBrand(req, res) {
   console.log("in addNewBrand");
-  console.log(req.query.brand);
-  res.send(req.query.brand);
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).render("index", {
+        errors: errors.array(),
+      });
+    }
+  await db.addBrand(req.body.brand);
+  res.redirect('/edit/brands');
 }
 
 async function getPerfumeDetailsById(req, res) {
@@ -160,6 +175,7 @@ async function search(req, res) {
       details: perfumeList,
       categories: categories.rows,
       brands: brands.rows,
+      pp_id: null,
       add: false,
     });
   } else {
@@ -191,9 +207,6 @@ async function getPerfumeById(perfume_id) {
   return perfume;
 }
 
-async function getDeleteBrandConfirmationForm(req, res) {
-  res.send("later TODO")
-}
 module.exports = {
   addNewPerfume,
   addNewBrand,
@@ -205,8 +218,7 @@ module.exports = {
   getPerfumeDetailsById,
   getAllCategories,
   getAllBrands,
-  getAllItems,
-  getDeleteBrandConfirmationForm,
+  getAllItems
 };
 
 /**

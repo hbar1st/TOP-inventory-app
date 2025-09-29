@@ -14,7 +14,7 @@ async function getPerfumesByCategoryDetails(detail) {
     p.created_at,
     perfume_price_id,
     REPLACE(p.perfume_name, '''''', '''') as perfume_name,
-    AVG(price),
+    AVG(price) AS avg_price,
     ARRAY_AGG(DISTINCT perfume_price_id) as perfume_price_ids,
     SUM(count) as total_count,
     pb.brand_id,
@@ -30,7 +30,7 @@ async function getPerfumesByCategoryDetails(detail) {
     LEFT JOIN perfume_price USING (perfume_id)
     LEFT JOIN inventory USING (perfume_price_id)
     WHERE type ILIKE $1 OR category_name ILIKE $1
-    GROUP BY p.perfume_id, category_name, categories.type, pb.brand_id, brands.brand_name
+    GROUP BY p.perfume_id, category_name, categories.type, pb.brand_id, brands.brand_name,perfume_price_id
     ORDER BY perfume_name;`,
     [`%${detail}%`]
   );
@@ -47,9 +47,25 @@ async function getPerfumesByBrand(brand) {
     p.description,
     p.image_url,
     p.created_at,
-    perfume_price_id,
+      (
+    SELECT JSON_AGG(JSON_BUILD_OBJECT(
+      'pp_id', sub.pp_id,
+      'pp_price', sub.pp_price,
+      'pp_count', sub.pp_count
+    ))
+    FROM (
+      SELECT DISTINCT
+        pp.perfume_price_id AS pp_id,
+        pp.price AS pp_price,
+        i.count AS pp_count
+      FROM perfume_price pp
+      LEFT JOIN inventory i USING (perfume_price_id)
+      WHERE pp.perfume_id = p.perfume_id
+      GROUP BY pp.perfume_id,pp_id,pp.price,i.count
+    ) sub
+  ) AS perfume_prices,
     REPLACE(p.perfume_name, '''''', '''') as perfume_name,
-    AVG(price),
+    AVG(price) AS avg_price,
     ARRAY_AGG(DISTINCT perfume_price_id) as perfume_price_ids,
     SUM(count) as total_count,
     pb.brand_id,
@@ -63,7 +79,7 @@ async function getPerfumesByBrand(brand) {
     LEFT JOIN perfume_price USING (perfume_id)
     LEFT JOIN inventory USING (perfume_price_id)
     WHERE brand_name ILIKE $1
-    GROUP BY p.perfume_id,pb.brand_id,brand_name
+    GROUP BY p.perfume_id,pb.brand_id,brand_name,perfume_price_id
     ORDER BY perfume_name;`,
     [`%${brand}%`]
   );
@@ -80,9 +96,25 @@ async function getPerfumesByName(name) {
     p.description,
     p.image_url,
     p.created_at,
-    perfume_price_id,
+      (
+    SELECT JSON_AGG(JSON_BUILD_OBJECT(
+      'pp_id', sub.pp_id,
+      'pp_price', sub.pp_price,
+      'pp_count', sub.pp_count
+    ))
+    FROM (
+      SELECT DISTINCT
+        pp.perfume_price_id AS pp_id,
+        pp.price AS pp_price,
+        i.count AS pp_count
+      FROM perfume_price pp
+      LEFT JOIN inventory i USING (perfume_price_id)
+      WHERE pp.perfume_id = p.perfume_id
+      GROUP BY pp.perfume_id,pp_id,pp.price,i.count
+    ) sub
+  ) AS perfume_prices,
     REPLACE(p.perfume_name, '''''', '''') as perfume_name,
-    AVG(price),
+    AVG(price) AS avg_price,
     ARRAY_AGG(DISTINCT perfume_price_id) as perfume_price_ids,
     SUM(count) as total_count,
     pb.brand_id,
@@ -95,7 +127,8 @@ async function getPerfumesByName(name) {
     LEFT JOIN categories USING (category_id)
     LEFT JOIN perfume_price USING (perfume_id)
     LEFT JOIN inventory USING (perfume_price_id)
-    WHERE perfume_name ILIKE $1 GROUP BY p.perfume_id,pb.brand_id,brand_name
+    WHERE perfume_name ILIKE $1
+    GROUP BY p.perfume_id,pb.brand_id,brand_name
     ORDER BY perfume_name;`,
     [`%${name}%`]
   );
@@ -107,14 +140,30 @@ async function getPerfumesByName(name) {
 async function getPerfumesByDesc(word) {
   console.log("in getPerfumeByDesc: ", word);
   const { rows } = await pool.query(
-    `SELECT 
+    `SELECT
     p.perfume_id,
     p.description,
     p.image_url,
     p.created_at,
-    perfume_price_id,
+      (
+    SELECT JSON_AGG(JSON_BUILD_OBJECT(
+      'pp_id', sub.pp_id,
+      'pp_price', sub.pp_price,
+      'pp_count', sub.pp_count
+    ))
+    FROM (
+      SELECT DISTINCT
+        pp.perfume_price_id AS pp_id,
+        pp.price AS pp_price,
+        i.count AS pp_count
+      FROM perfume_price pp
+      LEFT JOIN inventory i USING (perfume_price_id)
+      WHERE pp.perfume_id = p.perfume_id
+      GROUP BY pp.perfume_id,pp_id,pp.price,i.count
+    ) sub
+  ) AS perfume_prices,
     REPLACE(p.perfume_name, '''''', '''') as perfume_name,
-    AVG(price),
+    AVG(price) AS avg_price,
     ARRAY_AGG(DISTINCT perfume_price_id) as perfume_price_ids,
     SUM(count) as total_count,
     pb.brand_id,
@@ -365,6 +414,25 @@ async function addPerfumeCategory(perfume_id, category_id) {
     throw new Error(message);
   }
 }
+async function addBrand(name) {
+  
+  if (name) {
+    const id = await pool.query("INSERT INTO brands (brand_name) VALUES ($1)", [name]);
+  } else {
+    const message = `The brand name cannot be blank or null: ${name}`;
+    throw new Error(message);
+  }
+}
+
+async function deleteBrand(id) {
+  if (id) {
+    await pool.query("DELETE FROM perfume_brand WHERE brand_id=$1", [id]);
+    await pool.query("DELETE FROM brands        WHERE brand_id=$1", [id]);
+  } else {
+    const message = `The brand id cannot be blank or null: ${id}`;
+    throw new Error(message);
+  }
+}
 
 async function addCategory(name, type) {
   if (name && type) {
@@ -394,7 +462,9 @@ await pool.query(text, values);
 
 module.exports = {
   addCategory,
+  addBrand,
   addPerfumeCategory,
+  deleteBrand,
   getAllItems,
   getAllBrands,
   getAllCategories,

@@ -12,14 +12,12 @@ const {
   getAllItems,
   getAllCategories,
   getAllBrands,
-  getDeleteBrandConfirmationForm,
 } = require("../controllers/inventoryController");
+
 
 const inventoryRouter = Router();
 
 inventoryRouter.get("/", showLandingPage);
-
-inventoryRouter.get("/brands", getAllBrands);
 
 inventoryRouter.get("/categories", getAllCategories);
 
@@ -33,13 +31,15 @@ inventoryRouter.get("/add", getPerfumeForm);
 
 inventoryRouter.get("/perfume-price-id/:id", getPerfumeByPerfumePriceId);
 
-inventoryRouter.get("/edit/brands", getBrandsForm);
+inventoryRouter.get("/brands", getAllBrands);
 
-inventoryRouter.get("/edit/brands/delete/:id", getDeleteBrandConfirmationForm);
+inventoryRouter.get("/brands/edit", getBrandsForm);
 
 inventoryRouter.post("/add", addNewPerfume);
 
 inventoryRouter.post("/add/brand", addNewBrand);
+
+
 
 //inventoryRouter.post("/add/category", addNewCategory);
 
