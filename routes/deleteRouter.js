@@ -5,6 +5,6 @@ const {
 
 const deleteRouter = Router();
 
-deleteRouter.get("/delete/brand/:id", deleteBrand)
+deleteRouter.post("/brands/delete/:id", (req, res) => { console.log('made it this far') },deleteBrand)
 
 module.exports = deleteRouter;

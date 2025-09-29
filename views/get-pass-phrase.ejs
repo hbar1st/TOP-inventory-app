@@ -17,13 +17,14 @@
   <main class="center">
 
     <form class="action" action="<%= route %>" method="post">
+      <%- include("partials/errors.ejs") %>
       <div>
       <label for="">Enter secret passphrase to complete the requested action: [<%= action %>]</label>
       <input id="passphrase" type="text" name="passphrase">
       </div>
       <div>
       <button type="submit">Make it so!</button>
-      <button type="button"><a href="/">Cancel</a></button>
+      <a href="/<%= origin %>/edit"><button type="button">Cancel</button></a>
       </div>
     </form>
 

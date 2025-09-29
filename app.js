@@ -1,5 +1,7 @@
 
 require("dotenv").config();
+
+const { body, query, validationResult } = require("express-validator");
 const express = require("express");
 
 const app = express();
@@ -17,18 +19,44 @@ app.use("/", inventoryRouter);
 
 const deleteRouter = require("./routes/deleteRouter");
 const { env } = require("node:process");
-app.use("/delete", (req, res, next) => {
-  if (req.query.passphrase === process.env.PASSPHRASE) {
-    next();
-  } else {
-    console.log(req.originalUrl);
-    res.render("get-pass-phrase", {
-      route: req.originalUrl,
-      action: 'delete',
-    });
-  }
-},
-deleteRouter);
+
+
+
+const validatePassphrase = [
+  query("passphrase")
+    .trim()
+    .notEmpty()
+    .withMessage("Passphrase can not be empty."),
+];
+app.use(
+  "/{*something}/delete", 
+  validatePassphrase,
+  (req, res, next) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).render("get-pass-phrase", {
+        errors: errors.array(),
+        route: req.originalUrl,
+        action: "delete",
+        origin: req.originalUrl.split("/")[1],
+      });
+    }
+
+    if (req.query.passphrase === process.env.PASSPHRASE) {
+      console.log("correct passphrase given");
+      next();
+    } else {
+      console.log(req.originalUrl, req.originalUrl.split("/"));
+      res.render("get-pass-phrase", {
+        errors: [{ msg: "Give hana a coffee if you want the passphrase XD" }],
+        route: req.originalUrl,
+        action: "delete",
+        origin: req.originalUrl.split("/")[1],
+      });
+    }
+  },
+  deleteRouter
+);
 
 // catch-all for errors
 app.use((err, req, res, next) => {
@@ -36,6 +64,25 @@ app.use((err, req, res, next) => {
   res.status(500).send(err);
 });
 
+//matches any path (so will be a catch-all for the 404 message)
+app.use((req, res) => {
+    const options = {
+        root: path.join(__dirname, "public"),
+        dotfiles: "deny",
+        headers: {
+            "x-timestamp": Date.now(),
+            "x-sent": true,
+        },
+    };
+
+    res.status(404).sendFile("./404.html", options, (err) => {
+        if (err) {
+            console.log(err);
+        } else {
+            console.log("Sent: 404.html");
+        }
+    });
+});
 
 const port = process.env.PORT || 3000;
 

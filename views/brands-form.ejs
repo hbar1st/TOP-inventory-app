@@ -32,7 +32,7 @@
         <ul>
           <% brands.forEach((brand) => { %>
             <li>
-              <a href="/delete/brand/<%= brand.brand_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+              <a href="/brands/delete/<%= brand.brand_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
               <span><%= brand.brand_name %></span>
               <span>Qty: <%= brand.perfume_count %></span>
               

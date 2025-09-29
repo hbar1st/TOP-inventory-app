@@ -12,6 +12,15 @@
   max-width: clamp(340px,50%,80ch);
   padding: 1rem;
   row-gap: 1rem;
+  
+  ul {
+    list-style-type: none;
+    color: #a30202;
+    font-weight: 500;
+    font-size: var(--info-font-size);
+    font-family: serif;
+    letter-spacing: normal;
+}
   div:has(> input) {
     display: flex;
     label {
@@ -37,6 +46,12 @@
     border-radius: 5%;
     max-width: 20ch;
     flex-grow: 2;
-      font-size: var(--info-font-size);
+    font-size: var(--info-font-size);
+    
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      color: black;
+    }
   }
 }

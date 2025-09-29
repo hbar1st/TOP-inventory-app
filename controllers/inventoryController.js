@@ -53,13 +53,13 @@ async function getAllItems(req, res) {
 }
 
 async function getBrandsForm(req, res) {
-    const [brands] = await Promise.all([
-      db.getAllBrands(),
-    ]);
-    res.render("brands-form", {
-      brands: brands.rows,
-      add: false
-    });
+  const [brands] = await Promise.all([
+    db.getAllBrands(),
+  ]);
+  res.render("brands-form", {
+    brands: brands.rows,
+    add: false
+  });
 }
 
 async function getPerfumeForm(req, res) {
@@ -81,25 +81,26 @@ async function addNewPerfume(req, res) {
   console.log(req.query);
 }
 
-[
+const validateBrand = [
   body("brand")
-    .trim()
-    .notEmpty()
-    .withMessage("Brand name can not be empty.")
+  .trim()
+  .notEmpty()
+  .withMessage("Brand name can not be empty.")
 ];
 
-
-async function addNewBrand(req, res) {
-  console.log("in addNewBrand");
+addNewBrand = [validateBrand,
+  async function addNewBrand(req, res) {
+    console.log("in addNewBrand");
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).render("index", {
         errors: errors.array(),
       });
     }
-  await db.addBrand(req.body.brand);
-  res.redirect('/edit/brands');
-}
+    await db.addBrand(req.body.brand);
+    res.redirect('/edit/brands');
+  }
+]
 
 async function getPerfumeDetailsById(req, res) {
   const perfume_id = +req.params.id;
