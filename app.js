@@ -17,16 +17,21 @@ app.use(express.urlencoded({ extended: true })); //used to parse form body
 const inventoryRouter = require("./routes/inventoryRouter");
 app.use("/", inventoryRouter);
 
-const deleteRouter = require("./routes/deleteRouter");
 const { env } = require("node:process");
 
 
+const categoryRouter = require("./routes/categoryRouter");
+app.use("/categories{*whatever}",
+  (req, res, next) => { console.log("in the /categories route: ", req.path, req.method); next(); },
+  categoryRouter
+);
 
+const deleteRouter = require("./routes/deleteRouter");
 const validatePassphrase = [
   query("passphrase")
-    .trim()
-    .notEmpty()
-    .withMessage("Passphrase can not be empty."),
+  .trim()
+  .notEmpty()
+  .withMessage("Passphrase can not be empty."),
 ];
 app.get("/{*something}/delete{*whatever}", validatePassphrase,
   (req, res, next) => {
@@ -51,9 +56,8 @@ app.get("/{*something}/delete{*whatever}", validatePassphrase,
 
 app.post(
   "/{*something}/delete{*whatever}", 
-
+  
   (req, res, next) => {
-
     if (req.body.passphrase && (req.body.passphrase === process.env.PASSPHRASE)) {
       console.log("correct passphrase given");
       next();
@@ -78,22 +82,22 @@ app.use((err, req, res, next) => {
 
 //matches any path (so will be a catch-all for the 404 message)
 app.use((req, res) => {
-    const options = {
-        root: path.join(__dirname, "public"),
-        dotfiles: "deny",
-        headers: {
-            "x-timestamp": Date.now(),
-            "x-sent": true,
-        },
-    };
-
-    res.status(404).sendFile("./404.html", options, (err) => {
-        if (err) {
-            console.log(err);
-        } else {
-            console.log("Sent: 404.html");
-        }
-    });
+  const options = {
+    root: path.join(__dirname, "public"),
+    dotfiles: "deny",
+    headers: {
+      "x-timestamp": Date.now(),
+      "x-sent": true,
+    },
+  };
+  
+  res.status(404).sendFile("./404.html", options, (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("Sent: 404.html");
+    }
+  });
 });
 
 const port = process.env.PORT || 3000;

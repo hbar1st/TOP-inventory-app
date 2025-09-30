@@ -11,7 +11,6 @@ const {
   manageBrands,
   getPerfumeDetailsById,
   getAllItems,
-  getAllCategories,
   getAllBrands,
 } = require("../controllers/inventoryController");
 
@@ -19,8 +18,6 @@ const {
 const inventoryRouter = Router();
 
 inventoryRouter.get("/", showLandingPage);
-
-inventoryRouter.get("/categories", getAllCategories);
 
 inventoryRouter.get("/items", getAllItems);
 
@@ -41,9 +38,5 @@ inventoryRouter.get("/brands", getAllBrands);
 inventoryRouter.get(["/brands/edit","/brands/edit/:id"], manageBrands);
 
 inventoryRouter.post("/brands/add", addNewBrand);
-
-
-
-//inventoryRouter.post("/add/category", addNewCategory);
 
 module.exports = inventoryRouter;
