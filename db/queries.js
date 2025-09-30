@@ -381,7 +381,7 @@ async function getBrandByName(name) {
   
   console.log("in getBrandByName: ", name);
   const { rows } = await pool.query(
-    "SELECT brand_id FROM brands WHERE brand_name ILIKE $1;",
+    "SELECT brand_id FROM brands WHERE brand_name ~* $1;",
     [name]
   );
   

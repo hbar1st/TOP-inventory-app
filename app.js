@@ -28,9 +28,7 @@ const validatePassphrase = [
     .notEmpty()
     .withMessage("Passphrase can not be empty."),
 ];
-app.use(
-  "/{*something}/delete", 
-  validatePassphrase,
+app.get("/{*something}/delete{*whatever}", validatePassphrase,
   (req, res, next) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -40,9 +38,23 @@ app.use(
         action: "delete",
         origin: req.originalUrl.split("/")[1],
       });
+    } else {
+      res.render("get-pass-phrase", {
+        errors: [{ msg: "Give hana a coffee if you want the passphrase XD" }],
+        route: req.originalUrl,
+        action: "delete",
+        origin: req.originalUrl.split("/")[1],
+      });
     }
+  }
+);
 
-    if (req.query.passphrase === process.env.PASSPHRASE) {
+app.post(
+  "/{*something}/delete{*whatever}", 
+
+  (req, res, next) => {
+
+    if (req.body.passphrase && (req.body.passphrase === process.env.PASSPHRASE)) {
       console.log("correct passphrase given");
       next();
     } else {

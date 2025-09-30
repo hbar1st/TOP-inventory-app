@@ -37,7 +37,7 @@ inventoryRouter.get("/brands/edit", getBrandsForm);
 
 inventoryRouter.post("/add", addNewPerfume);
 
-inventoryRouter.post("/add/brand", addNewBrand);
+inventoryRouter.post("/brands/add", addNewBrand);
 
 
 

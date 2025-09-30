@@ -22,6 +22,8 @@
       </header>
       <div>
       <form action="/brands/add" method="POST">
+        
+      <%- include("partials/errors.ejs") %>
         <div>
           <label for="new">Add new brand:</label>
           <input required id="new" type="text" name="brand" placeholder="new brand name">

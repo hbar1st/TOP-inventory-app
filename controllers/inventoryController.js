@@ -57,6 +57,7 @@ async function getBrandsForm(req, res) {
     db.getAllBrands(),
   ]);
   res.render("brands-form", {
+    errors: null,
     brands: brands.rows,
     add: false
   });
@@ -86,19 +87,30 @@ const validateBrand = [
   .trim()
   .notEmpty()
   .withMessage("Brand name can not be empty.")
+  .custom(async (value) => {
+    const brandRow = await db.getBrandByName(value);
+    console.log(brandRow);
+    if (brandRow.brand_id) {
+      console.log("found a duplicate")
+      throw new Error("Brand name already exists. Use a new name.");
+    }
+  })
 ];
 
 addNewBrand = [validateBrand,
   async function addNewBrand(req, res) {
     console.log("in addNewBrand");
+    const [brands] = await Promise.all([db.getAllBrands()]);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).render("index", {
+      return res.status(400).render("brands-form", {
         errors: errors.array(),
+        brands: brands.rows,
+        add: true,
       });
     }
     await db.addBrand(req.body.brand);
-    res.redirect('/edit/brands');
+    res.redirect('/brands/edit');
   }
 ]
 
