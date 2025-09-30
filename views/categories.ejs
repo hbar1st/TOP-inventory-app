@@ -17,7 +17,11 @@
   <main>
     <section>
       <header>
-        <h2>Categories by type</h2> 
+        <div>
+          <a href="/categories/type/edit" title="Manage category type"><img src="/images/pen.svg" alt="manage category types"></a>
+          
+          <h2>Categories by type</h2> 
+        </div>
         <p class="sub-header">
           <span class="item-count">total # of categories: <%= categories.length %>, </span>
           <span class="item-count">total item count: <%= item_count %></span>
@@ -33,12 +37,16 @@
               <% currType = categories[i].type; %>
               
               <li>
-                <header><span>Category Type:</span> <%= categories[i].type %></header>
+                <header>
+                  
+                  <a href="/brands/edit" title="Manage brands"><img src="/images/pen.svg" alt="manage brands"></a>
+                  <span>Category Type:</span> <%= categories[i].type %>
+                </header>
                 <ul class="wrapper">
                   <li class="box">
                     <a href="http://">
-                    <span>Add category</span>
-                    <span class="large-count"><img class="large-icon" src="/images/wonky-plus-mod.svg" alt="Add icon"></span>
+                      <span>Manage category</span>
+                      <span class="large-count"><img class="large-icon" src="/images/wonky-plus-mod.svg" alt="Add icon"></span>
                     </a>
                   </li>
                   
@@ -46,9 +54,9 @@
                     
                     <% totalPerType += +categories[i].perfume_count %>
                     <li class="box" name="<%= categories[i].category_id %>">
-                      <a href="http://">
-                      <span class="box-title"><%= categories[i].category_name %></span>
-                      <span>Qty: <span class="large-count"><%= categories[i].perfume_count %></span></span>
+                      <a href="/search/category/<%= categories[i].category_id %>">
+                        <span class="box-title"><%= categories[i].category_name %></span>
+                        <span>Qty: <span class="large-count"><%= categories[i].perfume_count %></span></span>
                       </a>
                     </li>
                     <% i++; %>

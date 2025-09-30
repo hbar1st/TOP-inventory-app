@@ -52,14 +52,15 @@ async function getAllItems(req, res) {
   });
 }
 
-async function getBrandsForm(req, res) {
-  const [brands] = await Promise.all([
-    db.getAllBrands(),
-  ]);
-  res.render("brands-form", {
+async function manageBrands(req, res) {
+  
+  const [brands, brand] = await Promise.all([db.getAllBrands(), db.getBrandById(req.params.id)]);
+  res.render("manage-brands", {
     errors: null,
     brands: brands.rows,
-    add: false
+    add: false,
+    edit: req.params.id ?? false,
+    brandName: brand.brand_name,
   });
 }
 
@@ -103,10 +104,11 @@ addNewBrand = [validateBrand,
     const [brands] = await Promise.all([db.getAllBrands()]);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
-      return res.status(400).render("brands-form", {
+      return res.status(400).render("manage-brands", {
         errors: errors.array(),
         brands: brands.rows,
         add: true,
+        edit: false,
       });
     }
     await db.addBrand(req.body.brand);
@@ -152,6 +154,24 @@ async function getPerfumeByPerfumePriceId(req, res) {
   });
 }
 
+async function searchByCategoryId(req,res) {
+  const category_id = req.params.id;
+  console.log("in searchByCategoryId: ", category_id);
+  const [categories, brands, perfumeList] = await Promise.all([
+    db.getAllCategories(),
+    db.getAllBrands(),
+    db.getPerfumesByCategoryId(category_id)
+  ]);
+  
+  res.render("perfume", {
+    searchText: "",
+    details: perfumeList,
+    categories: categories.rows,
+    brands: brands.rows,
+    pp_id: null,
+    add: false,
+  });
+}
 async function search(req, res) {
   const searchText = req.query.searchText;
   
@@ -224,10 +244,11 @@ module.exports = {
   addNewPerfume,
   addNewBrand,
   search,
+  searchByCategoryId,
   showLandingPage,
   getPerfumeByPerfumePriceId,
   getPerfumeForm,
-  getBrandsForm,
+  manageBrands,
   getPerfumeDetailsById,
   getAllCategories,
   getAllBrands,

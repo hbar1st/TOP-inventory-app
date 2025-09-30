@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="stylesheet" href="/categories.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Manage Inventory App Categories</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: ''}); %>
+  <main>
+    <section class="perfume-details categories">
+      <header>
+        <h3>Add, edit or delete a category type or category.</h3>
+        
+        <p>Note that deleting a category, or category type, requires a secret passcode and will result in all related perfumes getting deleted permanently!</p>
+      </header>
+      <div>
+            <form action="/categories/<%= edit ? 'edit' : 'add' %>" method="POST">
+              
+              <%- include("partials/errors.ejs") %>
+              <div>
+                
+                <label for="new"><%= edit ? 'Edit category:' : 'Add new category:' %></label>
+                <input required id="new" type="text" name="category" placeholder="<%= edit ? categoryName : 'add category name' %>">
+              </div>
+              <button type="submit">Submit</button>
+              
+              <% if (edit) { %>
+                <a href="/categories/edit" class="add-category"><img src="/images/wonky-plus-mod.svg" alt="add category"><span>Add new category</span></a> 
+              <% } %>
+            </form>
+            <section>
+              
+              <ul>
+                <% brands.forEach((brand) => { %>
+                  <li>
+                    <a href="/categories/delete/<%= categories.category_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+                    
+                    <a href="/categories/edit/<%= categories.category_id %>"><img src="/images/pen.svg" alt="edit"></a>
+                    <span><%= brand.brand_name %></span>
+                    <span>Qty: <%= brand.perfume_count %></span>
+                    
+                  </li>
+                  <% }); %>
+              </ul>
+              </section>
+            </div>
+          </section>
+        </main>
+      </body>
+      </html>

@@ -4,10 +4,11 @@ const {
   addNewPerfume,
   addNewBrand,
   search,
+  searchByCategoryId,
   showLandingPage,
   getPerfumeByPerfumePriceId,
   getPerfumeForm,
-  getBrandsForm,
+  manageBrands,
   getPerfumeDetailsById,
   getAllItems,
   getAllCategories,
@@ -27,15 +28,17 @@ inventoryRouter.get("/item/:id", getPerfumeDetailsById);
 
 inventoryRouter.get("/search", search);
 
+inventoryRouter.get("/search/category/:id", searchByCategoryId);
+
 inventoryRouter.get("/add", getPerfumeForm);
+
+inventoryRouter.post("/add", addNewPerfume);
 
 inventoryRouter.get("/perfume-price-id/:id", getPerfumeByPerfumePriceId);
 
 inventoryRouter.get("/brands", getAllBrands);
 
-inventoryRouter.get("/brands/edit", getBrandsForm);
-
-inventoryRouter.post("/add", addNewPerfume);
+inventoryRouter.get(["/brands/edit","/brands/edit/:id"], manageBrands);
 
 inventoryRouter.post("/brands/add", addNewBrand);
 

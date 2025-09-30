@@ -4,15 +4,30 @@ const CustomNotFoundError = require("../Errors/CustomNotFoundError");
 const { pool } = require("./pool");
 const LIMIT_SETTING = 50;
 
-async function getPerfumesByCategoryDetails(detail) {
-  console.log("in getPerfumesByCategoryDetails: ", detail);
+async function getPerfumesByCategoryId(id) {
+  console.log("in getPerfumesByCategoryId: ", id);
   const { rows } = await pool.query(
     `SELECT 
     p.perfume_id,
     p.description,
     p.image_url,
-    p.created_at,
-    perfume_price_id,
+    p.created_at,      (
+    SELECT JSON_AGG(JSON_BUILD_OBJECT(
+      'pp_id', sub.pp_id,
+      'pp_price', sub.pp_price,
+      'pp_count', sub.pp_count
+    ))
+    FROM (
+      SELECT DISTINCT
+        pp.perfume_price_id AS pp_id,
+        pp.price AS pp_price,
+        i.count AS pp_count
+      FROM perfume_price pp
+      LEFT JOIN inventory i USING (perfume_price_id)
+      WHERE pp.perfume_id = p.perfume_id
+      GROUP BY pp.perfume_id,pp_id,pp.price,i.count
+    ) sub
+  ) AS perfume_prices,
     REPLACE(p.perfume_name, '''''', '''') as perfume_name,
     AVG(price) AS avg_price,
     ARRAY_AGG(DISTINCT perfume_price_id) as perfume_price_ids,
@@ -21,7 +36,7 @@ async function getPerfumesByCategoryDetails(detail) {
     brand_name,
     type,
     category_name,
-    ARRAY_AGG(DISTRICT category_id) AS category_list
+    ARRAY_AGG(DISTINCT category_id) AS category_list
     FROM perfumes as p
     LEFT JOIN perfume_brand AS pb USING(perfume_id)
     LEFT JOIN brands USING(brand_id)
@@ -29,13 +44,13 @@ async function getPerfumesByCategoryDetails(detail) {
     LEFT JOIN categories USING(category_id)
     LEFT JOIN perfume_price USING (perfume_id)
     LEFT JOIN inventory USING (perfume_price_id)
-    WHERE type ILIKE $1 OR category_name ILIKE $1
-    GROUP BY p.perfume_id, category_name, categories.type, pb.brand_id, brands.brand_name,perfume_price_id
+    WHERE category_id=$1
+    GROUP BY p.perfume_id, category_name, categories.type, pb.brand_id, brands.brand_name
     ORDER BY perfume_name;`,
-    [`%${detail}%`]
+    [`${id}`]
   );
   
-  console.log("in getPerfumesByCategoryDetails: ", detail);
+  console.log("in getPerfumesByCategoryId: ", id);
   return rows;
 }
 
@@ -377,6 +392,18 @@ async function setPerfumePrice(perfume_id, price) {
   await pool.query("INSERT INTO perfume_price (perfume_id, price) VALUES ($1,$2);", [perfume_id, price]);
 }
 
+async function getBrandById(id) {
+  console.log("in getBrandById: ", id);
+  
+  const { rows } = await pool.query(
+    "SELECT brand_name FROM brands WHERE brand_id=$1;",
+    [id]
+  );
+
+  console.log("in getBrandById: ", rows);
+  return rows.length > 0 ? rows[0] : {};
+}
+
 async function getBrandByName(name) {
   
   console.log("in getBrandByName: ", name);
@@ -472,12 +499,13 @@ module.exports = {
   getPerfumesByName,
   getPerfumesByDesc,
   getPerfumesByBrand,
-  getPerfumesByCategoryDetails,
+  getPerfumesByCategoryId,
   getPerfumeDetailsById,
   getPerfumeIdByPerfumePriceId,
   getPerfumeCategories,
   getCategory,
   getBrandByName,
+  getBrandById,
   getPerfumePriceId,
   setPerfumeBrand,
   setPerfumeCategory,
