@@ -37,5 +37,5 @@
 - A way to uploade data from a csv file
 
 TODO:
-[ ] add the date created and date updated to queries so they show up with the perfume details\
+[ ] add the date created and date updated to queries so they show up with the perfume details
 [ ] create a font package and include it into the repo (then replace appropriate code)

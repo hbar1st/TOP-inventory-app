@@ -22,18 +22,18 @@
         <p>Note that deleting a brand requires a secret passcode and will result in all related perfumes getting deleted permanently!</p>
       </header>
       <div>
-            <form action="/brands/<%= edit ? 'edit' : 'add' %>" method="POST">
+            <form action="/brands/<%= edit ? `update/${brandId}` : 'add' %>" method="POST">
               
               <%- include("partials/errors.ejs") %>
               <div>
                 
                 <label for="new"><%= edit ? 'Edit brand name:' : 'Add new brand:' %></label>
-                <input required id="new" type="text" name="brand" placeholder="<%= edit ? brandName : 'add brand name' %>">
+                <input required id="new" type="text" name="brand" value="<%= edit ? brandName : '' %>" placeholder="<%= add ? 'add brand name' : '' %>">
               </div>
               <button type="submit">Submit</button>
               
               <% if (edit) { %>
-                <a href="/brands/edit" class="add-brand"><img src="/images/star-with-plus.svg" alt="add brand"><span>Add new brand</span></a> 
+                <a href="/brands/edit" class="add-button"><img src="/images/star-with-plus.svg" alt="add brand"><span>Add new brand</span></a> 
               <% } %>
             </form>
             <section>

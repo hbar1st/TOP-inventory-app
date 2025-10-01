@@ -62,6 +62,7 @@ async function manageBrands(req, res) {
     add: false,
     edit: req.params.id ?? false,
     brandName: brand.brand_name,
+    brandId: req.params.id,
   });
 }
 
@@ -90,6 +91,7 @@ const validateBrand = [
   .notEmpty()
   .withMessage("Brand name can not be empty.")
   .custom(async (value) => {
+    console.log("custom brand validation running")
     const brandRow = await db.getBrandByName(value);
     console.log(brandRow);
     if (brandRow.brand_id) {
@@ -116,6 +118,26 @@ addNewBrand = [validateBrand,
     res.redirect('/brands/edit');
   }
 ]
+
+updateBrand = [
+  validateBrand,
+  async function updateBrand(req, res) {
+    console.log("in updateBrand");
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      
+      const [brands] = await Promise.all([db.getAllBrands()]);
+      return res.status(400).render("manage-brands", {
+        errors: errors.array(),
+        brands: brands.rows,
+        add: true,
+        edit: false,
+      });
+    }
+    await db.updateBrand(req.params.id,req.body.brand);
+    res.redirect("/brands/edit");
+  },
+];
 
 async function getPerfumeDetailsById(req, res) {
   const perfume_id = +req.params.id;
@@ -253,7 +275,8 @@ module.exports = {
   getPerfumeDetailsById,
   getAllCategories,
   getAllBrands,
-  getAllItems
+  getAllItems,
+  updateBrand
 };
 
 /**

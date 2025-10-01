@@ -22,18 +22,23 @@
         <p>Note that deleting a category, or category type, requires a secret passcode and will result in all related perfumes getting deleted permanently!</p>
       </header>
       <div>
-        <form action="/categories/<%= edit ? 'edit' : 'add' %>" method="POST">
+        <form action="/categories/<%= edit ? `update/${category.category_id}` : 'add' %>" method="POST">
           
           <%- include("partials/errors.ejs") %>
-          <div>
-            
-            <label for="new"><%= edit ? 'Edit category:' : 'Add new category:' %></label>
-            <input required id="new" type="text" name="category" placeholder="<%= edit ? category.category_name : 'add category name' %>">
+          
+          <header><%= edit ? 'Edit category:' : 'Add new category:' %></header>
+          <div class="short">
+            <label for="new">Type:</label>
+            <input required  type="text" name="type" value="<%= edit ? category.type : '' %>" placeholder="<%= add ? 'add type' : '' %>">
+          </div >
+          <div class="short">
+            <label for="new">Name:</label>
+            <input required  type="text" name="name" value="<%= edit ? category.category_name : '' %>" placeholder="<%= add ? 'add name' : '' %>">
           </div>
           <button type="submit">Submit</button>
           
           <% if (edit) { %>
-            <a href="/categories/edit" class="add-category"><img src="/images/wonky-plus-mod.svg" alt="add category"><span>Add new category</span></a> 
+            <a href="/categories/edit" class="add-button"><img src="/images/wonky-plus-mod.svg" alt="add category"><span>Add new category</span></a> 
             <% } %>
           </form>
           <section class="mid-section">
@@ -42,41 +47,39 @@
             <% categories.forEach((cat) => { %>
               <% if (currType !== cat.type) { %>
                 <% if (currType !== "") { %>
-              </details>
-            <% } %>
-            
-            <% currType = cat.type %>
-            
-            <details class="cat-type">
-              <summary>
-                <div>
-                  <a href="/categories/delete/<%= categories.category_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
-                  
-                  <a href="/categories/edit/<%= categories.category_id %>"><img src="/images/pen.svg" alt="edit"></a>
-                  <div>
-                    <%= cat.type %> <span class="qty">[Qty: <%= cat.pcountbycattype %>]</span>
-                  </div>     
-                </div>        
-              </summary>
-              
-                
+                </details>
                 <% } %>
-                <div>
-                  <a href="/categories/delete/<%= categories.category_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
-                  
-                  <a href="/categories/edit/<%= categories.category_id %>"><img src="/images/pen.svg" alt="edit"></a>
-                  <span><%= cat.category_name %> <span class="qty">[Qty: <%= cat.pcountbycatid %>]</span></span>
-                  
-                </div>
-                <% }); %>
                 
-                <% if (currType !== "") { %>
+                <% currType = cat.type %>
                 
-              </details>
-            </section>
-              <% } %>
-              
-          </section>
-        </main>
-      </body>
-      </html>
+                <details class="cat-type">
+                  <summary>
+                    <div>
+
+                      <div>
+                        <%= cat.type %> <span class="qty">[Qty: <%= cat.pcountbycattype %>]</span>
+                      </div>     
+                    </div>        
+                  </summary>
+                  
+                  
+                  <% } %>
+                  <div>
+                    <a href="/categories/delete/<%= cat.category_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+                    
+                    <a href="/categories/edit/<%= cat.category_id %>"><img src="/images/pen.svg" alt="edit"></a>
+                    <span><%= cat.category_name %> <span class="qty">[Qty: <%= cat.pcountbycatid %>]</span></span>
+                    
+                  </div>
+                  <% }); %>
+                  
+                  <% if (currType !== "") { %>
+                    
+                  </details>
+                </section>
+                <% } %>
+                
+              </section>
+            </main>
+          </body>
+          </html>

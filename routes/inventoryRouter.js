@@ -12,6 +12,7 @@ const {
   getPerfumeDetailsById,
   getAllItems,
   getAllBrands,
+  updateBrand
 } = require("../controllers/inventoryController");
 
 
@@ -35,7 +36,9 @@ inventoryRouter.get("/perfume-price-id/:id", getPerfumeByPerfumePriceId);
 
 inventoryRouter.get("/brands", getAllBrands);
 
-inventoryRouter.get(["/brands/edit","/brands/edit/:id"], manageBrands);
+inventoryRouter.get(["/brands/edit", "/brands/edit/:id"], manageBrands);
+
+inventoryRouter.post("/brands/update/:id", updateBrand)
 
 inventoryRouter.post("/brands/add", addNewBrand);
 

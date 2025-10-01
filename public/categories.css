@@ -71,12 +71,12 @@ details ::marker {
   img {
     max-width: 1em;
   }
+
+
 }
 
-ul:not([data-closed]) {
-  transform: scale(1,1);
-}
+.categories form div.short label {
+    min-width: 20%;
+  }
 
-ul[data-closed] {
-  transform: scale(1,0);
-}
+  

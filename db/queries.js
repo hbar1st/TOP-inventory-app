@@ -48,13 +48,18 @@ async function getPerfumesByCategoryId(id) {
     WHERE category_id=$1
     GROUP BY p.perfume_id, category_name, categories.type, pb.brand_id, brands.brand_name
     ORDER BY perfume_name;`,
-    [`${id}`]
+    [id]
   );
   
   console.log("in getPerfumesByCategoryId: ", id);
   return rows;
 }
 
+/**
+ * matches anything that has a brand that contains the brand name provided
+ * @param {*} brand 
+ * @returns 
+ */
 async function getPerfumesByBrand(brand) {
   console.log("in getPerfumesByBrand: ", brand);
   const { rows } = await pool.query(
@@ -104,6 +109,11 @@ async function getPerfumesByBrand(brand) {
   return rows;
 }
 
+/**
+ * matches any perfume with a name that contains this name provided
+ * @param {*} name 
+ * @returns 
+ */
 async function getPerfumesByName(name) {
   console.log("in getPerfumesByName: ", name);
   const { rows } = await pool.query(
@@ -153,6 +163,11 @@ async function getPerfumesByName(name) {
   return rows;
 }
 
+/**
+ * matches any perfume whose description contains the word(s) provided
+ * @param {*} word 
+ * @returns 
+ */
 async function getPerfumesByDesc(word) {
   console.log("in getPerfumeByDesc: ", word);
   const { rows } = await pool.query(
@@ -241,13 +256,13 @@ async function getAllCategoryTypeDetails() {
     LIMIT 
       $2 OFFSET $1;
   `;
-
+  
   const { rows } = await pool.query(query, [
     viewedRows,
     LIMIT_SETTING
   ]);
-
-
+  
+  
   return {
     rows,
     viewedRows: rows.length + viewedRows,
@@ -256,7 +271,7 @@ async function getAllCategoryTypeDetails() {
 
 async function getCategoryDetailsById(category_id, viewedRows = 0) {
   console.log("in getCategoryDetailsById:", category_id);
-
+  
   const query = `
     SELECT 
       c.category_id, 
@@ -276,20 +291,20 @@ async function getCategoryDetailsById(category_id, viewedRows = 0) {
     LIMIT 
       $2 OFFSET $1;
   `;
-
+  
   const { rows } = await pool.query(query, [viewedRows, LIMIT_SETTING, category_id ]);
-
+  
   console.log("in getCategoryDetailsById:", rows);
-
+  
   return {
-    rows,
+    rows: rows.length > 0 ? rows[0] : {},
     viewedRows: rows.length + viewedRows,
   };
 }
 
 async function getAllCategories(viewedRows = 0) {
   console.log("in getAllCategories:", viewedRows);
-
+  
   const query = `
     SELECT 
       c.category_id, 
@@ -308,11 +323,11 @@ async function getAllCategories(viewedRows = 0) {
     LIMIT 
       $2 OFFSET $1;
   `;
-
+  
   const { rows } = await pool.query(query, [viewedRows, LIMIT_SETTING]);
-
+  
   console.log("in getAllCategories:", rows);
-
+  
   return {
     rows,
     viewedRows: rows.length + viewedRows,
@@ -349,7 +364,7 @@ async function getPerfumeIdByPerfumePriceId(perfume_price_id) {
     WHERE perfume_price_id=$1;`,
     [perfume_price_id]
   );
-
+  
   console.log("in getPerfumeByPerfumePriceId: ", rows);
   return rows[0];
 }
@@ -423,7 +438,7 @@ async function getCategory(name, type) {
   console.log("in getCategory: ", name);
   const { rows } = await pool.query(
     "SELECT category_id FROM categories WHERE category_name ILIKE $1 AND type ILIKE $2;",
-    [`%${name}%`, `%${type}%`]
+    [name, type]
   );
   
   console.log("in getCategory: ", rows);
@@ -479,7 +494,7 @@ async function getBrandById(id) {
     "SELECT brand_name FROM brands WHERE brand_id=$1;",
     [id]
   );
-
+  
   console.log("in getBrandById: ", rows);
   return rows.length > 0 ? rows[0] : {};
 }
@@ -488,12 +503,44 @@ async function getBrandByName(name) {
   
   console.log("in getBrandByName: ", name);
   const { rows } = await pool.query(
-    "SELECT brand_id FROM brands WHERE brand_name ~* $1;",
+    "SELECT brand_id FROM brands WHERE brand_name ILIKE $1;",
     [name]
   );
   
   console.log("in getBrandByName: ", rows);
   return rows.length > 0 ? rows[0] : {};
+}
+
+async function updateBrand(id,name) {
+  console.log("in updateBrand");
+  if (name) {
+    
+    await pool.query("UPDATE brands SET brand_name=$1 WHERE brand_id=$2", [
+      name,
+      id,
+    ]);
+  } else {
+    const message = `The brand name cannot be blank or null: ${name}`;
+    throw new Error(message);
+  }
+  
+  console.log("in updateBrand");
+}
+
+async function updateCategory(id, type, name) {
+  console.log("in updateCategory");
+  if (id && name && type) {
+    await pool.query("UPDATE categories SET type=$1, category_name=$2 WHERE category_id=$3", [
+      type,
+      name,
+      id,
+    ]);
+  } else {
+    const message = `The category name and category type cannot be blank or null.`;
+    throw new Error(message);
+  }
+
+  console.log("in updateCategory");
 }
 
 async function setPerfumeBrand(perfume_id, brand_name) {
@@ -593,4 +640,6 @@ module.exports = {
   setPerfumeCategory,
   setPerfumeInventory,
   setPerfumePrice,
+  updateBrand,
+  updateCategory,
 };
