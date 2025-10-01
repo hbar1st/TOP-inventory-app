@@ -6,10 +6,10 @@ const {
 
 const categoryRouter = Router();
 
-categoryRouter.get("/categories", getAllCategories);
+categoryRouter.get("/", getAllCategories);
 
-categoryRouter.get(["/categories/edit", "/categories/edit/:id"], manageCategories);
+categoryRouter.get(["/edit", "/edit/:id"], manageCategories);
 
-//categoryRouter.post("/categories/add", addNewCategory);
+//categoryRouter.post("/add", addNewCategory);
 
 module.exports = categoryRouter;

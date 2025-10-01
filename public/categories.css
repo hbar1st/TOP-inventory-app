@@ -20,13 +20,19 @@
       display: flex;
       flex-direction: column;
       
-      > header, > span{
+      > header, > span{    
         margin-left: 1rem;
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+      }
+      img {
+        max-width: 1em;
       }
       > span {
         font-size: smaller;
         color: #31203a;
-
+        
         > span {
           background-color: #fdfeff;
           padding: 1px 1px;
@@ -34,4 +40,43 @@
       }
     }
   }
+}
+
+details ::marker {
+  font-size: 16px;
+}
+.categories .mid-section {
+  /*
+  display: grid;
+  grid-template-columns: 1em 1em 1em 1em auto 1fr;
+  grid-template-rows: auto;
+  gap: 3px;
+  
+  */   
+  details.cat-type {
+    font-size: smaller;
+    
+    > summary > div {
+      display: inline-flex;
+      align-items: center;
+      justify-content: flex-start;
+      column-gap: 3px;
+    }
+    
+    > div {
+      margin-left: 12.4px;
+    }
+
+  }
+  img {
+    max-width: 1em;
+  }
+}
+
+ul:not([data-closed]) {
+  transform: scale(1,1);
+}
+
+ul[data-closed] {
+  transform: scale(1,0);
 }

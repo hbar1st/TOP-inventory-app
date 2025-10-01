@@ -22,52 +22,6 @@
   background: linear-gradient(175deg, black, #3e2244, #9b436d);
 }
 
-.panel main .perfume-details form {
-  max-width: 40%;
-  
-  background: repeating-radial-gradient(white 0%, #e6ebff 20%, #e6ebff  21%, white 30%);
-  background-size: 20px 20px;
-  font-family:'Courier New', Courier, monospace;
-  font-size: var(--info-font-size);
-  margin-bottom: 1rem;
-  border-radius: 5px;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-width: clamp(300px, 50%, 100%);
-  margin: initial;
-  padding: 1rem;
-  row-gap: 1rem;
-  
-  label {
-    font-size: var(--info-font-size);
-    font-weight: bold;
-    min-width: 35%;
-  }
-  div {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  input[type="text"] {
-    border-bottom: 1px solid black;
-    border-radius: 0;
-    text-overflow: ellipsis;
-    flex-grow: 2;
-    background-color: #e6ebff;
-    font-size: clamp(11px, .9rem, 1rem);
-    min-width: auto;
-  }
-  
-  button {
-    padding: 0.1rem 1rem;
-    width: clamp(50px, 50%, 100px);
-    align-self: flex-end;
-    
-  font-size: clamp(10px,4vmin,18px);
-    box-shadow: 0px 1px 1px gray, 1px 0px 0px gray;
-    background-color: white;
-  }
-}
-
 ul {
   flex-direction: column;
   font-size: smaller;
@@ -92,12 +46,7 @@ ul {
   align-items: flex-start;
 }
 
-.brands > div {
-  display: flex;
-  column-gap: 2rem;
-  row-gap:1rem;
-  flex-flow: row wrap;
-}
+
 
 .add-brand { 
   display: flex;

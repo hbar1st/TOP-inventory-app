@@ -18,7 +18,7 @@
     <section>
       <header>
         <div>
-          <a href="/categories/type/edit" title="Manage category type"><img src="/images/pen.svg" alt="manage category types"></a>
+          <a href="/categories/edit" title="Manage category type"><img src="/images/pen.svg" alt="manage category types"></a>
           
           <h2>Categories by type</h2> 
         </div>
@@ -31,7 +31,6 @@
         <ul>
           
           <% let currType = ""; %>
-          <% let totalPerType = 0; %>
           <% for (let i = 0; i < categories.length; i++) { %>
             <% if (categories[i].type != currType) {  %>
               <% currType = categories[i].type; %>
@@ -39,12 +38,12 @@
               <li>
                 <header>
                   
-                  <a href="/categories/edit" title="Manage categories"><img src="/images/pen.svg" alt="manage categories"></a>
+                  <a href="/categories/edit/<%= categories[i].category_id %>" title="Manage categories"><img src="/images/pen.svg" alt="manage categories"></a>
                   <span>Category Type:</span> <%= categories[i].type %>
                 </header>
                 <ul class="wrapper">
                   <li class="box">
-                    <a href="http://">
+                    <a href="/categories/edit/<%= categories[i].category_id %>">
                       <span>Manage category</span>
                       <span class="large-count"><img class="large-icon" src="/images/wonky-plus-mod.svg" alt="Add icon"></span>
                     </a>
@@ -52,11 +51,10 @@
                   
                   <% while( (i < categories.length) && (currType === categories[i].type)) { %>
                     
-                    <% totalPerType += +categories[i].perfume_count %>
                     <li class="box" name="<%= categories[i].category_id %>">
                       <a href="/search/category/<%= categories[i].category_id %>">
                         <span class="box-title"><%= categories[i].category_name %></span>
-                        <span>Qty: <span class="large-count"><%= categories[i].perfume_count %></span></span>
+                        <span>Qty: <span class="large-count"><%= categories[i].pcountbycatid %></span></span>
                       </a>
                     </li>
                     <% i++; %>
@@ -64,8 +62,7 @@
                     <% i--; %>
                   </ul>
                   
-                  <span>Item count for this type:  <span><%= totalPerType %></span></span>
-                  <% totalPerType = 0 %>
+                  <span>Item count for this type:  <span><%= categories[i].pcountbycattype %></span></span>
                 </li>
                 <% } } %>
               </ul>
@@ -74,3 +71,21 @@
         </main>
       </body>
       </html>
+      
+      <!-- sample
+      {
+      category_id: 1,
+      type: 'gender',
+      category_name: 'unisex',
+      pcountbycatid: '14',
+      pcountbycattype: '168'
+      },
+      {
+      category_id: 4,
+      type: 'haute',
+      category_name: 'couture',
+      pcountbycatid: '1',
+      pcountbycattype: '1'
+      }
+      ]
+      -->

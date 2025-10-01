@@ -2,7 +2,7 @@ require("express");
 const CustomNotFoundError = require("../Errors/CustomNotFoundError");
 
 const { pool } = require("./pool");
-const LIMIT_SETTING = 50;
+const LIMIT_SETTING = 500;
 
 async function getPerfumesByCategoryId(id) {
   console.log("in getPerfumesByCategoryId: ", id);
@@ -11,7 +11,8 @@ async function getPerfumesByCategoryId(id) {
     p.perfume_id,
     p.description,
     p.image_url,
-    p.created_at,      (
+    p.created_at,
+    (
     SELECT JSON_AGG(JSON_BUILD_OBJECT(
       'pp_id', sub.pp_id,
       'pp_price', sub.pp_price,
@@ -221,41 +222,120 @@ async function getAllBrands(viewedRows = 0) {
   console.log("in getAllBrands: ", rows);
   return { rows, viewedRows: rows.length + viewedRows };
 }
-async function getAllCategoryTypes() {
-  console.log("in getAllCategoryTypes ");
-  //TODO fill this in?
-  console.log("in getAllCategoryTypes: ", );
+async function getAllCategoryTypeDetails() {
+  console.log("in getAllCategoryTypeDetails ");
+  const query = `
+    SELECT 
+      c.category_id, 
+      type, 
+      category_name, 
+      COUNT(perfume_id) AS perfume_count
+    FROM 
+      categories AS c
+    LEFT JOIN 
+      perfume_category AS p USING (category_id)
+    GROUP BY 
+      type, c.category_name, c.category_id
+    ORDER BY 
+      type
+    LIMIT 
+      $2 OFFSET $1;
+  `;
+
+  const { rows } = await pool.query(query, [
+    viewedRows,
+    LIMIT_SETTING
+  ]);
+
+
+  return {
+    rows,
+    viewedRows: rows.length + viewedRows,
+  };
 }
-async function getAllCategories(viewedRows=0) {
-  console.log("in getAllCategories: ", viewedRows);
-  const { rows } = await pool.query(
-    "SELECT c.category_id, type, category_name, COUNT(perfume_id) AS perfume_count FROM categories AS c LEFT JOIN perfume_category AS p USING (category_id) GROUP BY type,c.category_name,c.category_id ORDER BY type LIMIT ($2) OFFSET $1;",
-    [viewedRows, LIMIT_SETTING]
-  );
-  
-  console.log("in getAllCategories: ", rows);
-  return { rows, viewedRows: rows.length + viewedRows };
+
+async function getCategoryDetailsById(category_id, viewedRows = 0) {
+  console.log("in getCategoryDetailsById:", category_id);
+
+  const query = `
+    SELECT 
+      c.category_id, 
+      type, 
+      category_name, 
+      COUNT(perfume_id) AS perfume_count
+    FROM 
+      categories AS c
+    LEFT JOIN 
+      perfume_category AS p USING (category_id)
+    WHERE
+      c.category_id = $3
+    GROUP BY 
+      type, c.category_name, c.category_id
+    ORDER BY 
+      type
+    LIMIT 
+      $2 OFFSET $1;
+  `;
+
+  const { rows } = await pool.query(query, [viewedRows, LIMIT_SETTING, category_id ]);
+
+  console.log("in getCategoryDetailsById:", rows);
+
+  return {
+    rows,
+    viewedRows: rows.length + viewedRows,
+  };
+}
+
+async function getAllCategories(viewedRows = 0) {
+  console.log("in getAllCategories:", viewedRows);
+
+  const query = `
+    SELECT 
+      c.category_id, 
+      c.type, 
+      category_name, 
+      COUNT(perfume_id) AS pcountByCatId,
+      (SELECT (COUNT(*)) FROM perfume_category pc INNER JOIN categories cat USING (category_id) GROUP BY type HAVING cat.type = c.type ) AS pcountByCatType
+    FROM 
+      categories AS c
+    LEFT JOIN 
+      perfume_category AS p USING (category_id)
+    GROUP BY 
+      type, c.category_name, c.category_id
+    ORDER BY 
+      c.type
+    LIMIT 
+      $2 OFFSET $1;
+  `;
+
+  const { rows } = await pool.query(query, [viewedRows, LIMIT_SETTING]);
+
+  console.log("in getAllCategories:", rows);
+
+  return {
+    rows,
+    viewedRows: rows.length + viewedRows,
+  };
 }
 
 async function getAllItems(viewedRows=0) {
   console.log("in getAllItems: ", viewedRows);
   const { rows } = await pool.query(
     `
-    SELECT perfume_id,image_url,REPLACE(perfume_name, '''''', '''') as perfume_name,brand_name,description,ARRAY_AGG(prices) as price_id_count
-    FROM
-      (SELECT perfume_id,image_url,perfume_name,brand_name,description,ARRAY_AGG(price || ',' || perfume_price_id || ',' || count) AS prices
+    SELECT perfume_id,image_url,REPLACE(perfume_name, '''''', '''') as perfume_name,brand_name,description,JSON_AGG(JSON_BUILD_OBJECT('pp_id',perfume_price_id,'price',price,'count',count)) as price_id_count
+    FROM (
+SELECT perfume_id,image_url,perfume_name,brand_name,description,price,perfume_price_id,count
       FROM perfumes AS p
       LEFT JOIN perfume_price USING (perfume_id)
       LEFT JOIN inventory USING (perfume_price_id)
       LEFT JOIN perfume_brand USING (perfume_id)
       LEFT JOIN brands USING (brand_id)
-      GROUP BY perfume_id,brands.brand_name,inventory.count,description
-      ORDER BY perfume_name)
-      AS subquery
-    GROUP BY perfume_id,perfume_name,brand_name,image_url,description
+      ORDER BY perfume_id) as subquery
+GROUP BY perfume_id,perfume_name,brand_name,image_url,description
     LIMIT ($2) OFFSET $1;
     `,
-    [viewedRows, 200]
+    [viewedRows, LIMIT_SETTING]
   );
   console.log("in getAllItems: ", rows.length);
   return { rows, viewedRows: rows.length + viewedRows };
@@ -488,28 +568,29 @@ await pool.query(text, values);
 //const keys = Object.keys(data);
 
 module.exports = {
-  addCategory,
   addBrand,
+  addCategory,
   addPerfumeCategory,
+  countAllItems,
   deleteBrand,
-  getAllItems,
   getAllBrands,
   getAllCategories,
-  getAllCategoryTypes,
-  getPerfumesByName,
-  getPerfumesByDesc,
-  getPerfumesByBrand,
-  getPerfumesByCategoryId,
+  getAllCategoryTypeDetails,
+  getAllItems,
+  getBrandById,
+  getBrandByName,
+  getCategory,
+  getCategoryDetailsById,
+  getPerfumeCategories,
   getPerfumeDetailsById,
   getPerfumeIdByPerfumePriceId,
-  getPerfumeCategories,
-  getCategory,
-  getBrandByName,
-  getBrandById,
   getPerfumePriceId,
+  getPerfumesByBrand,
+  getPerfumesByCategoryId,
+  getPerfumesByDesc,
+  getPerfumesByName,
   setPerfumeBrand,
   setPerfumeCategory,
-  setPerfumePrice,
   setPerfumeInventory,
-  countAllItems,
+  setPerfumePrice,
 };

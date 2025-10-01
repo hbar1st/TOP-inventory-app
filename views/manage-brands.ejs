@@ -15,7 +15,7 @@
 <body class="panel playfair-display-400">
   <%- include("partials/nav.ejs", {currentPage: ''}); %>
   <main>
-    <section class="perfume-details brands">
+    <section class="details brands">
       <header>
         <h3>Add, edit or delete a brand.</h3>
         
@@ -41,7 +41,7 @@
               <ul>
                 <% brands.forEach((brand) => { %>
                   <li>
-                    <a href="/brands/delete/<%= brand.brand_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+                    <a href="/delete/brands/<%= brand.brand_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
                     
                     <a href="/brands/edit/<%= brand.brand_id %>"><img src="/images/pen.svg" alt="edit"></a>
                     <span><%= brand.brand_name %></span>

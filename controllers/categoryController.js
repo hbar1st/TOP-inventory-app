@@ -21,33 +21,35 @@ async function getAllCategories(req, res) {
 
 async function manageCategories(req, res) {
   
-  const [categories, category] = await Promise.all([db.getAllCategories(), db.getCategoryDetailsById(req.params.id)]);
-  res.render("manage-categories", {
-    errors: null,
-    categories: categories.rows,
-    add: false,
-    edit: req.params.id ?? false,
-    categoryType: category.category_type,
-  });
-}
-
-module.exports = {
-  manageCategories,
-  getAllCategories,
-};
-
-/**
-* 
-* {
-perfume_id: 38,
-image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
-description: 'Eau de parfum',
-perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
-avg: '529.8250000000000000',
-perfume_price_ids: [ 38, 169 ],
-total_count: '4',
-brand_id: 2,
-brand_name: 'Cartier',
-category_list: [ 2, 4 ]
-}
-*/
+  const [categories, category] = await Promise.all(
+    [db.getAllCategories(),
+    db.getCategoryDetailsById(req.params.id)]);
+      res.render("manage-categories", {
+        errors: null,
+        categories: categories.rows,
+        add: false,
+        edit: req.params.id ?? false,
+        category,
+      });
+    }
+    
+    module.exports = {
+      manageCategories,
+      getAllCategories,
+    };
+    
+    /**
+    * 
+    * {
+    perfume_id: 38,
+    image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
+    description: 'Eau de parfum',
+    perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
+    avg: '529.8250000000000000',
+    perfume_price_ids: [ 38, 169 ],
+    total_count: '4',
+    brand_id: 2,
+    brand_name: 'Cartier',
+    category_list: [ 2, 4 ]
+    }
+    */

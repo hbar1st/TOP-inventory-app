@@ -5,6 +5,6 @@ const {
 
 const deleteRouter = Router();
 
-deleteRouter.post("/brands/delete/:id", deleteBrand);
+deleteRouter.post("/brands/:id", deleteBrand);
 
 module.exports = deleteRouter;

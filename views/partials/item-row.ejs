@@ -8,8 +8,7 @@
     <td class="pad-left">
         <select class="prices" <%= (perfume.price_id_count.length === 1) ? `disabled` : ``%>>
             <% perfume.price_id_count.forEach(value => { %>
-                <% const valueArr = value[0] ? value[0].split(',') : ['-',,'-']; %>
-            <option value=""><%= `\$${valueArr[0]}|${valueArr[2]}` %></option>
+            <option value=""><%= `\$${value.price ?? '-'}|${value.count ?? '-'}` %></option>
             <% }); %>
         </select>
     </td>

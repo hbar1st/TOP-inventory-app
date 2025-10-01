@@ -13,52 +13,24 @@ const assetsPath = path.join(__dirname, "public");
 app.use(express.static(assetsPath));
 app.use(express.urlencoded({ extended: true })); //used to parse form body
 
-
 const inventoryRouter = require("./routes/inventoryRouter");
 app.use("/", inventoryRouter);
 
-const { env } = require("node:process");
-
-
 const categoryRouter = require("./routes/categoryRouter");
-app.use("/categories{*whatever}",
+app.use("/categories",
   (req, res, next) => { console.log("in the /categories route: ", req.path, req.method); next(); },
   categoryRouter
 );
 
-const deleteRouter = require("./routes/deleteRouter");
-const validatePassphrase = [
-  query("passphrase")
-  .trim()
-  .notEmpty()
-  .withMessage("Passphrase can not be empty."),
-];
-app.get("/{*something}/delete{*whatever}", validatePassphrase,
-  (req, res, next) => {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).render("get-pass-phrase", {
-        errors: errors.array(),
-        route: req.originalUrl,
-        action: "delete",
-        origin: req.originalUrl.split("/")[1],
-      });
-    } else {
-      res.render("get-pass-phrase", {
-        errors: [{ msg: "Give hana a coffee if you want the passphrase XD" }],
-        route: req.originalUrl,
-        action: "delete",
-        origin: req.originalUrl.split("/")[1],
-      });
-    }
-  }
-);
+const { env } = require("node:process");
 
-app.post(
-  "/{*something}/delete{*whatever}", 
+const deleteRouter = require("./routes/deleteRouter");
+
+app.use(
+  "/delete", 
   
   (req, res, next) => {
-    if (req.body.passphrase && (req.body.passphrase === process.env.PASSPHRASE)) {
+    if (req.body?.passphrase && (req.body.passphrase === process.env.PASSPHRASE)) {
       console.log("correct passphrase given");
       next();
     } else {
@@ -67,7 +39,7 @@ app.post(
         errors: [{ msg: "Give hana a coffee if you want the passphrase XD" }],
         route: req.originalUrl,
         action: "delete",
-        origin: req.originalUrl.split("/")[1],
+        origin: req.originalUrl.split("/")[2],
       });
     }
   },
