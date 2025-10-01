@@ -52,7 +52,7 @@
                 
                 <% currType = cat.type %>
                 
-                <details class="cat-type">
+                <details class="cat-type" open>
                   <summary>
                     <div>
 
@@ -65,7 +65,7 @@
                   
                   <% } %>
                   <div>
-                    <a href="/categories/delete/<%= cat.category_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+                    <a href="/delete/categories/<%= cat.category_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
                     
                     <a href="/categories/edit/<%= cat.category_id %>"><img src="/images/pen.svg" alt="edit"></a>
                     <span><%= cat.category_name %> <span class="qty">[Qty: <%= cat.pcountbycatid %>]</span></span>

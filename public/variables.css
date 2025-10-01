@@ -13,7 +13,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-    letter-spacing: .03em;
+  letter-spacing: .03em;
 }
 
 main > section {
@@ -37,11 +37,11 @@ main > section {
 }
 .item-count {    
   font-size: clamp(10px,3vmin,20px);
-    background: linear-gradient(10deg, #78c3d3, #b6cfe7, #b6dee7, #a5c8e4, rgb(147 189 199));
-    padding: .1rem .5rem;
-    border: .5px dotted var(--purple);
-    border-radius: 7px;
-    text-shadow: 1px 0px 1px white;
+  background: linear-gradient(10deg, #78c3d3, #b6cfe7, #b6dee7, #a5c8e4, rgb(147 189 199));
+  padding: .1rem .5rem;
+  border: .5px dotted var(--purple);
+  border-radius: 7px;
+  text-shadow: 1px 0px 1px white;
 }
 
 body.panel {
@@ -76,7 +76,7 @@ option:checked:not(.original) {
 .box > a {
   text-decoration: none;
   min-width: 100%;
-    display: flex;
+  display: flex;
   flex-direction: column;
   border-radius: 5px;
   padding: 10px;
@@ -125,7 +125,7 @@ option:checked:not(.original) {
 
 select::picker(select) {
   appearance: base-select;
-
+  
 }
 
 select::picker-icon {
@@ -146,19 +146,19 @@ select.prices:disabled {
   outline: none;
   background-color: transparent;
   border: 0px;
-
+  
 }
 .perfume-price-panel select.prices:disabled {
-
-    background: linear-gradient(90deg, #9d74be, white);
+  
+  background: linear-gradient(90deg, #9d74be, white);
 }
 /*
 option::checkmark {
-  color: black;
+color: black;
 }
 select.prices option::checkmark {
-  color: transparent;
-  font-size: .1px;
+color: transparent;
+font-size: .1px;
 }
 */
 
@@ -203,7 +203,7 @@ main > section > header > div{
   div {
     display: flex;
     
-  row-gap: .5rem;
+    row-gap: .5rem;
     flex-flow: row wrap;
   }
   input[type="text"] {
@@ -224,7 +224,7 @@ main > section > header > div{
     width: clamp(50px, 50%, 100px);
     align-self: flex-end;
     
-  font-size: clamp(10px,4vmin,18px);
+    font-size: clamp(10px,4vmin,18px);
     box-shadow: 0px 1px 1px gray, 1px 0px 0px gray;
     background-color: white;
   }
@@ -262,7 +262,17 @@ main > section > header > div{
   }
 }
 
-.error {
-      color: red;
-    list-style-type: none;
+.errors {
+  color: red;
+  list-style-type: none;
+  font-weight: 500;
+  font-family: serif;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }

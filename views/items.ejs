@@ -23,7 +23,7 @@
           <span class="item-count">total # of items: <%= items.length %></span>
         </p>
       </header>
-      <div class="table-container">
+      <div class="table-container <%= items.length > 0 ? `show` : `hide` %>" >
         <table class="mid-section">
           <thead>
             <th></th>

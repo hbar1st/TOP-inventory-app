@@ -57,7 +57,7 @@ async function manageBrands(req, res) {
   
   const [brands, brand] = await Promise.all([db.getAllBrands(), db.getBrandById(req.params.id)]);
   res.render("manage-brands", {
-    errors: null,
+    errors: req.params.errormsg ? [{ msg: req.params.errormsg }] : null,
     brands: brands.rows,
     add: false,
     edit: req.params.id ?? false,

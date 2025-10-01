@@ -36,7 +36,7 @@ inventoryRouter.get("/perfume-price-id/:id", getPerfumeByPerfumePriceId);
 
 inventoryRouter.get("/brands", getAllBrands);
 
-inventoryRouter.get(["/brands/edit", "/brands/edit/:id"], manageBrands);
+inventoryRouter.get(["/brands/edit", "/brands/edit/:id", "brands/edit/:id/error/:errormsg"], manageBrands);
 
 inventoryRouter.post("/brands/update/:id", updateBrand)
 

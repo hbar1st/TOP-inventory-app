@@ -30,7 +30,7 @@ async function manageCategories(req, res) {
   );
   console.log("in manageCategories: ", category);
   res.render("manage-categories", {
-    errors: null,
+    errors: req.params.errormsg ? [{ msg: req.params.errormsg }] : null,
     categories: categories.rows,
     add: false,
     edit: req.params.id ?? false,
@@ -87,9 +87,10 @@ addNewCategory = [
   validateCategory,
   async function addNewCategory(req, res) {
     console.log("in addNewCategory");
-    const [categories] = await Promise.all([db.getAllCategories()]);
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
+      
+      const [categories] = await Promise.all([db.getAllCategories()]);
       return res.status(400).render("manage-categories", {
         errors: errors.array(),
         categories: categories.rows,
@@ -98,7 +99,7 @@ addNewCategory = [
         category: {}
       });
     }
-    await db.addCategory(req.body.category-name, req.body.category-type);
+    await db.addCategory(req.body.name, req.body.type);
     res.redirect("/categories/edit");
   },
 ];

@@ -217,8 +217,25 @@ async function getPerfumesByDesc(word) {
 }
 
 async function countAllItems() {
-  const { rows } = await pool.query("SELECT COUNT(*) FROM perfume_brand;");
+  const { rows } = await pool.query("SELECT COUNT(*) AS count FROM perfume_brand;");
   console.log("in countAllItems: ", rows);
+  return rows[0].count;
+}
+
+async function getBrandCount() {
+  console.log("in getBrandCount");
+  const { rows } = await pool.query(
+    "SELECT COUNT(brand_id) AS count FROM brands;");
+  console.log("in getBrandCount: ", rows);
+  return rows[0].count;
+}
+
+async function getCategoryCount() {
+  console.log("in getCategoryCount");
+  const { rows } = await pool.query(
+    "SELECT COUNT(category_id) AS count FROM categories;"
+  );
+  console.log("in getCategoryCount: ", rows);
   return rows[0].count;
 }
 /**
@@ -578,12 +595,36 @@ async function addBrand(name) {
   }
 }
 
+/**
+ * 
+  with tt (pcount) as 
+  (select count(perfume_id),perfume_id from perfume_category INNER JOIN perfumes using (perfume_id) group by perfume_id order by perfume_id) 
+  select perfume_id from tt left join perfume_category using (perfume_id) where tt.pcount=1 and category_id=$1;
+ */
 async function deleteBrand(id) {
   if (id) {
+    await pool.query("DELETE FROM perfumes where perfume_Id in (select perfume_id from perfumes INNER JOIN perfume_brand USING (perfume_id) WHERE brand_id=$1);", [id])
     await pool.query("DELETE FROM perfume_brand WHERE brand_id=$1", [id]);
     await pool.query("DELETE FROM brands        WHERE brand_id=$1", [id]);
   } else {
     const message = `The brand id cannot be blank or null: ${id}`;
+    throw new Error(message);
+  }
+}
+
+async function deleteCategory(id) {
+  if (id) {
+    await pool.query(
+    `DELETE FROM perfumes WHERE perfume_id IN 
+      (WITH tt(pcount) AS 
+  (SELECT count(perfume_id),perfume_id FROM perfume_category INNER JOIN perfumes USING (perfume_id) GROUP BY perfume_id ORDER BY perfume_id) 
+  SELECT perfume_id FROM tt LEFT JOIN perfume_category USING (perfume_id) WHERE tt.pcount=1 AND category_id=$1);`,
+    [id]
+  );
+    await pool.query("DELETE FROM perfume_category WHERE category_id=$1", [id]);
+    await pool.query("DELETE FROM categories        WHERE category_id=$1", [id]);
+  } else {
+    const message = `The category id cannot be blank or null: ${id}`;
     throw new Error(message);
   }
 }
@@ -620,12 +661,15 @@ module.exports = {
   addPerfumeCategory,
   countAllItems,
   deleteBrand,
+  deleteCategory,
   getAllBrands,
   getAllCategories,
   getAllCategoryTypeDetails,
   getAllItems,
   getBrandById,
   getBrandByName,
+  getBrandCount,
+  getCategoryCount,
   getCategory,
   getCategoryDetailsById,
   getPerfumeCategories,
