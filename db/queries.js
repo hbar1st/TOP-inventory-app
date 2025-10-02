@@ -634,6 +634,16 @@ async function deleteCategory(id) {
     throw new Error(message);
   }
 }
+
+async function deletePerfume(id) {
+  if (id) {
+    await pool.query("DELETE FROM perfumes WHERE perfume_id=$1", [id]);
+  } else {
+    const message = `The perfume id cannot be blank or null to delete it: ${id}`;
+    throw new Error(message);
+  }
+}
+
 async function addPerfume(details) {
   console.log("in addPerfume: ", details);
   if (details) {
@@ -713,6 +723,7 @@ module.exports = {
   countAllItems,
   deleteBrand,
   deleteCategory,
+  deletePerfume,
   getAllBrands,
   getAllCategories,
   getAllCategoryTypeDetails,

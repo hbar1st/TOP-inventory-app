@@ -79,7 +79,8 @@ async function getPerfumeForm(req, res) {
     brand_id: null,
     pp_id: null,
     errors: null,
-    add: true
+    add: true,
+    route: req.originalUrl,
   });
 }
 
@@ -191,6 +192,7 @@ addNewPerfume = [
         pp_id: null,
         errors: errors.array(),
         add: true,
+        route: req.originalUrl,
       });
     }
     console.log("validation done: ", req.body);
@@ -266,7 +268,7 @@ async function getPerfumeDetailsById(req, res) {
     db.getAllBrands()
   ]);
   res.render("perfume", {
-    searchText: "",
+    searchText: req.params.id,
     details: perfume,
     categories: categories.rows,
     brands: brands.rows,
@@ -274,6 +276,7 @@ async function getPerfumeDetailsById(req, res) {
     pp_id: null,
     errors: null,
     add: false,
+    route: req.originalUrl,
   });
 }
 /*
@@ -311,6 +314,7 @@ async function getPerfumeByPerfumePriceId(req, res) {
     pp_id: perfume_price_id,
     errors: null,
     add: false,
+    route: req.originalUrl,
   });
 }
 
@@ -332,6 +336,7 @@ async function searchByCategoryId(req,res) {
     pp_id: null,
     errors: null,
     add: false,
+    route: req.originalUrl,
   });
 }
 async function search(req, res) {
@@ -374,6 +379,7 @@ async function search(req, res) {
       pp_id: null,
       errors: null,
       add: false,
+      route: req.originalUrl,
     });
   } else {
     const perfume_id = Number(searchText);
@@ -388,6 +394,7 @@ async function search(req, res) {
       pp_id: null,
       errors: null,
       add: false,
+      route: req.originalUrl,
     });
     
   }

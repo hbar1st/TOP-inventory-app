@@ -30,7 +30,14 @@ async function deleteCategory(req, res) {
   }
 }
 
+async function deletePerfume(req, res) {
+  console.log("in deletePerfume: ", req.params.id, req.query);
+  await db.deletePerfume(req.params.id);
+  res.redirect(req.query.route);
+}
+
 module.exports = {
   deleteBrand,
   deleteCategory,
+  deletePerfume,
 }
