@@ -28,7 +28,7 @@
                 </div>
               </div>
             </header>
-            <form action="" method="post">
+            <form action="/update/<%= el.perfume_id %>" method="post">
               <div class="field">
                 <label for="">Perfume Name</label>
                 <input type="text" name="" id="" value="<%= el.perfume_name %>">
@@ -46,40 +46,23 @@
               
               <div  class="field">
                 <label for="">Purchase price ($)</label>
+                <% if (!perfume_prices) { perfume_prices = [] } %>
+
                 <% let [ perfumePriceInv ] = perfume_prices.filter(obj => obj.pp_id == pp_id); %>
-                <input type="text" name="price" id="" value="<%= perfumePriceInv.pp_price %>">
+                <input type="text" name="price" id="" value="<%= perfumePriceInv?.pp_price %>">
               </div>
               
               <div  class="field">
                 <label for="">Count</label>
                 
-                <input type="text" name="" id="" placeholder="nothing yet" value="<%= perfumePriceInv.pp_count %>">
+                <input type="text" name="" id="" placeholder="nothing yet" value="<%= perfumePriceInv?.pp_count %>">
               </div>
-              <div class="field">
-                <label for="">Brand</label>
-                <select name="brands">
-                  <% brands.forEach(brand => { %>
-                    <% if (el.brand_id === brand.brand_id) { %>
-                      <option selected id=<%= el.brand_id %> class="original" value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                      <% } else { %>
-                        <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                        <% } %>
-                        <% }); %>
-                      </select>
-                    </div>
-                    <div class="field">
-                      <label for="categories">Categories</label>
-                      <select multiple id="categories" name="categoryType"> <% let currType = ""; %>
-                        
-                       <% for (let i = 0; i < categories.length; i++) { %>
-                          <% if (currType !== categories[i].type) { %>
-                            <option disabled>Type: <%= categories[i].type %> </option>
-                            <% currType = categories[i].type %>
-                            <% } %>
-    <option id=<%= categories[i].category_id %> <%= (el.category_list.indexOf(categories[i].category_id) >= 0) ? 'selected class=original' : '' %> value="<%= categories[i].category_name %>" ><%= categories[i].category_name %></option >
-                          <% } %>
-                        </select>
-                        </div>
+            <div  class="field">
+              <label for="">Purchase Time</label>
+              
+              <input type="datetime-local" name="created_at" id="" value="<%= el.created_at %>">
+            </div>
+            <%- include("perfume-fields.ejs", {details: el, brands, categories}); %>
                         <div class="button-panel playfair-display-400">
                           <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save Changes</button>
                           <button type="button"><a href="http://"><img class="icon" src="/images/perfume-plus.svg" alt="Add">Add Stock</a></button>

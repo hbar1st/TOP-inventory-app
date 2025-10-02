@@ -1,73 +1,48 @@
         <section class="perfume-details">
           <header>
             <div> 
-              
               <h3>New perfume:</h3>
             </div>
-            <div>
-              </div>
+          </header>
+          
+            <%- include("errors.ejs") %>
+          <form action="/add" method="post">
+                        <div class="field">
+              <label for="">Perfume Name</label>
+              <input required type="text" name="name" id="" value="<%= details.name %>">
+            </div>
+            <div class="field">
+              <label for="">Image URL</label>
               
-            </header>
-            <form action="" method="post">
-              <div class="field">
-                <label for="">Perfume Name</label>
-                <input required type="text" name="perfume_name" id="" value="">
-              </div>
-              <div class="field">
-                <label for="">Image URL</label>
-                
-                <input required type="text" name="image_url" id="" value="">
-              </div>
-              <div  class="field">
-                <label for="desc">Description</label>
-                
-                <input type="text" name="description" id="desc" value="">
-              </div>
-              <div  class="field">
-                <label for="">Purchase price ($)</label>
-                
-                <input type="text" name="price" id="" value="">
-              </div>
-              <div  class="field">
-                <label for="">Purchase Time</label>
-                
-                <input type="datetime-local" name="created_at" id="" value="">
-              </div>
-              <div  class="field">
-                <label for="">Inventory</label>
-                
-                <input type="text" name="count" id="" value="">
-              </div>
-              <div class="field">
-                <label for="">Brand</label>
-                <select required name="brands">
-                  <option value="">Select the brand</option>
-                  <% brands.forEach(brand => { %>
-                      <option value="<%= brand.brand_name %>"><%= brand.brand_name %></option>
-                        <% }); %>
-                      </select>
+              <input required type="text" name="image_url" id="" value="<%= details.image_url %>">
+            </div>
+            <div  class="field">
+              <label for="desc">Description</label>
+              
+              <input type="text" name="description" id="desc" value="<%= details.description %>">
+            </div>
+            <div  class="field">
+              <label for="">Purchase price ($)</label>
+              
+              <input type="text" name="price" id="" value="<%= details.price %>">
+            </div>
+            <div  class="field">
+              <label for="">Purchase Time</label>
+              
+              <input type="datetime-local" name="created_at" id="" value="<%= details.created_at %>">
+            </div>
+            <div  class="field">
+              <label for="">Inventory</label>
+              
+              <input type="text" name="count" id="" value="<%= details.count %>">
+            </div>
+
+            <%- include("perfume-fields.ejs", {details, brands, categories}); %>
+
+                    <div class="button-panel playfair-display-400">
+                      <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save</button>
                     </div>
-                    <div class="field">
-                      <label for="categories">Categories</label>
-                      <select required multiple id="categories" name="categoryType">
-                        <option value="">Select a category</option>
-                        <% let currType = ""; %>
-                        <% for (let i = 0; i < categories.length; i++ ) { %>
-                          <% if ( currType !== categories[i].type ) { %>
-                            <optgroup label="-<%= categories[i].type %>"><%= categories[i].type %>
-                              <% currType = categories[i].type %>
-                              <% } %>
-                              <option value="<%= categories[i].category_name %>"><%= categories[i].category_name %></option>
-                              <% if (i < categories.length-2 && categories[i].type !== categories[i+1].type ) { %>
-                              </optgroup>
-                              <% } else if (i === categories.length-1) { %>
-                              </optgroup>
-                              <% }} %>
-                            </select>
-                          </div>
-                          <div class="button-panel playfair-display-400">
-                            <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save</button>
-                          </div>
-                        </form>
-                      </section>
-                      
+                  </form>
+                </section>
+                
+                

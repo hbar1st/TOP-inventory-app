@@ -12,7 +12,9 @@ const {
   getPerfumeDetailsById,
   getAllItems,
   getAllBrands,
-  updateBrand
+  updateBrand,
+  updatePerfume,
+  clearBlankFields,
 } = require("../controllers/inventoryController");
 
 
@@ -30,7 +32,10 @@ inventoryRouter.get("/search/category/:id", searchByCategoryId);
 
 inventoryRouter.get("/add", getPerfumeForm);
 
-inventoryRouter.post("/add", addNewPerfume);
+inventoryRouter.post("/add", clearBlankFields, addNewPerfume);
+
+//inventoryRouter.use("/update/:id", clearBlankFields);
+inventoryRouter.post("/update/:id", clearBlankFields,updatePerfume);
 
 inventoryRouter.get("/perfume-price-id/:id", getPerfumeByPerfumePriceId);
 

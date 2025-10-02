@@ -28,23 +28,31 @@ const deleteRouter = require("./routes/deleteRouter");
 
 app.use(
   "/delete", 
-  
-  (req, res, next) => {
-    if (req.body?.passphrase && (req.body.passphrase === process.env.PASSPHRASE)) {
-      console.log("correct passphrase given");
-      next();
-    } else {
-      console.log(req.originalUrl, req.originalUrl.split("/"));
-      res.render("get-pass-phrase", {
-        errors: [{ msg: "Give hana a coffee if you want the passphrase XD" }],
-        route: req.originalUrl,
-        action: "delete",
-        origin: req.originalUrl.split("/")[2],
-      });
-    }
-  },
+  checkPassPhrase,
   deleteRouter
 );
+
+
+function checkPassPhrase(req, res, next) {
+  if (req.body?.passphrase && req.body.passphrase === process.env.PASSPHRASE) {
+    console.log("correct passphrase given");
+    next();
+  } else {
+    console.log(req.originalUrl, req.originalUrl.split("/"));
+    const messages = [];
+    if (req.body?.passphrase) {
+      messages.push({ msg: "That's not it. Maybe hana knows the passphrase?" });
+    }
+    res.render("get-pass-phrase", {
+      errors: messages,
+      route: req.originalUrl,
+      action: "delete",
+      origin: req.originalUrl.split("/")[2],
+      type: req.type,
+      name: req.name
+    });
+  }
+}
 
 // catch-all for errors
 app.use((err, req, res, next) => {

@@ -37,7 +37,7 @@ async function getPerfumesByCategoryId(id) {
     brand_name,
     type,
     category_name,
-    ARRAY_AGG(DISTINCT category_id) AS category_list
+    ARRAY_AGG(DISTINCT category_id) AS category
     FROM perfumes as p
     LEFT JOIN perfume_brand AS pb USING(perfume_id)
     LEFT JOIN brands USING(brand_id)
@@ -91,7 +91,7 @@ async function getPerfumesByBrand(brand) {
     SUM(count) as total_count,
     pb.brand_id,
     brand_name,
-    ARRAY_AGG(DISTINCT category_id) AS category_list
+    ARRAY_AGG(DISTINCT category_id) AS category
     FROM perfumes as p
     LEFT JOIN perfume_brand as pb USING (perfume_id)
     LEFT JOIN brands USING (brand_id)
@@ -109,6 +109,12 @@ async function getPerfumesByBrand(brand) {
   return rows;
 }
 
+async function getPerfumeByName(name) {
+  console.log("in getPerfumeByName: ", name); 
+  const { rows } = await pool.query("SELECT perfume_id FROM perfumes WHERE perfume_name=$1", [name]);
+  console.log("in getPerfumeByName: ", rows);
+  return rows.length > 0 ? rows[0] : {};
+}
 /**
  * matches any perfume with a name that contains this name provided
  * @param {*} name 
@@ -145,7 +151,7 @@ async function getPerfumesByName(name) {
     SUM(count) as total_count,
     pb.brand_id,
     brand_name,
-    ARRAY_AGG(DISTINCT category_id) AS category_list
+    ARRAY_AGG(DISTINCT category_id) AS category
     FROM perfumes AS p
     LEFT JOIN perfume_brand as pb USING (perfume_id)
     LEFT JOIN brands USING (brand_id)
@@ -199,7 +205,7 @@ async function getPerfumesByDesc(word) {
     SUM(count) as total_count,
     pb.brand_id,
     brand_name,
-    ARRAY_AGG(DISTINCT category_id) AS category_list FROM perfumes AS p
+    ARRAY_AGG(DISTINCT category_id) AS category FROM perfumes AS p
     LEFT JOIN perfume_brand as pb USING (perfume_id)
     LEFT JOIN brands USING (brand_id)
     LEFT JOIN perfume_category USING (perfume_id)
@@ -416,7 +422,7 @@ async function getPerfumeDetailsById(id) {
   SUM(count) AS total_count,
   brand_id,
   brand_name,
-  ARRAY_AGG(DISTINCT category_id) AS category_list
+  ARRAY_AGG(DISTINCT category_id) AS category
 FROM perfumes AS p
 LEFT JOIN perfume_price USING (perfume_id)
 LEFT JOIN inventory USING (perfume_price_id)
@@ -628,6 +634,50 @@ async function deleteCategory(id) {
     throw new Error(message);
   }
 }
+async function addPerfume(details) {
+  console.log("in addPerfume: ", details);
+  if (details) {
+    if (!details.created_at) {
+      details.created_at = new Date();
+    }
+    const perfume = await pool.query(
+      "INSERT INTO perfumes (perfume_name, created_at, image_url, description) VALUES ($1,$2,$3,$4) RETURNING perfume_id;",
+      [details.name, details.created_at, details.image_url, details.description]
+    );
+
+    const perfume_id = perfume.rows[0].perfume_id;
+    
+    console.log("in addPerfume: ", perfume_id);
+    await pool.query("INSERT INTO perfume_brand (perfume_id, brand_id) VALUES ($1,$2);", [perfume_id, details.brands]);
+    let catquery = "INSERT INTO perfume_category (perfume_id, category_id) VALUES ($1,$2)"; 
+    if (!Array.isArray(details.category)) {
+      details.category = [details.category];
+    }
+    let catparams = [perfume_id, +details.category[0]];
+    for (let i = 1; i < details.category.length; i++) {
+      catquery += ` (${i * 2 + 1},${i * 2 + 2})`;
+      catparams.push(perfume_id);
+      catparams.push(+details.category[i]);
+    }
+    console.log("catparams: ", catparams);
+    console.log("catquery: ", catquery);
+    await pool.query(catquery + ";", catparams);
+
+    if (details.price) {
+      const perfume_price = await pool.query("INSERT INTO perfume_price (perfume_id,price) VALUES ($1,$2) RETURNING perfume_price_id;", [perfume_id, Number(details.price)]);
+      console.log("new perfume_price_id: ", perfume_price.rows[0].perfume_price_id);
+      const count = Number(details.count);
+      if (!isNaN(count)) {
+        await pool.query("INSERT INTO inventory (perfume_price_id,count) VALUES ($1,$2)", [perfume_price.rows[0].perfume_price_id, Number(details.count)]);
+      }
+    }
+    return perfume_id;
+  } else {
+    const message = `One of the values for the new perfume needs correcting: ${details}`;
+    console.log(message);
+    throw new Error(message);
+  }
+}
 
 async function addCategory(name, type) {
   if (name && type) {
@@ -658,6 +708,7 @@ await pool.query(text, values);
 module.exports = {
   addBrand,
   addCategory,
+  addPerfume,
   addPerfumeCategory,
   countAllItems,
   deleteBrand,
@@ -677,6 +728,7 @@ module.exports = {
   getPerfumeIdByPerfumePriceId,
   getPerfumePriceId,
   getPerfumesByBrand,
+  getPerfumeByName,
   getPerfumesByCategoryId,
   getPerfumesByDesc,
   getPerfumesByName,

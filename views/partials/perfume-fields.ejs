@@ -1,0 +1,30 @@
+            <div class="field">
+              <label for="">Brand</label>
+              <select required name="brands">
+                <option value="">Select the brand</option>
+                <% brands.forEach(brand => { %>
+                  
+                  <option <%= (Number(details.brand_id) === brand.brand_id) ? 'selected class=original' : '' %> value="<%= brand.brand_id %>"><%= brand.brand_name %></option>
+                  
+                  <% }); %>
+                </select>
+              </div>
+              <div class="field">
+                <label for="categories">Categories</label>
+                <select required multiple id="categories" name="category">
+                  <option value="">Select a category</option>
+                  <% let currType = ""; console.log("The categories: ", categories);%>
+                  <% for (let i = 0; i < categories.length; i++ ) { %>
+                    <% if ( currType !== categories[i].type ) { %>
+                      <optgroup label="-<%= categories[i].type %>"><%= categories[i].type %>
+                        <% currType = categories[i].type %>
+                        <% } console.log("categories[i]: ",categories[i]);  %>
+                        <option <%= (details.category?.indexOf(categories[i].category_id) > -1) ? 'selected': '' %> value="<%= categories[i].category_id %>"><%= categories[i].category_name %></option>
+                        <% if (i < categories.length-2 && categories[i].type !== categories[i+1].type ) { %>
+                        </optgroup>
+                        <% } else if (i === categories.length-1) { %>
+                        </optgroup>
+                        <% }} %>
+                      </select>
+                    </div>
+
