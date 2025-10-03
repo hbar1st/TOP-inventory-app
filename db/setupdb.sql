@@ -20,8 +20,7 @@ CREATE TABLE "perfumes" (
 
 CREATE TABLE "perfume_brand" (
   "brand_id" INT NOT NULL REFERENCES brands ON DELETE RESTRICT,
-  "perfume_id" INT NOT NULL REFERENCES perfumes ON DELETE CASCADE,
-  PRIMARY KEY ("perfume_id", "brand_id")
+  "perfume_id" INT PRIMARY KEY NOT NULL REFERENCES perfumes ON DELETE CASCADE,
 );
 
 CREATE TABLE "perfume_price" (

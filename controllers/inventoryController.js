@@ -100,13 +100,15 @@ const validatePerfume = [
   .trim()
   .notEmpty()
   .withMessage("Perfume name can not be empty.")
-  .custom(async (value) => {
-    console.log("custom perfume name validation running");
+  .custom(async (value, {req}) => {
+    if (req.originalUrl.includes("update")) {
+      return;
+    }
     const perfumeRow = await db.getPerfumeByName(value);
     console.log(perfumeRow);
     if (perfumeRow.perfume_id) {
       console.log("found a duplicate");
-      throw new Error("Perfume name already exists. Use a new name.");
+      throw new Error(`Perfume name already exists. Use a new name or edit the perfume <a href="/item/${perfumeRow.perfume_id}">here</a>.`);
     }
   }),
   body("image_url")
@@ -129,11 +131,11 @@ const validatePerfume = [
     validate_length: true,
   })
   .withMessage("The image_url must be an absolute path to an image online."),
-  body("brands").trim().notEmpty().withMessage("A brand must be selected."),
-  body("category")
+  body("brand").trim().notEmpty().withMessage("A brand must be selected."),
+  body("categories")
   .trim()
   .notEmpty()
-    .withMessage("A category must be selected."),
+  .withMessage("A category must be selected."),
   body("create_at").trim().optional(),
   body("price")
   .trim().optional()
@@ -148,26 +150,15 @@ const validatePerfume = [
     }
   }),
   body("count").trim().optional()
-  .isInt({ min: 0 }).withMessage("The inventory must be a whole number.").custom(async (value, {req}) => {
+  .isInt({ min: 0 }).withMessage("The inventory must be a postive whole number.")
+  .custom(async (value, { req }) => {
     if (!req.body.price) {
       throw new Error("To register new inventory, a price must be provided.");
     }
   }),
 ];
 /*
-{
-{
-name: 'Calvin Klein Beauty',
-image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-beauty.jpg',
-description: '',
-price: '',
-created_at: '',
-count: '5',
-brands: 'Calvin Klein',
-category: [ '8', '9' ],
-categories: ''
-}
-}
+
 */
 addNewPerfume = [
   validatePerfume,
@@ -194,10 +185,11 @@ addNewPerfume = [
         add: true,
         route: req.originalUrl,
       });
+    } else {
+      console.log("validation done: ", req.body);
+      const perfume_id = await db.addPerfume(req.body);
+      res.redirect(`/item/${perfume_id}`);
     }
-    console.log("validation done: ", req.body);
-    const perfume_id = await db.addPerfume(req.body);
-    res.redirect(`/item/${perfume_id}`);
   }
 ];
 
@@ -229,9 +221,10 @@ addNewBrand = [validateBrand,
         add: true,
         edit: false,
       });
+    } else {
+      await db.addBrand(req.body.brand);
+      res.redirect('/brands/edit');
     }
-    await db.addBrand(req.body.brand);
-    res.redirect('/brands/edit');
   }
 ]
 
@@ -246,132 +239,118 @@ updateBrand = [
       return res.status(400).render("manage-brands", {
         errors: errors.array(),
         brands: brands.rows,
-        add: true,
-        edit: false,
+        add: false,
+        edit: true,
       });
+    } else {
+      await db.updateBrand(req.params.id, req.body.brand);
+      res.redirect("/brands/edit");
     }
-    await db.updateBrand(req.params.id,req.body.brand);
-    res.redirect("/brands/edit");
   },
 ];
 
-updatePerfume = [async (req, res) => {
-  console.log("in updatePerfume: ", req.params.id, req.body);
-}];
-
-async function getPerfumeDetailsById(req, res) {
-  const perfume_id = +req.params.id;
-  console.log({perfume_id})
-  const [perfume, categories, brands] = await Promise.all([
-    db.getPerfumeDetailsById(perfume_id),
-    db.getAllCategories(),
-    db.getAllBrands()
-  ]);
-  res.render("perfume", {
-    searchText: req.params.id,
-    details: perfume,
-    categories: categories.rows,
-    brands: brands.rows,
-    brand_id: null,
-    pp_id: null,
-    errors: null,
-    add: false,
-    route: req.originalUrl,
-  });
-}
-/*
+updatePerfume = [
+  validatePerfume,
+  async (req, res) => {
+    console.log("in updatePerfume: ", req.params.id, req.body);
+    
+    const errors = validationResult(req);
+    console.log(" validation output: ", errors);
+    if (!errors.isEmpty()) {
+      const [perfume, categories, brands] = await Promise.all([
+        db.getPerfumeDetailsById(req.params.id),
+        db.getAllCategories(),
+        db.getAllBrands(),
+      ]);
+      res.status(400).render("perfume", {
+        searchText: "",
+        details: perfume,
+        categories: categories.rows,
+        brands: brands.rows,
+        brand_id: null,
+        pp_id: null,
+        errors: errors.array(),
+        add: false,
+        route: req.originalUrl,
+      });
+    } else {
+      console.log("validation done: ", req.body);
+      await db.updatePerfume(req.params.id,req.body);
+      res.redirect("/item/"+req.params.id);
+    }
+    
+  }];
+  
+  async function getPerfumeDetailsById(req, res) {
+    const perfume_id = +req.params.id;
+    console.log({perfume_id})
+    const [perfume, categories, brands] = await Promise.all([
+      db.getPerfumeDetailsById(perfume_id),
+      db.getAllCategories(),
+      db.getAllBrands()
+    ]);
+    res.render("perfume", {
+      searchText: req.params.id,
+      details: perfume,
+      categories: categories.rows,
+      brands: brands.rows,
+      brand_id: null,
+      pp_id: null,
+      errors: null,
+      add: false,
+      route: req.originalUrl,
+    });
+  }
+  /*
   {
-    perfume_id: 193,
-    image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-shock.jpg',
-    description: null,
-    created_at: 2025-10-02T13:38:33.094Z,
-    perfume_prices: [ [Object] ],
-    perfume_name: 'Ck One Shock',
-    avg_price: '44.9900000000000000',
-    perfume_price_ids: [ 181 ],
-    total_count: null,
-    brand_id: 1,
-    brand_name: 'Calvin Klein',
-    category_list: [ 10 ]
+  perfume_id: 193,
+  image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/ck-one-shock.jpg',
+  description: null,
+  created_at: 2025-10-02T13:38:33.094Z,
+  perfume_prices: [ [Object] ],
+  perfume_name: 'Ck One Shock',
+  avg_price: '44.9900000000000000',
+  perfume_price_ids: [ 181 ],
+  total_count: null,
+  brand_id: 1,
+  brand_name: 'Calvin Klein',
+  category_list: [ 10 ]
   }
   */
-async function getPerfumeByPerfumePriceId(req, res) {
-  const perfume_price_id = +req.params.id;
-  console.log({ perfume_price_id });
-  const [{ perfume_id }, categories, brands] = await Promise.all([
-    db.getPerfumeIdByPerfumePriceId(perfume_price_id),
-    db.getAllCategories(),
-    db.getAllBrands(),
-  ]);
-  console.log({ perfume_id });
-  const perfume = await getPerfumeById(perfume_id);
-  res.render("perfume", {
-    searchText: "",
-    details: perfume,
-    categories: categories.rows,
-    brands: brands.rows,
-    brand_id: null,
-    pp_id: perfume_price_id,
-    errors: null,
-    add: false,
-    route: req.originalUrl,
-  });
-}
-
-async function searchByCategoryId(req,res) {
-  const category_id = req.params.id;
-  console.log("in searchByCategoryId: ", category_id);
-  const [categories, brands, perfumeList] = await Promise.all([
-    db.getAllCategories(),
-    db.getAllBrands(),
-    db.getPerfumesByCategoryId(category_id)
-  ]);
+  async function getPerfumeByPerfumePriceId(req, res) {
+    const perfume_price_id = +req.params.id;
+    console.log({ perfume_price_id });
+    const [{ perfume_id }, categories, brands] = await Promise.all([
+      db.getPerfumeIdByPerfumePriceId(perfume_price_id),
+      db.getAllCategories(),
+      db.getAllBrands(),
+    ]);
+    console.log({ perfume_id });
+    const perfume = await getPerfumeById(perfume_id);
+    res.render("perfume", {
+      searchText: "",
+      details: perfume,
+      categories: categories.rows,
+      brands: brands.rows,
+      brand_id: null,
+      pp_id: perfume_price_id,
+      errors: null,
+      add: false,
+      route: req.originalUrl,
+    });
+  }
   
-  res.render("perfume", {
-    searchText: "",
-    details: perfumeList,
-    categories: categories.rows,
-    brands: brands.rows,
-    brand_id: null,
-    pp_id: null,
-    errors: null,
-    add: false,
-    route: req.originalUrl,
-  });
-}
-async function search(req, res) {
-  const searchText = req.query.searchText;
-  
-  // get all available brands and categories in all cases
-  const [categories, brands] = await Promise.all([
-    db.getAllCategories(),
-    db.getAllBrands()
-  ]);
-  
-  // figure out if this is an id (it will be a number)
-  // if not an id, then search for it in descriptin/name/brand_name/category fields and gather all the results for display by type
-  // all perfume matches together, all categories together, all brands together
-  if (Number.isNaN(Number(searchText))) {
-    const perfumes = await Promise.all([
-      db.getPerfumesByName(searchText),
-      db.getPerfumesByDesc(searchText),
-      db.getPerfumesByBrand(searchText),
+  async function searchByCategoryId(req,res) {
+    const category_id = req.params.id;
+    console.log("in searchByCategoryId: ", category_id);
+    const [categories, brands, perfumeList] = await Promise.all([
+      db.getAllCategories(),
+      db.getAllBrands(),
+      db.getPerfumesByCategoryId(category_id)
     ]);
     
-    // go thru the list and remove duplicates since the 3 queries above are not mutually-exclusive searches
-    
-    let ids = new Set();
-    let perfumeList = [];
-    
-    perfumes.flat().forEach((el) => {
-      if (!ids.has(el.perfume_id)) {
-        ids.add(el.perfume_id);
-        perfumeList.push(el);
-      }
-    });
-    
     res.render("perfume", {
-      searchText,
+      searchText: "",
       details: perfumeList,
       categories: categories.rows,
       brands: brands.rows,
@@ -381,64 +360,107 @@ async function search(req, res) {
       add: false,
       route: req.originalUrl,
     });
-  } else {
-    const perfume_id = Number(searchText);
-    const perfume = await getPerfumeById(perfume_id);
+  }
+  async function search(req, res) {
+    const searchText = req.query.searchText;
     
-    res.render("perfume", {
-      searchText,
-      details: perfume,
-      categories: categories.rows,
-      brands: brands.rows,
-      brand: brand_id,
-      pp_id: null,
-      errors: null,
-      add: false,
-      route: req.originalUrl,
-    });
+    // get all available brands and categories in all cases
+    const [categories, brands] = await Promise.all([
+      db.getAllCategories(),
+      db.getAllBrands()
+    ]);
+    
+    // figure out if this is an id (it will be a number)
+    // if not an id, then search for it in descriptin/name/brand_name/category fields and gather all the results for display by type
+    // all perfume matches together, all categories together, all brands together
+    if (Number.isNaN(Number(searchText))) {
+      const perfumes = await Promise.all([
+        db.getPerfumesByName(searchText),
+        db.getPerfumesByDesc(searchText),
+        db.getPerfumesByBrand(searchText),
+      ]);
+      
+      // go thru the list and remove duplicates since the 3 queries above are not mutually-exclusive searches
+      
+      let ids = new Set();
+      let perfumeList = [];
+      
+      perfumes.flat().forEach((el) => {
+        if (!ids.has(el.perfume_id)) {
+          ids.add(el.perfume_id);
+          perfumeList.push(el);
+        }
+      });
+      
+      res.render("perfume", {
+        searchText,
+        details: perfumeList,
+        categories: categories.rows,
+        brands: brands.rows,
+        brand_id: null,
+        pp_id: null,
+        errors: null,
+        add: false,
+        route: req.originalUrl,
+      });
+    } else {
+      const perfume_id = Number(searchText);
+      const perfume = await getPerfumeById(perfume_id);
+      
+      res.render("perfume", {
+        searchText,
+        details: perfume,
+        categories: categories.rows,
+        brands: brands.rows,
+        brand: brand_id,
+        pp_id: null,
+        errors: null,
+        add: false,
+        route: req.originalUrl,
+      });
+      
+    }
     
   }
   
-}
-
-async function getPerfumeById(perfume_id) {
-  const [perfume] = await Promise.all([
-    db.getPerfumeDetailsById(perfume_id)
-  ]);
-  console.log("after the await:",perfume);
-  return perfume;
-}
-
-module.exports = {
-  addNewPerfume,
-  addNewBrand,
-  search,
-  searchByCategoryId,
-  showLandingPage,
-  getPerfumeByPerfumePriceId,
-  getPerfumeForm,
-  manageBrands,
-  getPerfumeDetailsById,
-  getAllCategories,
-  getAllBrands,
-  getAllItems,
-  updateBrand,
-  updatePerfume,
-  clearBlankFields,
-};
-
-/**
-* 
-* {
-perfume_id: 38,
-image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
-description: 'Eau de parfum',
-perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
-avg: '529.8250000000000000',
-perfume_price_ids: [ 38, 169 ],
-total_count: '4',
-brand_id: 2,
-brand_name: 'Cartier',
-category_list: [ 2, 4 ]
-}
-*/
+  async function getPerfumeById(perfume_id) {
+    const [perfume] = await Promise.all([
+      db.getPerfumeDetailsById(perfume_id)
+    ]);
+    console.log("after the await:",perfume);
+    return perfume;
+  }
+  
+  module.exports = {
+    addNewPerfume,
+    addNewBrand,
+    search,
+    searchByCategoryId,
+    showLandingPage,
+    getPerfumeByPerfumePriceId,
+    getPerfumeForm,
+    manageBrands,
+    getPerfumeDetailsById,
+    getAllCategories,
+    getAllBrands,
+    getAllItems,
+    updateBrand,
+    updatePerfume,
+    clearBlankFields,
+  };
+  
+  /**
+  * 
+  * {
+  perfume_id: 38,
+  image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/cartier-lheures-voyageuses-oud-&-musc.jpg',
+  description: 'Eau de parfum',
+  perfume_name: "Cartier L'Heures Voyageuses Oud & Musc",
+  avg: '529.8250000000000000',
+  perfume_price_ids: [ 38, 169 ],
+  total_count: '4',
+  brand_id: 2,
+  brand_name: 'Cartier',
+  category_list: [ 2, 4 ]
+  }
+  */

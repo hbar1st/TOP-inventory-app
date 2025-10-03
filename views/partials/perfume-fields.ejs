@@ -1,6 +1,6 @@
             <div class="field">
               <label for="">Brand</label>
-              <select required name="brands">
+              <select required name="brand">
                 <option value="">Select the brand</option>
                 <% brands.forEach(brand => { %>
                   
@@ -11,7 +11,7 @@
               </div>
               <div class="field">
                 <label for="categories">Categories</label>
-                <select required multiple id="categories" name="category">
+                <select required multiple id="categories" name="categories">
                   <option value="">Select a category</option>
                   <% let currType = ""; console.log("The categories: ", categories);%>
                   <% for (let i = 0; i < categories.length; i++ ) { %>

@@ -281,3 +281,7 @@ main > section > header > div{
 .hide {
   display: none;
 }
+
+.details > div > form > header {
+    font-weight: 600;
+}

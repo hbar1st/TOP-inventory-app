@@ -14,9 +14,9 @@
                 <input disabled type="text" name="" id="" value="<%= Number(el.avg_price).toFixed(2) %>">
               </div>
               <div>
-                <label for="">Inventory</label>
+                <label for="">Inventory:</label>
                 
-                <input disabled type="text" name="" id="" value="<%= el.total_count %>">
+                <input disabled type="number" min="0" name="" id="" value="<%= el.total_count %>">
               </div>
               <div>
                 <label for="">Receipt ids:</label>
@@ -28,6 +28,8 @@
                 </div>
               </div>
             </header>
+            
+          <%- include("errors.ejs"), {errors} %>
             <form action="/update/<%= el.perfume_id %>" method="post">
               <div class="field">
                 <label for="">Perfume Name</label>
@@ -36,7 +38,7 @@
               <div  class="field">
                 <label for="">Image URL</label>
                 
-                <input type="text" name="image_url" id="" value="<%= el.image_url %>">
+                <input type="url" inputmode="url" name="image_url" id="" value="<%= el.image_url %>">
               </div>
               <div  class="field">
                 <label for="">Description</label>
@@ -49,13 +51,13 @@
                 <% if (!perfume_prices) { perfume_prices = [] } %>
 
                 <% let [ perfumePriceInv ] = perfume_prices.filter(obj => obj.pp_id == pp_id); %>
-                <input type="text" name="price" id="" value="<%= perfumePriceInv?.pp_price %>">
+                <input type="number" inputmode="decimal" step=".01" name="price" id="" value="<%= perfumePriceInv?.pp_price %>">
               </div>
               
               <div  class="field">
                 <label for="">Count</label>
                 
-                <input type="text" name="count" id="" placeholder="nothing yet" value="<%= perfumePriceInv?.pp_count %>">
+                <input type="number" inputmode="numeric" min="0" pattern="[0-9]*" step="1" name="count" id="" placeholder="nothing yet" value="<%= perfumePriceInv?.pp_count %>">
               </div>
             <div  class="field">
               <label for="">Purchase Time</label>

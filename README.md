@@ -18,7 +18,6 @@
 ### My own list of features:
 
 - A way to view all inventory by brand (and total count per brand).
-- A way to view out-of-stock perfumes (in general, or by brand or by category).
 - A way to do CRUD on all categories/brands & perfumes;
 - Support perfumes belonging to more than one category.
 - Support perfumes purchased at more than one price.
@@ -34,8 +33,11 @@
 - Create a way to bulk remove rows of perfumes from the items view. (by selecting the rows one wants to remove then running the delete)
 - Create a way to bulk edit rows of perfumes by selecting the perfumes then being shown a dialog that lets you modify fields and 'apply to all' and showing how many rows were selected to confirm the update. (Maybe I want to change the name of the brand in bulk for eg)
 - A way to download the data in a csv file
-- A way to uploade data from a csv file
+- A way to upload data from a csv file
+- A way to sort the all items table by any column or a series of columns (like by id then by name, or by price, then brand)
+- A way to view out-of-stock perfumes (in general, or by brand or by category).
 
 TODO:
 [ ] add the date created and date updated to queries so they show up with the perfume details
+[ ] find a way to remove a previously recorded stock receipt (price point) as right now, we can only edit them, not delete them
 [ ] create a font package and include it into the repo (then replace appropriate code)

@@ -5,16 +5,16 @@
             </div>
           </header>
           
-            <%- include("errors.ejs") %>
+          <%- include("errors.ejs"), {errors} %>
           <form action="/add" method="post">
-                        <div class="field">
+            <div class="field">
               <label for="">Perfume Name</label>
               <input required type="text" name="name" id="" value="<%= details.name %>">
             </div>
             <div class="field">
               <label for="">Image URL</label>
               
-              <input required type="text" name="image_url" id="" value="<%= details.image_url %>">
+              <input required type="url" inputmode="url" name="image_url" id="" value="<%= details.image_url %>">
             </div>
             <div  class="field">
               <label for="desc">Description</label>
@@ -24,7 +24,7 @@
             <div  class="field">
               <label for="">Purchase price ($)</label>
               
-              <input type="text" name="price" id="" value="<%= details.price %>">
+              <input type="number" inputmode="decimal" min="0" step=".01" name="price" id="" value="<%= details.price %>">
             </div>
             <div  class="field">
               <label for="">Purchase Time</label>
@@ -34,15 +34,15 @@
             <div  class="field">
               <label for="">Inventory</label>
               
-              <input type="text" name="count" id="" value="<%= details.count %>">
+              <input type="number" inputmode="number" min="0" step="1" pattern="[0-9]*" name="count" id="" value="<%= details.count %>">
             </div>
-
+            
             <%- include("perfume-fields.ejs", {details, brands, categories}); %>
-
-                    <div class="button-panel playfair-display-400">
-                      <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save</button>
-                    </div>
-                  </form>
-                </section>
-                
-                
+            
+            <div class="button-panel playfair-display-400">
+              <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save</button>
+            </div>
+          </form>
+        </section>
+        
+        
