@@ -121,7 +121,7 @@ const validatePerfumePrice = [
   .notEmpty()
     .custom(async (value, { req }) => {
     console.log("in custom perfume price validation function")
-    const rows = await db.getPerfumeByPrice(value);
+    const rows = await db.getPerfumeByPrice(req.params.id,value);
     if (rows && rows.perfume_price_id) {
       throw new Error(
         "Cannot add a duplicate price. You can edit the price stock instead."
@@ -152,9 +152,9 @@ addStock = [
         route: routeArr.join('/'),
       });
     } else {
-      await db.addStock();
-      console.log("about to redirect to: ", req.route);
-      res.redirect(req.route);
+      await db.addStock(req.params.id, req.body);
+      console.log("about to redirect to: ", req.query.route);
+      res.redirect(`/stock/${req.params.id}`);
     }
   }
 ];

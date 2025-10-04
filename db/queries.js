@@ -109,10 +109,10 @@ async function getPerfumesByBrand(brand) {
   return rows;
 }
 
-async function getPerfumeByPrice(price) {
-  console.log("in getPerfumeByPrice: ", price);
+async function getPerfumeByPrice(id,price) {
+  console.log("in getPerfumeByPrice: ", id, price);
   const { rows } = await pool.query(`
-    SELECT perfume_price_id FROM perfume_price WHERE price=$1`, [Number(price)]);
+    SELECT perfume_price_id FROM perfume_price WHERE price=$1 AND perfume_id=$2`, [Number(price), id]);
     console.log("in getPerfumeByPrice: ", rows);
     return rows.length > 0 ? rows[0] : {};
   }
@@ -633,13 +633,16 @@ GROUP BY
               }
             }
             async function addStock(perfume_id, { price, count }) {
-              console.log("in addStock: ", perfume_id, price, count);
+              console.log("in db addStock: ", perfume_id, price, count);
+              let rowsObj;
               if (perfume_id && price && count) {
-                const rowsObj = await pool.query(`INSERT INTO perfume_price (perfume_id, price) VALUES ($1,$2) RETURNING perfume_price_id;`, [perfume_id, price]);
+                rowsObj = await pool.query(`INSERT INTO perfume_price (perfume_id, price) VALUES ($1,$2) RETURNING perfume_price_id;`, [perfume_id, price]);
               }
               const pp_id = rowsObj.rows[0].perfume_price_id;
               if (pp_id) {
                 await pool.query(`INSERT INTO inventory (perfume_price_id, count) VALUES ($1, $2);`, [pp_id, count]);
+              } else {
+                throw new Error("failed to add stock to the perfume: ", perfume_id, pp_id);
               }
               console.log("in addStock: ", pp_id);
             }
@@ -825,4 +828,5 @@ GROUP BY
               updateBrand,
               updateCategory,
               updatePerfume,
+              addStock
             };
