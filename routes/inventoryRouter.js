@@ -37,11 +37,13 @@ inventoryRouter.get("/add", getPerfumeForm);
 
 inventoryRouter.post("/add", clearBlankFields, addNewPerfume);
 
-inventoryRouter.get(["/stock/:id", "/stock/edit/:id", "/stock/:id/:pp_id"], showAddStockForm);
+inventoryRouter.get(["/stock/:id", "/stock/:id/pp/:pp_id"], showAddStockForm);
+  
+inventoryRouter.get(["/stock/edit/:id/pp/:pp_id", "/stock/edit/:id"], showAddStockForm);
 
 inventoryRouter.post("/stock/add/:id", addStock);
 
-inventoryRouter.get("/stock/update/:id/:pp_id", updateStock);
+inventoryRouter.post("/stock/update/:id/:pp_id", updateStock);
 
 inventoryRouter.post("/update/:id", clearBlankFields,updatePerfume);
 

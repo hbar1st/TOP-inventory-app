@@ -101,16 +101,21 @@ category: [ 8, 9 ]
 }
 */
 async function showAddStockForm(req, res) {
-  const perfume = await db.getPerfumeDetailsById(req.params.id);
-  console.log("in showAddStockForm: ", perfume);
+  console.log("in showAddStockForm: ", req.params);
+  const [perfume, pp] = await Promise.all([
+    db.getPerfumeDetailsById(Number(req.params.id)),
+    req.params.pp_id ? db.getPerfumePriceStock(Number(req.params.pp_id)) : null,
+  ]);
+  console.log("in showAddStockForm: ", perfume, pp);
   const routeArr = req.originalUrl.split('/');
   routeArr.pop(); //pop the pp_id
   routeArr.push(req.params.id);
   res.render("manage-stock", {
     details: perfume[0],
     errors: req.params.errormsg ? [{ msg: req.params.errormsg }] : null,
-    add: true,
-    edit: false,
+    add: req.params.pp_id ? false: true,
+    edit: req.params.pp_id ? true : false,
+    pp,
     route: routeArr.join('/'),
   });
 }
@@ -119,7 +124,7 @@ const validatePerfumePrice = [
   body("price")
   .trim()
   .notEmpty()
-    .custom(async (value, { req }) => {
+  .custom(async (value, { req }) => {
     console.log("in custom perfume price validation function")
     const rows = await db.getPerfumeByPrice(req.params.id,value);
     if (rows && rows.perfume_price_id) {
@@ -150,6 +155,7 @@ addStock = [
         add: true,
         edit: false,
         route: routeArr.join('/'),
+        pp: {},
       });
     } else {
       await db.addStock(req.params.id, req.body);
@@ -159,10 +165,17 @@ addStock = [
   }
 ];
 
-async function updateStock(req, res) {
-  console.log("in updateStock: ", req.params.id, req.params.pp_id);
-  //TODO
-}
+
+updateStock = [
+  async (req, res) => {
+    console.log("in updateStock: ", req.params.id, req.params.pp_id);
+    
+    await db.updateStock(req.params.pp_id, req.body);
+    res.redirect(`/stock/${req.params.id}`);
+    
+  },
+];
+
 const clearBlankFields = (req, res, next) => {
   
   console.log("in clearBlankFields: ", Object.entries(req.body));

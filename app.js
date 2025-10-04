@@ -55,7 +55,7 @@ function checkPassPhrase(req, res, next) {
 
     res.render("get-pass-phrase", {
       errors: messages,
-      route: req.query.route,
+      route: "",
       action: "delete",
       origin: routeArr[0],
       id: routeArr[1],

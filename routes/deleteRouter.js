@@ -14,6 +14,6 @@ deleteRouter.post("/items/:id", deletePerfume);
 
 deleteRouter.post("/categories/:id", deleteCategory);
 
-deleteRouter.post(["/stock/:id/:pp_id", "/stock/edit/:id/:pp_id"], deleteStock);
+deleteRouter.post(["/stock/:id/pp/:pp_id", "/stock/edit/:id/pp/:pp_id"], deleteStock);
 
 module.exports = deleteRouter;

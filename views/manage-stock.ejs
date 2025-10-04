@@ -22,7 +22,7 @@
         <p>Note that deleting a price requires a secret passcode to be entered.</p>
       </header>
       <div>
-        <form action="<%= edit ? `/stock/update/${details.perfume_id}/${pp.pp_id}` : `/stock/add/${details.perfume_id}` %>" method="POST">
+        <form action="<%= edit ? `/stock/update/${details.perfume_id}/pp/${pp.pp_id}` : `/stock/add/${details.perfume_id}` %>" method="POST">
           
           <%- include("partials/errors.ejs", {errors}) %>
           
@@ -30,12 +30,12 @@
           <div class="short">
             
             <label for="new">Price:</label>
-            <input required type="number" inputmode="decimal" min="0" step=".01" name="price" placeholder="<%= add ? 'add price' : '' %>">
+            <input required type="number" inputmode="decimal" min="0" step=".01" name="price"  value="<%= edit ? pp.price : '' %>" placeholder="<%= add ? 'add price' : '' %>">
           </div>
           <div class="short">
             
             <label for="new">Stock:</label>
-              <input required type="number" inputmode="number" min="0" step="1" pattern="[0-9]*" name="count" placeholder="<%= add ? 'add count' : '' %>">
+              <input required type="number" inputmode="number" min="0" step="1" pattern="[0-9]*" name="count"  value="<%= edit ? pp.count : '' %>" placeholder="<%= add ? 'add count' : '' %>">
             </div>
             <button type="submit">Submit</button>
             
@@ -48,9 +48,9 @@
               <ul>
                 <% console.log("in manage-stock: ",details.perfume_prices); details.perfume_prices.forEach((pp) => { %>
                   <li>
-                    <a href="/delete/stock/<%= details.perfume_id %>/<%= pp.pp_id %>?route=<%= route %>/<%= pp.pp_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+                    <a href="/delete/stock/<%= details.perfume_id %>/pp/<%= pp.pp_id %>?route=/stock/edit/<%= details.perfume_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
                     
-                    <a href="/stock/edit/<%= details.perfume_id %>/<%= pp.pp_id %>"><img src="/images/pen.svg" alt="edit"></a>
+                    <a href="/stock/edit/<%= details.perfume_id %>/pp/<%= pp.pp_id %>"><img src="/images/pen.svg" alt="edit"></a>
                     <span>$<%= pp.pp_price %></span>
                     <span>Qty: <%= pp.pp_count %></span>
                     

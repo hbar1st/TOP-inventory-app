@@ -108,7 +108,12 @@ async function getPerfumesByBrand(brand) {
   console.log("in getPerfumesByBrand: ", rows);
   return rows;
 }
+async function getPerfumePriceStock(pp_id) {
+  console.log("in db getPerfumePriceStock: ", pp_id);
 
+  const { rows } = await pool.query(`SELECT perfume_price_id AS pp_id,price,count FROM perfume_price LEFT JOIN inventory USING (perfume_price_id) WHERE perfume_price_id=$1;`, [pp_id]);
+  return rows.length > 0 ? rows[0] : {};
+}
 async function getPerfumeByPrice(id,price) {
   console.log("in getPerfumeByPrice: ", id, price);
   const { rows } = await pool.query(`
@@ -406,7 +411,7 @@ GROUP BY perfume_id,perfume_name,brand_name,image_url,description
     }
     
     async function getPerfumeDetailsById(id) {
-      console.log("in getPerfumeDetailsById: ", id);
+      console.log("in db getPerfumeDetailsById: ", id);
       const { rows } = await pool.query(
         `SELECT 
   p.perfume_id,
@@ -548,7 +553,7 @@ GROUP BY
     }
     
     async function updateBrand(id,name) {
-      console.log("in updateBrand");
+      console.log("in db updateBrand");
       if (name) {
         
         await pool.query("UPDATE brands SET brand_name=$1 WHERE brand_id=$2", [
@@ -561,6 +566,29 @@ GROUP BY
       }
       
       console.log("in updateBrand");
+    }
+    
+    async function updateStock(pp_id, { price, count }) {
+      console.log("in db updateStock: ", pp_id, price, count);
+      let rowsObj;
+      if (pp_id && price && count) {
+        rowsObj = await pool.query(
+          `UPDATE perfume_price SET price=$2 WHERE perfume_price_id=$1;`,
+          [pp_id, price]
+        );
+        await pool.query(
+          `INSERT INTO inventory (perfume_price_id, count) VALUES ($1, $2) ON CONFLICT (perfume_price_id) DO
+          UPDATE SET count=$2;`,
+          [pp_id, count]
+        );
+      } else {
+        throw new Error(
+          "failed to add stock to the perfume: ",
+          perfume_id,
+          pp_id
+        );
+      }
+      console.log("in addStock: ", pp_id);
     }
     /*
     validation done:  {
@@ -811,6 +839,7 @@ GROUP BY
               getCategoryCount,
               getCategory,
               getCategoryDetailsById,
+              getPerfumePriceStock,
               getPerfumeCategories,
               getPerfumeDetailsById,
               getPerfumeIdByPerfumePriceId,
@@ -828,5 +857,6 @@ GROUP BY
               updateBrand,
               updateCategory,
               updatePerfume,
-              addStock
+              addStock,
+              updateStock,
             };
