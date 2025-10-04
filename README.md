@@ -38,6 +38,6 @@
 - A way to view out-of-stock perfumes (in general, or by brand or by category).
 
 TODO:
-[ ] add the date created and date updated to queries so they show up with the perfume details
-[ ] find a way to remove a previously recorded stock receipt (price point) as right now, we can only edit them, not delete them
+[ ] add the date created and date updated to queries so they show up with the perfume details BUT need to switch the date to UTC first using some 
+client-side JS in order to make sure that we don't send a local date to the server and have it assume it is UTC when it is not. (so add some code to detect when someone modified the dates and update a hidden input field with the utc date which would be the one the backend code should read)
 [ ] create a font package and include it into the repo (then replace appropriate code)
