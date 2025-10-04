@@ -27,7 +27,7 @@ inventoryRouter.get("/", showLandingPage);
 
 inventoryRouter.get("/items", getAllItems);
 
-inventoryRouter.get("/item/:id", getPerfumeDetailsById);
+inventoryRouter.get(["/item/:id","/items/edit/:id"], getPerfumeDetailsById);
 
 inventoryRouter.get("/search", search);
 
@@ -43,7 +43,7 @@ inventoryRouter.get(["/stock/edit/:id/pp/:pp_id", "/stock/edit/:id"], showAddSto
 
 inventoryRouter.post("/stock/add/:id", addStock);
 
-inventoryRouter.post("/stock/update/:id/:pp_id", updateStock);
+inventoryRouter.post("/stock/update/:id/pp/:pp_id", updateStock);
 
 inventoryRouter.post("/update/:id", clearBlankFields,updatePerfume);
 

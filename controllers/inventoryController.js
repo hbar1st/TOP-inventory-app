@@ -357,6 +357,13 @@ updatePerfume = [
         db.getAllCategories(),
         db.getAllBrands(),
       ]);
+      /*
+      const offset = -1 * perfume[0].created_at.getTimezoneOffset() * 60 * 1000; //change from min to millisecond
+      
+      perfume[0].created_at = new Date(perfume[0].created_at.getTime() + offset)
+      .toISOString()
+      .slice(0, -8);
+      */
       res.status(400).render("perfume", {
         searchText: "",
         details: perfume,
@@ -385,6 +392,11 @@ updatePerfume = [
       db.getAllCategories(),
       db.getAllBrands()
     ]);
+    /*
+    const offset = -1 * perfume[0].created_at.getTimezoneOffset() * 60 * 1000; //change from min to millisecond
+    
+    perfume[0].created_at = new Date(perfume[0].created_at.getTime() + offset).toISOString().slice(0, -8);
+    */
     res.render("perfume", {
       searchText: req.params.id,
       details: perfume,
@@ -424,6 +436,16 @@ updatePerfume = [
     ]);
     console.log({ perfume_id });
     const perfume = await getPerfumeById(perfume_id);
+    /*
+    const offset =
+    -1 * perfume[0].created_at.getTimezoneOffset() * 60 * 1000; //change from min to millisecond
+    
+    perfume[0].created_at = new Date(
+      perfume[0].created_at.getTime() + offset
+    )
+    .toISOString()
+    .slice(0, -8);
+    */
     res.render("perfume", {
       searchText: "",
       details: perfume,
@@ -445,7 +467,17 @@ updatePerfume = [
       db.getAllBrands(),
       db.getPerfumesByCategoryId(category_id)
     ]);
+    /*
     
+    perfumeList.forEach(el => {
+      const offset =
+      -1 * el.created_at.getTimezoneOffset() * 60 * 1000; //change from min to millisecond
+      el.created_at = new Date(
+        perfume[0].created_at.getTime() + offset
+      ).toISOString()
+      .slice(0, -8);
+    });
+    */
     res.render("perfume", {
       searchText: "",
       details: perfumeList,
@@ -503,13 +535,22 @@ updatePerfume = [
     } else {
       const perfume_id = Number(searchText);
       const perfume = await getPerfumeById(perfume_id);
+      /*
+      const offset =
+      -1 * perfume[0].created_at.getTimezoneOffset() * 60 * 1000; //change from min to millisecond
       
+      perfume[0].created_at = new Date(
+        perfume[0].created_at.getTime() + offset
+      )
+      .toISOString()
+      .slice(0, -8);
+      */
       res.render("perfume", {
         searchText,
         details: perfume,
         categories: categories.rows,
         brands: brands.rows,
-        brand: brand_id,
+        brand: null,
         pp_id: null,
         errors: null,
         add: false,

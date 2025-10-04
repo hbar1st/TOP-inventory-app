@@ -119,6 +119,7 @@ h3 {
   
   button {
     color: black;
+    padding: 2px 4px;
     font-family: 'Courier New', Courier, monospace;
     min-width: 8.5em;
     display: flex;

@@ -59,11 +59,6 @@
                 
                 <input type="number" inputmode="numeric" min="0" pattern="[0-9]*" step="1" name="count" id="" placeholder="nothing yet" value="<%= perfumePriceInv?.pp_count %>">
               </div>
-            <div  class="field">
-              <label for="">Purchase Time</label>
-              
-              <input type="datetime-local" name="created_at" id="" value="<%= el.created_at %>">
-            </div>
             <%- include("perfume-fields.ejs", {details: el, brands, categories}); %>
                         <div class="button-panel playfair-display-400">
                           <button type="submit"><img class="icon" src="/images/save-icon.svg" alt="Save">Save Changes</button>
