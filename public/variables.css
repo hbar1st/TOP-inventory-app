@@ -272,6 +272,7 @@ main > section > header > div{
   list-style-type: none;
   font-weight: 500;
   font-family: serif;
+  font-size: smaller;
 }
 
 .show {
@@ -284,4 +285,15 @@ main > section > header > div{
 
 .details > div > form > header {
     font-weight: 600;
+}
+
+.banner {
+  margin: auto auto;
+  background-color: var(--background-color);
+  border: 1px ridge var(--purple);
+  text-align: center;
+  max-width: calc(var(--app-max-width) + 200px);
+  color: #0d6a0d;
+  font-weight: 600;
+  padding: 2px 0px;
 }

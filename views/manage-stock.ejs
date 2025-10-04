@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/variables.css">
+  <link rel="stylesheet" href="/nav.css">
+  <link rel="stylesheet" href="/search.css">
+  <link rel="stylesheet" href="/stock.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <title>Manage Inventory App Stock Levels</title>
+</head>
+<body class="panel playfair-display-400">
+  <%- include("partials/nav.ejs", {currentPage: ''}); %>
+  <main>
+    <section class="details brands">
+      <header>
+        <h3>Add, edit or delete purchase price or stock.</h3>
+        
+        <p>Note that deleting a price requires a secret passcode to be entered.</p>
+      </header>
+      <div>
+        <form action="<%= edit ? `/stock/update/${details.perfume_id}/${pp.pp_id}` : `/stock/add/${details.perfume_id}` %>" method="POST">
+          
+          <%- include("partials/errors.ejs", {errors}) %>
+          
+          <header><%= edit ? 'Edit stock' : 'Add new stock' %></header>
+          <div class="short">
+            
+            <label for="new">Price:</label>
+            <input required type="number" inputmode="decimal" min="0" step=".01" name="price" placeholder="<%= add ? 'add price' : '' %>">
+          </div>
+          <div class="short">
+            
+            <label for="new">Stock:</label>
+              <input required type="number" inputmode="number" min="0" step="1" pattern="[0-9]*" name="count" placeholder="<%= add ? 'add count' : '' %>">
+            </div>
+            <button type="submit">Submit</button>
+            
+            <% if (edit) { %>
+              <a href="/stock/add/<%= details.perfume_id %>" class="add-button"><img src="/images/perfume-plus.svg"" alt="add stock"><span>Add stock</span></a> 
+              <% } %>
+            </form>
+            <section>
+              
+              <ul>
+                <% console.log("in manage-stock: ",details.perfume_prices); details.perfume_prices.forEach((pp) => { %>
+                  <li>
+                    <a href="/delete/stock/<%= details.perfume_id %>/<%= pp.pp_id %>?route=<%= route %>/<%= pp.pp_id %>"><img src="/images/delete-icon.svg" alt="delete"></a>
+                    
+                    <a href="/stock/edit/<%= details.perfume_id %>/<%= pp.pp_id %>"><img src="/images/pen.svg" alt="edit"></a>
+                    <span>$<%= pp.pp_price %></span>
+                    <span>Qty: <%= pp.pp_count %></span>
+                    
+                  </li>
+                  <% }); %>
+                </ul>
+              </section>
+            </div>
+          </section>
+        </main>
+      </body>
+      </html>

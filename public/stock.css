@@ -1,0 +1,13 @@
+ul {
+  font-size: smaller;
+  align-items: flex-start;
+  
+  img {
+    max-width: 1rem;
+  }
+  
+  li {
+    display: flex;
+    column-gap: .5rem;
+  }
+}

@@ -34,20 +34,31 @@ app.use(
 
 
 function checkPassPhrase(req, res, next) {
+  console.log("checkPassPhrase route: ", req.query.route);
   if (req.body?.passphrase && req.body.passphrase === process.env.PASSPHRASE) {
     console.log("correct passphrase given");
     next();
   } else {
-    console.log(req.originalUrl, req.originalUrl.split("/"));
+    const routeArr = (req.originalUrl.split("/"));
+    routeArr.shift();
+    routeArr.shift();
+    console.log(
+      "in app.js: ",
+      req.originalUrl,
+      routeArr,
+      
+    );
     const messages = [];
     if (req.body?.passphrase) {
       messages.push({ msg: "That's not it. Maybe hana knows the passphrase?" });
     }
+
     res.render("get-pass-phrase", {
       errors: messages,
-      route: req.originalUrl,
+      route: req.query.route,
       action: "delete",
-      origin: req.originalUrl.split("/")[2],
+      origin: routeArr[0],
+      id: routeArr[1],
       type: req.type,
       name: req.name
     });

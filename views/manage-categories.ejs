@@ -24,7 +24,7 @@
       <div>
         <form action="/categories/<%= edit ? `update/${category.category_id}` : 'add' %>" method="POST">
           
-          <%- include("partials/errors.ejs") %>
+          <%- include("partials/errors.ejs", {errors}) %>
           
           <header><%= edit ? 'Edit category:' : 'Add new category:' %></header>
           <div class="short">

@@ -93,7 +93,10 @@ async function addPerfumeData() {
     );
   }
 
-  const hautePerfumeRow = await getPerfumeByName("%oud & musc%"); //get one perfume to mark as 'haute' category
+  const hautePerfumeRow = await getPerfumeByName("Calvin Klein Beauty"); //get one perfume to mark as 'haute' category
+  if (!hautePerfumeRow) {
+    throw new Error("populate tables failed. Unable to find a perfume to set to haute couture.");
+  }
   const category_id = await addCategory("couture", "haute");
   console.log(category_id);
   await addPerfumeCategory(hautePerfumeRow.perfume_id, category_id);

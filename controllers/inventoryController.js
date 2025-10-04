@@ -39,9 +39,10 @@ async function getAllItems(req, res) {
   for (let i = 0; i < items.rows.length; i++) {
     const price_id_count_array = items.rows[i].price_id_count;
     console.log(price_id_count_array[0]);
-    const count = price_id_count_array.reduce((acc, el) => el[0] ? acc + Number(el[0].count) : 0, 0);
+    const count = price_id_count_array.reduce((acc, el) => acc + Number(el.count), 0);
     if (price_id_count_array.length > 1) {
       console.log("found one item with more than one price: ", items.rows[i].perfume_id, price_id_count_array);
+      console.log("and the total for that item is: ", count);
     }
     items.rows[i].count = count;
   }
@@ -83,7 +84,85 @@ async function getPerfumeForm(req, res) {
     route: req.originalUrl,
   });
 }
+/*
+{
+perfume_id: 174,
+image_url: 'https://d2k6fvhyk5xgx.cloudfront.net/images/calvin-klein-defy.jpg',
+description: null,
+created_at: 2025-10-03T14:44:34.063Z,
+perfume_prices: [ [Object], [Object] ],
+perfume_name: 'Calvin Klein Defy',
+avg_price: '39.9700000000000000',
+perfume_price_ids: [ 183, 186 ],
+total_count: '18',
+brand_id: 1,
+brand_name: 'Calvin Klein',
+category: [ 8, 9 ]
+}
+*/
+async function showAddStockForm(req, res) {
+  const perfume = await db.getPerfumeDetailsById(req.params.id);
+  console.log("in showAddStockForm: ", perfume);
+  const routeArr = req.originalUrl.split('/');
+  routeArr.pop(); //pop the pp_id
+  routeArr.push(req.params.id);
+  res.render("manage-stock", {
+    details: perfume[0],
+    errors: req.params.errormsg ? [{ msg: req.params.errormsg }] : null,
+    add: true,
+    edit: false,
+    route: routeArr.join('/'),
+  });
+}
 
+const validatePerfumePrice = [
+  body("price")
+  .trim()
+  .notEmpty()
+    .custom(async (value, { req }) => {
+    console.log("in custom perfume price validation function")
+    const rows = await db.getPerfumeByPrice(value);
+    if (rows && rows.perfume_price_id) {
+      throw new Error(
+        "Cannot add a duplicate price. You can edit the price stock instead."
+      );
+    }
+  }),
+];
+
+addStock = [
+  validatePerfumePrice,
+  async (req, res) => {
+    console.log("in addStock: ", req.params.id, req.body);
+    
+    const errors = validationResult(req);
+    
+    const routeArr = req.originalUrl.split("/");
+    routeArr.pop(); //pop the pp_id
+    routeArr.push(req.params.id);
+    //don't add it if it already exists as a combo of perfume_id and price
+    if (!errors.isEmpty()) {
+      
+      const perfume = await db.getPerfumeDetailsById(req.params.id);
+      res.status(400).render("manage-stock", {
+        details: perfume[0],
+        errors: errors.array(),
+        add: true,
+        edit: false,
+        route: routeArr.join('/'),
+      });
+    } else {
+      await db.addStock();
+      console.log("about to redirect to: ", req.route);
+      res.redirect(req.route);
+    }
+  }
+];
+
+async function updateStock(req, res) {
+  console.log("in updateStock: ", req.params.id, req.params.pp_id);
+  //TODO
+}
 const clearBlankFields = (req, res, next) => {
   
   console.log("in clearBlankFields: ", Object.entries(req.body));
@@ -95,6 +174,8 @@ const clearBlankFields = (req, res, next) => {
   console.log("in clearBlankFields: ", req.body)
   next();
 }
+
+
 const validatePerfume = [
   body("name")
   .trim()
@@ -148,6 +229,7 @@ const validatePerfume = [
         "The price should be an integer or a decimal value. Do not include currency marks."
       );
     }
+    //const perfume_price_id = await db.getPerfumeIdByPrice(req.boyd.id, value);
   }),
   body("count").trim().optional()
   .isInt({ min: 0 }).withMessage("The inventory must be a postive whole number.")
@@ -275,15 +357,16 @@ updatePerfume = [
       });
     } else {
       console.log("validation done: ", req.body);
-      await db.updatePerfume(req.params.id,req.body);
-      res.redirect("/item/"+req.params.id);
+      await db.updatePerfume(req.params.id, req.body);
+      console.log("redirecting with message");
+      res.redirect("/item/"+req.params.id+"?message=Update complete.");
     }
     
   }];
   
   async function getPerfumeDetailsById(req, res) {
     const perfume_id = +req.params.id;
-    console.log({perfume_id})
+    console.log("in getPerfumeDetailsById: ", { perfume_id }, req.query.message);
     const [perfume, categories, brands] = await Promise.all([
       db.getPerfumeDetailsById(perfume_id),
       db.getAllCategories(),
@@ -299,6 +382,7 @@ updatePerfume = [
       errors: null,
       add: false,
       route: req.originalUrl,
+      bannerMessage: req.query.message,
     });
   }
   /*
@@ -447,6 +531,9 @@ updatePerfume = [
     updateBrand,
     updatePerfume,
     clearBlankFields,
+    showAddStockForm,
+    updateStock,
+    addStock
   };
   
   /**

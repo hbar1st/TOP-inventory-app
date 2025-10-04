@@ -29,7 +29,15 @@ const dbConfig =
       };
 
 pool = new Pool(dbConfig);
-
+const log = false;
+    const originalQuery = pool.query;
+pool.query = async function (...args) {
+  if (log) { 
+  console.log("The query args were: ", args)
+}
+      const result = await originalQuery.apply(this, args);
+      return result;
+    };
 module.exports = {
   connectionString,
   pool,

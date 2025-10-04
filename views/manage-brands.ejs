@@ -24,7 +24,7 @@
       <div>
             <form action="/brands/<%= edit ? `update/${brandId}` : 'add' %>" method="POST">
               
-              <%- include("partials/errors.ejs") %>
+              <%- include("partials/errors.ejs", {errors}) %>
               <div>
                 
                 <label for="new"><%= edit ? 'Edit brand name:' : 'Add new brand:' %></label>

@@ -1,7 +1,7 @@
 // run this script once
-// node db/populateDB.js
+// node db/createTables.js
 // OR OR OR OR
-// node db/populateDB.js <role-name> <role-password> [<port>||5432]
+// node db/createTables.js <role-name> <role-password> [<port>||5432]
 // use arguments if you don't want to rely on environment variables
 const { argv } = require("node:process");
 
@@ -44,7 +44,7 @@ async function main() {
 
   try {
     await pool.query(CLEAR_OLD_TABLES_SQL);
-
+    console.log("old tables cleared, about to start creating new ones")
     await pool.query(sqlCode);
   } catch (err) {
     console.error(err);

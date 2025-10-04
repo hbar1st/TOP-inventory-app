@@ -21,20 +21,25 @@ async function getAllCategories(req, res) {
 
 
 async function manageCategories(req, res) {
-  
-  const [categories, category] = await Promise.all(
-    [
-      db.getAllCategories(),
-      db.getCategoryDetailsById(req.params.id)
-    ]
-  );
+  let categories;
+  let category;
+  if (req.params.id) {
+    [categories, category] = await Promise.all(
+      [
+        db.getAllCategories(),
+        db.getCategoryDetailsById(req.params.id)
+      ]
+    );
+  } else {
+    categories = await db.getAllCategories();
+  }
   console.log("in manageCategories: ", category);
   res.render("manage-categories", {
     errors: req.params.errormsg ? [{ msg: req.params.errormsg }] : null,
     categories: categories.rows,
     add: false,
     edit: req.params.id ?? false,
-    category: category.rows,
+    category: category ? category.rows : null,
   });
 }
 

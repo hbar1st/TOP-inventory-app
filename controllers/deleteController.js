@@ -36,8 +36,22 @@ async function deletePerfume(req, res) {
   res.redirect(req.query.route);
 }
 
-module.exports = {
-  deleteBrand,
-  deleteCategory,
-  deletePerfume,
+async function deleteStock(req, res) {
+  console.log("in deleteStock: ", req.params.pp_id, req.query.route);
+  if (req.params.id && req.params.pp_id) {
+    await db.deleteStock(req.params.pp_id);
+    
+    res.redirect(req.query.route);
+  } else {
+    const errormsg = "Delete request missing required values.";
+    
+    res.redirect(req.query.route + `/error/${errormsg}`);
+  }
 }
+
+  module.exports = {
+    deleteBrand,
+    deleteCategory,
+    deletePerfume,
+    deleteStock
+  }

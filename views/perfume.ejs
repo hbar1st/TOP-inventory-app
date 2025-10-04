@@ -23,8 +23,8 @@
           <p>Perfume cannot be found or has been deleted.</p>
         <% } %>
       </section>
-      
       <% } else { %>
+        
         <% if (add) { %>
           <%- include("partials/add-perfume.ejs", {details: details[0], errors, categories, brands}); %>
           <% } else { console.log("not adding: ",details) %>
@@ -37,6 +37,7 @@
             
             <% } %>
             
+      <%- include("partials/banner.ejs") %>
           </main>
         </body>
         </html>

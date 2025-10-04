@@ -15,6 +15,9 @@ const {
   updateBrand,
   updatePerfume,
   clearBlankFields,
+  showAddStockForm,
+  updateStock,
+  addStock,
 } = require("../controllers/inventoryController");
 
 
@@ -33,6 +36,12 @@ inventoryRouter.get("/search/category/:id", searchByCategoryId);
 inventoryRouter.get("/add", getPerfumeForm);
 
 inventoryRouter.post("/add", clearBlankFields, addNewPerfume);
+
+inventoryRouter.get(["/stock/:id", "/stock/edit/:id"], showAddStockForm);
+
+inventoryRouter.post("/stock/add/:id", addStock);
+
+inventoryRouter.get("/stock/update/:id/:pp_id", updateStock);
 
 inventoryRouter.post("/update/:id", clearBlankFields,updatePerfume);
 
