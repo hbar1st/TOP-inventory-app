@@ -6,11 +6,15 @@
     <td class="center"><img src="<%= perfume.image_url %>" alt="perfume bottle" onerror="this.onerror = null; this.src='images/perfume-bottle-image.jpg' "></td>
     <td class="pad-left"><%= perfume.brand_name %></td>
     <td class="pad-left">
-        <select class="prices" <%= (perfume.price_id_count.length === 1) ? `disabled` : ``%>>
+         <% if (perfume.price_id_count.length === 1) { let value = perfume.price_id_count[0]; %>
+            <%= `\$${value.price ?? '-'}|${value.count ?? '-'}` %>
+            <% } else { %>
+        <select class="prices">
             <% perfume.price_id_count.forEach(value => { %>
             <option value=""><%= `\$${value.price ?? '-'}|${value.count ?? '-'}` %></option>
             <% }); %>
         </select>
+        <% } %>
     </td>
     <td class="pad-left"><%= perfume.perfume_id %></td>
 </tr>
