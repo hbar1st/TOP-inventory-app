@@ -16,7 +16,7 @@
     min-width: 35%;
     max-width: 35%;
   }
-  input[type="text"] {
+  input[type="text"], input[type="number"], input[type="url"], .field>select {
     border-radius: 0px 25px 21px 0px;
     text-overflow: ellipsis;
     flex-grow: 2;

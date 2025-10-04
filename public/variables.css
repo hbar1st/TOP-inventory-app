@@ -206,7 +206,7 @@ main > section > header > div{
     row-gap: .5rem;
     flex-flow: row wrap;
   }
-  input[type="text"] {
+  input[type="text"], input[type="number"], select {
     border-bottom: 1px solid black;
     border-radius: 0;
     text-overflow: ellipsis;
@@ -216,9 +216,10 @@ main > section > header > div{
     min-width: auto;
   }
   
-  input[type="text"]:hover {
+  input:hover {
     background-color: #ece2f8;
   }
+  
   button {
     padding: 0.1rem 1rem;
     width: clamp(50px, 50%, 100px);

@@ -12,6 +12,7 @@ console.log("Environment check in db/init.ts:", {
   DATABASE_URL_length: process.env.DATABASE_URL?.length,
 });
 
+// use the DATABASE_PUBLIC_URL if you're connecting remotely
 const dbConfig =
   process.env.NODE_ENV === "production"
     ? {
