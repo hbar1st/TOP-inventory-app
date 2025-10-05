@@ -107,6 +107,7 @@ select {
 
 h3 {
   display: inline-block;
+  user-select: none;
 }
 
 .button-panel {

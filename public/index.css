@@ -27,6 +27,7 @@ main {
   align-items: center;
   justify-content: space-around;
   row-gap: 2rem;
+  user-select:none;
 }
 
 ul {
@@ -78,6 +79,7 @@ ul {
 
 h1 {
   width: clamp(100px, 30vh, 65vw);
+  user-select: none;
   img {
     max-width: 100%;
   }

@@ -36,6 +36,7 @@ main > section {
   column-gap: 1rem;
 }
 .item-count {    
+  user-select: none;
   font-size: clamp(10px,3vmin,20px);
   background: linear-gradient(10deg, #78c3d3, #b6cfe7, #b6dee7, #a5c8e4, rgb(147 189 199));
   padding: .1rem .5rem;
@@ -221,6 +222,7 @@ main > section > header > div{
   }
   
   button {
+    user-select: none;
     padding: 0.1rem 1rem;
     width: clamp(50px, 50%, 100px);
     align-self: flex-end;

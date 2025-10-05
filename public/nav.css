@@ -23,6 +23,7 @@ nav {
       align-items: center;
       column-gap: 1rem;
       h1 {
+        user-select: none;
         align-items: center;
         min-width: 80px;
         max-width: 130px;
@@ -38,6 +39,7 @@ nav {
 }
 
 nav ul {
+  user-select: none;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
