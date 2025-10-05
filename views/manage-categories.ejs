@@ -29,7 +29,7 @@
           <header><%= edit ? 'Edit category:' : 'Add new category:' %></header>
           <div class="short">
             <label for="new">Type:</label>
-            <input required  type="text" name="type" value="<%= edit ? category.type : '' %>" placeholder="<%= add ? 'add type' : '' %>">
+            <input required autofocus  type="text" name="type" value="<%= edit ? category.type : '' %>" placeholder="<%= add ? 'add type' : '' %>">
           </div >
           <div class="short">
             <label for="new">Name:</label>

@@ -28,7 +28,7 @@
               <div>
                 
                 <label for="new"><%= edit ? 'Edit brand name:' : 'Add new brand:' %></label>
-                <input required id="new" type="text" name="brand" value="<%= edit ? brandName : '' %>" placeholder="<%= add ? 'add brand name' : '' %>">
+                <input autofocus required id="new" type="text" name="brand" value="<%= edit ? brandName : '' %>" placeholder="<%= add ? 'add brand name' : '' %>">
               </div>
               <button type="submit">Submit</button>
               

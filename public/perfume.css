@@ -54,6 +54,7 @@
     }
     div:nth-child(2) {
       display: flex;
+      align-items: center;
     }
     div:last-of-type {
       grid-column: 2;
