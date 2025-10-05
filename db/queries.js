@@ -763,19 +763,20 @@ GROUP BY
                 
                 console.log("in addPerfume: ", perfume_id);
                 await pool.query("INSERT INTO perfume_brand (perfume_id, brand_id) VALUES ($1,$2);", [perfume_id, details.brand]);
-                let catquery = "INSERT INTO perfume_category (perfume_id, category_id) VALUES ($1,$2)"; 
-                if (!Array.isArray(details.category)) {
-                  details.category = [details.category];
+                let catquery = "INSERT INTO perfume_category (perfume_id, category_id) VALUES ($1,$2);"; 
+                if (!Array.isArray(details.categories)) {
+                  details.categories = [details.categories];
                 }
-                let catparams = [perfume_id, +details.category[0]];
-                for (let i = 1; i < details.category.length; i++) {
+                console.log(details.categories);
+                let catparams = [perfume_id, +details.categories[0]];
+                for (let i = 1; i < details.categories.length; i++) {
                   catquery += ` (${i * 2 + 1},${i * 2 + 2})`;
                   catparams.push(perfume_id);
-                  catparams.push(+details.category[i]);
+                  catparams.push(+details.categories[i]);
                 }
                 console.log("catparams: ", catparams);
                 console.log("catquery: ", catquery);
-                await pool.query(catquery + ";", catparams);
+                await pool.query(catquery, catparams);
                 
                 if (details.price) {
                   const perfume_price = await pool.query("INSERT INTO perfume_price (perfume_id,price) VALUES ($1,$2) RETURNING perfume_price_id;", [perfume_id, Number(details.price)]);
