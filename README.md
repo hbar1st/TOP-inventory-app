@@ -41,3 +41,4 @@ TODO:
 [ ] add the date created and date updated to queries so they show up with the perfume details BUT need to switch the date to UTC first using some 
 client-side JS in order to make sure that we don't send a local date to the server and have it assume it is UTC when it is not. (so add some code to detect when someone modified the dates and update a hidden input field with the utc date which would be the one the backend code should read)
 [ ] create a font package and include it into the repo (then replace appropriate code)
+[ ] look at your use of global isNaN versus Number.isNaN in the code. Consider refactoring.
