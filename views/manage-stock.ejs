@@ -26,7 +26,7 @@
           
           <%- include("partials/errors.ejs", {errors}) %>
           
-          <header><%= edit ? 'Edit stock' : 'Add new stock' %></header>
+          <header><%= edit ? 'Edit stock' : 'Add new stock' %><p class="sub-header">[ID #:<%= details.perfume_id %> - <%= details.perfume_name %>]</p></header>
           <div class="short">
             
             <label for="new">Price:</label>
